@@ -19,6 +19,7 @@
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.3",
+    "serverless-http": "^4.0.0",
     "stopword": "^3.1.4",
     "zod": "^3.24.1"
   },
