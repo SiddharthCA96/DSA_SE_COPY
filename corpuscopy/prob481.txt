@@ -1,0 +1,7 @@
+F. Non-academic Problem
+You are given a connected undirected graph, the vertices of which are numbered with integers from 11 to n. Your task is to minimize the number of pairs of vertices 1≤u<v≤n between which there exists a path in this graph. To achieve this, you can remove exactly one edge from the graph.
+Find the smallest number of pairs of vertices!
+Tags -dfs and similar
+Tags -graphs
+Tags -trees
+Tags -*1900

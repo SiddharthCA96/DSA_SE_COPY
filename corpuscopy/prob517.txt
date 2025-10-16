@@ -1,0 +1,10 @@
+A. Soccer
+Dima loves watching soccer. In such a game, the score on the scoreboard is represented as x : y, where x is the number of goals of the first team, and y is the number of goals of the second team. At any given time, only one team can score a goal, so the score x : y can change to either (x+1) : y, or x : (y+1).
+While watching a soccer game, Dima was distracted by very important matters, and after some time, he returned to watching the game. Dima remembers the score right before he was distracted, and the score right after he returned. Given these two scores, he wonders the following question. Is it possible that, while Dima was not watching the game, the teams never had an equal score?
+It is guaranteed that at neither of the two time points Dima remembers the teams had equal scores. However, it is possible that the score did not change during his absence.
+Help Dima and answer the question!
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -sortings
+Tags -*800

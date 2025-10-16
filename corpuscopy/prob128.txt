@@ -1,0 +1,8 @@
+B. Paint a Strip
+You have an array of zeros a1,a2,…,an of length n.
+You can perform two types of operations on it:
+What is the minimum number of operations of the first type needed to make all elements of the array equal to one?
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -*1000

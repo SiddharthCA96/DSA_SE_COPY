@@ -1,0 +1,8 @@
+D. Staircase
+There is a staircase consisting of 𝑛n steps. Each step is either intact, or broken. For each broken step, an integer 𝑎𝑖ai is given denoting the difficulty of repairing it.
+Every day, you can either:
+  - repair an arbitrary broken step. The effort it takes to repair the 𝑖i-th step is equal to 𝑎𝑖ai;
+  - or repair two adjacent broken steps. The effort it takes to repair both the 𝑖i-th step and the (𝑖+1)(i+1)-th step is equal to 2⋅(𝑎𝑖+𝑎𝑖+1)2⋅(ai+ai+1).
+You want to repair all broken steps of the staircase, and you want to do it in the minimum possible number of days. What is the minimum total effort it will take to repair all broken steps in the minimum number of days?
+Tags -*special problem
+Tags -*1600

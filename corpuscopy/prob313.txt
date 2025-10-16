@@ -1,0 +1,10 @@
+G3. Yunli's Subarray Queries (extreme version)
+This is the extreme version of the problem. In this version, the output of each query is different from the easy and hard versions. It is also guaranteed that r≥l+k−1 for all queries.
+For an arbitrary array b, Yunli can perform the following operation any number of times:
+  - Select an index i. Set bi=x where x is any integer she desires (x is not limited to the interval [1,n]).
+Denote f(b) as the minimum number of operations she needs to perform until there exists a consecutive subarray∗ of length at least k in b.
+Yunli is given an array a of size n and asks you q queries. In each query, you must output ∑r−k+1i=l∑rj=i+k−1f([ai,ai+1,…,aj]).
+Tags -data structures
+Tags -dp
+Tags -implementation
+Tags -*2700

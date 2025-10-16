@@ -1,0 +1,8 @@
+C. Sofia and the Lost Operations
+Sofia had an array of n integers a1,a2,…,an. One day she got bored with it, so she decided to sequentially apply m modification operations to it.
+Each modification operation is described by a pair of numbers ⟨cj,dj⟩ and means that the element of the array with index cj should be assigned the value dj, i.e., perform the assignment acj=dj. After applying all modification operations sequentially, Sofia discarded the resulting array.
+Recently, you found an array of n integers b1,b2,…,bn. You are interested in whether this array is Sofia's array. You know the values of the original array, as well as the values d1,d2,…,dm. The values c1,c2,…,cm turned out to be lost.
+Is there a sequence c1,c2,…,cm such that the sequential application of modification operations ⟨c1,d1,⟩,⟨c2,d2,⟩,…,⟨cm,dm⟩ to the array a1,a2,…,an transforms it into the array b1,b2,…,bn?
+Tags -constructive algorithms
+Tags -greedy
+Tags -*1300

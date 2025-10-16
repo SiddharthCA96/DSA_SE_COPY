@@ -1,0 +1,18 @@
+D. Many Games
+Recently, you received a rare ticket to the only casino in the world where you can actually earn something, and you want to take full advantage of this opportunity.
+The conditions in this casino are as follows:
+  - There are a total of n games in the casino.
+  - You can play each game at most once.
+  - Each game is characterized by two parameters: pi (1≤pi≤100) and wi — the probability of winning the game in percentage and the winnings for a win.
+  - If you lose in any game you decide to play, you will receive nothing at all (even for the games you won).
+You need to choose a set of games in advance that you will play in such a way as to maximize the expected value of your winnings.
+In this case, if you choose to play the games with indices i1<i2<…<ik, you will win in all of them with a probability of k∏j=1pij100, and in that case, your winnings will be equal to k∑j=1wij.
+That is, the expected value of your winnings will be (k∏j=1pij100)⋅(k∑j=1wij).
+To avoid going bankrupt, the casino owners have limited the expected value of winnings for each individual game. Thus, for all i (1≤i≤n), it holds that wi⋅pi≤2⋅105.
+Your task is to find the maximum expected value of winnings that can be obtained by choosing some set of games in the casino.
+Tags -brute force
+Tags -dp
+Tags -greedy
+Tags -math
+Tags -probabilities
+Tags -*2900

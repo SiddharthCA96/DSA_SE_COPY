@@ -1,0 +1,13 @@
+G2. Ruler (hard version)
+This is the hard version of the problem. The only difference between the two versions is that in this version, you can make at most 77 queries.
+This is an interactive problem. If you are unsure how interactive problems work, then it is recommended to read the guide for participants.
+We have a secret ruler that is missing one number x (2≤x≤999). When you measure an object of length y, the ruler reports the following values:
+  - If y<x, the ruler (correctly) measures the object as having length y.
+  - If y≥x, the ruler incorrectly measures the object as having length y+1.
+You need to find the value of x. To do that, you can make queries of the following form:
+  - ? a b — in response, we will measure the side lengths of an a×b rectangle with our ruler and multiply the results, reporting the measured area of the rectangle back to you. For example, if x=4 and you query a 3×5 rectangle, we will measure its side lengths as 3×6 and report 18 back to you.
+Find the value of x. You can ask at most 7 queries.
+Tags -binary search
+Tags -interactive
+Tags -ternary search
+Tags -*1700

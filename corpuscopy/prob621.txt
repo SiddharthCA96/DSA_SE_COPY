@@ -1,0 +1,8 @@
+A. Maximize?
+You are given an integer x. Your task is to find any integer y (1≤y<x) such that gcd is maximum possible.
+Note that if there is more than one y which satisfies the statement, you are allowed to find any.
+\gcd(a,b) is the Greatest Common Divisor of a and b. For example, \gcd(6,4)=2.
+Tags -brute force
+Tags -math
+Tags -number theory
+Tags -*800

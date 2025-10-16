@@ -1,0 +1,7 @@
+A. Sliding
+There are 𝑛n rows of 𝑚m people. Let the position in the 𝑟r-th row and the 𝑐c-th column be denoted by (𝑟,𝑐)(r,c). Number each person starting from 11 in row-major order, i.e., the person numbered (𝑟−1)⋅𝑚+𝑐(r−1)⋅m+c is initially at (𝑟,𝑐)(r,c).
+The person at (𝑟,𝑐)(r,c) decides to leave. To fill the gap, let the person who left be numbered 𝑖i. Each person numbered 𝑗>𝑖j>i will move to the position where the person numbered 𝑗−1j−1 is initially at. The following diagram illustrates the case where 𝑛=2n=2, 𝑚=3m=3, 𝑟=1r=1, and 𝑐=2c=2.
+Calculate the sum of the Manhattan distances of each person's movement. If a person was initially at (𝑟0,𝑐0)(r0,c0) and then moved to (𝑟1,𝑐1)(r1,c1), the Manhattan distance is |𝑟0−𝑟1|+|𝑐0−𝑐1||r0−r1|+|c0−c1|.
+Tags -implementation
+Tags -math
+Tags -*800

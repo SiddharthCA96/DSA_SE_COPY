@@ -1,0 +1,12 @@
+D1. Counting Is Fun (Easy Version)
+This is the easy version of the problem. The only difference between the two versions is the constraint on n. You can make hacks only if both versions of the problem are solved.
+An array b of m non-negative integers is said to be good if all the elements of b can be made equal to 0 using the following operation some (possibly, zero) times:
+  - Select two distinct indices l and r (1≤l<r≤m) and subtract 1 from all bi such that l≤i≤r.
+You are given two positive integers n, k and a prime number p.
+Over all (k+1)n arrays of length n such that 0≤ai≤k for all 1≤i≤n, count the number of good arrays.
+Since the number might be too large, you are only required to find it modulo p.
+Tags -brute force
+Tags -combinatorics
+Tags -dp
+Tags -math
+Tags -*2400

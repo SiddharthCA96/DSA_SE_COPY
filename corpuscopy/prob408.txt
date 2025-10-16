@@ -1,0 +1,9 @@
+D. Fun
+Given two integers n and x, find the number of triplets (a,b,c) of positive integers such that ab+ac+bc≤n and a+b+c≤x.
+Note that order matters (e.g. (1,1,2) and (1,2,1) are treated as different) and a, b, c must be strictly greater than 0.
+Tags -binary search
+Tags -brute force
+Tags -combinatorics
+Tags -math
+Tags -number theory
+Tags -*1500

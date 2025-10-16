@@ -1,0 +1,8 @@
+C. Superultra's Favorite Permutation
+Superultra, a little red panda, desperately wants primogems. In his dreams, a voice tells him that he must solve the following task to obtain a lifetime supply of primogems. Help Superultra!
+Construct a permutation∗ p of length n such that pi+pi+1 is composite† over all 1≤i≤n−1. If it's not possible, output −1.
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -number theory
+Tags -*1000

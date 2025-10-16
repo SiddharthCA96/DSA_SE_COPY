@@ -1,0 +1,10 @@
+B. Outstanding Impressionist
+Even after copying the paintings from famous artists for ten years, unfortunately, Eric is still unable to become a skillful impressionist painter. He wants to forget something, but the white bear phenomenon just keeps hanging over him.
+Eric still remembers n pieces of impressions in the form of an integer array. He records them as w1,w2,…,wn. However, he has a poor memory of the impressions. For each 1≤i≤n, he can only remember that li≤wi≤ri.
+Eric believes that impression i is unique if and only if there exists a possible array w1,w2,…,wn such that wi≠wj holds for all 1≤j≤n with j≠i.
+Please help Eric determine whether impression i is unique for every 1≤i≤n, independently for each i. Perhaps your judgment can help rewrite the final story.
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -greedy
+Tags -*1200

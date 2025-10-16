@@ -1,0 +1,10 @@
+D. QED's Favorite Permutation
+QED is given a permutation∗ p of length n. He also has a string s of length n containing only characters L and R. QED only likes permutations that are sorted in non-decreasing order. To sort p, he can select any of the following operations and perform them any number of times:
+  - Choose an index i such that si=L. Then, swap pi and pi−1. It is guaranteed that s1≠L.
+  - Choose an index i such that si=R. Then, swap pi and pi+1. It is guaranteed that sn≠R.
+He is also given q queries. In each query, he selects an index i and changes si from L to R (or from R to L). Note that the changes are persistent.
+After each query, he asks you if it is possible to sort p in non-decreasing order by performing the aforementioned operations any number of times. Note that before answering each query, the permutation p is reset to its original form.
+Tags -data structures
+Tags -implementation
+Tags -sortings
+Tags -*1700

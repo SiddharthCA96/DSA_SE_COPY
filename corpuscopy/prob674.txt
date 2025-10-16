@@ -1,0 +1,7 @@
+B. Make It Ugly
+Let's call an array a beautiful if you can make all its elements the same by using the following operation an arbitrary number of times (possibly, zero):
+  - choose an index i (2≤i≤|a|−1) such that ai−1=ai+1, and replace ai with ai−1.
+You are given a beautiful array a1,a2,…,an. What is the minimum number of elements you have to remove from it in order for it to stop being beautiful? Swapping elements is prohibited. If it is impossible to do so, then output -1.
+Tags -implementation
+Tags -math
+Tags -*1200

@@ -1,0 +1,8 @@
+B. Rectangle Filling
+There is an n×m grid of white and black squares. In one operation, you can select any two squares of the same color, and color all squares in the subrectangle between them that color.
+Formally, if you select positions (x1,y1) and (x2,y2), both of which are currently the same color c, set the color of all (x,y) where min(x1,x2)≤x≤max(x1,x2) and min(y1,y2)≤y≤max(y1,y2) to c.
+This diagram shows a sequence of two possible operations on a grid:
+Is it possible for all squares in the grid to be the same color, after performing any number of operations (possibly zero)?
+Tags -constructive algorithms
+Tags -implementation
+Tags -*1100

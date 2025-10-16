@@ -1,0 +1,8 @@
+B. Kevin and Permutation
+
+Kevin is a master of permutation-related problems. You are taking a walk with Kevin in Darkwoods, and during your leisure time, he wants to ask you the following question.
+Given two positive integers 𝑛n and 𝑘k, construct a permutation∗∗ 𝑝p of length 𝑛n to minimize the sum of the minimum values of all subarrays†† of length 𝑘k. Formally, you need to minimize
+∑𝑖=1𝑛−𝑘+1(min𝑗=𝑖𝑖+𝑘−1𝑝𝑗).∑i=1n−k+1(minj=ii+k−1pj).
+Tags -constructive algorithms
+Tags -greedy
+Tags -*900

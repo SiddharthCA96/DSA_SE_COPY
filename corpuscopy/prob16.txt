@@ -1,0 +1,11 @@
+F. Cosmic Divide
+
+A polyomino is a connected∗∗ figure constructed by joining one or more equal 1×11×1 unit squares edge to edge. A polyomino is convex if, for any two squares in the polyomino that share the same row or the same column, all squares between them are also part of the polyomino. Below are four polyominoes, only the first and second of which are convex.
+You are given a convex polyomino with n rows and an even area. For each row i from 1 to n, the unit squares from column li to column ri are part of the polyomino. In other words, there are ri−li+1 unit squares that are part of the polyomino in the i-th row: (i,li),(i,li+1),…,(i,ri−1),(i,ri).
+Two polyominoes are congruent if and only if you can make them fit exactly on top of each other by translating the polyominoes. Note that you are not allowed to rotate or reflect the polyominoes. Determine whether it is possible to partition the given convex polyomino into two disjoint connected polyominoes that are congruent to each other. The following examples illustrate a valid partition of each of the two convex polyominoes shown above:
+The partitioned polyominoes do not need to be convex, and each unit square should belong to exactly one of the two partitioned polyominoes.
+Tags -brute force
+Tags -geometry
+Tags -hashing
+Tags -math
+Tags -strings

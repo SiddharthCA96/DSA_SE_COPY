@@ -1,0 +1,8 @@
+F. Number of Cubes
+Consider a rectangular parallelepiped with sides a, b, and c, that consists of unit cubes of k different colors. We can apply cyclic shifts to the parallelepiped in any of the three directions any number of times∗.
+There are di cubes of the i-th color (1≤i≤k). How many different parallelepipeds (with the given sides) can be formed from these cubes, no two of which can be made equal by some combination of cyclic shifts?
+Tags -combinatorics
+Tags -dp
+Tags -math
+Tags -number theory
+Tags -*2700

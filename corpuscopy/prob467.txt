@@ -1,0 +1,10 @@
+B. Make Majority
+You are given a sequence [a1,…,an] where each element ai is either 0 or 1. You can apply several (possibly zero) operations to the sequence. In each operation, you select two integers 1≤l≤r≤|a| (where |a| is the current length of a) and replace [al,…,ar] with a single element x, where x is the majority of [al,…,ar].
+Here, the majority of a sequence consisting of 0 and 1 is defined as follows: suppose there are c0 zeros and c1 ones in the sequence, respectively.
+  - If c0≥c1, the majority is 0.
+  - If c0<c1, the majority is 1.
+For example, suppose a=[1,0,0,0,1,1]. If we select l=1,r=2, the resulting sequence will be [0,0,0,1,1]. If we select l=4,r=6, the resulting sequence will be [1,0,0,1].
+Determine if you can make a=[1] with a finite number of operations.
+Tags -greedy
+Tags -implementation
+Tags -*900

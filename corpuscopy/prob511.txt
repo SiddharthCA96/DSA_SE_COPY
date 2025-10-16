@@ -1,0 +1,12 @@
+A. Array Divisibility
+An array of integers 𝑎1,𝑎2,⋯,𝑎𝑛a1,a2,⋯,an is beautiful subject to an integer 𝑘k if it satisfies the following:
+  - The sum of 𝑎𝑗aj over all 𝑗j such that 𝑗j is a multiple of 𝑘k and 1≤𝑗≤𝑛1≤j≤n, itself, is a multiple of 𝑘k.
+  - More formally, if ∑𝑘|𝑗𝑎𝑗∑k|jaj is divisible by 𝑘k for all 1≤𝑗≤𝑛1≤j≤n then the array 𝑎a is beautiful subject to 𝑘k. Here, the notation 𝑘|𝑗k|j means 𝑘k divides 𝑗j, that is, 𝑗j is a multiple of 𝑘k.
+Given
+, find an array of positive nonzero integers, with each element less than or equal to
+that is beautiful subject to all
+.
+It can be shown that an answer always exists.
+Tags -constructive algorithms
+Tags -math
+Tags -*800

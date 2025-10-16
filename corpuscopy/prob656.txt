@@ -1,0 +1,16 @@
+E2. Nene vs. Monsters (Hard Version)
+This is the hard version of the problem. The only difference between the versions is the constraints on 𝑎𝑖ai. You can make hacks only if both versions of the problem are solved.
+Nene is fighting with 𝑛n monsters, located in a circle. These monsters are numbered from 11 to 𝑛n, and the 𝑖i-th (1≤𝑖≤𝑛1≤i≤n) monster's current energy level is 𝑎𝑖ai.
+Since the monsters are too strong, Nene decided to fight with them using the Attack Your Neighbour spell. When Nene uses this spell, the following actions happen in the following order one by one:
+  - The 11-st monster attacks the 22-nd monster;
+  - The 22-nd monster attacks the 33-rd monster;
+  - ……
+  - The (𝑛−1)(n−1)-th monster attacks the 𝑛n-th monster;
+  - The 𝑛n-th monster attacks the 11-st monster.
+When the monster with energy level 𝑥x attacks the monster with the energy level 𝑦y, the energy level of the defending monster becomes max(0,𝑦−𝑥)max(0,y−x) (the energy level of the attacking monster remains equal to 𝑥x).
+Nene is going to use this spell 1010010100 times and deal with the monsters that will still have a non-zero energy level herself. She wants you to determine which monsters will have a non-zero energy level once she will use the described spell 1010010100 times.
+Tags -brute force
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*2700

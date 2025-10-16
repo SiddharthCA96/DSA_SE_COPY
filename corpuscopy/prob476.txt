@@ -1,0 +1,9 @@
+C. Basil's Garden
+There are 𝑛n flowers in a row, the 𝑖i-th of them initially has a positive height of ℎ𝑖hi meters.
+Every second, the wind will blow from the left, causing the height of some flowers to decrease.
+Specifically, every second, for each 𝑖i from 11 to 𝑛n, in this order, the following happens:
+  - If 𝑖=𝑛i=n or ℎ𝑖>ℎ𝑖+1hi>hi+1, the value of ℎ𝑖hi changes to max(0,ℎ𝑖−1)max(0,hi−1).
+How many seconds will pass before ℎ𝑖=0hi=0 for all 1≤𝑖≤𝑛1≤i≤n for the first time?
+Tags -dp
+Tags -greedy
+Tags -*1200

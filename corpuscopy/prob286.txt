@@ -1,0 +1,11 @@
+G. Milky Days
+Little John is as little as night is day — he was known to be a giant, at possibly 2.12.1 metres tall. It has everything to do with his love for milk.
+His dairy diary has 𝑛n entries, showing that he acquired 𝑎𝑖ai pints of fresh milk on day 𝑑𝑖di. Milk declines in freshness with time and stays drinkable for a maximum of 𝑘k days. In other words, fresh milk acquired on day 𝑑𝑖di will be drinkable between days 𝑑𝑖di and 𝑑𝑖+𝑘−1di+k−1 inclusive.
+Every day, Little John drinks drinkable milk, up to a maximum of 𝑚m pints. In other words, if there are less than 𝑚m pints of milk, he will drink them all and not be satisfied; if there are at least 𝑚m pints of milk, he will drink exactly 𝑚m pints and be satisfied, and it's a milk satisfaction day.
+Little John always drinks the freshest drinkable milk first.
+Determine the number of milk satisfaction days for Little John.
+Tags -brute force
+Tags -data structures
+Tags -greedy
+Tags -implementation
+Tags -*2200

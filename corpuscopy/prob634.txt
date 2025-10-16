@@ -1,0 +1,6 @@
+D. Missing Subarray Sum
+There is a hidden array a of n positive integers. You know that a is a palindrome, or in other words, for all 1≤i≤n, ai=an+1−i. You are given the sums of all but one of its distinct subarrays, in arbitrary order. The subarray whose sum is not given can be any of the n(n+1)2 distinct subarrays of a.
+Recover any possible palindrome a. The input is chosen such that there is always at least one array a that satisfies the conditions.
+An array b is a subarray of a if b can be obtained from a by the deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.
+Tags -constructive algorithms
+Tags -*2900

@@ -1,0 +1,11 @@
+D. Sakurako's Hobby
+For a certain permutation p∗ Sakurako calls an integer j reachable from an integer i if it is possible to make i equal to j by assigning i=pi a certain number of times.
+If p=[3,5,6,1,2,4], then, for example, 4 is reachable from 1, because: i=1 → i=p1=3 → i=p3=6 → i=p6=4. Now i=4, so 4 is reachable from 1.
+Each number in the permutation is colored either black or white.
+Sakurako defines the function F(i) as the number of black integers that are reachable from i.
+Sakurako is interested in F(i) for each 1≤i≤n, but calculating all values becomes very difficult, so she asks you, as her good friend, to compute this.
+Tags -dp
+Tags -dsu
+Tags -graphs
+Tags -math
+Tags -*1100

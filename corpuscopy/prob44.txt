@@ -1,0 +1,6 @@
+A. Preparing for the Olympiad
+Monocarp and Stereocarp are preparing for the Olympiad. There are $$$n$$$ days left until the Olympiad. On the $$$i$$$-th day, if Monocarp plans to practice, he will solve $$$a_i$$$ problems. Similarly, if Stereocarp plans to practice on the same day, he will solve $$$b_i$$$ problems.
+Monocarp can train on any day he wants. However, Stereocarp watches Monocarp and follows a different schedule: if Monocarp trained on day $$$i$$$ and $$$i < n$$$, then Stereocarp will train on day $$$(i+1)$$$.
+Monocarp wants to organize his training process in a way that the difference between the number of problems he solves and the number of problems Stereocarp solves is as large as possible. Formally, Monocarp wants to maximize the value of $$$(m-s)$$$, where $$$m$$$ is the number of problems he solves, and $$$s$$$ is the number of problems Stereocarp solves. Help Monocarp determine the maximum possible difference in the number of solved problems between them.
+Tags -greedy
+Tags -*800

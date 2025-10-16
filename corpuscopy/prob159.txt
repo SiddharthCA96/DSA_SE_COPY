@@ -1,0 +1,7 @@
+A. Twice
+Kinich wakes up to the start of a new day. He turns on his phone, checks his mailbox, and finds a mysterious present. He decides to unbox the present.
+Kinich unboxes an array a with n integers. Initially, Kinich's score is 0. He will perform the following operation any number of times:
+  - Select two indices i and j (1≤i<j≤n) such that neither i nor j has been chosen in any previous operation and ai=aj. Then, add 1 to his score.
+Output the maximum score Kinich can achieve after performing the aforementioned operation any number of times.
+Tags -implementation
+Tags -*800

@@ -1,0 +1,9 @@
+C. Penchick and BBQ Buns
+Penchick loves two things: square numbers and Hong Kong-style BBQ buns! For his birthday, Kohane wants to combine them with a gift: n BBQ buns arranged from left to right. There are 106 available fillings of BBQ buns, numbered from 1 to 106. To ensure that Penchick would love this gift, Kohane has a few goals:
+  - No filling is used exactly once; that is, each filling must either not appear at all or appear at least twice.
+  - For any two buns i and j that have the same filling, the distance between them, which is |i−j|, must be a perfect square∗.
+Help Kohane find a valid way to choose the filling of the buns, or determine if it is impossible to satisfy her goals! If there are multiple solutions, print any of them.
+Tags -constructive algorithms
+Tags -math
+Tags -number theory
+Tags -*1300

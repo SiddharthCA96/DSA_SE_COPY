@@ -1,0 +1,17 @@
+C. C+K+S
+You are given two strongly connected† directed graphs, each with exactly n vertices, but possibly different numbers of edges. Upon closer inspection, you noticed an important feature — the length of any cycle in these graphs is divisible by k.
+Each of the 2n vertices belongs to exactly one of two types: incoming or outgoing. For each vertex, its type is known to you.
+You need to determine whether it is possible to draw exactly n directed edges between the source graphs such that the following four conditions are met:
+  - The ends of any added edge lie in different graphs.
+  - From each outgoing vertex, exactly one added edge originates.
+  - Into each incoming vertex, exactly one added edge enters.
+  - In the resulting graph, the length of any cycle is divisible by k.
+†A strongly connected graph is a graph in which there is a path from every vertex to every other vertex.
+Tags -constructive algorithms
+Tags -dfs and similar
+Tags -graphs
+Tags -greedy
+Tags -hashing
+Tags -implementation
+Tags -strings
+Tags -*2400

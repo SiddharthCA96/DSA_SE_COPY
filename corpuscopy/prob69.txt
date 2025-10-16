@@ -1,0 +1,9 @@
+A. Alyona and a Square Jigsaw Puzzle
+Alyona assembles an unusual square Jigsaw Puzzle. She does so in 𝑛n days in the following manner:
+  - On the first day, she starts by placing the central piece in the center of the table.
+  - On each day after the first one, she places a certain number of pieces around the central piece in clockwise order, always finishing each square layer completely before starting a new one.
+For example, she places the first 1414 pieces in the following order:
+Alyona is happy if at the end of the day the assembled part of the puzzle does not have any started but unfinished layers. Given the number of pieces she assembles on each day, find the number of days Alyona is happy on.
+Tags -implementation
+Tags -math
+Tags -*800

@@ -1,0 +1,10 @@
+C. Update Queries
+Let's consider the following simple problem. You are given a string s of length n, consisting of lowercase Latin letters, as well as an array of indices ind of length m (1≤indi≤n) and a string c of length m, consisting of lowercase Latin letters. Then, in order, you perform the update operations, namely, during the i-th operation, you set sindi=ci. Note that you perform all m operations from the first to the last.
+Of course, if you change the order of indices in the array ind and/or the order of letters in the string c, you can get different results. Find the lexicographically smallest string s that can be obtained after m update operations, if you can rearrange the indices in the array ind and the letters in the string c as you like.
+A string a is lexicographically less than a string b if and only if one of the following conditions is met:
+  - a is a prefix of b, but a≠b;
+  - in the first position where a and b differ, the symbol in string a is earlier in the alphabet than the corresponding symbol in string b.
+Tags -data structures
+Tags -greedy
+Tags -sortings
+Tags -*1100

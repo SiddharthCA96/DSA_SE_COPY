@@ -1,0 +1,11 @@
+G. Ultra-Meow
+K1o0n gave you an array a of length n, consisting of numbers 1,2,…,n. Accept it? Of course! But what to do with it? Of course, calculate MEOW(a).
+Let MEX(S,k) be the k-th positive (strictly greater than zero) integer in ascending order that is not present in the set S. Denote MEOW(a) as the sum of MEX(b,|b|+1), over all distinct subsets b of the array a.
+Examples of MEX(S,k) values for sets:
+  - MEX({3,2},1)=1, because 1 is the first positive integer not present in the set;
+  - MEX({4,2,1},2)=5, because the first two positive integers not present in the set are 3 and 5;
+  - MEX({},4)=4, because there are no numbers in the empty set, so the first 4 positive integers not present in it are 1,2,3,4.
+Tags -combinatorics
+Tags -dp
+Tags -math
+Tags -*2000

@@ -1,0 +1,9 @@
+D. Darius' Wisdom
+Darius the Great is constructing $$$n$$$ stone columns, each consisting of a base and between $$$0$$$, $$$1$$$, or $$$2$$$ inscription pieces stacked on top.
+In each move, Darius can choose two columns $$$u$$$ and $$$v$$$ such that the difference in the number of inscriptions between these columns is exactly $$$1$$$, and transfer one inscription from the column with more inscriptions to the other one. It is guaranteed that at least one column contains exactly $$$1$$$ inscription.
+Since beauty is the main pillar of historical buildings, Darius wants the columns to have ascending heights. To avoid excessive workers' efforts, he asks you to plan a sequence of at most $$$n$$$ moves to arrange the columns in non-decreasing order based on the number of inscriptions. Minimizing the number of moves is not required.
+Tags -constructive algorithms
+Tags -greedy
+Tags -implementation
+Tags -sortings
+Tags -*1600

@@ -1,0 +1,15 @@
+D. Birthday Gift
+Yarik's birthday is coming soon, and Mark decided to give him an array a of length n.
+Mark knows that Yarik loves bitwise operations very much, and he also has a favorite number x, so Mark wants to find the maximum number k such that it is possible to select pairs of numbers [l1,r1], [l2,r2], … [lk,rk], such that:
+  - l1=1.
+  - rk=n.
+  - li≤ri for all i from 1 to k.
+  - ri+1=li+1 for all i from 1 to k−1.
+  - (al1⊕al1+1⊕…⊕ar1)|(al2⊕al2+1⊕…⊕ar2)|…|(alk⊕alk+1⊕…⊕ark)≤x, where ⊕ denotes the operation of bitwise XOR, and | denotes the operation of bitwise OR.
+If such k does not exist, then output −1.
+Tags -bitmasks
+Tags -brute force
+Tags -constructive algorithms
+Tags -greedy
+Tags -implementation
+Tags -*1900

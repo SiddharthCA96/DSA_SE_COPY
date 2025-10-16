@@ -1,0 +1,12 @@
+B. Equal XOR
+You are given an array 𝑎a of length 2𝑛2n, consisting of each integer from 11 to 𝑛n exactly twice.
+You are also given an integer 𝑘k (1≤𝑘≤⌊𝑛2⌋1≤k≤⌊n2⌋).
+You need to find two arrays 𝑙l and 𝑟r each of length 2𝐤2k such that:
+  - 𝑙l is a subset†† of [𝑎1,𝑎2,…𝑎𝑛][a1,a2,…an]
+  - 𝑟r is a subset of [𝑎𝑛+1,𝑎𝑛+2,…𝑎2𝑛][an+1,an+2,…a2n]
+  - bitwise XOR of elements of 𝑙l is equal to the bitwise XOR of elements of 𝑟r; in other words, 𝑙1⊕𝑙2⊕…⊕𝑙2𝑘=𝑟1⊕𝑟2⊕…⊕𝑟2𝑘l1⊕l2⊕…⊕l2k=r1⊕r2⊕…⊕r2k
+It can be proved that at least one pair of 𝑙l and 𝑟r always exists. If there are multiple solutions, you may output any one of them.
+†† A sequence 𝑥x is a subset of a sequence 𝑦y if 𝑥x can be obtained by deleting several (possibly none or all) elements of 𝑦y and rearranging the elements in any order. For example, [3,1,2,1][3,1,2,1], [1,2,3][1,2,3], [1,1][1,1] and [3,2][3,2] are subsets of [1,1,2,3][1,1,2,3] but [4][4] and [2,2][2,2] are not subsets of [1,1,2,3][1,1,2,3].
+Tags -bitmasks
+Tags -constructive algorithms
+Tags -*1100

@@ -1,0 +1,14 @@
+E2. Billetes MX (Hard Version)
+This is the hard version of the problem. In this version, it is guaranteed that q≤105. You can make hacks only if both versions of the problem are solved.
+An integer grid A with p rows and q columns is called beautiful if:
+  - All elements of the grid are integers between 0 and 230−1, and
+  - For any subgrid, the XOR of the values at the corners is equal to 0. Formally, for any four integers i1, i2, j1, j2 (1≤i1<i2≤p; 1≤j1<j2≤q), Ai1,j1⊕Ai1,j2⊕Ai2,j1⊕Ai2,j2=0, where ⊕ denotes the bitwise XOR operation.
+There is a partially filled integer grid G with n rows and m columns where only k cells are filled. Polycarp wants to know how many ways he can assign integers to the unfilled cells so that the grid is beautiful.
+However, Monocarp thinks that this problem is too easy. Therefore, he will perform q updates on the grid. In each update, he will choose an unfilled cell and assign an integer to it. Note that these updates are persistent. That is, changes made to the grid will apply when processing future updates.
+For each of the q+1 states of the grid, the initial state and after each of the q queries, determine the number of ways Polycarp can assign integers to the unfilled cells so that the grid is beautiful. Since this number can be very large, you are only required to output their values modulo 109+7.
+Tags -binary search
+Tags -combinatorics
+Tags -data structures
+Tags -dsu
+Tags -graphs
+Tags -*2600

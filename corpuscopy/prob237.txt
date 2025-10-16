@@ -1,0 +1,8 @@
+A. Perpendicular Segments
+You are given a coordinate plane and three integers X, Y, and K. Find two line segments AB and CD such that
+Note that it's not necessary for segments to intersect. Segments are perpendicular as long as the lines they induce are perpendicular.
+Tags -constructive algorithms
+Tags -geometry
+Tags -greedy
+Tags -math
+Tags -*900

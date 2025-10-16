@@ -1,0 +1,11 @@
+A. Two Screens
+There are two screens which can display sequences of uppercase Latin letters. Initially, both screens display nothing.
+In one second, you can do one of the following two actions:
+  - choose a screen and an uppercase Latin letter, and append that letter to the end of the sequence displayed on that screen;
+  - choose a screen and copy the sequence from it to the other screen, overwriting the sequence that was displayed on the other screen.
+You have to calculate the minimum number of seconds you have to spend so that the first screen displays the sequence s, and the second screen displays the sequence t.
+Tags -binary search
+Tags -greedy
+Tags -strings
+Tags -two pointers
+Tags -*800

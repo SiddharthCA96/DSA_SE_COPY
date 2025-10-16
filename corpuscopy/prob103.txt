@@ -1,0 +1,8 @@
+D. Problem about GCD
+Given three integers l, r, and G, find two integers A and B (l≤A≤B≤r) such that their greatest common divisor (GCD) equals G and the distance |A−B| is maximized.
+If there are multiple such pairs, choose the one where A is minimized. If no such pairs exist, output "-1 -1".
+Tags -brute force
+Tags -flows
+Tags -math
+Tags -number theory
+Tags -*1800

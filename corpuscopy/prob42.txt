@@ -1,0 +1,7 @@
+C. Preparing for the Exam
+Monocarp is preparing for his first exam at the university. There are n different questions which can be asked during the exam, numbered from 1 to n. There are m different lists of questions; each list consists of exactly n−1 different questions. Each list i is characterized by one integer ai, which is the index of the only question which is not present in the i-th list. For example, if n=4 and ai=3, the i-th list contains questions [1,2,4].
+During the exam, Monocarp will receive one of these m lists of questions. Then, the professor will make Monocarp answer all questions from the list. So, Monocarp will pass only if he knows all questions from the list.
+Monocarp knows the answers for k questions q1,q2,…,qk. For each list, determine if Monocarp will pass the exam if he receives that list.
+Tags -constructive algorithms
+Tags -implementation
+Tags -*1000

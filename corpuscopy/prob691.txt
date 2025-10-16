@@ -1,0 +1,13 @@
+E. No Palindromes
+You are given a string s consisting of lowercase Latin characters. You need to partition† this string into some substrings, such that each substring is not a palindrome‡.
+† A partition of a string s is an ordered sequence of some k strings t1,t2,…,tk, such that t1+t2+…+tk=s, where + here represents the concatenation operation.
+‡ A string s is considered a palindrome if it reads the same backwards as forwards. For example, racecar, abccba, and a are palindromes, but ab, dokibird, and kurosanji are not.
+Tags -brute force
+Tags -constructive algorithms
+Tags -divide and conquer
+Tags -greedy
+Tags -hashing
+Tags -implementation
+Tags -math
+Tags -strings
+Tags -*2000

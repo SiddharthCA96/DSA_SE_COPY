@@ -1,0 +1,12 @@
+I. Growing Trees
+You are given an undirected connected simple graph with 𝑛n nodes and 𝑚m edges, where edge 𝑖i connects node 𝑢𝑖ui and 𝑣𝑖vi, with two positive parameters 𝑎𝑖ai and 𝑏𝑖bi attached to it. Additionally, you are also given an integer 𝑘k.
+A non-negative array 𝑥x with size 𝑚m is called a 𝑘k-spanning-tree generator if it satisfies the following:
+  - Consider the undirected multigraph with 𝑛n nodes where edge 𝑖i is cloned 𝑥𝑖xi times (i.e. there are 𝑥𝑖xi edges connecting 𝑢𝑖ui and 𝑣𝑖vi). It is possible to partition the edges of this graph into 𝑘k spanning trees, where each edge belongs to exactly one spanning tree††.
+The cost of such array 𝑥x is defined as ∑𝑚𝑖=1𝑎𝑖𝑥2𝑖+𝑏𝑖𝑥𝑖∑i=1maixi2+bixi. Find the minimum cost of a 𝑘k-spanning-tree generator.
+†† A spanning tree of a (multi)graph is a subset of the graph's edges that form a tree connecting all vertices of the graph.
+Tags -binary search
+Tags -constructive algorithms
+Tags -flows
+Tags -graphs
+Tags -greedy
+Tags -*3200

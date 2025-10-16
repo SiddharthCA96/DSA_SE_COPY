@@ -1,0 +1,11 @@
+B. Replacement
+You have a binary string∗ s of length n, and Iris gives you another binary string r of length n−1.
+Iris is going to play a game with you. During the game, you will perform n−1 operations on s. In the i-th operation (1≤i≤n−1):
+  - First, you choose an index k such that 1≤k≤|s|−1 and sk≠sk+1. If it is impossible to choose such an index, you lose;
+  - Then, you replace sksk+1 with ri. Note that this decreases the length of s by 1.
+If all the n−1 operations are performed successfully, you win.
+Determine whether it is possible for you to win this game.
+Tags -constructive algorithms
+Tags -games
+Tags -strings
+Tags -*1100

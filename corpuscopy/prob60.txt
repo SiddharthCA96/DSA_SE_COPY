@@ -1,0 +1,9 @@
+H. Kevin and Strange Operation
+Kevin is exploring problems related to binary strings in Chinatown. When he was at a loss, a stranger approached him and introduced a peculiar operation:
+  - Suppose the current binary string is $$$ t $$$, with a length of $$$ \vert t \vert $$$. Choose an integer $$$ 1 \leq p \leq \vert t \vert $$$. For all $$$ 1 \leq i < p $$$, simultaneously perform the operation $$$ t_i = \max(t_i, t_{i+1}) $$$, and then delete $$$ t_p $$$.
+For example, suppose the current binary string is 01001, and you choose $$$ p = 4 $$$. Perform $$$ t_i = \max(t_i, t_{i+1}) $$$ for $$$t_1$$$, $$$t_2$$$, and $$$ t_3 $$$, transforming the string into 11001, then delete $$$ t_4 $$$, resulting in 1101.
+Kevin finds this strange operation quite interesting. Thus, he wants to ask you: Given a binary string $$$ s $$$, how many distinct non-empty binary strings can you obtain through any number of operations (possibly zero)?
+Since the answer may be very large, you only need to output the result modulo $$$998\,244\,353$$$.
+Tags -data structures
+Tags -dp
+Tags -*3100

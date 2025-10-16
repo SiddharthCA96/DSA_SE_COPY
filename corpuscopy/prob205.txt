@@ -1,0 +1,10 @@
+E. MEXimize the Score
+Suppose we partition the elements of an array 𝑏b into any number 𝑘k of non-empty multisets 𝑆1,𝑆2,…,𝑆𝑘S1,S2,…,Sk, where 𝑘k is an arbitrary positive integer. Define the score of 𝑏b as the maximum value of MEX(𝑆1)MEX⁡(S1)∗∗+MEX(𝑆2)+…+MEX(𝑆𝑘)+MEX⁡(S2)+…+MEX⁡(Sk) over all possible partitions of 𝑏b for any integer 𝑘k.
+Envy is given an array 𝑎a of size 𝑛n. Since he knows that calculating the score of 𝑎a is too easy for you, he instead asks you to calculate the sum of scores of all 2𝑛−12n−1 non-empty subsequences of 𝑎a.†† Since this answer may be large, please output it modulo 998244353998244353.
+Tags -combinatorics
+Tags -data structures
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*2200

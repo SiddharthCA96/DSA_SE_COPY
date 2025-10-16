@@ -1,0 +1,9 @@
+G. Sakurako's Task
+Sakurako has prepared a task for you:
+She gives you an array of n integers and allows you to choose i and j such that i≠j and ai≥aj, and then assign ai=ai−aj or ai=ai+aj. You can perform this operation any number of times for any i and j, as long as they satisfy the conditions.
+Sakurako asks you what is the maximum possible value of mexk∗ of the array after any number of operations.
+Tags -binary search
+Tags -greedy
+Tags -math
+Tags -number theory
+Tags -*1800

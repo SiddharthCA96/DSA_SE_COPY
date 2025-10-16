@@ -1,0 +1,12 @@
+B. pspspsps
+
+Cats are attracted to pspspsps, but Evirir, being a dignified dragon, is only attracted to pspspsps with oddly specific requirements...
+Given a string s=s1s2…sn of length n consisting of characters p, s, and . (dot), determine whether a permutation∗ p of length n exists, such that for all integers i (1≤i≤n):
+  - If si is p, then [p1,p2,…,pi] forms a permutation (of length i);
+  - If si is s, then [pi,pi+1,…,pn] forms a permutation (of length n−i+1);
+  - If si is ., then there is no additional restriction.
+Tags -brute force
+Tags -constructive algorithms
+Tags -graph matchings
+Tags -implementation
+Tags -*1300

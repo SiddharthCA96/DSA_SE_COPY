@@ -1,0 +1,7 @@
+B. Shuffle
+Yes, this is another one of those constructive permutation problems.
+You are given an integer 𝑛n. You have to construct a permutation 𝑝p of size 𝑛n, i. e. an array of 𝑛n integers, where every integer from 11 to 𝑛n appears exactly once.
+Every pair of adjacent elements in the permutation (𝑝𝑖pi and 𝑝𝑖+1pi+1) must meet the following condition:
+  - if one of them is divisible by the other, the condition 𝑝𝑖<𝑝𝑖+1pi<pi+1 must hold;
+  - otherwise, the condition 𝑝𝑖>𝑝𝑖+1pi>pi+1 must hold.
+Tags -*special problem

@@ -1,0 +1,13 @@
+E. Number of k-good subarrays
+Let bit(x)𝑏𝑖𝑡(𝑥) denote the number of ones in the binary representation of a non-negative integer x𝑥.
+A subarray of an array is called k𝑘-good if it consists only of numbers with no more than k𝑘 ones in their binary representation, i.e., a subarray (l,r)(𝑙,𝑟) of array a𝑎 is good if for any i𝑖 such that l≤i≤r𝑙≤𝑖≤𝑟 condition bit(ai)≤k𝑏𝑖𝑡(𝑎𝑖)≤𝑘 is satisfied.
+You are given an array a𝑎 of length n𝑛, consisting of consecutive non-negative integers starting from 00, i.e., ai=i𝑎𝑖=𝑖 for 0≤i≤n−10≤𝑖≤𝑛−1 (in 00-based indexing). You need to count the number of k𝑘-good subarrays in this array.
+As the answer can be very large, output it modulo 109+7109+7.
+Tags -bitmasks
+Tags -brute force
+Tags -combinatorics
+Tags -divide and conquer
+Tags -dp
+Tags -math
+Tags -meet-in-the-middle
+Tags -*2300

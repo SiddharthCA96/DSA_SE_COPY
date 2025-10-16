@@ -1,0 +1,12 @@
+E. Alternating String
+Sakurako really loves alternating strings. She calls a string s of lowercase Latin letters an alternating string if characters in the even positions are the same, if characters in the odd positions are the same, and the length of the string is even.
+For example, the strings 'abab' and 'gg' are alternating, while the strings 'aba' and 'ggwp' are not.
+As a good friend, you decided to gift such a string, but you couldn't find one. Luckily, you can perform two types of operations on the string:
+Since you are in a hurry, you need to determine the minimum number of operations required to make the string an alternating one.
+Tags -brute force
+Tags -data structures
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -strings
+Tags -*1500

@@ -1,0 +1,12 @@
+C2. Magnitude (Hard Version)
+The two versions of the problem are different. You may want to read both versions. You can make hacks only if both versions are solved.
+You are given an array a𝑎 of length n𝑛. Start with c=0𝑐=0. Then, for each i𝑖 from 11 to n𝑛 (in increasing order) do exactly one of the following:
+  - Option 11: set c𝑐 to c+ai𝑐+𝑎𝑖.
+  - Option 22: set c𝑐 to |c+ai|, where |x| is the absolute value of x.
+Let the maximum final value of c after the procedure described above be equal to k. Find the number of unique procedures that result in c=k. Two procedures are different if at any index i, one procedure chose option 1 and another chose option 2, even if the value of c is equal for both procedures after that turn.
+Since the answer may be large, output it modulo 998244353.
+Tags -combinatorics
+Tags -dp
+Tags -greedy
+Tags -math
+Tags -*1700

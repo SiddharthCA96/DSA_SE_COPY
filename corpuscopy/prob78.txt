@@ -1,0 +1,14 @@
+M. Mirror Maze
+You are given a grid of 𝑅R rows (numbered from 11 to 𝑅R from north to south) and 𝐶C columns (numbered from 11 to 𝐶C from west to east). Every cell in this grid is a square of the same size. The cell located at row 𝑟r and column 𝑐c is denoted as (𝑟,𝑐)(r,c). Each cell can either be empty or have a mirror in one of the cell's diagonals. Each mirror is represented by a line segment. The mirror is type 11 if it is positioned diagonally from the southwest corner to the northeast corner of the cell, or type 22 for the other diagonal.
+These mirrors follow the law of reflection, that is, the angle of reflection equals the angle of incidence. Formally, for type 11 mirror, if a beam of light comes from the north, south, west, or east of the cell, then it will be reflected to the west, east, north, and south of the cell, respectively. Similarly, for type 22 mirror, if a beam of light comes from the north, south, west, or east of the cell, then it will be reflected to the east, west, south, and north of the cell, respectively.
+You want to put a laser from outside the grid such that all mirrors are hit by the laser beam. There are 2⋅(𝑅+𝐶)2⋅(R+C) possible locations to put the laser:
+  - from the north side of the grid at column 𝑐c, for 1≤𝑐≤𝐶1≤c≤C, shooting a laser beam to the south;
+  - from the south side of the grid at column 𝑐c, for 1≤𝑐≤𝐶1≤c≤C, shooting a laser beam to the north;
+  - from the east side of the grid at row 𝑟r, for 1≤𝑟≤𝑅1≤r≤R, shooting a laser beam to the west; and
+  - from the west side of the grid at row 𝑟r, for 1≤𝑟≤𝑅1≤r≤R, shooting a laser beam to the east.
+Determine all possible locations for the laser such that all mirrors are hit by the laser beam.
+Tags -brute force
+Tags -dfs and similar
+Tags -graphs
+Tags -implementation
+Tags -*1800

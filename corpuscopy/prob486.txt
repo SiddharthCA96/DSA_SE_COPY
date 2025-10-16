@@ -1,0 +1,8 @@
+A. X Axis
+You are given three points with integer coordinates x1, x2, and x3 on the X axis (1≤xi≤10). You can choose any point with an integer coordinate a on the X axis. Note that the point a may coincide with x1, x2, or x3. Let f(a) be the total distance from the given points to the point a. Find the smallest value of f(a).
+The distance between points a and b is equal to |a−b|. For example, the distance between points a=5 and b=2 is 3.
+Tags -brute force
+Tags -geometry
+Tags -math
+Tags -sortings
+Tags -*800

@@ -1,0 +1,6 @@
+A. Alternating Sum of Numbers
+You are given a sequence of integers. Output the alternating sum of this sequence. In other words, output a1−a2+a3−a4+a5−…. That is, the signs of plus and minus alternate, starting with a plus.
+Tags -brute force
+Tags -implementation
+Tags -math
+Tags -*800

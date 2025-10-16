@@ -1,0 +1,8 @@
+D. Among Wolves
+In a game you started playing recently, there is a field that can be represented as a rectangular grid. The field has 2 rows and n columns — 2n cells in total.
+Some cells are empty, but some are occupied by wolves. In the beginning of the game, you have one sheep in some cell, and you'd like to save it from wolves.
+Wolves will attack you at night, so you still have some time for preparation. You have two ways to deal with wolves:
+You can use both methods mentioned above any number of times and in any order.
+Let's say that a wolf can reach the sheep if there is a path that starts at the wolf's cell and finishes at the sheep's cell. This path shouldn't contain any cells with trenches, and each two consecutive cells in the path should be neighbors (share a side).
+What is the minimum total amount of money you should pay to ensure that none of the wolves can reach the sheep?
+Tags -*special problem

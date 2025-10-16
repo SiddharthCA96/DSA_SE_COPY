@@ -1,0 +1,16 @@
+E. Control of Randomness
+You are given a tree with n vertices.
+Let's place a robot in some vertex v≠1, and suppose we initially have p coins. Consider the following process, where in the i-th step (starting from i=1):
+  - If i is odd, the robot moves to an adjacent vertex in the direction of vertex 1;
+  - Else, i is even. You can either pay one coin (if there are some left) and then the robot moves to an adjacent vertex in the direction of vertex 1, or not pay, and then the robot moves to an adjacent vertex chosen uniformly at random.
+The process stops as soon as the robot reaches vertex 1. Let f(v,p) be the minimum possible expected number of steps in the process above if we spend our coins optimally.
+Answer q queries, in the i-th of which you have to find the value of f(vi,pi), modulo∗ 998244353.
+Tags -combinatorics
+Tags -dfs and similar
+Tags -dp
+Tags -graphs
+Tags -greedy
+Tags -math
+Tags -probabilities
+Tags -trees
+Tags -*2100

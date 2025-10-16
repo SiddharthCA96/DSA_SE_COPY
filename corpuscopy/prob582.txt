@@ -1,0 +1,8 @@
+E. Find the Car
+Timur is in a car traveling on the number line from point 0 to point n. The car starts moving from point 0 at minute 0.
+There are k+1 signs on the line at points 0,a1,a2,…,ak, and Timur knows that the car will arrive there at minutes 0,b1,b2,…,bk, respectively. The sequences a and b are strictly increasing with ak=n.
+Between any two adjacent signs, the car travels with a constant speed. Timur has q queries: each query will be an integer d, and Timur wants you to output how many minutes it takes the car to reach point d, rounded down to the nearest integer.
+Tags -binary search
+Tags -math
+Tags -sortings
+Tags -*1500

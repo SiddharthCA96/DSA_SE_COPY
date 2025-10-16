@@ -1,0 +1,10 @@
+D. Iris and Adjacent Products
+Iris has just learned multiplication in her Maths lessons. However, since her brain is unable to withstand too complex calculations, she could not multiply two integers with the product greater than k together. Otherwise, her brain may explode!
+Her teacher sets a difficult task every day as her daily summer holiday homework. Now she is given an array a consisting of n elements, and she needs to calculate the product of each two adjacent elements (that is, a1⋅a2, a2⋅a3, and so on). Iris wants her brain to work safely, and in order to do that, she would like to modify the array a in such a way that ai⋅ai+1≤k holds for every 1≤i<n. There are two types of operations she can perform:
+Iris wants to minimize the number of operations of type 2 that she uses.
+However, that's completely not the end of the summer holiday! Summer holiday lasts for q days, and on the i-th day, Iris is asked to solve the Math homework for the subarray bli,bli+1,…,bri. Help Iris and tell her the minimum number of type 2 operations she needs to perform for each day. Note that the operations are independent for each day, i.e. the array b is not changed.
+Tags -data structures
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*2600

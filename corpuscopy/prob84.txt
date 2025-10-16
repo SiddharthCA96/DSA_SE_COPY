@@ -1,0 +1,8 @@
+G. X Aura
+Mount ICPC can be represented as a grid of $$$R$$$ rows (numbered from $$$1$$$ to $$$R$$$) and $$$C$$$ columns (numbered from $$$1$$$ to $$$C$$$). The cell located at row $$$r$$$ and column $$$c$$$ is denoted as $$$(r, c)$$$ and has a height of $$$H_{r, c}$$$. Two cells are adjacent to each other if they share a side. Formally, $$$(r, c)$$$ is adjacent to $$$(r-1, c)$$$, $$$(r+1, c)$$$, $$$(r, c-1)$$$, and $$$(r, c+1)$$$, if any exists.
+You can move only between adjacent cells, and each move comes with a penalty. With an aura of an odd positive integer $$$X$$$, moving from a cell with height $$$h_1$$$ to a cell with height $$$h_2$$$ gives you a penalty of $$$(h_1 - h_2)^X$$$. Note that the penalty can be negative.
+You want to answer $$$Q$$$ independent scenarios. In each scenario, you start at the starting cell $$$(R_s, C_s)$$$ and you want to go to the destination cell $$$(R_f, C_f)$$$ with minimum total penalty. In some scenarios, the total penalty might become arbitrarily small; such a scenario is called invalid. Find the minimum total penalty to move from the starting cell to the destination cell, or determine if the scenario is invalid.
+Tags -graphs
+Tags -math
+Tags -shortest paths
+Tags -*2200

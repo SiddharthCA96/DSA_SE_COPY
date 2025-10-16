@@ -1,0 +1,14 @@
+G. Secret Message
+Every Saturday, Alexander B., a teacher of parallel X, writes a secret message to Alexander G., a teacher of parallel B, in the evening. Since Alexander G. is giving a lecture at that time and the message is very important, Alexander B. has to write this message on an interactive online board.
+The interactive online board is a grid consisting of n rows and m columns, where each cell is 1×1 in size. Some cells of this board are already filled in, and it is impossible to write a message in them; such cells are marked with the symbol ".", while the remaining cells are called free and are marked with the symbol "#".
+Let us introduce two characteristics of the online board:
+  - s is the number of free cells.
+  - p is the perimeter of the grid figure formed by the union of free cells.
+Let A be the set of free cells. Your goal is to find a set of cells S⊆A that satisfies the following properties:
+  - |S|≤15⋅(s+p).
+  - Any cell from A either lies in S or shares a side with some cell from S.
+We can show that at least one set S satisfying these properties exists; you are required to find any suitable one.
+Tags -constructive algorithms
+Tags -dfs and similar
+Tags -math
+Tags -*3000

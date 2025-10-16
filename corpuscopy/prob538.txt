@@ -1,0 +1,15 @@
+F. Large Graph
+Given an array a of length n. Let's construct a square matrix b of size n×n, in which the i-th row contains the array a cyclically shifted to the right by (i−1). For example, for the array a=[3,4,5], the obtained matrix is
+b=[345534453]
+Let's construct the following graph:
+  - The graph contains n2 vertices, each of which corresponds to one of the elements of the matrix. Let's denote the vertex corresponding to the element bi,j as (i,j).
+  - We will draw an edge between vertices (i1,j1) and (i2,j2) if |i1−i2|+|j1−j2|≤k and gcd(bi1,j1,bi2,j2)>1, where gcd(x,y) denotes the greatest common divisor of integers x and y.
+Your task is to calculate the number of connected components† in the obtained graph.
+†A connected component of a graph is a set of vertices in which any vertex is reachable from any other via edges, and adding any other vertex to the set violates this rule.
+Tags -data structures
+Tags -dfs and similar
+Tags -dsu
+Tags -graphs
+Tags -number theory
+Tags -two pointers
+Tags -*2400

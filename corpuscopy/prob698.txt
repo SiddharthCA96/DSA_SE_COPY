@@ -1,0 +1,8 @@
+E. Nearly Shortest Repeating Substring
+You are given a string s of length n consisting of lowercase Latin characters. Find the length of the shortest string k such that several (possibly one) copies of k can be concatenated together to form a string with the same length as s and, at most, one different character.
+More formally, find the length of the shortest string k such that c=k+⋯+k⏟x times for some positive integer x, strings s and c has the same length and ci≠si for at most one i (i.e. there exist 0 or 1 such positions).
+Tags -brute force
+Tags -implementation
+Tags -number theory
+Tags -strings
+Tags -*1500

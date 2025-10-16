@@ -1,0 +1,12 @@
+G. Rudolf and Subway
+Building bridges did not help Bernard, and he continued to be late everywhere. Then Rudolf decided to teach him how to use the subway.
+Rudolf depicted the subway map as an undirected connected graph, without self-loops, where the vertices represent stations. There is at most one edge between any pair of vertices.
+Two vertices are connected by an edge if it is possible to travel directly between the corresponding stations, bypassing other stations. The subway in the city where Rudolf and Bernard live has a color notation. This means that any edge between stations has a specific color. Edges of a specific color together form a subway line. A subway line cannot contain unconnected edges and forms a connected subgraph of the given subway graph.
+An example of the subway map is shown in the figure.
+Rudolf claims that the route will be optimal if it passes through the minimum number of subway lines.
+Help Bernard determine this minimum number for the given departure and destination stations.
+Tags -constructive algorithms
+Tags -dfs and similar
+Tags -graphs
+Tags -shortest paths
+Tags -*2000

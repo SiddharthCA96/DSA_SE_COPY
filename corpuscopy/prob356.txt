@@ -1,0 +1,17 @@
+D2. Turtle and a MEX Problem (Hard Version)
+The two versions are different problems. In this version of the problem, you can't choose the same integer twice or more. You can make hacks only if both versions are solved.
+One day, Turtle was playing with 𝑛n sequences. Let the length of the 𝑖i-th sequence be 𝑙𝑖li. Then the 𝑖i-th sequence was 𝑎𝑖,1,𝑎𝑖,2,…,𝑎𝑖,𝑙𝑖ai,1,ai,2,…,ai,li.
+Piggy gave Turtle a problem to solve when Turtle was playing. The statement of the problem was:
+  - There was a non-negative integer 𝑥x at first. Turtle would perform an arbitrary number (possibly zero) of operations on the integer.
+  - In each operation, Turtle could choose an integer 𝑖i such that 1≤𝑖≤𝑛1≤i≤n and 𝑖i wasn't chosen before, and set 𝑥x to mex†(𝑥,𝑎𝑖,1,𝑎𝑖,2,…,𝑎𝑖,𝑙𝑖)mex†(x,ai,1,ai,2,…,ai,li).
+  - Turtle was asked to find the answer, which was the maximum value of 𝑥x after performing an arbitrary number of operations.
+Turtle solved the above problem without difficulty. He defined 𝑓(𝑘)f(k) as the answer to the above problem when the initial value of 𝑥x was 𝑘k.
+Then Piggy gave Turtle a non-negative integer 𝑚m and asked Turtle to find the value of ∑𝑖=0𝑚𝑓(𝑖)∑i=0mf(i) (i.e., the value of 𝑓(0)+𝑓(1)+…+𝑓(𝑚)f(0)+f(1)+…+f(m)). Unfortunately, he couldn't solve this problem. Please help him!
+†mex(𝑐1,𝑐2,…,𝑐𝑘)†mex(c1,c2,…,ck) is defined as the smallest non-negative integer 𝑥x which does not occur in the sequence 𝑐c. For example, mex(2,2,0,3)mex(2,2,0,3) is 11, mex(1,2)mex(1,2) is 00.
+Tags -dfs and similar
+Tags -dp
+Tags -graphs
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*2100

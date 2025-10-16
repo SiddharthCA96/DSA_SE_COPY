@@ -1,0 +1,10 @@
+C. Longest Good Array
+Today, Sakurako was studying arrays. An array 𝑎a of length 𝑛n is considered good if and only if:
+  - the array 𝑎a is increasing, meaning 𝑎𝑖−1<𝑎𝑖ai−1<ai for all 2≤𝑖≤𝑛2≤i≤n;
+  - the differences between adjacent elements are increasing, meaning 𝑎𝑖−𝑎𝑖−1<𝑎𝑖+1−𝑎𝑖ai−ai−1<ai+1−ai for all 2≤𝑖<𝑛2≤i<n.
+Sakurako has come up with boundaries 𝑙l and 𝑟r and wants to construct a good array of maximum length, where 𝑙≤𝑎𝑖≤𝑟l≤ai≤r for all 𝑎𝑖ai.
+Help Sakurako find the maximum length of a good array for the given 𝑙l and 𝑟r.
+Tags -binary search
+Tags -brute force
+Tags -math
+Tags -*800

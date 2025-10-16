@@ -1,0 +1,8 @@
+F. Maximum modulo equality
+You are given an array a of length n and q queries l, r.
+For each query, find the maximum possible m, such that all elements al, al+1, ..., ar are equal modulo m. In other words, almod, where a \bmod b — is the remainder of division a by b. In particular, when m can be infinite, print 0.
+Tags -data structures
+Tags -divide and conquer
+Tags -math
+Tags -number theory
+Tags -*1700

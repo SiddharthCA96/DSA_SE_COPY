@@ -1,0 +1,11 @@
+E. Secret Box
+Ntarsis has a box 𝐵B with side lengths 𝑥x, 𝑦y, and 𝑧z. It lies in the 3D coordinate plane, extending from (0,0,0)(0,0,0) to (𝑥,𝑦,𝑧)(x,y,z).
+Ntarsis has a secret box 𝑆S. He wants to choose its dimensions such that all side lengths are positive integers, and the volume of 𝑆S is 𝑘k. He can place 𝑆S somewhere within 𝐵B such that:
+  - 𝑆S is parallel to all axes.
+  - every corner of 𝑆S lies on an integer coordinate.
+𝑆S is magical, so when placed at an integer location inside 𝐵B, it will not fall to the ground.
+Among all possible ways to choose the dimensions of 𝑆S, determine the maximum number of distinct locations he can choose to place his secret box 𝑆S inside 𝐵B. Ntarsis does not rotate 𝑆S once its side lengths are selected.
+Tags -brute force
+Tags -combinatorics
+Tags -math
+Tags -*1200

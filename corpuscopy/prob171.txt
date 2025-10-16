@@ -1,0 +1,10 @@
+C. Alya and Permutation
+Alya has been given a hard problem. Unfortunately, she is too busy running for student council. Please solve this problem for her.
+Given an integer n, construct a permutation p of integers 1,2,…,n that maximizes the value of k (which is initially 0) after the following process.
+Perform n operations, on the i-th operation (i=1,2,…,n),
+  - If i is odd, k=k&pi, where & denotes the bitwise AND operation.
+  - If i is even, k=k|pi, where | denotes the bitwise OR operation.
+Tags -bitmasks
+Tags -constructive algorithms
+Tags -math
+Tags -*1400

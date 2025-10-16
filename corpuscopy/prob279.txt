@@ -1,0 +1,14 @@
+E2. Complex Segments (Hard Version)
+This is the hard version of the problem. In this version, the constraints on n and the time limit are higher. You can make hacks only if both versions of the problem are solved.
+A set of (closed) segments is complex if it can be partitioned into some subsets such that
+  - all the subsets have the same size; and
+  - a pair of segments intersects if and only if the two segments are in the same subset.
+You are given n segments [l1,r1],[l2,r2],…,[ln,rn]. Find the maximum size of a complex subset of these segments.
+Tags -binary search
+Tags -data structures
+Tags -divide and conquer
+Tags -dsu
+Tags -greedy
+Tags -math
+Tags -sortings
+Tags -*3400

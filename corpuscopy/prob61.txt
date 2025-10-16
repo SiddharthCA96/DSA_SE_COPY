@@ -1,0 +1,11 @@
+G. Kevin and Matrices
+Kevin has been transported to Sacred Heart Hospital, which contains all the 𝑛×𝑚n×m matrices with integer values in the range [1,𝑣][1,v].
+Now, Kevin wants to befriend some matrices, but he is willing to befriend a matrix 𝑎a if and only if the following condition is satisfied:
+min1≤𝑖≤𝑛(max1≤𝑗≤𝑚𝑎𝑖,𝑗)≤max1≤𝑗≤𝑚(min1≤𝑖≤𝑛𝑎𝑖,𝑗).min1≤i≤n(max1≤j≤mai,j)≤max1≤j≤m(min1≤i≤nai,j).
+Please count how many matrices in Sacred Heart Hospital can be friends with Kevin.
+Since Kevin is very friendly, there could be many matrices that meet this condition. Therefore, you only need to output the result modulo 998244353998244353.
+Tags -brute force
+Tags -combinatorics
+Tags -dp
+Tags -math
+Tags -*2800

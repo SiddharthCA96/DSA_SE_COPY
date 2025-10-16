@@ -1,0 +1,17 @@
+B. Symmetric Encoding
+Polycarp has a string s𝑠, which consists of lowercase Latin letters. He encodes this string using the following algorithm:
+  - first, he constructs a new auxiliary string r𝑟, which consists of all distinct letters of the string s𝑠, written in alphabetical order;
+  - then the encoding happens as follows: each character in the string s𝑠 is replaced by its symmetric character from the string r𝑟 (the first character of the string r𝑟 will be replaced by the last, the second by the second from the end, and so on).
+For example, encoding the string s𝑠="codeforces" happens as follows:
+  - the string r𝑟 is obtained as "cdefors";
+  - the first character s1𝑠1='c' is replaced by 's';
+  - the second character s2𝑠2='o' is replaced by 'e';
+  - the third character s3𝑠3='d' is replaced by 'r';
+  - ...
+  - the last character s10𝑠10='s' is replaced by 'c'.
+Thus, the result of encoding the string s𝑠="codeforces" is the string "serofedsoc".
+Write a program that performs decoding — that is, restores the original string s𝑠 from the encoding result.
+Tags -implementation
+Tags -sortings
+Tags -strings
+Tags -*800

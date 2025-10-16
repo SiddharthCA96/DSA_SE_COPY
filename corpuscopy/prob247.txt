@@ -1,0 +1,10 @@
+F. Hills and Pits
+In a desert city with a hilly landscape, the city hall decided to level the road surface by purchasing a dump truck. The road is divided into n sections, numbered from 1 to n from left to right. The height of the surface in the i-th section is equal to ai. If the height of the i-th section is greater than 0, then the dump truck must take sand from the i-th section of the road, and if the height of the i-th section is less than 0, the dump truck must fill the pit in the i-th section of the road with sand. It is guaranteed that the initial heights are not equal to 0.
+When the dump truck is in the i-th section of the road, it can either take away x units of sand, in which case the height of the surface in the i-th section will decrease by x, or it can fill in x units of sand (provided that it currently has at least x units of sand in its bed), in which case the height of the surface in the i-th section of the road will increase by x.
+The dump truck can start its journey from any section of the road. Moving to an adjacent section on the left or right takes 1 minute, and the time for loading and unloading sand can be neglected. The dump truck has an infinite capacity and is initially empty.
+You need to find the minimum time required for the dump truck to level the sand so that the height in each section becomes equal to 0. Note that after all movements, the dump truck may still have sand left in its bed. You need to solve this problem independently for the segments numbered from li to ri. Sand outside the segment cannot be used.
+Tags -data structures
+Tags -greedy
+Tags -math
+Tags -matrices
+Tags -*3500

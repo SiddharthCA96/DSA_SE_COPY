@@ -1,0 +1,14 @@
+F. Kevin and Math Class
+Kevin is a student from Eversleeping Town, currently attending a math class where the teacher is giving him division exercises.
+On the board, there are two rows of positive integers written, each containing $$$ n $$$ numbers. The first row is $$$ a_1, a_2, \ldots, a_n $$$, and the second row is $$$ b_1, b_2, \ldots, b_n $$$.
+For each division exercise, Kevin can choose any segment $$$ [l, r] $$$ and find the smallest value $$$ x $$$ among $$$ b_l, b_{l+1}, \ldots, b_r $$$. He will then modify each $$$ a_i $$$ for $$$ l \leq i \leq r $$$ to be the ceiling of $$$ a_i $$$ divided by $$$ x $$$.
+Formally, he selects two integers $$$ 1 \leq l \leq r \leq n $$$, sets $$$ x = \min_{l \leq i \leq r} b_i $$$, and changes all $$$ a_i $$$ for $$$ l \leq i \leq r $$$ to $$$ \lceil \frac{a_i}{x} \rceil $$$.
+Kevin can leave class and go home when all $$$ a_i $$$ become $$$ 1 $$$. He is eager to leave and wants to know the minimum number of division exercises required to achieve this.
+Tags -brute force
+Tags -data structures
+Tags -divide and conquer
+Tags -dp
+Tags -implementation
+Tags -math
+Tags -trees
+Tags -*2500

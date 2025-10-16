@@ -1,0 +1,12 @@
+B. New Bakery
+Bob decided to open a bakery. On the opening day, he baked n buns that he can sell. The usual price of a bun is a coins, but to attract customers, Bob organized the following promotion:
+  - Bob chooses some integer k (0≤k≤min(n,b)).
+  - Bob sells the first k buns at a modified price. In this case, the price of the i-th (1≤i≤k) sold bun is (b−i+1) coins.
+  - The remaining (n−k) buns are sold at a coins each.
+Note that k can be equal to 0. In this case, Bob will sell all the buns at a coins each.
+Help Bob determine the maximum profit he can obtain by selling all n buns.
+Tags -binary search
+Tags -greedy
+Tags -math
+Tags -ternary search
+Tags -*800

@@ -1,0 +1,9 @@
+C. Sakurako's Field Trip
+Even in university, students need to relax. That is why Sakurakos teacher decided to go on a field trip. It is known that all of the students will be walking in one line. The student with index i has some topic of interest which is described as ai. As a teacher, you want to minimise the disturbance of the line of students.
+The disturbance of the line is defined as the number of neighbouring people with the same topic of interest. In other words, disturbance is the number of indices j (1≤j<n) such that aj=aj+1.
+In order to do this, you can choose index i (1≤i≤n) and swap students at positions i and n−i+1. You can perform any number of swaps.
+Your task is to determine the minimal amount of disturbance that you can achieve by doing the operation described above any number of times.
+Tags -dp
+Tags -greedy
+Tags -two pointers
+Tags -*1400

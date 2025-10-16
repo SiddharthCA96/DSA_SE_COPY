@@ -1,0 +1,16 @@
+H. ±1
+Bob has a grid with 33 rows and n columns, each of which contains either ai or −ai for some integer 1≤i≤n. For example, one possible grid for n=4 is shown below:
+[a1−a2−a3−a2−a4a4−a1−a3a1a2−a2a4]
+Alice and Bob play a game as follows:
+  - Bob shows Alice his grid.
+  - Alice gives Bob an array a1,a2,…,an of her choosing, whose elements are all −1 or 1.
+  - Bob substitutes these values into his grid to make a grid of −1s and 1s.
+  - Bob sorts the elements of each column in non-decreasing order.
+  - Alice wins if all the elements in the middle row are 1; otherwise, Bob wins.
+For example, suppose Alice gives Bob the array [1,−1,−1,1] for the grid above. Then the following will happen (colors are added for clarity):
+[a1−a2−a3−a2−a4a4−a1−a3a1a2−a2a4][1,−1,−1,1]→[1111−11−111−111]sort each column→[−1−1−1111111111]. Since the middle row is all 1, Alice wins.
+Given Bob's grid, determine whether or not Alice can choose the array a to win the game.
+Tags -2-sat
+Tags -dfs and similar
+Tags -graphs
+Tags -*2100

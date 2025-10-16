@@ -1,0 +1,15 @@
+E. Resourceful Caterpillar Sequence
+There is a tree consisting of $$$n$$$ vertices. Let a caterpillar be denoted by an integer pair $$$(p, q)$$$ ($$$1 \leq p, q \leq n$$$, $$$p \neq q$$$): its head is at vertex $$$p$$$, its tail is at vertex $$$q$$$, and it dominates all the vertices on the simple path from $$$p$$$ to $$$q$$$ (including $$$p$$$ and $$$q$$$). The caterpillar sequence of $$$(p, q)$$$ is defined as the sequence consisting only of the vertices on the simple path, sorted in the ascending order of the distance to $$$p$$$.
+Nora and Aron are taking turns moving the caterpillar, with Nora going first. Both players will be using his or her own optimal strategy:
+  - They will play to make himself or herself win;
+  - However, if it is impossible, they will play to prevent the other person from winning (thus, the game will end in a tie).
+In Nora's turn, she must choose a vertex $$$u$$$ adjacent to vertex $$$p$$$, which is not dominated by the caterpillar, and move all the vertices in it by one edge towards vertex $$$u$$$$$$^{\text{∗}}$$$. In Aron's turn, he must choose a vertex $$$v$$$ adjacent to vertex $$$q$$$, which is not dominated by the caterpillar, and move all the vertices in it by one edge towards vertex $$$v$$$. Note that the moves allowed to the two players are different.
+Whenever $$$p$$$ is a leaf$$$^{\text{†}}$$$, Nora wins$$$^{\text{‡}}$$$. Whenever $$$q$$$ is a leaf, Aron wins. If either initially both $$$p$$$ and $$$q$$$ are leaves, or after $$$10^{100}$$$ turns the game has not ended, the result is a tie.
+Please count the number of integer pairs $$$(p, q)$$$ with $$$1 \leq p, q \leq n$$$ and $$$p \neq q$$$ such that, if the caterpillar is initially $$$(p, q)$$$, Aron wins the game.
+Tags -dfs and similar
+Tags -dp
+Tags -games
+Tags -graphs
+Tags -greedy
+Tags -trees
+Tags -*1900

@@ -1,0 +1,13 @@
+G. Variable Damage
+Monocarp is gathering an army to fight a dragon in a videogame.
+The army consists of two parts: the heroes and the defensive artifacts. Each hero has one parameter — his health. Each defensive artifact also has one parameter — its durability.
+Before the battle begins, Monocarp distributes artifacts to the heroes so that each hero receives at most one artifact.
+The battle consists of rounds that proceed as follows:
+  - first, the dragon deals damage equal to 1a+b (a real number without rounding) to each hero, where a is the number of heroes alive and b is the number of active artifacts;
+  - after that, all heroes with health 0 or less die;
+  - finally, some artifacts are deactivated. An artifact with durability x is deactivated when one of the following occurs: the hero holding the artifact either dies or receives x total damage (from the start of the battle). If an artifact is not held by any hero, it is inactive from the beginning of the battle.
+The battle ends when there are no heroes left alive.
+Initially, the army is empty. There are q queries: add a hero with health x or an artifact with durability y to the army. After each query, determine the maximum number of rounds that Monocarp can survive if he distributes the artifacts optimally.
+Tags -data structures
+Tags -flows
+Tags -*3000

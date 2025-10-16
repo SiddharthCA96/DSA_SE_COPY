@@ -1,0 +1,12 @@
+I. Variance Challenge
+Kevin has recently learned the definition of variance. For an array a of length n, the variance of a is defined as follows:
+  - Let x=1nn∑i=1ai, i.e., x is the mean of the array a;
+  - Then, the variance of a is V(a)=1nn∑i=1(ai−x)2.
+Now, Kevin gives you an array a consisting of n integers, as well as an integer k. You can perform the following operation on a:
+  - Select an interval [l,r] (1≤l≤r≤n), then for each l≤i≤r, increase ai by k.
+For each 1≤p≤m, you have to find the minimum possible variance of a after exactly p operations are performed, independently for each p.
+For simplicity, you only need to output the answers multiplied by n2. It can be proven that the results are always integers.
+Tags -flows
+Tags -graphs
+Tags -greedy
+Tags -*3400

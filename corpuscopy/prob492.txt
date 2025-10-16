@@ -1,0 +1,7 @@
+D. Manhattan Circle
+Given a n by m grid consisting of '.' and '#' characters, there exists a whole manhattan circle on the grid. The top left corner of the grid has coordinates (1,1), and the bottom right corner has coordinates (n,m).
+Point (a,b) belongs to the manhattan circle centered at (h,k) if |h−a|+|k−b|<r, where r is a positive constant.
+On the grid, the set of points that are part of the manhattan circle is marked as '#'. Find the coordinates of the center of the circle.
+Tags -implementation
+Tags -math
+Tags -*900

@@ -1,0 +1,17 @@
+C. Adventurers
+
+Once, four Roman merchants met in a Roman mansion to discuss their trading plans. They faced the following problem: they traded the same type of goods, and if they traded in the same city, they would inevitably incur losses. They decided to divide up the cities between them where they would trade.
+The map of Rome can be represented in this problem as a plane with certain points marked — the cities of the Roman Empire.
+The merchants decided to choose a certain dividing point (x0,y0). Then, in a city with coordinates (xi,yi),
+  - the first merchant sells goods if x0≤xi and y0≤yi;
+  - the second merchant sells goods if x0>xi and y0≤yi;
+  - the third merchant sells goods if x0≤xi and y0>yi;
+  - the fourth merchant sells goods if x0>xi and y0>yi.
+The merchants want to choose (x0,y0) in such a way as to maximize the smallest number of cities that any of them gets (i. e., as fair as possible). Please find such a point for them.
+Tags -binary search
+Tags -data structures
+Tags -greedy
+Tags -sortings
+Tags -ternary search
+Tags -two pointers
+Tags -*2100

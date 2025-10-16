@@ -1,0 +1,8 @@
+D. Harder Problem
+Given a sequence of positive integers, a positive integer is called a mode of the sequence if it occurs the maximum number of times that any positive integer occurs. For example, the mode of [2,2,3] is 2. Any of 9, 8, or 7 can be considered to be a mode of the sequence [9,9,8,8,7,7].
+You gave UFO an array a of length n. To thank you, UFO decides to construct another array b of length n such that ai is a mode of the sequence [b1,b2,…,bi] for all 1≤i≤n.
+However, UFO doesn't know how to construct array b, so you must help her. Note that 1≤bi≤n must hold for your array for all 1≤i≤n.
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -*1100

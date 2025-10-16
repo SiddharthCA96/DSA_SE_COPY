@@ -1,0 +1,14 @@
+E. Common Generator
+For two integers $$$x$$$ and $$$y$$$ ($$$x,y\ge 2$$$), we will say that $$$x$$$ is a generator of $$$y$$$ if and only if $$$x$$$ can be transformed to $$$y$$$ by performing the following operation some number of times (possibly zero):
+  - Choose a divisor $$$d$$$ ($$$d\ge 2$$$) of $$$x$$$, then increase $$$x$$$ by $$$d$$$.
+For example,
+  - $$$3$$$ is a generator of $$$8$$$ since we can perform the following operations: $$$3 \xrightarrow{d = 3} 6 \xrightarrow{d = 2} 8$$$;
+  - $$$4$$$ is a generator of $$$10$$$ since we can perform the following operations: $$$4 \xrightarrow{d = 4} 8 \xrightarrow{d = 2} 10$$$;
+  - $$$5$$$ is not a generator of $$$6$$$ since we cannot transform $$$5$$$ into $$$6$$$ with the operation above.
+Now, Kevin gives you an array $$$a$$$ consisting of $$$n$$$ pairwise distinct integers ($$$a_i\ge 2$$$).
+You have to find an integer $$$x\ge 2$$$ such that for each $$$1\le i\le n$$$, $$$x$$$ is a generator of $$$a_i$$$, or determine that such an integer does not exist.
+Tags -brute force
+Tags -constructive algorithms
+Tags -math
+Tags -number theory
+Tags -*2100

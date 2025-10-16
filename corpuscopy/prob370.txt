@@ -1,0 +1,9 @@
+A. Distanced Coloring
+You received an n×m grid from a mysterious source. The source also gave you a magic positive integer constant k.
+The source told you to color the grid with some colors, satisfying the following condition:
+  - If (x1,y1), (x2,y2) are two distinct cells with the same color, then max(|x1−x2|,|y1−y2|)≥k.
+You don't like using too many colors. Please find the minimum number of colors needed to color the grid.
+Tags -constructive algorithms
+Tags -implementation
+Tags -math
+Tags -*800

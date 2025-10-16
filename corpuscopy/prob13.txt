@@ -1,0 +1,11 @@
+C. Palindromic Subsequences
+
+For an integer sequence a=[a1,a2,…,an], we define f(a) as the length of the longest subsequence∗ of a that is a palindrome†.
+Let g(a) represent the number of subsequences of length f(a) that are palindromes. In other words, g(a) counts the number of palindromic subsequences in a that have the maximum length.
+Given an integer n, your task is to find any sequence a of n integers that satisfies the following conditions:
+  - 1≤ai≤n for all 1≤i≤n.
+  - g(a)>n
+It can be proven that such a sequence always exists under the given constraints.
+Tags -brute force
+Tags -constructive algorithms
+Tags -math

@@ -1,0 +1,11 @@
+C. Trinity
+You are given an array 𝑎a of 𝑛n elements 𝑎1,𝑎2,…,𝑎𝑛a1,a2,…,an.
+You can perform the following operation any number (possibly 00) of times:
+  - Choose two integers 𝑖i and 𝑗j, where 1≤𝑖,𝑗≤𝑛1≤i,j≤n, and assign 𝑎𝑖:=𝑎𝑗ai:=aj.
+Find the minimum number of operations required to make the array 𝑎a satisfy the condition:
+  - For every pairwise distinct triplet of indices (𝑥,𝑦,𝑧)(x,y,z) (1≤𝑥,𝑦,𝑧≤𝑛1≤x,y,z≤n, 𝑥≠𝑦x≠y, 𝑦≠𝑧y≠z, 𝑥≠𝑧x≠z), there exists a non-degenerate triangle with side lengths 𝑎𝑥ax, 𝑎𝑦ay and 𝑎𝑧az, i.e. 𝑎𝑥+𝑎𝑦>𝑎𝑧ax+ay>az, 𝑎𝑦+𝑎𝑧>𝑎𝑥ay+az>ax and 𝑎𝑧+𝑎𝑥>𝑎𝑦az+ax>ay.
+Tags -binary search
+Tags -math
+Tags -sortings
+Tags -two pointers
+Tags -*1400

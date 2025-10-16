@@ -1,0 +1,16 @@
+E. Sakurako, Kosuke, and the Permutation
+Sakurako's exams are over, and she did excellently. As a reward, she received a permutation 𝑝p. Kosuke was not entirely satisfied because he failed one exam and did not receive a gift. He decided to sneak into her room (thanks to the code for her lock) and spoil the permutation so that it becomes simple.
+A permutation 𝑝p is considered simple if for every 𝑖i (1≤𝑖≤𝑛)(1≤i≤n) one of the following conditions holds:
+  - 𝑝𝑖=𝑖pi=i
+  - 𝑝𝑝𝑖=𝑖ppi=i
+For example, the permutations [1,2,3,4][1,2,3,4], [5,2,4,3,1][5,2,4,3,1], and [2,1][2,1] are simple, while [2,3,1][2,3,1] and [5,2,1,4,3][5,2,1,4,3] are not.
+In one operation, Kosuke can choose indices 𝑖,𝑗i,j (1≤𝑖,𝑗≤𝑛)(1≤i,j≤n) and swap the elements 𝑝𝑖pi and 𝑝𝑗pj.
+Sakurako is about to return home. Your task is to calculate the minimum number of operations that Kosuke needs to perform to make the permutation simple.
+Tags -brute force
+Tags -data structures
+Tags -dfs and similar
+Tags -dsu
+Tags -graphs
+Tags -greedy
+Tags -math
+Tags -*1400

@@ -1,0 +1,12 @@
+B. Angry Monk
+To celebrate his recovery, k1o0n has baked an enormous n metres long potato casserole.
+Turns out, Noobish_Monk just can't stand potatoes, so he decided to ruin k1o0n's meal. He has cut it into k pieces, of lengths a1,a2,…,ak meters.
+k1o0n wasn't keen on that. Luckily, everything can be fixed. In order to do that, k1o0n can do one of the following operations:
+  - Pick a piece with length ai≥2 and divide it into two pieces with lengths 1 and ai−1. As a result, the number of pieces will increase by 1;
+  - Pick a slice ai and another slice with length aj=1 (i≠j) and merge them into one piece with length ai+1. As a result, the number of pieces will decrease by 1.
+Help k1o0n to find the minimum number of operations he needs to do in order to merge the casserole into one piece with length n.
+For example, if n=5, k=2 and a=[3,2], it is optimal to do the following:
+Tags -greedy
+Tags -math
+Tags -sortings
+Tags -*800

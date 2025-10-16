@@ -1,0 +1,7 @@
+C. The Legend of Freya the Frog
+Freya the Frog is traveling on the 2D coordinate plane. She is currently at point (0,0)(0,0) and wants to go to point (𝑥,𝑦)(x,y). In one move, she chooses an integer 𝑑d such that 0≤𝑑≤𝑘0≤d≤k and jumps 𝑑d spots forward in the direction she is facing.
+Initially, she is facing the positive 𝑥x direction. After every move, she will alternate between facing the positive 𝑥x direction and the positive 𝑦y direction (i.e., she will face the positive 𝑦y direction on her second move, the positive 𝑥x direction on her third move, and so on).
+What is the minimum amount of moves she must perform to land on point (𝑥,𝑦)(x,y)?
+Tags -implementation
+Tags -math
+Tags -*1100

@@ -1,0 +1,7 @@
+B. Bessie and MEX
+Farmer John has a permutation 𝑝1,𝑝2,…,𝑝𝑛p1,p2,…,pn, where every integer from 00 to 𝑛−1n−1 occurs exactly once. He gives Bessie an array 𝑎a of length 𝑛n and challenges her to construct 𝑝p based on 𝑎a.
+The array 𝑎a is constructed so that 𝑎𝑖ai = 𝙼𝙴𝚇(𝑝1,𝑝2,…,𝑝𝑖)−𝑝𝑖MEX(p1,p2,…,pi)−pi, where the 𝙼𝙴𝚇MEX of an array is the minimum non-negative integer that does not appear in that array. For example, 𝙼𝙴𝚇(1,2,3)=0MEX(1,2,3)=0 and 𝙼𝙴𝚇(3,1,0)=2MEX(3,1,0)=2.
+Help Bessie construct any valid permutation 𝑝p that satisfies 𝑎a. The input is given in such a way that at least one valid 𝑝p exists. If there are multiple possible 𝑝p, it is enough to print one of them.
+Tags -constructive algorithms
+Tags -math
+Tags -*1100

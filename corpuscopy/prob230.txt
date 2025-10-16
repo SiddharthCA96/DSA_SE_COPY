@@ -1,0 +1,8 @@
+B. Stalin Sort
+Stalin Sort is a humorous sorting algorithm designed to eliminate elements which are out of place instead of bothering to sort them properly, lending itself to an (𝑛)O(n) time complexity.
+It goes as follows: starting from the second element in the array, if it is strictly smaller than the previous element (ignoring those which have already been deleted), then delete it. Continue iterating through the array until it is sorted in non-decreasing order. For example, the array [1,4,2,3,6,5,5,7,7][1,4,2,3,6,5,5,7,7] becomes [1,4,6,7,7][1,4,6,7,7] after a Stalin Sort.
+We define an array as vulnerable if you can sort it in non-increasing order by repeatedly applying a Stalin Sort to any of its subarrays∗∗, as many times as is needed.
+Given an array 𝑎a of 𝑛n integers, determine the minimum number of integers which must be removed from the array to make it vulnerable.
+Tags -brute force
+Tags -greedy
+Tags -*1100

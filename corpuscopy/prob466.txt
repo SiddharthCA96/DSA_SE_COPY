@@ -1,0 +1,9 @@
+C. Increasing Sequence with Fixed OR
+You are given a positive integer 𝑛n. Find the longest sequence of positive integers 𝑎=[𝑎1,𝑎2,…,𝑎𝑘]a=[a1,a2,…,ak] that satisfies the following conditions, and print the sequence:
+  - 𝑎𝑖≤𝑛ai≤n for all 1≤𝑖≤𝑘1≤i≤k.
+  - 𝑎a is strictly increasing. That is, 𝑎𝑖>𝑎𝑖−1ai>ai−1 for all 2≤𝑖≤𝑘2≤i≤k.
+  - 𝑎𝑖|𝑎𝑖−1=𝑛ai|ai−1=n for all 2≤𝑖≤𝑘2≤i≤k, where || denotes the bitwise OR operation.
+Tags -bitmasks
+Tags -constructive algorithms
+Tags -greedy
+Tags -*1300

@@ -1,0 +1,12 @@
+B. Buying Lemonade
+There is a vending machine that sells lemonade. The machine has a total of n slots. You know that initially, the i-th slot contains ai cans of lemonade. There are also n buttons on the machine, each button corresponds to a slot, with exactly one button corresponding to each slot. Unfortunately, the labels on the buttons have worn off, so you do not know which button corresponds to which slot.
+When you press the button corresponding to the i-th slot, one of two events occurs:
+  - If there is a can of lemonade in the i-th slot, it will drop out and you will take it. At this point, the number of cans in the i-th slot decreases by 1.
+  - If there are no cans of lemonade left in the i-th slot, nothing will drop out.
+After pressing, the can drops out so quickly that it is impossible to track from which slot it fell. The contents of the slots are hidden from your view, so you cannot see how many cans are left in each slot. The only thing you know is the initial number of cans in the slots: a1,a2,…,an.
+Determine the minimum number of button presses needed to guarantee that you receive at least k cans of lemonade.
+Note that you can adapt your strategy during the button presses based on whether you received a can or not. It is guaranteed that there are at least k cans of lemonade in total in the machine. In other words, k≤a1+a2+…+an.
+Tags -binary search
+Tags -constructive algorithms
+Tags -sortings
+Tags -*1100

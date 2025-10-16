@@ -1,0 +1,12 @@
+F. Orangutan Approved Subarrays
+Suppose you have an array b. Initially, you also have a set S that contains all distinct elements of b. The array b is called orangutan-approved if it can be emptied by repeatedly performing the following operation:
+  - In one operation, select indices l and r (1≤l≤r≤|b|) such that v=bl=bl+1=…=br and v is present in S. Remove v from S, and simultaneously remove all bi such that l≤i≤r. Then, reindex the elements br+1,br+2,… as bl,bl+1,… accordingly.
+You are given an array a of length n and q queries.
+Each query consists of two indices l and r (1≤l≤r≤n), and you need to determine whether or not the subarray al,al+1,…,ar is orangutan-approved.
+Tags -binary search
+Tags -data structures
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -two pointers
+Tags -*2400

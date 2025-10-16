@@ -1,0 +1,7 @@
+A. Phone Desktop
+Little Rosie has a phone with a desktop (or launcher, as it is also called). The desktop can consist of several screens. Each screen is represented as a grid of size 5×35×3, i.e., five rows and three columns.
+There are 𝑥x applications with an icon size of 1×11×1 cells; such an icon occupies only one cell of the screen. There are also 𝑦y applications with an icon size of 2×22×2 cells; such an icon occupies a square of 44 cells on the screen. Each cell of each screen can be occupied by no more than one icon.
+Rosie wants to place the application icons on the minimum number of screens. Help her find the minimum number of screens needed.
+Tags -greedy
+Tags -math
+Tags -*800

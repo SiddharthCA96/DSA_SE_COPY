@@ -1,0 +1,9 @@
+D. Inaccurate Subsequence Search
+Maxim has an array a of n integers and an array b of m integers (m≤n).
+Maxim considers an array c of length m to be good if the elements of array c can be rearranged in such a way that at least k of them match the elements of array b.
+For example, if b=[1,2,3,4] and k=3, then the arrays [4,1,2,3] and [2,3,4,5] are good (they can be reordered as follows: [1,2,3,4] and [5,2,3,4]), while the arrays [3,4,5,6] and [3,4,3,4] are not good.
+Maxim wants to choose every subsegment of array a of length m as the elements of array c. Help Maxim count how many selected arrays will be good.
+In other words, find the number of positions 1≤l≤n−m+1 such that the elements al,al+1,…,al+m−1 form a good array.
+Tags -data structures
+Tags -two pointers
+Tags -*1400

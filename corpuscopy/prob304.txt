@@ -1,0 +1,16 @@
+E. Rock-Paper-Scissors Bot
+Rock-Paper-Scissors is a game for two players. It is played in rounds. During each round, every player chooses one of three moves: Rock, Paper, or Scissors. Depending on the chosen moves, the following happens:
+  - if one player chooses Rock and the other player chooses Paper, the player who chooses Paper wins and gets a point;
+  - if one player chooses Scissors and the other player chooses Paper, the player who chooses Scissors wins and gets a point;
+  - if one player chooses Scissors and the other player chooses Rock, the player who chooses Rock wins and gets a point;
+  - and if both players choose the same move, nobody wins and nobody gets a point.
+Monocarp decided to play against a bot. During the game, Monocarp noticed that the bot's behavior is very predictable:
+  - in the first round, it chooses Rock;
+  - in every round except the first, it chooses the move that beats the opponent's move in the previous round (for example, if in the previous round its opponent played Scissors, then the bot chooses Rock now).
+Monocarp has a favorite string s, consisting of the characters R, P, and/or S. Monocarp decided to play a series of rounds against the bot. However, he wants both of the following conditions to be met:
+  - the final score is in favor of Monocarp (i. e., the number of rounds he won is strictly greater than the number of rounds the bot won);
+  - the string s appears as a contiguous substring in the sequence of the bot's moves (where R denotes Rock, P denotes Paper, and S denotes Scissors).
+Help Monocarp and calculate the minimum number of rounds he needs to play against the bot to satisfy both of the aforementioned conditions.
+Tags -*special problem
+Tags -greedy
+Tags -strings

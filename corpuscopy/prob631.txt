@@ -1,0 +1,10 @@
+A. Card Exchange
+You have a hand of n cards, where each card has a number written on it, and a fixed integer k. You can perform the following operation any number of times:
+  - Choose any k cards from your hand that all have the same number.
+  - Exchange these cards for k−1 cards, each of which can have any number you choose (including the number written on the cards you just exchanged).
+Here is one possible sequence of operations for the first example case, which has k=3:
+What is the minimum number of cards you can have in your hand at the end of this process?
+Tags -constructive algorithms
+Tags -games
+Tags -greedy
+Tags -*800

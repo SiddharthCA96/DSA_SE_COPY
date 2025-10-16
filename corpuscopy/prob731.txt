@@ -1,0 +1,8 @@
+D. Seraphim the Owl
+The guys lined up in a queue of n people, starting with person number i=1, to ask Serafim the Owl about the meaning of life. Unfortunately, Kirill was very busy writing the legend for this problem, so he arrived a little later and stood at the end of the line after the n-th person. Kirill is completely dissatisfied with this situation, so he decided to bribe some people ahead of him.
+For the i-th person in the queue, Kirill knows two values: ai and bi. If at the moment Kirill is standing at position i, then he can choose any position j such that j<i and exchange places with the person at position j. In this case, Kirill will have to pay him aj coins. And for each k such that j<k<i, Kirill will have to pay bk coins to the person at position k. Kirill can perform this action any number of times.
+Kirill is thrifty, so he wants to spend as few coins as possible, but he doesn't want to wait too long, so Kirill believes he should be among the first m people in line.
+Help Kirill determine the minimum number of coins he will have to spend in order to not wait too long.
+Tags -dp
+Tags -greedy
+Tags -*1300

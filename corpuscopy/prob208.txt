@@ -1,0 +1,10 @@
+B. Minimise Oneness
+For an arbitrary binary string t∗, let f(t) be the number of non-empty subsequences† of t that contain only 0, and let g(t) be the number of non-empty subsequences of t that contain at least one 1.
+Note that for f(t) and for g(t), each subsequence is counted as many times as it appears in t. E.g., f(000)=7,g(100)=4.
+We define the oneness of the binary string t to be |f(t)−g(t)|, where for an arbitrary integer z, |z| represents the absolute value of z.
+You are given a positive integer n. Find a binary string s of length n such that its oneness is as small as possible. If there are multiple strings, you can print any of them.
+Tags -combinatorics
+Tags -constructive algorithms
+Tags -games
+Tags -math
+Tags -*800

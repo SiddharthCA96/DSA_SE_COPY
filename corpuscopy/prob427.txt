@@ -1,0 +1,13 @@
+F2. Dyn-scripted Robot (Hard Version)
+This is the hard version of the problem. The only difference is that in this version k≤1012. You can make hacks only if both versions of the problem are solved.
+Given a w×h rectangle on the Oxy plane, with points (0,0) at the bottom-left and (w,h) at the top-right of the rectangle.
+You also have a robot initially at point (0,0) and a script s of n characters. Each character is either L, R, U, or D, which tells the robot to move left, right, up, or down respectively.
+The robot can only move inside the rectangle; otherwise, it will change the script s as follows:
+  - If it tries to move outside a vertical border, it changes all L characters to R's (and vice versa, all R's to L's).
+  - If it tries to move outside a horizontal border, it changes all U characters to D's (and vice versa, all D's to U's).
+Then, it will execute the changed script starting from the character which it couldn't execute.
+The script s will be executed for k times continuously. All changes to the string s will be retained even when it is repeated. During this process, how many times will the robot move to the point (0,0) in total? Note that the initial position does NOT count.
+Tags -chinese remainder theorem
+Tags -math
+Tags -number theory
+Tags -*2800

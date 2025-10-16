@@ -1,0 +1,9 @@
+E. Wooden Game
+You are given a forest of k rooted trees∗. Lumberjack Timofey wants to cut down the entire forest by applying the following operation:
+  - Select a subtree† of any vertex of one of the trees and remove it from the tree.
+Timofey loves bitwise operations, so he wants the bitwise OR of the sizes of the subtrees he removed to be maximum. Help him and find the maximum result he can obtain.
+Tags -bitmasks
+Tags -greedy
+Tags -math
+Tags -trees
+Tags -*2000

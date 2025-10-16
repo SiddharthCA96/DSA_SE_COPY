@@ -1,0 +1,18 @@
+F. Nim
+Recall the rules of the game "Nim". There are n piles of stones, where the i-th pile initially contains some number of stones. Two players take turns choosing a non-empty pile and removing any positive (strictly greater than 0) number of stones from it. The player unable to make a move loses the game.
+You are given an array a, consisting of n integers. Artem and Ruslan decided to play Nim on segments of this array. Each of the q rounds is defined by a segment (li,ri), where the elements ali,ali+1,…,ari represent the sizes of the piles of stones.
+Before the game starts, Ruslan can remove any number of piles from the chosen segment. However, at least one pile must remain, so in a single round he can remove at most (ri−li) piles. He is allowed to remove 0 piles. After the removal, the game is played on the remaining piles within the segment.
+All rounds are independent: the changes made in one round do not affect the original array or any other rounds.
+Ruslan wants to remove as many piles as possible so that Artem, who always makes the first move, loses.
+For each round, determine:
+Two ways are considered different if there exists an index i such that the pile at index i is removed in one way but not in the other. Since the number of ways can be large, output it modulo 998244353.
+If Ruslan cannot ensure Artem's loss in a particular round, output -1 for that round.
+Tags -bitmasks
+Tags -brute force
+Tags -combinatorics
+Tags -dp
+Tags -games
+Tags -greedy
+Tags -implementation
+Tags -shortest paths
+Tags -*2700

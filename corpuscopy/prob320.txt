@@ -1,0 +1,6 @@
+B. osu!mania
+You are playing your favorite rhythm game, osu!mania. The layout of your beatmap consists of n rows and 4 columns. Because notes at the bottom are closer, you will process the bottommost row first and the topmost row last. Each row will contain exactly one note, represented as a '#'.
+For each note 1,2,…,n, in the order of processing, output the column in which the note appears.
+Tags -brute force
+Tags -implementation
+Tags -*800

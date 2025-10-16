@@ -1,0 +1,15 @@
+G. Naive String Splits
+Cocoly has a string t of length m, consisting of lowercase English letters, and he would like to split it into parts. He calls a pair of strings (x,y) beautiful if and only if there exists a sequence of strings a1,a2,…,ak, such that:
+  - t=a1+a2+…+ak, where + denotes string concatenation.
+  - For each 1≤i≤k, at least one of the following holds: ai=x, or ai=y.
+Cocoly has another string s of length n, consisting of lowercase English letters. Now, for each 1≤i<n, Cocoly wants you to determine whether the pair of strings (s1s2…si,si+1si+2…sn) is beautiful.
+Note: since the input and output are large, you may need to optimize them for this problem.
+For example, in C++, it is enough to use the following lines at the start of the main() function:
+Tags -binary search
+Tags -brute force
+Tags -greedy
+Tags -hashing
+Tags -math
+Tags -number theory
+Tags -strings
+Tags -*3400

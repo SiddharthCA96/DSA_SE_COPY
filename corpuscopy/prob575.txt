@@ -1,0 +1,11 @@
+B. Cat, Fox and the Lonely Array
+Today, Cat and Fox found an array a consisting of n non-negative integers.
+Define the loneliness of a as the smallest positive integer k (1≤k≤n) such that for any two positive integers i and j (1≤i,j≤n−k+1), the following holds: ai|ai+1|…|ai+k−1=aj|aj+1|…|aj+k−1, where x|y denotes the bitwise OR of x and y. In other words, for every k consecutive elements, their bitwise OR should be the same. Note that the loneliness of a is well-defined, because for k=n the condition is satisfied.
+Cat and Fox want to know how lonely the array a is. Help them calculate the loneliness of the found array.
+Tags -binary search
+Tags -bitmasks
+Tags -data structures
+Tags -greedy
+Tags -math
+Tags -two pointers
+Tags -*1300

@@ -1,0 +1,5 @@
+L. Buggy DFS
+You are currently studying a graph traversal algorithm called the Depth First Search (DFS). However, due to a bug, your algorithm is slightly different from the standard DFS. The following is an algorithm for your Buggy DFS (BDFS), assuming the graph has N nodes (numbered from 1 to N).
+You realized that the bug made the algorithm slower than standard DFS, which can be investigated by the return value of the function BDFS(). To investigate the behavior of this algorithm, you want to make some test cases by constructing an undirected simple graph such that the function BDFS() returns K, or determine if it is impossible to do so.
+Tags -constructive algorithms
+Tags -*3000

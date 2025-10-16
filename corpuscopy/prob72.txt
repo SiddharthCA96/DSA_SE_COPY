@@ -1,0 +1,12 @@
+E2. Cheops and a Contest (Hard Version)
+
+This is the hard version of the problem. The difference between the versions is that in this version, $$$m$$$ is arbitrary. You can hack only if you solved all versions of this problem.
+There is a problem-solving competition in Ancient Egypt with $$$n$$$ participants, numbered from $$$1$$$ to $$$n$$$. Each participant comes from a certain city; the cities are numbered from $$$1$$$ to $$$m$$$. There is at least one participant from each city.
+The $$$i$$$-th participant has strength $$$a_i$$$, specialization $$$s_i$$$, and wisdom $$$b_i$$$, so that $$$b_i \ge a_i$$$. Each problem in the competition will have a difficulty $$$d$$$ and a unique topic $$$t$$$. The $$$i$$$-th participant will solve the problem if
+  - $$$a_i \ge d$$$, i.e., their strength is not less than the problem's difficulty, or
+  - $$$s_i = t$$$, and $$$b_i \ge d$$$, i.e., their specialization matches the problem's topic, and their wisdom is not less than the problem's difficulty.
+Cheops wants to choose the problems in such a way that each participant from city $$$i$$$ will solve strictly more problems than each participant from city $$$j$$$, for all $$$i < j$$$.
+Please find a set of at most $$$5n$$$ problems, where the topics of all problems are distinct, so that Cheops' will is satisfied, or state that it is impossible.
+Tags -greedy
+Tags -implementation
+Tags -*3500

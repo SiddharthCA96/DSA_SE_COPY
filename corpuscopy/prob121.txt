@@ -1,0 +1,6 @@
+C. Cube
+You are given an n×n×n big three-dimensional cube that contains n3 numbers. You have to choose n of those numbers so that their sum is as small as possible. It is, however, forbidden to choose two numbers that are located in the same plane. That is, if we identify the positions in the cube by three Cartesian coordinates, then choosing two numbers from positions (x,y,z) and (x′,y′,z′) is forbidden if x=x′, y=y′, or z=z′.
+Tags -bitmasks
+Tags -dfs and similar
+Tags -dp
+Tags -*2000

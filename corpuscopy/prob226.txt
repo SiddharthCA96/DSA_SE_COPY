@@ -1,0 +1,12 @@
+E1. Bit Game (Easy Version)
+This is the easy version of this problem. The only difference is that you need to output the winner of the game in this version, and the number of stones in each pile are fixed. You must solve both versions to be able to hack.
+Alice and Bob are playing a familiar game where they take turns removing stones from n piles. Initially, there are xi stones in the i-th pile, and it has an associated value ai. A player can take d stones away from the i-th pile if and only if both of the following conditions are met:
+  - 1≤d≤ai, and
+  - x&d=d, where x is the current number of stones in the i-th pile and & denotes the bitwise AND operation.
+The player who cannot make a move loses, and Alice goes first.
+You're given the ai and xi values for each pile, please determine who will win the game if both players play optimally.
+Tags -bitmasks
+Tags -brute force
+Tags -games
+Tags -math
+Tags -*2800

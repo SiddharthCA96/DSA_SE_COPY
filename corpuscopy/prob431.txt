@@ -1,0 +1,8 @@
+C. Light Switches
+There is an apartment consisting of n rooms, each with its light initially turned off.
+To control the lights in these rooms, the owner of the apartment decided to install chips in the rooms so that each room has exactly one chip, and the chips are installed at different times. Specifically, these times are represented by the array a1,a2,…,an, where ai is the time (in minutes) at which a chip is installed in the i-th room.
+As soon as a chip is installed, it changes the room's light status every k minutes — it turns on the light for k minutes, then turns it off for the next k minutes, then turns it back on for the next k minutes, and so on. In other words, the light status is changed by the chip at minute ai, ai+k, ai+2k, ai+3k, … for the i-th room.
+What is the earliest moment when all rooms in the apartment have their lights turned on?
+Tags -implementation
+Tags -math
+Tags -*1400

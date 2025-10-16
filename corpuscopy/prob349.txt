@@ -1,0 +1,12 @@
+D. Colored Portals
+There are n𝑛 cities located on a straight line. The cities are numbered from 11 to n𝑛.
+Portals are used to move between cities. There are 44 colors of portals: blue, green, red, and yellow. Each city has portals of two different colors. You can move from city i𝑖 to city j𝑗 if they have portals of the same color (for example, you can move between a "blue-red" city and a "blue-green" city). This movement costs |i−j||𝑖−𝑗| coins.
+Your task is to answer q𝑞 independent queries: calculate the minimum cost to move from city x𝑥 to city y𝑦.
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -graphs
+Tags -greedy
+Tags -implementation
+Tags -shortest paths
+Tags -*1600

@@ -1,0 +1,11 @@
+D. Scarecrow
+
+A crow is sitting at position 00 of the number line. There are 𝑛n scarecrows positioned at integer coordinates 𝑎1,𝑎2,…,𝑎𝑛a1,a2,…,an along the number line. These scarecrows have been enchanted, allowing them to move left and right at a speed of 11 unit per second.
+The crow is afraid of scarecrows and wants to stay at least a distance of 𝑘k ahead of the nearest scarecrow positioned at or before it. To do so, the crow uses its teleportation ability as follows:
+  - Let 𝑥x be the current position of the crow, and let 𝑦y be the largest position of a scarecrow such that 𝑦≤𝑥y≤x. If 𝑥−𝑦<𝑘x−y<k, meaning the scarecrow is too close, the crow will instantly teleport to position 𝑦+𝑘y+k.
+This teleportation happens instantly and continuously. The crow will keep checking for scarecrows positioned at or to the left of him and teleport whenever one gets too close (which could happen at non-integral times). Note that besides this teleportation ability, the crow will not move on its own.
+Your task is to determine the minimum time required to make the crow teleport to a position greater than or equal to ℓℓ, assuming the scarecrows move optimally to allow the crow to reach its goal. For convenience, you are asked to output twice the minimum time needed for the crow to reach the target position ℓℓ. It can be proven that this value will always be an integer.
+Note that the scarecrows can start, stop, or change direction at any time (possibly at non-integral times).
+Tags -greedy
+Tags -implementation
+Tags -math

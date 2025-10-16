@@ -1,0 +1,14 @@
+F. Tree Operations
+One day, a turtle gives you a tree with n nodes rooted at node x. Each node has an initial nonnegative value; the i-th node has starting value ai.
+You want to make the values of all nodes equal to 0. To do so, you will perform a series of operations on the tree, where each operation will be performed on a certain node. Define an operation on node u as choosing a single node in u's subtree∗ and incrementing or decrementing its value by 1. The order in which operations are performed on nodes is as follows:
+  - For 1≤i≤n, the i-th operation will be performed on node i.
+  - For i>n, the i-th operation will be performed on the same node as operation i−n.
+More formally, the i-th operation will be performed on the (((i−1)mod-th node.^{\text{†}}
+Note that you cannot skip over operations; that is, you cannot perform the i-th operation without first performing operations 1, 2, \ldots, i - 1.
+Find the minimum number of operations you must perform before you can make the values of all nodes equal to 0, assuming you pick operations optimally. If it's impossible to make the values of all nodes equal to 0 after finite operations, output -1.
+Tags -binary search
+Tags -brute force
+Tags -dfs and similar
+Tags -dp
+Tags -trees
+Tags -*2500

@@ -1,0 +1,12 @@
+B. Game with Doors
+There are 100100 rooms arranged in a row and 9999 doors between them; the i-th door connects rooms i and i+1. Each door can be either locked or unlocked. Initially, all doors are unlocked.
+We say that room x is reachable from room y if all doors between them are unlocked.
+You know that:
+  - Alice is in some room from the segment [l,r];
+  - Bob is in some room from the segment [L,R];
+  - Alice and Bob are in different rooms.
+However, you don't know the exact rooms they are in.
+You don't want Alice and Bob to be able to reach each other, so you are going to lock some doors to prevent that. What's the smallest number of doors you have to lock so that Alice and Bob cannot meet, regardless of their starting positions inside the given segments?
+Tags -brute force
+Tags -greedy
+Tags -*1000

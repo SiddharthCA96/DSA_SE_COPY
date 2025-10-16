@@ -1,0 +1,7 @@
+B. A BIT of a Construction
+Given integers n and k, construct a sequence of n non-negative (i.e. ≥0) integers a1,a2,…,an such that
+Tags -bitmasks
+Tags -constructive algorithms
+Tags -greedy
+Tags -implementation
+Tags -*1100

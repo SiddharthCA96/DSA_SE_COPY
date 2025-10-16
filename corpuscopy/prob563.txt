@@ -1,0 +1,10 @@
+A. Bazoka and Mocha's Array
+Mocha likes arrays, so before her departure, Bazoka gave her an array a consisting of n positive integers as a gift.
+Now Mocha wants to know whether array a could become sorted in non-decreasing order after performing the following operation some (possibly, zero) times:
+  - Split the array into two parts — a prefix and a suffix, then swap these two parts. In other words, let a=x+y. Then, we can set a:=y+x. Here + denotes the array concatenation operation.
+For example, if a=[3,1,4,1,5], we can choose x=[3,1] and y=[4,1,5], satisfying a=x+y. Then, we can set a:=y+x=[4,1,5,3,1]. We can also choose x=[3,1,4,1,5] and y=[], satisfying a=x+y. Then, we can set a:=y+x=[3,1,4,1,5]. Note that we are not allowed to choose x=[3,1,1] and y=[4,5], neither are we allowed to choose x=[1,3] and y=[5,1,4], as both these choices do not satisfy a=x+y.
+Tags -brute force
+Tags -greedy
+Tags -implementation
+Tags -sortings
+Tags -*800

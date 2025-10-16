@@ -1,0 +1,10 @@
+A. Split the Multiset
+A multiset is a set of numbers in which there can be equal elements, and the order of the numbers does not matter. For example, {2,2,4}{2,2,4} is a multiset.
+You have a multiset S. Initially, the multiset contains only one positive integer n. That is, S={n}. Additionally, there is a given positive integer k.
+In one operation, you can select any positive integer u in S and remove one copy of u from S. Then, insert no more than k positive integers into S so that the sum of all inserted integers is equal to u.
+Find the minimum number of operations to make S contain n ones.
+Tags -brute force
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*900

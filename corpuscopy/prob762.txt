@@ -1,0 +1,9 @@
+A. Shuffle Party
+You are given an array a1,a2,…,an. Initially, ai=i for each 1≤i≤n.
+The operation swap(k) for an integer k≥2 is defined as follows:
+  - Let d be the largest divisor† of k which is not equal to k itself. Then swap the elements ad and ak.
+Suppose you perform swap(i) for each i=2,3,…,n in this exact order. Find the position of 1 in the resulting array. In other words, find such j that aj=1 after performing these operations.
+† An integer x is a divisor of y if there exists an integer z such that y=x⋅z.
+Tags -implementation
+Tags -math
+Tags -*800

@@ -1,0 +1,15 @@
+F. Set
+Define the binary encoding of a finite set of natural numbers T⊆{0,1,2,…}𝑇⊆{0,1,2,…} as f(T)=∑i∈T2i𝑓(𝑇)=∑𝑖∈𝑇2𝑖. For example, f({0,2})=20+22=5𝑓({0,2})=20+22=5 and f({})=0𝑓({})=0. Notice that f𝑓 is a bijection from all such sets to all non-negative integers. As such, f−1𝑓−1 is also defined.
+You are given an integer n𝑛 along with 2n−12𝑛−1 sets V1,V2,…,V2n−1𝑉1,𝑉2,…,𝑉2𝑛−1.
+Find all sets S𝑆 that satisfy the following constraint:
+  - S⊆{0,1,…,n−1}𝑆⊆{0,1,…,𝑛−1}. Note that S𝑆 can be empty.
+  - For all non-empty subsets T⊆{0,1,…,n−1}𝑇⊆{0,1,…,𝑛−1}, |S∩T|∈Vf(T)|𝑆∩𝑇|∈𝑉𝑓(𝑇).
+Due to the large input and output, both input and output will be given in terms of binary encodings of the sets.
+Tags -bitmasks
+Tags -brute force
+Tags -combinatorics
+Tags -dfs and similar
+Tags -divide and conquer
+Tags -dp
+Tags -math
+Tags -*2600

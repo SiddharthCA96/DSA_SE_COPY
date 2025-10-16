@@ -1,0 +1,15 @@
+E. Reverse the Rivers
+A conspiracy of ancient sages, who decided to redirect rivers for their own convenience, has put the world on the brink. But before implementing their grand plan, they decided to carefully think through their strategy — that's what sages do.
+There are $$$n$$$ countries, each with exactly $$$k$$$ regions. For the $$$j$$$-th region of the $$$i$$$-th country, they calculated the value $$$a_{i,j}$$$, which reflects the amount of water in it.
+The sages intend to create channels between the $$$j$$$-th region of the $$$i$$$-th country and the $$$j$$$-th region of the $$$(i + 1)$$$-th country for all $$$1 \leq i \leq (n - 1)$$$ and for all $$$1 \leq j \leq k$$$.
+Since all $$$n$$$ countries are on a large slope, water flows towards the country with the highest number. According to the sages' predictions, after the channel system is created, the new value of the $$$j$$$-th region of the $$$i$$$-th country will be $$$b_{i,j} = a_{1,j} | a_{2,j} | ... | a_{i,j}$$$, where $$$|$$$ denotes the bitwise "OR" operation.
+After the redistribution of water, the sages aim to choose the most suitable country for living, so they will send you $$$q$$$ queries for consideration.
+Each query will contain $$$m$$$ requirements.
+Each requirement contains three parameters: the region number $$$r$$$, the sign $$$o$$$ (either "$$$<$$$" or "$$$>$$$"), and the value $$$c$$$. If $$$o$$$ = "$$$<$$$", then in the $$$r$$$-th region of the country you choose, the new value must be strictly less than the limit $$$c$$$, and if $$$o$$$ = "$$$>$$$", it must be strictly greater.
+In other words, the chosen country $$$i$$$ must satisfy all $$$m$$$ requirements. If in the current requirement $$$o$$$ = "$$$<$$$", then it must hold that $$$b_{i,r} < c$$$, and if $$$o$$$ = "$$$>$$$", then $$$b_{i,r} > c$$$.
+In response to each query, you should output a single integer — the number of the suitable country. If there are multiple such countries, output the smallest one. If no such country exists, output $$$-1$$$.
+Tags -binary search
+Tags -constructive algorithms
+Tags -data structures
+Tags -greedy
+Tags -*1600

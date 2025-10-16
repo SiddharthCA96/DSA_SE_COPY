@@ -1,0 +1,11 @@
+E. Manhattan Triangle
+The Manhattan distance between two points (x1,y1) and (x2,y2) is defined as: |x1−x2|+|y1−y2|.
+We call a Manhattan triangle three points on the plane, the Manhattan distances between each pair of which are equal.
+You are given a set of pairwise distinct points and an even integer d. Your task is to find any Manhattan triangle, composed of three distinct points from the given set, where the Manhattan distance between any pair of vertices is equal to d.
+Tags -binary search
+Tags -constructive algorithms
+Tags -data structures
+Tags -geometry
+Tags -implementation
+Tags -two pointers
+Tags -*2400

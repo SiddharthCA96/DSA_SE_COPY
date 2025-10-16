@@ -1,0 +1,13 @@
+D1. Turtle and a MEX Problem (Easy Version)
+The two versions are different problems. In this version of the problem, you can choose the same integer twice or more. You can make hacks only if both versions are solved.
+One day, Turtle was playing with n sequences. Let the length of the i-th sequence be li. Then the i-th sequence was ai,1,ai,2,…,ai,li.
+Piggy gave Turtle a problem to solve when Turtle was playing. The statement of the problem was:
+  - There was a non-negative integer x at first. Turtle would perform an arbitrary number (possibly zero) of operations on the integer.
+  - In each operation, Turtle could choose an integer i such that 1≤i≤n, and set x to mex†(x,ai,1,ai,2,…,ai,li).
+  - Turtle was asked to find the answer, which was the maximum value of x after performing an arbitrary number of operations.
+Turtle solved the above problem without difficulty. He defined f(k) as the answer to the above problem when the initial value of x was k.
+Then Piggy gave Turtle a non-negative integer m and asked Turtle to find the value of m∑i=0f(i) (i.e., the value of f(0)+f(1)+…+f(m)). Unfortunately, he couldn't solve this problem. Please help him!
+†mex(c1,c2,…,ck) is defined as the smallest non-negative integer x which does not occur in the sequence c. For example, mex(2,2,0,3) is 1, mex(1,2) is 0.
+Tags -greedy
+Tags -math
+Tags -*1500

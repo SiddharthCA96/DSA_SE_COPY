@@ -1,0 +1,18 @@
+G. Cook and Porridge
+Finally, lunchtime!
+𝑛n schoolchildren have lined up in a long queue at the cook's tent for porridge. The cook will be serving porridge for 𝐷D minutes. The schoolchild standing in the 𝑖i-th position in the queue has a priority of 𝑘𝑖ki and eats one portion of porridge in 𝑠𝑖si minutes.
+At the beginning of each minute of the break, the cook serves the first schoolchild in the queue one portion of porridge, after which the schoolchild goes to eat their portion. If the 𝑖i-th schoolchild is served a portion at the beginning of the 𝑥x-th minute, then they will return to the queue at the end of the (𝑥+𝑠𝑖)(x+si)-th minute.
+When the 𝑖i-th schoolchild returns to the queue, the schoolchildren at the end of the queue whose priority is strictly lower than that of the 𝑖i-th schoolchild must let them pass. Thus, they will stand in the queue behind the last schoolchild whose priority is not lower than their own. That is, behind the last schoolchild 𝑗j with 𝑘𝑗≥𝑘𝑖kj≥ki. If there is no such schoolchild in the queue, the 𝑖i-th schoolchild will stand at the front of the queue.
+If several schoolchildren return at the same time, they will return to the queue in ascending order of their 𝑠𝑖si.
+For example, if 𝑛=3n=3, 𝐷=3D=3, 𝑘=[2,3,2]k=[2,3,2], and 𝑠=[2,1,3]s=[2,1,3], the serving will occur as follows:
+  - At the beginning of minute 11, the students in the queue are [1,2,3][1,2,3], and student 11 is served porridge;
+  - at the beginning of minute 22, the students in the queue are [2,3][2,3], and student 22 is served porridge;
+  - at the beginning of minute 33, the student in the queue is [3][3], and student 33 is served porridge;
+  - at the end of minute 33, student 22 returns to the queue, and the queue becomes [2][2];
+  - at the end of minute 33, student 11 returns to the queue, and the queue becomes [2,1][2,1], as his priority is lower.
+Determine the minimum number of minutes after the start of the break that each schoolchild will receive porridge at least once, or report that this will not happen within 𝐷D minutes.
+Tags -binary search
+Tags -constructive algorithms
+Tags -data structures
+Tags -implementation
+Tags -*2500

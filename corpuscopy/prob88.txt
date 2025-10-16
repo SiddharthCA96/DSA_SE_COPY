@@ -1,0 +1,7 @@
+C. Saraga
+The word saraga is an abbreviation of sarana olahraga, an Indonesian term for a sports facility. It is created by taking the prefix sara of the word sarana and the suffix ga of the word olahraga. Interestingly, it can also be created by the prefix sa of the word sarana and the suffix raga of the word olahraga.
+An abbreviation of two strings S and T is interesting if there are at least two different ways to split the abbreviation into two non-empty substrings such that the first substring is a prefix of S and the second substring is a suffix of T.
+You are given two strings S and T. You want to create an interesting abbreviation of strings S and T with minimum length, or determine if it is impossible to create an interesting abbreviation.
+Tags -greedy
+Tags -strings
+Tags -*1400

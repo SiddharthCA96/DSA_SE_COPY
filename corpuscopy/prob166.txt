@@ -1,0 +1,11 @@
+G2. Go Learn! (Hard Version)
+The differences between the easy and hard versions are the constraints on n and the sum of n. In this version, n≤3⋅105 and the sum of n does not exceed 106. You can only make hacks if both versions are solved.
+Well, well, well, let's see how Bessie is managing her finances. She seems to be in the trenches! Fortunately, she is applying for a job at Moogle to resolve this issue. Moogle interviews require intensive knowledge of obscure algorithms and complex data structures, but Bessie received a tip-off from an LGM on exactly what she has to go learn.
+Bessie wrote the following code to binary search for a certain element k in a possibly unsorted array [a1,a2,…,an] with n elements.
+Bessie submitted her code to Farmer John's problem with m (1≤m≤n) tests. The i-th test is of the form (xi,ki) (1≤x,k≤n). It is guaranteed all the xi are distinct and all the ki are distinct.
+Test i is correct if the following hold:
+It might not be possible for all m tests to be correct on the same array, so Farmer John will remove some of them so Bessie can AC. Let r be the minimum of tests removed so that there exists an array [a1,a2,…,an] with 1≤ai≤n so that all remaining tests are correct.
+In addition to finding r, Farmer John wants you to count the number of arrays [a1,a2,…,an] with 1≤ai≤n such that there exists a way to remove exactly r tests so that all the remaining tests are correct. Since this number may be very large, please find it modulo 998244353.
+Tags -divide and conquer
+Tags -dp
+Tags -*3500

@@ -1,0 +1,12 @@
+C. Have Your Cake and Eat It Too
+Alice, Bob and Charlie want to share a rectangular cake cut into n pieces. Each person considers every piece to be worth a different value. The i-th piece is considered to be of value ai by Alice, bi by Bob and ci by Charlie.
+The sum over all ai, all bi and all ci individually is the same, equal to tot.
+Given the values of each piece of the cake for each person, you need to give each person a contiguous slice of cake. In other words, the indices at the left and right ends of these subarrays (the slices given to each person) can be represented as (la,ra), (lb,rb) and (lc,rc) respectively for Alice, Bob and Charlie. The division needs to satisfy the following constraints:
+  - No piece is assigned to more than one person, i.e., no two subarrays among [la,…,ra], [lb,…,rb] and [lc,…,rc] intersect.
+  - ∑rai=laai,∑rbi=lbbi,∑rci=lcci≥⌈tot3⌉.
+Here, the notation ⌈ab⌉ represents ceiling division. It is defined as the smallest integer greater than or equal to the exact division of a by b. In other words, it rounds up the division result to the nearest integer. For instance ⌈103⌉=4 and ⌈153⌉=5.
+Tags -binary search
+Tags -brute force
+Tags -greedy
+Tags -implementation
+Tags -*1400

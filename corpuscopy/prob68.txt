@@ -1,0 +1,12 @@
+B. Replace Character
+You're given a string s of length n, consisting of only lowercase English letters.
+You must do the following operation exactly once:
+  - Choose any two indices i and j (1≤i,j≤n). You can choose i=j.
+  - Set si:=sj.
+You need to minimize the number of distinct permutations† of s. Output any string with the smallest number of distinct permutations after performing exactly one operation.
+† A permutation of the string is an arrangement of its characters into any order. For example, "bac" is a permutation of "abc" but "bcc" is not.
+Tags -brute force
+Tags -combinatorics
+Tags -greedy
+Tags -strings
+Tags -*900

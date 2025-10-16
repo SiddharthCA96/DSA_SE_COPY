@@ -1,0 +1,9 @@
+B. Black Cells
+You are given a strip divided into cells, numbered from left to right from 00 to 10181018. Initially, all cells are white.
+You can perform the following operation: choose two white cells i and j, such that i≠j and |i−j|≤k, and paint them black.
+A list a is given. All cells from this list must be painted black. Additionally, at most one cell that is not in this list can also be painted black. Your task is to determine the minimum value of k for which this is possible.
+Tags -binary search
+Tags -brute force
+Tags -constructive algorithms
+Tags -greedy
+Tags -*1300

@@ -1,0 +1,14 @@
+D. Yet Another Real Number Problem
+You are given an array b of length m. You can perform the following operation any number of times (possibly zero):
+  - Choose two distinct indices i and j where 1≤i<j≤m and bi is even, divide bi by 2 and multiply bj by 2.
+Your task is to maximize the sum of the array after performing any number of such operations. Since it could be large, output this sum modulo
+.
+Since this problem is too easy, you are given an array a of length n and need to solve the problem for each prefix of a.
+In other words, denoting the maximum sum of b after performing any number of such operations as f(b), you need to output f([a1]), f([a1,a2]), …, f([a1,a2,…,an]) modulo 109+7 respectively.
+Tags -binary search
+Tags -data structures
+Tags -divide and conquer
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*1800

@@ -1,0 +1,12 @@
+E. Iris's Full Binary Tree
+Iris likes full binary trees.
+Let's define the depth of a rooted tree as the maximum number of vertices on the simple paths from some vertex to the root. A full binary tree of depth d is a binary tree of depth d with exactly 2d−1 vertices.
+Iris calls a tree a d-binary tree if some vertices and edges can be added to it to make it a full binary tree of depth d. Note that any vertex can be chosen as the root of a full binary tree.
+Since performing operations on large trees is difficult, she defines the binary depth of a tree as the minimum d satisfying that the tree is d-binary. Specifically, if there is no integer d≥1 such that the tree is d-binary, the binary depth of the tree is −1.
+Iris now has a tree consisting of only vertex 1. She wants to add n−1 more vertices to form a larger tree. She will add the vertices one by one. When she adds vertex i (2≤i≤n), she'll give you an integer pi (1≤pi<i), and add a new edge connecting vertices i and pi.
+Iris wants to ask you the binary depth of the tree formed by the first i vertices for each 1≤i≤n. Can you tell her the answer?
+Tags -brute force
+Tags -data structures
+Tags -dfs and similar
+Tags -trees
+Tags -*3100

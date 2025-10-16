@@ -1,0 +1,9 @@
+D. Minimize the Difference
+Zhan, tired after the contest, gave the only task that he did not solve during the contest to his friend, Sungat. However, he could not solve it either, so we ask you to try to solve this problem.
+You are given an array 𝑎1,𝑎2,…,𝑎𝑛a1,a2,…,an of length 𝑛n. We can perform any number (possibly, zero) of operations on the array.
+In one operation, we choose a position 𝑖i (1≤𝑖≤𝑛−11≤i≤n−1) and perform the following action:
+  - 𝑎𝑖:=𝑎𝑖−1ai:=ai−1, and 𝑎𝑖+1:=𝑎𝑖+1+1ai+1:=ai+1+1.
+Find the minimum possible value of max(𝑎1,𝑎2,…,𝑎𝑛)−min(𝑎1,𝑎2,…,𝑎𝑛)max(a1,a2,…,an)−min(a1,a2,…,an).
+Tags -binary search
+Tags -greedy
+Tags -*1900

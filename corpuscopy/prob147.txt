@@ -1,0 +1,12 @@
+F. Alternative Platforms
+Suppose you are working in the Ministry of Digital Development of Berland, and your task is to monitor the industry of video blogging.
+There are n𝑛 bloggers in Berland. Recently, due to the poor state of the main video platform in Berland, two alternative platforms were introduced. That's why bloggers started to reupload their videos to these alternative platforms. You've got the statistics that the i𝑖-th blogger uploaded vi𝑣𝑖 videos to the first alternative platform and ri𝑟𝑖 videos to the second alternative platform.
+You think that a potential user will be upset if even at least one of his favorite bloggers doesn't upload anything. However, if a blogger uploads videos to both platforms, the user will watch that blogger on the platform where more videos are available. So, you've come up with the following function to estimate user experience. Suppose a user watches k𝑘 bloggers b1,b2,…,bk𝑏1,𝑏2,…,𝑏𝑘; then, let user experience be E(b1,…,bk)=max(mini=1..kv[bi],mini=1..kr[bi]).𝐸(𝑏1,…,𝑏𝑘)=max(min𝑖=1..𝑘𝑣[𝑏𝑖],min𝑖=1..𝑘𝑟[𝑏𝑖]).
+In order to get some statistics, you want to calculate the value avgkavg𝑘 that is equal to an average experience among all subsets of bloggers of size k𝑘. Also, you have to calculate avgkavg𝑘 for each k𝑘 from 11 to n𝑛.
+Since answers may be too large, print them modulo 998244353998244353.
+Tags -combinatorics
+Tags -data structures
+Tags -fft
+Tags -math
+Tags -sortings
+Tags -*2500

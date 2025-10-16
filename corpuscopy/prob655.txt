@@ -1,0 +1,12 @@
+F. Nene and the Passing Game
+Nene is training her team as a basketball coach. Nene's team consists of n𝑛 players, numbered from 11 to n𝑛. The i𝑖-th player has an arm interval [li,ri][𝑙𝑖,𝑟𝑖]. Two players i𝑖 and j𝑗 (i≠j𝑖≠𝑗) can pass the ball to each other if and only if |i−j|∈[li+lj,ri+rj] (here, |x| denotes the absolute value of x).
+Nene wants to test the cooperation ability of these players. In order to do this, she will hold several rounds of assessment.
+  - In each round, Nene will select a sequence of players p1,p2,…,pm such that players pi and pi+1 can pass the ball to each other for all 1≤i<m. The length of the sequence m can be chosen by Nene. Each player can appear in the sequence p1,p2,…,pm multiple times or not appear in it at all.
+  - Then, Nene will throw a ball to player p1, player p1 will pass the ball to player p2 and so on... Player pm will throw a ball away from the basketball court so it can no longer be used.
+As a coach, Nene wants each of n players to appear in at least one round of assessment. Since Nene has to go on a date after school, Nene wants you to calculate the minimum number of rounds of assessment needed to complete the task.
+Tags -constructive algorithms
+Tags -data structures
+Tags -dsu
+Tags -graphs
+Tags -sortings
+Tags -*3000

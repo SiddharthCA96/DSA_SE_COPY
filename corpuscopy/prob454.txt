@@ -1,0 +1,10 @@
+C. Mad MAD Sum
+We define the MADMAD (Maximum Appearing Duplicate) in an array as the largest number that appears at least twice in the array. Specifically, if there is no number that appears at least twice, the MADMAD value is 00.
+For example, MAD([1,2,1])=1MAD([1,2,1])=1, MAD([2,2,3,3])=3MAD([2,2,3,3])=3, MAD([1,2,3,4])=0MAD([1,2,3,4])=0.
+You are given an array a of size n. Initially, a variable sum is set to 0.
+The following process will be executed in a sequential loop until all numbers in a become 0:
+Find the value of sum after the process.
+Tags -brute force
+Tags -greedy
+Tags -math
+Tags -*1500

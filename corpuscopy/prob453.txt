@@ -1,0 +1,13 @@
+D. Grid Puzzle
+You are given an array a of size n.
+There is an n×n grid. In the i-th row, the first ai cells are black and the other cells are white. In other words, note (i,j) as the cell in the i-th row and j-th column, cells (i,1),(i,2),…,(i,ai) are black, and cells (i,ai+1),…,(i,n) are white.
+You can do the following operations any number of times in any order:
+  - Dye a 2×2 subgrid white;
+  - Dye a whole row white. Note you can not dye a whole column white.
+Find the minimum number of operations to dye all cells white.
+Tags -bitmasks
+Tags -brute force
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -*1800

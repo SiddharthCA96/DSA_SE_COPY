@@ -1,0 +1,10 @@
+B. Maximum Sum
+You have an array a of n integers.
+You perform exactly k operations on it. In one operation, you select any contiguous subarray of the array a (possibly empty) and insert the sum of this subarray anywhere in the array.
+Your task is to find the maximum possible sum of the array after k such operations.
+As this number can be very large, output the answer modulo 109+7.
+Reminder: the remainder of a number x modulo p is the smallest non-negative y such that there exists an integer q and x=p⋅q+y.
+Tags -dp
+Tags -greedy
+Tags -math
+Tags -*1100

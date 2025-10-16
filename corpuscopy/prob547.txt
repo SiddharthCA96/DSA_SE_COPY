@@ -1,0 +1,12 @@
+B. Binary Colouring
+You are given a positive integer x𝑥. Find any array of integers a0,a1,…,an−1𝑎0,𝑎1,…,𝑎𝑛−1 for which the following holds:
+  - 1≤n≤321≤𝑛≤32,
+  - ai𝑎𝑖 is 11, 00, or −1−1 for all 0≤i≤n−10≤𝑖≤𝑛−1,
+  - x=n−1∑i=0ai⋅2i𝑥=∑𝑖=0𝑛−1𝑎𝑖⋅2𝑖,
+  - There does not exist an index 0≤i≤n−20≤𝑖≤𝑛−2 such that both ai≠0𝑎𝑖≠0 and ai+1≠0𝑎𝑖+1≠0.
+It can be proven that under the constraints of the problem, a valid array always exists.
+Tags -bitmasks
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -*1100

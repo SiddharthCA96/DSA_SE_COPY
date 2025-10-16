@@ -1,0 +1,15 @@
+G. Balanced Problem
+There is an array a consisting of n integers. Initially, all elements of a are equal to 0.
+Kevin can perform several operations on the array. Each operation is one of the following two types:
+  - Prefix addition — Kevin first selects an index x (1≤x≤n), and then for each 1≤j≤x, increases aj by 1;
+  - Suffix addition — Kevin first selects an index x (1≤x≤n), and then for each x≤j≤n, increases aj by 1.
+In the country of KDOI, people think that the integer v is balanced. Thus, Iris gives Kevin an array c consisting of n integers and defines the beauty of the array a as follows:
+  - Initially, set b=0;
+  - For each 1≤i≤n, if ai=v, add ci to b;
+  - The beauty of a is the final value of b.
+Kevin wants to maximize the beauty of a after all the operations. However, he had already performed m operations when he was sleepy. Now, he can perform an arbitrary number (possibly zero) of new operations.
+You have to help Kevin find the maximum possible beauty if he optimally performs the new operations.
+However, to make sure that you are not just rolling the dice, Kevin gives you an integer V, and you need to solve the problem for each 1≤v≤V.
+Tags -data structures
+Tags -dp
+Tags -*3000

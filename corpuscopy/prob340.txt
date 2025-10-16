@@ -1,0 +1,10 @@
+E1. Subtangle Game (Easy Version)
+This is the easy version of the problem. The differences between the two versions are the constraints on all the variables. You can make hacks only if both versions of the problem are solved.
+Tsovak and Narek are playing a game. They have an array a and a matrix b of integers with n rows and m columns, numbered from 1. The cell in the i-th row and the j-th column is (i,j).
+They are looking for the elements of a in turns; Tsovak starts first. Each time a player looks for a cell in the matrix containing the current element of a (Tsovak looks for the first, then Narek looks for the second, etc.). Let's say a player has chosen the cell (r,c). The next player has to choose his cell in the submatrix starting at (r+1,c+1) and ending in (n,m) (the submatrix can be empty if r=n or c=m). If a player cannot find such a cell (or the remaining submatrix is empty) or the array ends (the previous player has chosen the last element), then he loses.
+Your task is to determine the winner if the players play optimally.
+Tags -dp
+Tags -games
+Tags -greedy
+Tags -implementation
+Tags -*2100

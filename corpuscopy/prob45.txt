@@ -1,0 +1,7 @@
+G. Tree Destruction
+Given a tree∗∗ with n vertices. You can choose two vertices a and b once and remove all vertices on the path from a to b, including the vertices themselves. If you choose a=b, only one vertex will be removed.
+Your task is to find the maximum number of connected components† that can be formed after removing the path from the tree.
+Tags -dfs and similar
+Tags -dp
+Tags -trees
+Tags -*1900

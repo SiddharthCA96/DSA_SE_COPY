@@ -1,0 +1,11 @@
+F2. Frequency Mismatch (Hard Version)
+This is the hard version of the problem. The difference between the two versions of this problem is the constraint on k. You can make hacks only if all versions of the problem are solved.
+You are given an undirected tree of n nodes. Each node v has a value av written on it. You have to answer queries related to the tree.
+You are given q queries. In each query, you are given 5 integers, u1,v1,u2,v2,k. Denote the count of nodes with value c on path u1→v1 with xc, and the count of nodes with value c on path u2→v2 with yc. If there are z such values of c such that xc≠yc, output any min(z,k) such values in any order.
+Tags -binary search
+Tags -data structures
+Tags -dfs and similar
+Tags -hashing
+Tags -probabilities
+Tags -trees
+Tags -*2700

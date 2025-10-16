@@ -1,0 +1,13 @@
+F. Heartbeat
+For an array u1,u2,…,un, define
+  - a prefix maximum as an index i such that ui>uj for all j<i;
+  - a suffix maximum as an index i such that ui>uj for all j>i;
+  - an ascent as an index i (i>1) such that ui>ui−1.
+You are given three cost arrays: [a1,a2,…,an], [b1,b2,…,bn], and [c0,c1,…,cn−1].
+Define the cost of an array that has x prefix maximums, y suffix maximums, and z ascents as ax⋅by⋅cz.
+Let the sum of costs of all permutations of 1,2,…,n be f(n). Find f(1), f(2), ..., f(n) modulo 998244353.
+Tags -combinatorics
+Tags -dp
+Tags -fft
+Tags -math
+Tags -*3000

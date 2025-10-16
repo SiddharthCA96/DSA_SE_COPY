@@ -1,0 +1,6 @@
+A. Line Breaks
+Kostya has a text $$$s$$$ consisting of $$$n$$$ words made up of Latin alphabet letters. He also has two strips on which he must write the text. The first strip can hold $$$m$$$ characters, while the second can hold as many as needed.
+Kostya must choose a number $$$x$$$ and write the first $$$x$$$ words from $$$s$$$ on the first strip, while all the remaining words are written on the second strip. To save space, the words are written without gaps, but each word must be entirely on one strip.
+Since space on the second strip is very valuable, Kostya asks you to choose the maximum possible number $$$x$$$ such that all words $$$s_1, s_2, \dots, s_x$$$ fit on the first strip of length $$$m$$$.
+Tags -implementation
+Tags -*800

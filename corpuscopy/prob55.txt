@@ -1,0 +1,11 @@
+C. MEX Cycle
+
+Evirir the dragon has many friends. They have 3 friends! That is one more than the average dragon.
+You are given integers $$$n$$$, $$$x$$$, and $$$y$$$. There are $$$n$$$ dragons sitting in a circle. The dragons are numbered $$$1, 2, \ldots, n$$$. For each $$$i$$$ ($$$1 \le i \le n$$$), dragon $$$i$$$ is friends with dragon $$$i - 1$$$ and $$$i + 1$$$, where dragon $$$0$$$ is defined to be dragon $$$n$$$ and dragon $$$n + 1$$$ is defined to be dragon $$$1$$$. Additionally, dragons $$$x$$$ and $$$y$$$ are friends with each other (if they are already friends, this changes nothing). Note that all friendships are mutual.
+Output $$$n$$$ non-negative integers $$$a_1, a_2, \ldots, a_n$$$ such that for each dragon $$$i$$$ ($$$1 \le i \le n$$$), the following holds:
+  - Let $$$f_1, f_2, \ldots, f_k$$$ be the friends of dragon $$$i$$$. Then $$$a_i = \operatorname{mex}(a_{f_1}, a_{f_2}, \ldots, a_{f_k})$$$.$$$^{\text{∗}}$$$
+Tags -brute force
+Tags -constructive algorithms
+Tags -greedy
+Tags -implementation
+Tags -*1500

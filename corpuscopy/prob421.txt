@@ -1,0 +1,14 @@
+F. Stardew Valley
+Pelican Town represents n houses connected by m bidirectional roads. Some roads have NPCs standing on them. Farmer Buba needs to walk on each road with an NPC and talk to them.
+Help the farmer find a route satisfying the following properties:
+  - The route starts at some house, follows the roads, and ends at the same house.
+  - The route does not follow any road more than once (in both directions together).
+  - The route follows each road with an NPC exactly once.
+Note that the route can follow roads without NPCs, and you do
+need to minimize the length of the route.
+It is guaranteed that you can reach any house from any other by walking on the roads with NPCs only.
+Tags -constructive algorithms
+Tags -dfs and similar
+Tags -graphs
+Tags -trees
+Tags -*2500

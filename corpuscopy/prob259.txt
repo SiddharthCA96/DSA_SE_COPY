@@ -1,0 +1,12 @@
+A. Bus to Pénjamo
+There are n families travelling to Pénjamo to witness Mexico's largest-ever "walking a chicken on a leash" marathon. The i-th family has ai family members. All families will travel using a single bus consisting of r rows with 2 seats each.
+A person is considered happy if:
+  - Another family member is seated in the same row as them, or
+  - They are sitting alone in their row (with an empty seat next to them).
+Determine the maximum number of happy people in an optimal seating arrangement. Note that everyone must be seated in the bus.
+It is guaranteed that all family members will fit on the bus. Formally, it is guaranteed that n∑i=1ai≤2r.
+Tags -constructive algorithms
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*800

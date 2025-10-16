@@ -1,0 +1,11 @@
+H1. Maximize the Largest Component (Easy Version)
+Easy and hard versions are actually different problems, so read statements of both problems completely and carefully. The only difference between the two versions is the operation.
+Alex has a grid with 𝑛n rows and 𝑚m columns consisting of '.' and '#' characters. A set of '#' cells forms a connected component if from any cell in this set, it is possible to reach any other cell in this set by only moving to another cell in the set that shares a common side. The size of a connected component is the number of cells in the set.
+In one operation, Alex selects any row 𝑟r (1≤𝑟≤𝑛1≤r≤n) or any column 𝑐c (1≤𝑐≤𝑚1≤c≤m), then sets every cell in row 𝑟r or column 𝑐c to be '#'. Help Alex find the maximum possible size of the largest connected component of '#' cells that he can achieve after performing the operation at most once.
+Tags -brute force
+Tags -data structures
+Tags -dfs and similar
+Tags -dsu
+Tags -graphs
+Tags -implementation
+Tags -*1700

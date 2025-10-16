@@ -1,0 +1,16 @@
+F1. Game in Tree (Easy Version)
+This is the easy version of the problem. In this version, u=v. You can make hacks only if both versions of the problem are solved.
+Alice and Bob are playing a fun game on a tree. This game is played on a tree with n vertices, numbered from 1 to n. Recall that a tree with n vertices is an undirected connected graph with n−1 edges.
+Alice and Bob take turns, with Alice going first. Each player starts at some vertex.
+On their turn, a player must move from the current vertex to a neighboring vertex that has not yet been visited by anyone. The first player who cannot make a move loses.
+You are given two vertices u and v. Represent the simple path from vertex u to v as an array p1,p2,p3,…,pm, where p1=u, pm=v, and there is an edge between pi and pi+1 for all i (1≤i<m).
+You need to determine the winner of the game if Alice starts at vertex 1 and Bob starts at vertex pj for each j (where 1≤j≤m).
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -dp
+Tags -games
+Tags -greedy
+Tags -implementation
+Tags -trees
+Tags -*2700

@@ -1,0 +1,8 @@
+F. Inversion Composition
+You are given a permutation p of size n, as well as a non-negative integer k. You need to construct a permutation q of size n such that inv(q)+inv(q⋅p)=k†‡, or determine if it is impossible to do so.
+† For two permutations p and q of the same size n, the permutation w=q⋅p is such that wi=qpi for all 1≤i≤n.
+‡ For a permutation p of size n, the function inv(p) returns the number of inversions of p, i.e. the number of pairs of indices 1≤i<j≤n such that pi>pj.
+Tags -constructive algorithms
+Tags -data structures
+Tags -greedy
+Tags -*2500

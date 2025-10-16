@@ -1,0 +1,11 @@
+F. Maximum GCD Sum Queries
+For k positive integers x1,x2,…,xk, the value gcd(x1,x2,…,xk) is the greatest common divisor of the integers x1,x2,…,xk — the largest integer z such that all the integers x1,x2,…,xk are divisible by z.
+You are given three arrays a1,a2,…,an, b1,b2,…,bn and c1,c2,…,cn of length n, containing positive integers.
+You also have a machine that allows you to swap ai and bi for any i (1≤i≤n). Each swap costs you ci coins.
+Find the maximum possible value of gcd(a1,a2,…,an)+gcd(b1,b2,…,bn) that you can get by paying in total at most d coins for swapping some elements. The amount of coins you have changes a lot, so find the answer to this question for each of the q possible values d1,d2,…,dq.
+Tags -bitmasks
+Tags -brute force
+Tags -dp
+Tags -implementation
+Tags -number theory
+Tags -*3100

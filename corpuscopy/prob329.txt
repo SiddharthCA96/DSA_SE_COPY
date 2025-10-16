@@ -1,0 +1,9 @@
+A. Sakurako's Exam
+Today, Sakurako has a math exam. The teacher gave the array, consisting of 𝑎a ones and 𝑏b twos.
+In an array, Sakurako must place either a '+' or a '-' in front of each element so that the sum of all elements in the array equals 00.
+Sakurako is not sure if it is possible to solve this problem, so determine whether there is a way to assign signs such that the sum of all elements in the array equals 00.
+Tags -brute force
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -*800

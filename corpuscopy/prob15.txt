@@ -1,0 +1,9 @@
+A. Shape Perimeter
+There is an 𝑚m by 𝑚m square stamp on an infinite piece of paper. Initially, the bottom-left corner of the square stamp is aligned with the bottom-left corner of the paper. You are given two integer sequences 𝑥x and 𝑦y, each of length 𝑛n. For each step 𝑖i from 11 to 𝑛n, the following happens:
+  - Move the stamp 𝑥𝑖xi units to the right and 𝑦𝑖yi units upwards.
+  - Press the stamp onto the paper, leaving an 𝑚m by 𝑚m colored square at its current position.
+Note that the elements of sequences 𝑥x and 𝑦y have a special constraint: 1≤𝑥𝑖,𝑦𝑖≤𝑚−11≤xi,yi≤m−1.
+Note that you do not press the stamp at the bottom-left corner of the paper. Refer to the notes section for better understanding.
+It can be proven that after all the operations, the colored shape on the paper formed by the stamp is a single connected region. Find the perimeter of this colored shape.
+Tags -constructive algorithms
+Tags -math

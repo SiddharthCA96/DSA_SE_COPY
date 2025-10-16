@@ -1,0 +1,8 @@
+E. Farm Game
+Farmer Nhoj has brought his cows over to Farmer John's farm to play a game! FJ's farm can be modeled by a number line with walls at points 00 and 𝑙+1l+1. On the farm, there are 2𝑛2n cows, with 𝑛n of the cows belonging to FJ and the other 𝑛n belonging to FN. They place each of their cows at a distinct point, and no two FJ's cows nor FN's cows are adjacent. Two cows are adjacent if there are no other cows between them.
+Formally, if 𝑎1,𝑎2,…,𝑎𝑛a1,a2,…,an represents the positions of FJ's cows and 𝑏1,𝑏2,…,𝑏𝑛b1,b2,…,bn represents the positions of FN's cows, then either 0<𝑎1<𝑏1<𝑎2<𝑏2<…<𝑎𝑛<𝑏𝑛<𝑙+10<a1<b1<a2<b2<…<an<bn<l+1 or 0<𝑏1<𝑎1<𝑏2<𝑎2<…<𝑏𝑛<𝑎𝑛<𝑙+10<b1<a1<b2<a2<…<bn<an<l+1.
+In one move, a farmer chooses a number 𝑘k (1≤𝑘≤𝑛)(1≤k≤n) and a direction (left or right). Then, that farmer chooses 𝑘k of his cows and moves them one position towards the chosen direction. A farmer cannot move any of his cows onto the walls or onto another farmer's cow. If a farmer cannot move any cows, then that farmer loses. FJ starts the game, making the first turn.
+Given 𝑙l and 𝑛n, find the number of possible game configurations for Farmer John to win if both farmers play optimally. It may be the case that the game will continue indefinitely, in which no farmer wins. A configuration is different from another if there is any 𝑖i such that 𝑎𝑖ai or 𝑏𝑖bi is different. Output the answer modulo 998244353998244353.
+Tags -combinatorics
+Tags -games
+Tags -*2300

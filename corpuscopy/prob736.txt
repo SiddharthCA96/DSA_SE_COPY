@@ -1,0 +1,8 @@
+A. Destroying Bridges
+There are n islands, numbered 1,2,…,n. Initially, every pair of islands is connected by a bridge. Hence, there are a total of n(n−1)2 bridges.
+Everule lives on island 1 and enjoys visiting the other islands using bridges. Dominater has the power to destroy at most k bridges to minimize the number of islands that Everule can reach using (possibly multiple) bridges.
+Find the minimum number of islands (including island 1) that Everule can visit if Dominater destroys bridges optimally.
+Tags -graphs
+Tags -greedy
+Tags -math
+Tags -*800

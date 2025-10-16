@@ -1,0 +1,12 @@
+F. Grand Finale: Circles
+You are given 𝑛n circles on the plane. The 𝑖i-th of these circles is given by a tuple of integers (𝑥𝑖,𝑦𝑖,𝑟𝑖)(xi,yi,ri), where (𝑥𝑖,𝑦𝑖)(xi,yi) are the coordinates of its center, and 𝑟𝑖ri is the radius of the circle.
+Please find a circle 𝐶C which meets the following conditions:
+  - 𝐶C is contained inside all 𝑛n circles given in the input.
+  - Among all circles 𝐶C that meet the first condition, the radius of the circle is maximum.
+Let the largest suitable circle have the radius of 𝑎a.
+Your output 𝐶C, described as (𝑥,𝑦,𝑟)(x,y,r), will be accepted if it meets the following conditions:
+  - For each 𝑖i, (𝑥𝑖−𝑥)2+(𝑦𝑖−𝑦)2‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾√+𝑟≤𝑟𝑖+max(𝑎,1)⋅10−7(xi−x)2+(yi−y)2+r≤ri+max(a,1)⋅10−7.
+  - The absolute or relative error of 𝑟r does not exceed 10−710−7. Formally, your answer is accepted if and only if |𝑟−𝑎|max(1,𝑎)≤10−7|r−a|max(1,a)≤10−7.
+Tags -binary search
+Tags -geometry
+Tags -*3300

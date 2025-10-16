@@ -1,0 +1,8 @@
+E. Shuffle
+Two hungry red pandas, Oscar and Lura, have a tree 𝑇T with 𝑛n nodes. They are willing to perform the following shuffle procedure on the whole tree 𝑇T exactly once. With this shuffle procedure, they will create a new tree out of the nodes of the old tree.
+After this, Oscar and Lura are left with a new tree 𝑇2T2. They can only eat leaves and are very hungry, so please find the maximum number of leaves over all trees that can be created in exactly one shuffle.
+Note that leaves are all nodes with degree 11. Thus, the root may be considered as a leaf if it has only one child.
+Tags -dp
+Tags -greedy
+Tags -trees
+Tags -*2400

@@ -1,0 +1,10 @@
+F. Rudolf and Imbalance
+Rudolf has prepared a set of n problems with complexities a1<a2<a3<⋯<an. He is not entirely satisfied with the balance, so he wants to add at most one problem to fix it.
+For this, Rudolf came up with m models of problems and k functions. The complexity of the i-th model is di, and the complexity of the j-th function is fj. To create a problem, he selects values i and j (1≤i≤m, 1≤j≤k) and by combining the i-th model with the j-th function, he obtains a new problem with complexity di+fj (a new element is inserted into the array a).
+To determine the imbalance of the set, Rudolf sorts the complexities of the problems in ascending order and finds the largest value of ai−ai−1 (i>1).
+What is the minimum value of imbalance that Rudolf can achieve by adding at most one problem, created according to the described rules?
+Tags -binary search
+Tags -greedy
+Tags -sortings
+Tags -two pointers
+Tags -*1800

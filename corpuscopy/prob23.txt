@@ -1,0 +1,17 @@
+I1. Affectionate Arrays (Easy Version)
+
+This is the easy version of the problem. The difference between the versions is that in this version, you need to compute the minimum length of the arrays. You can hack only if you solved all versions of this problem.
+Iris treasures an integer array a1,a2,…,an. She knows this array has an interesting property: the maximum absolute value of all elements is less than or equal to the sum of all elements, that is, max.
+Iris defines the boredom of an array as its maximum subarray^{\text{∗}} sum.
+Iris's birthday is coming, and Victor is going to send her another array b_1, b_2, \ldots, b_m as a gift. For some seemingly obvious reasons, he decides the array b_1, b_2, \ldots, b_m should have the following properties.
+  - a_1, a_2, \ldots, a_n should be a subsequence^{\text{†}} of b_1, b_2, \ldots, b_m.
+  - The two arrays have the same sum. That is, \sum\limits_{i=1}^n a_i = \sum\limits_{i=1}^m b_i.
+  - The boredom of b_1, b_2, \ldots, b_m is the smallest possible.
+  - Among the arrays with the smallest boredom, the length of the array b (i.e., m) is the smallest possible. And in this case, Iris will understand his regard as soon as possible!
+Even constrained as above, there are still too many possible gifts. So Victor asks you to compute the value of \boldsymbol{m} of any array b_1, b_2, \ldots, b_m satisfying all the conditions above. He promises you: if you help him successfully, he will share a bit of Iris's birthday cake with you.
+Note: since the input is large, you may need to optimize it for this problem.
+For example, in C++, it is enough to use the following lines at the start of the main() function:
+Tags -data structures
+Tags -dp
+Tags -greedy
+Tags -*2800

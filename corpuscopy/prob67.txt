@@ -1,0 +1,10 @@
+A. Kevin and Combination Lock
+Kevin is trapped in Lakeside Village by Grace. At the exit of the village, there is a combination lock that can only be unlocked if Kevin solves it.
+The combination lock starts with an integer x. Kevin can perform one of the following two operations zero or more times:
+When the value of x on the combination lock becomes 0, Kevin can unlock the lock and escape from Lakeside Village. Please determine whether it is possible for Kevin to unlock the combination lock and escape.
+Tags -brute force
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -number theory
+Tags -*800

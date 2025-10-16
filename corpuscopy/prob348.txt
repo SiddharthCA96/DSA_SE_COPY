@@ -1,0 +1,11 @@
+E. Not a Nim Problem
+Two players, Alice and Bob, are playing a game. They have 𝑛n piles of stones, with the 𝑖i-th pile initially containing 𝑎𝑖ai stones.
+On their turn, a player can choose any pile of stones and take any positive number of stones from it, with one condition:
+  - let the current number of stones in the pile be 𝑥x. It is not allowed to take from the pile a number of stones 𝑦y such that the greatest common divisor of 𝑥x and 𝑦y is not equal to 11.
+The player who cannot make a move loses. Both players play optimally (that is, if a player has a strategy that allows them to win, no matter how the opponent responds, they will win). Alice goes first.
+Determine who will win.
+Tags -brute force
+Tags -games
+Tags -math
+Tags -number theory
+Tags -*2100

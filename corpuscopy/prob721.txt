@@ -1,0 +1,12 @@
+F. Nobody is needed
+Oleg received a permutation a of length n as a birthday present.
+Oleg's friend Nechipor asks Oleg q questions, each question is characterized by two numbers l and r, in response to the question Oleg must say the number of sets of indices (t1,t2,…,tk) of any length k≥1 such that:
+  - l≤ti≤r for each i from 1 to k.
+  - ti<ti+1 for each i from 1 to k−1.
+  - ati+1 is divisible by ati for each i from 1 to k−1.
+Help Oleg and answer all of Nechipor's questions.
+Tags -2-sat
+Tags -data structures
+Tags -dfs and similar
+Tags -dp
+Tags -*2500

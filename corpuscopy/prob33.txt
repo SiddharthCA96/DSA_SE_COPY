@@ -1,0 +1,12 @@
+G. Geometric Balance
+Peter's little brother Ivan likes to play with a turtle. The turtle is a special toy that lives on the plane and can execute three commands:
+  - Rotate a degrees counterclockwise.
+  - Draw d units in the direction it is facing while dispensing ink. No segment of the plane will be covered by ink more than once.
+  - Move d units in the direction it is facing without drawing.
+Ivan just learned about the compass, so he will only rotate his turtle so it faces one of eight cardinal or ordinal directions (angles a in rotate commands are always divisible by 45). Also, he will perform at least one draw command.
+Peter has noted all the commands Ivan has given to his turtle. He thinks that the image drawn by the turtle is adorable. Now Peter wonders about the smallest positive angle b such that he can perform the following operations: move the turtle to a point of his choosing, rotate it by b degrees, and execute all the commands in the same order. These operations should produce the same image as the original one. Can you help Peter?
+Note, two images are considered the same if the sets of points covered by ink on the plane are the same in both of the images.
+Tags -data structures
+Tags -geometry
+Tags -implementation
+Tags -*2800

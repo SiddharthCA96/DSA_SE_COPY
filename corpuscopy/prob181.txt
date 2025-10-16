@@ -1,0 +1,9 @@
+C. Trapped in the Witch's Labyrinth
+In the fourth labor of Rostam, the legendary hero from the Shahnameh, an old witch has created a magical maze to trap him. The maze is a rectangular grid consisting of n rows and m columns. Each cell in the maze points in a specific direction: up, down, left, or right. The witch has enchanted Rostam so that whenever he is in a cell, he will move to the next cell in the direction indicated by that cell.
+If Rostam eventually exits the maze, he will be freed from the witch's enchantment and will defeat her. However, if he remains trapped within the maze forever, he will never escape.
+The witch has not yet determined the directions for all the cells. She wants to assign directions to the unspecified cells in such a way that the number of starting cells from which Rostam will be trapped forever is maximized. Your task is to find the maximum number of starting cells which make Rostam trapped.
+Tags -constructive algorithms
+Tags -dfs and similar
+Tags -graphs
+Tags -implementation
+Tags -*1400

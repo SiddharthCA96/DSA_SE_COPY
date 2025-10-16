@@ -1,0 +1,5 @@
+A. Minimize!
+You are given two integers a and b (a≤b). Over all possible integer values of c (a≤c≤b), find the minimum value of (c−a)+(b−c).
+Tags -brute force
+Tags -math
+Tags -*800

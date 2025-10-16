@@ -1,0 +1,9 @@
+A. Contest Proposal
+A contest contains n problems and the difficulty of the i-th problem is expected to be at most bi. There are already n problem proposals and the difficulty of the i-th problem is ai. Initially, both a1,a2,…,an and b1,b2,…,bn are sorted in non-decreasing order.
+Some of the problems may be more difficult than expected, so the writers must propose more problems. When a new problem with difficulty w is proposed, the most difficult problem will be deleted from the contest, and the problems will be sorted in a way that the difficulties are non-decreasing.
+In other words, in each operation, you choose an integer w, insert it into the array a, sort array a in non-decreasing order, and remove the last element from it.
+Find the minimum number of new problems to make ai≤bi for all i.
+Tags -brute force
+Tags -greedy
+Tags -two pointers
+Tags -*800

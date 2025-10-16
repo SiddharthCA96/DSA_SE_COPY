@@ -1,0 +1,8 @@
+A. Legs
+It's another beautiful day on Farmer John's farm.
+After Farmer John arrived at his farm, he counted 𝑛n legs. It is known only chickens and cows live on the farm, and a chicken has 22 legs while a cow has 44.
+What is the minimum number of animals Farmer John can have on his farm assuming he counted the legs of all animals?
+Tags -binary search
+Tags -math
+Tags -ternary search
+Tags -*800

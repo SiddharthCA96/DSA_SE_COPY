@@ -1,0 +1,17 @@
+E. Splittable Permutations
+Initially, we had one array, which was a permutation of size n (an array of size n where each integer from 1 to n appears exactly once).
+We performed q operations. During the i-th operation, we did the following:
+  - choose any array we have with at least 2 elements;
+  - split it into two non-empty arrays (prefix and suffix);
+  - write two integers li and ri, where li is the maximum element in the left part which we get after the split, and ri is the maximum element in the right part;
+  - remove the array we've chosen from the pool of arrays we can use, and add the two resulting parts into the pool.
+For example, suppose the initial array was [6,3,4,1,2,5], and we performed the following operations:
+You are given two integers n and q, and two sequences [l1,l2,…,lq] and [r1,r2,…,rq]. A permutation of size n is called valid if we can perform q operations and produce the given sequences [l1,l2,…,lq] and [r1,r2,…,rq].
+Calculate the number of valid permutations.
+Tags -combinatorics
+Tags -data structures
+Tags -dfs and similar
+Tags -greedy
+Tags -math
+Tags -trees
+Tags -*2500

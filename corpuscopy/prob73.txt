@@ -1,0 +1,12 @@
+E1. Cheops and a Contest (Easy Version)
+
+This is the easy version of the problem. The difference between the versions is that in this version, 𝑚m equals 22. You can hack only if you solved all versions of this problem.
+There is a problem-solving competition in Ancient Egypt with 𝑛n participants, numbered from 11 to 𝑛n. Each participant comes from a certain city; the cities are numbered from 11 to 𝑚m. There is at least one participant from each city.
+The 𝑖i-th participant has strength 𝑎𝑖ai, specialization 𝑠𝑖si, and wisdom 𝑏𝑖bi, so that 𝑏𝑖≥𝑎𝑖bi≥ai. Each problem in the competition will have a difficulty 𝑑d and a unique topic 𝑡t. The 𝑖i-th participant will solve the problem if
+  - 𝑎𝑖≥𝑑ai≥d, i.e., their strength is not less than the problem's difficulty, or
+  - 𝑠𝑖=𝑡si=t, and 𝑏𝑖≥𝑑bi≥d, i.e., their specialization matches the problem's topic, and their wisdom is not less than the problem's difficulty.
+Cheops wants to choose the problems in such a way that each participant from city 𝑖i will solve strictly more problems than each participant from city 𝑗j, for all 𝑖<𝑗i<j.
+Please find a set of at most 5𝑛5n problems, where the topics of all problems are distinct, so that Cheops' will is satisfied, or state that it is impossible.
+Tags -constructive algorithms
+Tags -greedy
+Tags -*2900

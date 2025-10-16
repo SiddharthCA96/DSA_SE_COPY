@@ -1,0 +1,12 @@
+E. Haystacks
+
+There are n haystacks labelled from 1 to n, where haystack i contains ai haybales. One of the haystacks has a needle hidden beneath it, but you do not know which one. Your task is to move the haybales so that each haystack is emptied at least once, allowing you to check if the needle is hidden under that particular haystack.
+However, the process is not that simple. Once a haystack i is emptied for the first time, it will be assigned a height limit and can no longer contain more than bi haybales. More formally, a move is described as follows:
+  - Choose two haystacks i and j. If haystack i has not been emptied before, or haystack i contains strictly less than bi haybales, you may move exactly 1 haybale from haystack j to haystack i.
+Note: Before a haystack is emptied, it has no height limit, and you can move as many haybales as you want onto that haystack.
+Compute the minimum number of moves required to ensure that each haystack is emptied at least once, or report that it is impossible.
+Tags -brute force
+Tags -constructive algorithms
+Tags -data structures
+Tags -greedy
+Tags -sortings

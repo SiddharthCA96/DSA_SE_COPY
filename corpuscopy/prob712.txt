@@ -1,0 +1,10 @@
+B. Charming Meals
+The Czech cuisine features n appetizers and n main dishes. The i-th appetizer has spiciness ai, and the i-th main dish has spiciness bi.
+A typical Czech meal consists of exactly one appetizer and one main dish. You want to pair up the n appetizers and n main dishes into n meals with each appetizer and each main dish being included in exactly one meal.
+Your meals shall surprise the diners, so you want the spiciness levels of the two parts of the same meal to be as different as possible. The charm of a meal is the difference (in absolute value) between the spiciness of the appetizer and the spiciness of the main dish. So, a meal consisting of an appetizer with spiciness x and a main dish with spiciness y has charm equal to |x−y|.
+You want to maximize the minimum charm of the resulting n meals. What is the largest possible value of the minimum charm that you can achieve?
+Tags -binary search
+Tags -brute force
+Tags -greedy
+Tags -sortings
+Tags -*1500

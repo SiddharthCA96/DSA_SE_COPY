@@ -1,0 +1,7 @@
+B. Kar Salesman
+Karel is a salesman in a car dealership. The dealership has n different models of cars. There are ai cars of the i-th model. Karel is an excellent salesperson and can convince customers to buy up to x cars (of Karel's choice), as long as the cars are from different models.
+Determine the minimum number of customers Karel has to bring in to sell all the cars.
+Tags -binary search
+Tags -greedy
+Tags -math
+Tags -*1300

@@ -1,0 +1,9 @@
+E. Rendez-vous de Marian et Robin
+Absence makes the heart grow fonder. Marian sold her last ware at the Market at the same time Robin finished training at the Major Oak. They couldn't wait to meet, so they both start without delay.
+The travel network is represented as n𝑛 vertices numbered from 11 to n𝑛 and m𝑚 edges. The i𝑖-th edge connects vertices ui𝑢𝑖 and vi𝑣𝑖, and takes wi𝑤𝑖 seconds to travel (all wi𝑤𝑖 are even). Marian starts at vertex 11 (Market) and Robin starts at vertex n𝑛 (Major Oak).
+In addition, h of the n vertices each has a single horse available. Both Marian and Robin are capable riders, and could mount horses in no time (i.e. in 0 seconds). Travel times are halved when riding. Once mounted, a horse lasts the remainder of the travel. Meeting must take place on a vertex (i.e. not on an edge). Either could choose to wait on any vertex.
+Output the earliest time Robin and Marian can meet. If vertices 1 and n are disconnected, output −1 as the meeting is cancelled.
+Tags -dfs and similar
+Tags -graphs
+Tags -shortest paths
+Tags -*1800

@@ -1,0 +1,9 @@
+F. Alice's Adventures in Addition
+Note that the memory limit is unusual.
+The Cheshire Cat has a riddle for Alice: given $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ and a target $$$m$$$, is there a way to insert $$$+$$$ and $$$\times$$$ into the circles of the expression $$$$$$a_1 \circ a_2 \circ \cdots \circ a_n = m$$$$$$ to make it true? We follow the usual order of operations: $$$\times$$$ is done before $$$+$$$.
+Although Alice is excellent at chess, she is not good at math. Please help her so she can find a way out of Wonderland!
+Tags -bitmasks
+Tags -brute force
+Tags -dp
+Tags -implementation
+Tags -*2700

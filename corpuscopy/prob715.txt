@@ -1,0 +1,9 @@
+F. Rare Coins
+There are n bags numbered from 1 to n, the i-th bag contains ai golden coins and bi silver coins.
+The value of a gold coin is 1. The value of a silver coin is either 0 or 1, determined for each silver coin independently (0 with probability 12, 1 with probability 12).
+You have to answer q independent queries. Each query is the following:
+  - l r — calculate the probability that the total value of coins in bags from l to r is strictly greater than the total value in all other bags.
+Tags -combinatorics
+Tags -math
+Tags -probabilities
+Tags -*2500

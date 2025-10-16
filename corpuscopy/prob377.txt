@@ -1,0 +1,13 @@
+H. Ksyusha and the Loaded Set
+Ksyusha decided to start a game development company. To stand out among competitors and achieve success, she decided to write her own game engine. The engine must support a set initially consisting of 𝑛n distinct integers 𝑎1,𝑎2,…,𝑎𝑛a1,a2,…,an.
+The set will undergo 𝑚m operations sequentially. The operations can be of the following types:
+  - Insert element 𝑥x into the set;
+  - Remove element 𝑥x from the set;
+  - Report the 𝑘k-load of the set.
+The 𝑘k-load of the set is defined as the minimum positive integer 𝑑d such that the integers 𝑑,𝑑+1,…,𝑑+(𝑘−1)d,d+1,…,d+(k−1) do not appear in this set. For example, the 33-load of the set {3,4,6,11}{3,4,6,11} is 77, since the integers 7,8,97,8,9 are absent from the set, and no smaller value fits.
+Ksyusha is busy with management tasks, so you will have to write the engine. Implement efficient support for the described operations.
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -implementation
+Tags -*2200

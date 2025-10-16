@@ -1,0 +1,8 @@
+F. Expected Median
+Arul has a binary array∗∗ 𝑎a of length 𝑛n.
+He will take all subsequences†† of length 𝑘k (𝑘k is odd) of this array and find their median.‡‡
+What is the sum of all these values?
+As this sum can be very large, output it modulo 109+7109+7. In other words, print the remainder of this sum when divided by 109+7109+7.
+Tags -combinatorics
+Tags -math
+Tags -*1500

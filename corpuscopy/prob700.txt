@@ -1,0 +1,7 @@
+C. Clock Conversion
+Given the time in 24-hour format, output the equivalent time in 12-hour format.
+  - 24-hour format divides the day into 24 hours from 0000 to 2323, each of which has 60 minutes from 0000 to 5959.
+  - 12-hour format divides the day into two halves: the first half is AMAM, and the second half is PMPM. In each half, the hours are numbered in the order 12,01,02,03,…,1112,01,02,03,…,11. Each hour has 60 minutes numbered from 0000 to 5959.
+Tags -implementation
+Tags -math
+Tags -*800

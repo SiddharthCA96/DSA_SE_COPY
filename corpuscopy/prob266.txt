@@ -1,0 +1,12 @@
+B. Maximize Mex
+You are given an array $$$a$$$ of $$$n$$$ positive integers and an integer $$$x$$$. You can do the following two-step operation any (possibly zero) number of times:
+Find the maximum value of the $$$\operatorname{MEX}$$$ of $$$a$$$ if you perform the operations optimally.
+The $$$\operatorname{MEX}$$$ (minimum excluded value) of an array is the smallest non-negative integer that is not in the array. For example:
+  - The $$$\operatorname{MEX}$$$ of $$$[2,2,1]$$$ is $$$0$$$ because $$$0$$$ is not in the array.
+  - The $$$\operatorname{MEX}$$$ of $$$[3,1,0,1]$$$ is $$$2$$$ because $$$0$$$ and $$$1$$$ are in the array but $$$2$$$ is not.
+  - The $$$\operatorname{MEX}$$$ of $$$[0,3,1,2]$$$ is $$$4$$$ because $$$0$$$, $$$1$$$, $$$2$$$ and $$$3$$$ are in the array but $$$4$$$ is not.
+Tags -brute force
+Tags -greedy
+Tags -math
+Tags -number theory
+Tags -*1200

@@ -1,0 +1,10 @@
+B. Removals Game
+Alice got a permutation a1,a2,…,an of [1,2,…,n], and Bob got another permutation b1,b2,…,bn of [1,2,…,n]. They are going to play a game with these arrays.
+In each turn, the following events happen in order:
+  - Alice chooses either the first or the last element of her array and removes it from the array;
+  - Bob chooses either the first or the last element of his array and removes it from the array.
+The game continues for n−1 turns, after which both arrays will have exactly one remaining element: x in the array a and y in the array b.
+If x=y, Bob wins; otherwise, Alice wins. Find which player will win if both players play optimally.
+Tags -constructive algorithms
+Tags -games
+Tags -*1000

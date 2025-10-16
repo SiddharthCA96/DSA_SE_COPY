@@ -1,0 +1,6 @@
+B. ICPC Square
+ICPC Square is a hotel provided by the ICPC Committee for the accommodation of the participants. It consists of N floors (numbered from 1 to N). This hotel has a very unique elevator. If a person is currently at floor x, by riding the elevator once, they can go to floor y if and only if y is a multiple of x and y−x≤D.
+You are currently at floor S. You want to go to the highest possible floor by riding the elevator zero or more times. Determine the highest floor you can reach.
+Tags -math
+Tags -number theory
+Tags -*2000

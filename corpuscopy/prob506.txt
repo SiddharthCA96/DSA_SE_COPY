@@ -1,0 +1,10 @@
+F. array-value
+You have an array of non-negative integers a1,a2,…,an.
+The value of a sub-array of length ≥2, a[l,r]=[al,al+1,…,ar] is the minimum value of ai⊕aj such that l≤i<j≤r, where ⊕ is the xor (exclusive-or) operator.
+You have to find the k-th smallest value over all sub-arrays of length ≥2.
+Tags -binary search
+Tags -bitmasks
+Tags -data structures
+Tags -greedy
+Tags -two pointers
+Tags -*2500

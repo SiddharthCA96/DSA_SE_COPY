@@ -1,0 +1,9 @@
+A. Guess the Maximum
+Alice and Bob came up with a rather strange game. They have an array of integers 𝑎1,𝑎2,…,𝑎𝑛a1,a2,…,an. Alice chooses a certain integer 𝑘k and tells it to Bob, then the following happens:
+  - Bob chooses two integers 𝑖i and 𝑗j (1≤𝑖<𝑗≤𝑛1≤i<j≤n), and then finds the maximum among the integers 𝑎𝑖,𝑎𝑖+1,…,𝑎𝑗ai,ai+1,…,aj;
+  - If the obtained maximum is strictly greater than 𝑘k, Alice wins, otherwise Bob wins.
+Help Alice find the maximum 𝑘k at which she is guaranteed to win.
+Tags -brute force
+Tags -greedy
+Tags -implementation
+Tags -*800

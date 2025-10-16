@@ -1,0 +1,16 @@
+F1. Field Division (easy version)
+This is an easy version of the problem; it differs from the hard version only by the question. The easy version only needs you to print whether some values are non-zero or not. The hard version needs you to print the exact values.
+Alice and Bob are dividing the field. The field is a rectangle of size n×m𝑛×𝑚 (2≤n,m≤1092≤𝑛,𝑚≤109), the rows are numbered from 11 to n𝑛 from top to bottom, and the columns are numbered from 11 to m𝑚 from left to right. The cell at the intersection of row r𝑟 and column c𝑐 is denoted as (r,c𝑟,𝑐).
+Bob has k𝑘 (2≤k≤2⋅1052≤𝑘≤2⋅105) fountains, all of them are located in different cells of the field. Alice is responsible for dividing the field, but she must meet several conditions:
+  - To divide the field, Alice will start her path in any free (without a fountain) cell on the left or top side of the field and will move, each time moving to the adjacent cell down or right. Her path will end on the right or bottom side of the field.
+  - Alice's path will divide the field into two parts — one part will belong to Alice (this part includes the cells of her path), the other part — to Bob.
+  - Alice will own the part that includes the cell (n,1𝑛,1).
+  - Bob will own the part that includes the cell (1,m1,𝑚).
+Alice wants to divide the field in such a way as to get as many cells as possible.
+Bob wants to keep ownership of all the fountains, but he can give one of them to Alice. First, output the integer α — the maximum possible size of Alice's plot, if Bob does not give her any fountain (i.e., all fountains will remain on Bob's plot). Then output k non-negative integers a1,a2,…,ak, where:
+  - ai=0, if after Bob gives Alice the i-th fountain, the maximum possible size of Alice's plot does not increase (i.e., remains equal to α);
+  - ai=1, if after Bob gives Alice the i-th fountain, the maximum possible size of Alice's plot increases (i.e., becomes greater than α).
+Tags -data structures
+Tags -math
+Tags -sortings
+Tags -*1900

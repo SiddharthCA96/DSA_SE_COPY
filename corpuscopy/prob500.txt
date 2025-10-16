@@ -1,0 +1,12 @@
+D. "a" String Problem
+You are given a string s consisting of lowercase Latin characters. Count the number of nonempty strings t≠ "a" such that it is possible to partition† s into some substrings satisfying the following conditions:
+  - each substring either equals t or "a", and
+  - at least one substring equals t.
+† A partition of a string s is an ordered sequence of some k strings t1,t2,…,tk (called substrings) such that t1+t2+…+tk=s, where + represents the concatenation operation.
+Tags -brute force
+Tags -hashing
+Tags -implementation
+Tags -math
+Tags -string suffix structures
+Tags -strings
+Tags -*2000

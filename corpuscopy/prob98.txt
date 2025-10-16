@@ -1,0 +1,6 @@
+B. Normal Problem
+A string consisting of only characters 'p', 'q', and 'w' is painted on a glass window of a store. Ship walks past the store, standing directly in front of the glass window, and observes string a𝑎. Ship then heads inside the store, looks directly at the same glass window, and observes string b𝑏.
+Ship gives you string a𝑎. Your job is to find and output b𝑏.
+Tags -implementation
+Tags -strings
+Tags -*800

@@ -1,0 +1,10 @@
+B. Generate Permutation
+There is an integer sequence a of length n, where each element is initially −1.
+Misuki has two typewriters where the first one writes letters from left to right, with a pointer initially pointing to 1, and another writes letters from right to left with a pointer initially pointing to n.
+Misuki would choose one of the typewriters and use it to perform the following operations until a becomes a permutation of [1,2,…,n]
+  - write number: write the minimum positive integer that isn't present in the array a to the element ai, i is the position where the pointer points at. Such operation can be performed only when ai=−1.
+  - carriage return: return the pointer to its initial position (i.e. 1 for the first typewriter, n for the second)
+  - move pointer: move the pointer to the next position, let i be the position the pointer points at before this operation, if Misuki is using the first typewriter, i:=i+1 would happen, and i:=i−1 otherwise. Such operation can be performed only if after the operation, 1≤i≤n holds.
+Your task is to construct any permutation p of length n, such that the minimum number of carriage return operations needed to make a=p is the same no matter which typewriter Misuki is using.
+Tags -constructive algorithms
+Tags -*800

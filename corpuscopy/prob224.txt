@@ -1,0 +1,13 @@
+A. Alice's Adventures in "Chess"
+Alice is trying to meet up with the Red Queen in the countryside! Right now, Alice is at position (0,0), and the Red Queen is at position (a,b). Alice can only move in the four cardinal directions (north, east, south, west).
+More formally, if Alice is at the point (x,y), she will do one of the following:
+  - go north (represented by N), moving to (x,y+1);
+  - go east (represented by E), moving to (x+1,y);
+  - go south (represented by S), moving to (x,y−1); or
+  - go west (represented by W), moving to (x−1,y).
+Alice's movements are predetermined. She has a string s representing a sequence of moves that she performs from left to right. Once she reaches the end of the sequence, she repeats the same pattern of moves forever.
+Can you help Alice figure out if she will ever meet the Red Queen?
+Tags -brute force
+Tags -implementation
+Tags -math
+Tags -*900

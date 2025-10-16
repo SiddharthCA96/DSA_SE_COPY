@@ -1,0 +1,10 @@
+A. Tender Carpenter
+In his dream, Cocoly would go on a long holiday with no worries around him. So he would try out for many new things, such as... being a carpenter. To learn it well, Cocoly decides to become an apprentice of Master, but in front of him lies a hard task waiting for him to solve.
+Cocoly is given an array a1,a2,…,an. Master calls a set of integers S stable if and only if, for any possible u, v, and w from the set S (note that u, v, and w do not necessarily have to be pairwise distinct), sticks of length u, v, and w can form a non-degenerate triangle∗.
+Cocoly is asked to partition the array a into several (possibly, 1 or n) non-empty continuous subsegments†, such that: for each of the subsegments, the set containing all the elements in it is stable.
+Master wants Cocoly to partition a in at least two different‡ ways. You have to help him determine whether it is possible.
+Tags -dp
+Tags -geometry
+Tags -greedy
+Tags -math
+Tags -*800

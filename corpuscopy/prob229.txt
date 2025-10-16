@@ -1,0 +1,12 @@
+C. Add Zeros
+You're given an array a initially containing n integers. In one operation, you must do the following:
+  - Choose a position i such that 1<i≤|a| and ai=|a|+1−i, where |a| is the current size of the array.
+  - Append i−1 zeros onto the end of a.
+After performing this operation as many times as you want, what is the maximum possible length of the array a?
+Tags -brute force
+Tags -data structures
+Tags -dfs and similar
+Tags -dp
+Tags -graphs
+Tags -greedy
+Tags -*1500

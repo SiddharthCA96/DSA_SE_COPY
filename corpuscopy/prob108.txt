@@ -1,0 +1,15 @@
+E. Vertex Pairs
+You are given a tree consisting of 2n vertices. Recall that a tree is a connected undirected graph with no cycles. Each vertex has an integer from 1 to n written on it. Each value from 1 to n is written on exactly two different vertices. Each vertex also has a cost —vertex i costs 2i.
+You need to choose a subset of vertices of the tree such that:
+  - the subset is connected; that is, from each vertex in the subset, you can reach every other vertex in the subset by passing only through the vertices in the subset;
+  - each value from 1 to n is written on at least one vertex in the subset.
+Among all such subsets, you need to find the one with the smallest total cost of the vertices in it. Note that you are not required to minimize the number of vertices in the subset.
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -dfs and similar
+Tags -divide and conquer
+Tags -greedy
+Tags -implementation
+Tags -trees
+Tags -*2900

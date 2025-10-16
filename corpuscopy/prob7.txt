@@ -1,0 +1,10 @@
+B. Gorilla and the Exam
+Due to a shortage of teachers in the senior class of the "T-generation", it was decided to have a huge male gorilla conduct exams for the students. However, it is not that simple; to prove his competence, he needs to solve the following problem.
+For an array b, we define the function f(b) as the smallest number of the following operations required to make the array b empty:
+  - take two integers l and r, such that l≤r, and let x be the min; then
+  - remove all such b_i that l \le i \le r and b_i = x from the array, the deleted elements are removed, the indices are renumerated.
+You are given an array a of length n and an integer k. No more than k times, you can choose any index i (1 \le i \le n) and any integer p, and replace a_i with p.
+Help the gorilla to determine the smallest value of f(a) that can be achieved after such replacements.
+Tags -greedy
+Tags -sortings
+Tags -*1000

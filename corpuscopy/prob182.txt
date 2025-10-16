@@ -1,0 +1,9 @@
+B. Rakhsh's Revival
+Rostam's loyal horse, Rakhsh, has seen better days. Once powerful and fast, Rakhsh has grown weaker over time, struggling to even move. Rostam worries that if too many parts of Rakhsh's body lose strength at once, Rakhsh might stop entirely. To keep his companion going, Rostam decides to strengthen Rakhsh, bit by bit, so no part of his body is too frail for too long.
+Imagine Rakhsh's body as a line of spots represented by a binary string s of length n, where each 0 means a weak spot and each 1 means a strong one. Rostam's goal is to make sure that no interval of m consecutive spots is entirely weak (all 0s).
+Luckily, Rostam has a special ability called Timar, inherited from his mother Rudabeh at birth. With Timar, he can select any segment of length k and instantly strengthen all of it (changing every character in that segment to 1). The challenge is to figure out the minimum number of times Rostam needs to use Timar to keep Rakhsh moving, ensuring there are no consecutive entirely weak spots of length m.
+Tags -data structures
+Tags -greedy
+Tags -implementation
+Tags -two pointers
+Tags -*1000

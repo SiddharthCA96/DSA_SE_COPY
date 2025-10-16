@@ -1,0 +1,14 @@
+D2. DFS Checker (Hard Version)
+This is the hard version of the problem. In this version, you are given a generic tree and the constraints on n and q are higher. You can make hacks only if both versions of the problem are solved.
+You are given a rooted tree consisting of n vertices. The vertices are numbered from 1 to n, and the root is the vertex 1. You are also given a permutation p1,p2,…,pn of [1,2,…,n].
+You need to answer q queries. For each query, you are given two integers x, y; you need to swap px and py and determine if p1,p2,…,pn is a valid DFS order† of the given tree.
+Please note that the swaps are persistent through queries.
+† A DFS order is found by calling the following dfs function on the given tree.
+Note that the DFS order is not unique.
+Tags -binary search
+Tags -data structures
+Tags -dfs and similar
+Tags -graphs
+Tags -hashing
+Tags -trees
+Tags -*2300

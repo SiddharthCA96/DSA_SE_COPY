@@ -1,0 +1,9 @@
+C. Long Multiplication
+You are given two integers x and y of the same length, consisting of digits from 1 to 9.
+You can perform the following operation any number of times (possibly zero): swap the i-th digit in x and the i-th digit in y.
+For example, if x=73 and y=31, you can swap the 2-nd digits and get x=71 and y=33.
+Your task is to maximize the product of x and y using the aforementioned operation any number of times. If there are multiple answers, print any of them.
+Tags -greedy
+Tags -math
+Tags -number theory
+Tags -*1200

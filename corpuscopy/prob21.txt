@@ -1,0 +1,11 @@
+A. Two Frogs
+There are $$$n$$$ lilypads arranged in a row, numbered from $$$1$$$ to $$$n$$$ from left to right. Alice and Bob are frogs initially positioned on distinct lilypads, $$$a$$$ and $$$b$$$, respectively. They take turns jumping, starting with Alice.
+During a frog's turn, it can jump either one space to the left or one space to the right, as long as the destination lilypad exists. For example, on Alice's first turn, she can jump to either lilypad $$$a-1$$$ or $$$a+1$$$, provided these lilypads are within bounds. It is important to note that each frog must jump during its turn and cannot remain on the same lilypad.
+However, there are some restrictions:
+  - The two frogs cannot occupy the same lilypad. This means that Alice cannot jump to a lilypad that Bob is currently occupying, and vice versa.
+  - If a frog cannot make a valid jump on its turn, it loses the game. As a result, the other frog wins.
+Determine whether Alice can guarantee a win, assuming that both players play optimally. It can be proven that the game will end after a finite number of moves if both players play optimally.
+Tags -constructive algorithms
+Tags -games
+Tags -greedy
+Tags -math

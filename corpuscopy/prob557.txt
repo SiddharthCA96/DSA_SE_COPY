@@ -1,0 +1,13 @@
+G. Zimpha Fan Club
+One day, Zimpha casually came up with a problem. As a member of "Zimpha fan club", you decided to solve that problem.
+You are given two strings 𝑠s and 𝑡t of length 𝑛n and 𝑚m, respectively. Both strings only consist of lowercase English letters, - and *.
+You need to replace all occurrences of * and -, observing the following rules:
+  - For each -, you must replace it with any lowercase English letter.
+  - For each *, you must replace it with a string of any (possibly, zero) length which only consists of lowercase English letters.
+Note that you can replace two different instances of - with different characters. You can also replace each two different instances of * with different strings.
+Suppose 𝑠s and 𝑡t have been transformed into 𝑠′s′ and 𝑡′t′. Now you're wondering if there's a replacement that makes 𝑠′=𝑡′s′=t′.
+Tags -fft
+Tags -greedy
+Tags -math
+Tags -strings
+Tags -*3000

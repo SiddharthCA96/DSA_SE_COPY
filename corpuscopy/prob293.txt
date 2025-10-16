@@ -1,0 +1,11 @@
+F2. Game in Tree (Hard Version)
+This is the hard version of the problem. In this version, it is not guaranteed that 𝑢=𝑣u=v. You can make hacks only if both versions of the problem are solved.
+Alice and Bob are playing a fun game on a tree. This game is played on a tree with 𝑛n vertices, numbered from 11 to 𝑛n. Recall that a tree with 𝑛n vertices is an undirected connected graph with 𝑛−1n−1 edges.
+Alice and Bob take turns, with Alice going first. Each player starts at some vertex.
+On their turn, a player must move from the current vertex to a neighboring vertex that has not yet been visited by anyone. The first player who cannot make a move loses.
+You are given two vertices 𝑢u and 𝑣v. Represent the simple path from vertex 𝑢u to 𝑣v as an array 𝑝1,𝑝2,𝑝3,…,𝑝𝑚p1,p2,p3,…,pm, where 𝑝1=𝑢p1=u, 𝑝𝑚=𝑣pm=v, and there is an edge between 𝑝𝑖pi and 𝑝𝑖+1pi+1 for all 𝑖i (1≤𝑖<𝑚1≤i<m).
+You need to determine the winner of the game if Alice starts at vertex 11 and Bob starts at vertex 𝑝𝑗pj for each 𝑗j (where 1≤𝑗≤𝑚1≤j≤m).
+Tags -binary search
+Tags -data structures
+Tags -trees
+Tags -*3500

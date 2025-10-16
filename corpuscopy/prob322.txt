@@ -1,0 +1,13 @@
+H. Sakurako's Test
+Sakurako will soon take a test. The test can be described as an array of integers n and a task on it:
+Given an integer x, Sakurako can perform the following operation any number of times:
+  - Choose an integer i (1≤i≤n) such that ai≥x;
+  - Change the value of ai to ai−x.
+Using this operation any number of times, she must find the minimum possible median∗ of the array a.
+Sakurako knows the array but does not know the integer x. Someone let it slip that one of the q values of x will be in the next test, so Sakurako is asking you what the answer is for each such x.
+Tags -binary search
+Tags -brute force
+Tags -greedy
+Tags -math
+Tags -number theory
+Tags -*2100

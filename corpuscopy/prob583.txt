@@ -1,0 +1,13 @@
+D. Binary Cut
+You are given a binary string††. Please find the minimum number of pieces you need to cut it into, so that the resulting pieces can be rearranged into a sorted binary string.
+Note that:
+  - each character must lie in exactly one of the pieces;
+  - the pieces must be contiguous substrings of the original string;
+  - you must use all the pieces in the rearrangement.
+†† A binary string is a string consisting of characters 0 and 1. A sorted binary string is a binary string such that all characters 0 come before all characters 1.
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -sortings
+Tags -strings
+Tags -*1100

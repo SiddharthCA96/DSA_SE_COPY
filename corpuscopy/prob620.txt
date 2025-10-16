@@ -1,0 +1,7 @@
+B. Prefiquence
+You are given two binary strings a and b. A binary string is a string consisting of the characters '0' and '1'.
+Your task is to determine the maximum possible number k such that a prefix of string a of length k is a subsequence of string b.
+A sequence a is a subsequence of a sequence b if a can be obtained from b by the deletion of several (possibly, zero or all) elements.
+Tags -greedy
+Tags -two pointers
+Tags -*800

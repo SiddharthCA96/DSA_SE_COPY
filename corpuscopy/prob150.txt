@@ -1,0 +1,7 @@
+C. DIY
+You are given a list of 𝑛n integers 𝑎1,𝑎2,…,𝑎𝑛a1,a2,…,an. You need to pick 88 elements from the list and use them as coordinates of four points. These four points should be corners of a rectangle which has its sides parallel to the coordinate axes. Your task is to pick coordinates in such a way that the resulting rectangle has the maximum possible area. The rectangle can be degenerate, i. e. its area can be 00. Each integer can be used as many times as it occurs in the list (or less).
+Tags -data structures
+Tags -geometry
+Tags -greedy
+Tags -sortings
+Tags -*1400

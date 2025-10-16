@@ -1,0 +1,12 @@
+H. Hard Demon Problem
+Swing is opening a pancake factory! A good pancake factory must be good at flattening things, so Swing is going to test his new equipment on 2D matrices.
+Swing is given an n×n matrix M containing positive integers. He has q queries to ask you.
+For each query, he gives you four integers x1, y1, x2, y2 and asks you to flatten the submatrix bounded by (x1,y1) and (x2,y2) into an array A. Formally, A=[M(x1,y1),M(x1,y1+1),…,M(x1,y2),M(x1+1,y1),M(x1+1,y1+1),…,M(x2,y2)].
+The following image depicts the flattening of a submatrix bounded by the red dotted lines. The orange arrows denote the direction that the elements of the submatrix are appended to the back of A, and A is shown at the bottom of the image.
+Afterwards, he asks you for the value of ∑|A|i=1Ai⋅i (sum of Ai⋅i over all i).
+Tags -constructive algorithms
+Tags -data structures
+Tags -dp
+Tags -implementation
+Tags -math
+Tags -*2100

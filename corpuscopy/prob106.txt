@@ -1,0 +1,7 @@
+A. Coin Transformation
+Initially, you have a coin with value n. You can perform the following operation any number of times (possibly zero):
+  - transform one coin with value x, where x is greater than 3 (x>3), into two coins with value ⌊x4⌋.
+What is the maximum number of coins you can have after performing this operation any number of times?
+Tags -brute force
+Tags -math
+Tags -*800

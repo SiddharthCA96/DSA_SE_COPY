@@ -1,0 +1,5 @@
+C. Clock and Strings
+There is a clock labeled with the numbers 11 through 1212 in clockwise order, as shown below.
+Alice and Bob have four distinct integers a, b, c, d not more than 12. Alice ties a red string connecting a and b, and Bob ties a blue string connecting c and d. Do the strings intersect? (The strings are straight line segments.)
+Tags -implementation
+Tags -*900

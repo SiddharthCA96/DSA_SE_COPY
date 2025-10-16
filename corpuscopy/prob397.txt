@@ -1,0 +1,7 @@
+B. Minimize Equal Sum Subarrays
+You are given a permutation∗ p of length n.
+Find a permutation q of length n that minimizes the number of pairs (i,j) (1≤i≤j≤n) such that pi+pi+1+…+pj=qi+qi+1+…+qj.
+Tags -constructive algorithms
+Tags -math
+Tags -number theory
+Tags -*1000

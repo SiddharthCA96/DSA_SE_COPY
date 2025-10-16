@@ -1,0 +1,14 @@
+D. Funny Game
+Vanya has a graph with 𝑛n vertices (numbered from 11 to 𝑛n) and an array 𝑎a of 𝑛n integers; initially, there are no edges in the graph. Vanya got bored, and to have fun, he decided to perform 𝑛−1n−1 operations.
+Operation number 𝑥x (operations are numbered in order starting from 11) is as follows:
+  - Choose 22 different numbers 1≤𝑢,𝑣≤𝑛1≤u,v≤n, such that |𝑎𝑢−𝑎𝑣||au−av| is divisible by 𝑥x.
+  - Add an undirected edge between vertices 𝑢u and 𝑣v to the graph.
+Help Vanya get a connected∗∗ graph using the 𝑛−1n−1 operations, or determine that it is impossible.
+Tags -constructive algorithms
+Tags -dsu
+Tags -graphs
+Tags -greedy
+Tags -math
+Tags -number theory
+Tags -trees
+Tags -*1900

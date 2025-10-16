@@ -1,0 +1,12 @@
+B. Speedbreaker
+There are n cities in a row, numbered 1,2,…,n left to right.
+  - At time 1, you conquer exactly one city, called the starting city.
+  - At time 2,3,…,n, you can choose a city adjacent to the ones conquered so far and conquer it.
+You win if, for each i, you conquer city i at a time no later than ai. A winning strategy may or may not exist, also depending on the starting city. How many starting cities allow you to win?
+Tags -binary search
+Tags -data structures
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -two pointers
+Tags -*1900

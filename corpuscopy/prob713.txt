@@ -1,0 +1,9 @@
+A. Grove
+You want to plant trees in a square lawn of size n×n whose corners have Cartesian coordinates (0,0), (n,0), (0,n), and (n,n). Trees can only be planted at locations with integer coordinates. Every tree will grow roots within a disk of radius r centered at the location where the tree was planted; such disks must be fully contained in the lawn (possibly touching the boundary of the lawn) and can only intersect each other on their boundaries.
+Find a configuration that maximizes the number of trees.
+Tags -brute force
+Tags -dfs and similar
+Tags -dp
+Tags -geometry
+Tags -probabilities
+Tags -*3300

@@ -1,0 +1,14 @@
+C. Fenwick Tree
+Let lowbit(𝑥)lowbit⁡(x) denote the value of the lowest binary bit of 𝑥x, e.g. lowbit(12)=4lowbit⁡(12)=4, lowbit(8)=8lowbit⁡(8)=8.
+For an array 𝑎a of length 𝑛n, if an array 𝑠s of length 𝑛n satisfies 𝑠𝑘=(∑𝑖=𝑘−lowbit(𝑘)+1𝑘𝑎𝑖)mod998244353sk=(∑i=k−lowbit⁡(k)+1kai)mod998244353 for all 𝑘k, then 𝑠s is called the Fenwick Tree of 𝑎a. Let's denote it as 𝑠=𝑓(𝑎)s=f(a).
+For a positive integer 𝑘k and an array 𝑎a, 𝑓𝑘(𝑎)fk(a) is defined as follows:
+𝑓𝑘(𝑎)={𝑓(𝑎)𝑓(𝑓𝑘−1(𝑎))if 𝑘=1otherwise.fk(a)={f(a)if k=1f(fk−1(a))otherwise.
+You are given an array 𝑏b of length 𝑛n and a positive integer 𝑘k. Find an array 𝑎a that satisfies 0≤𝑎𝑖<9982443530≤ai<998244353 and 𝑓𝑘(𝑎)=𝑏fk(a)=b. It can be proved that an answer always exists. If there are multiple possible answers, you may print any of them.
+Tags -bitmasks
+Tags -brute force
+Tags -combinatorics
+Tags -data structures
+Tags -dp
+Tags -math
+Tags -trees
+Tags -*2300

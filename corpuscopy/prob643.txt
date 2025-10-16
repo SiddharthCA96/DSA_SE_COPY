@@ -1,0 +1,8 @@
+E. Yet Another Permutation Constructive
+Suppose you have a permutation p of n integers — an array where each element is an integer from 1 to n, and every integer from 1 to n appears exactly once.
+In one operation, you remove every element of this permutation which is less than at least one of its neighbors. For example, when you apply the operation to [3,1,2,5,4], you get [3,5]. If you apply an operation again, you get [5].
+It's easy to see that after applying a finite number of operations, you get an array consisting of a single integer n.
+You are given two integers n and k. Find a permutation of n integers such that it becomes an array consisting of a single element n after exactly k operations (and not earlier).
+Tags -*special problem
+Tags -constructive algorithms
+Tags -*1900

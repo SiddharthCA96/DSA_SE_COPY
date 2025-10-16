@@ -1,0 +1,9 @@
+E. Cosmic Rays
+Given an array of integers s1,s2,…,sl, every second, cosmic rays will cause all si such that i=1 or si≠si−1 to be deleted simultaneously, and the remaining parts will be concatenated together in order to form the new array s1,s2,…,sl′.
+Define the strength of an array as the number of seconds it takes to become empty.
+You are given an array of integers compressed in the form of n pairs that describe the array left to right. Each pair (ai,bi) represents ai copies of bi, i.e. bi,bi,⋯,bi⏟ai times.
+For each i=1,2,…,n, please find the strength of the sequence described by the first i pairs.
+Tags -brute force
+Tags -data structures
+Tags -dp
+Tags -*2300

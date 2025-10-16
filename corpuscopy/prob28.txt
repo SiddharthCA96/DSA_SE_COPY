@@ -1,0 +1,17 @@
+D. Refined Product Optimality
+Although Iris occasionally sets a problem where the solution is possibly wrong, she still insists on creating problems with her imagination; after all, everyone has always been on the road with their stubbornness... And like ever before, Iris has set a problem to which she gave a wrong solution, but Chris is always supposed to save it! You are going to play the role of Chris now:
+  - Chris is given two arrays a and b, both consisting of n integers.
+  - Iris is interested in the largest possible value of P=n∏i=1min after an arbitrary rearrangement of b. Note that she only wants to know the maximum value of P, and no actual rearrangement is performed on b.
+  - There will be q modifications. Each modification can be denoted by two integers o and x (o is either 1 or 2, 1 \leq x \leq n). If o = 1, then Iris will increase a_x by 1; otherwise, she will increase b_x by 1.
+  - Iris asks Chris the maximum value of P for q + 1 times: once before any modification, then after every modification.
+  - Since P might be huge, Chris only needs to calculate it modulo 998\,244\,353.
+Chris soon worked out this problem, but he was so tired that he fell asleep. Besides saying thanks to Chris, now it is your turn to write a program to calculate the answers for given input data.
+Note: since the input and output are large, you may need to optimize them for this problem.
+For example, in C++, it is enough to use the following lines at the start of the main() function:
+Tags -binary search
+Tags -data structures
+Tags -greedy
+Tags -math
+Tags -schedules
+Tags -sortings
+Tags -*1700

@@ -1,0 +1,5 @@
+A. Easy Problem
+Cube is given an integer n. She wants to know how many ordered pairs of positive integers (a,b) there are such that a=n−b. Since Cube is not very good at math, please help her!
+Tags -brute force
+Tags -math
+Tags -*800

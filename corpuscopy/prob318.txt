@@ -1,0 +1,6 @@
+D. Satyam and Counting
+Satyam is given 𝑛n distinct points on the 2D coordinate plane. It is guaranteed that 0≤𝑦𝑖≤10≤yi≤1 for all given points (𝑥𝑖,𝑦𝑖)(xi,yi). How many different nondegenerate right triangles∗∗ can be formed from choosing three different points as its vertices?
+Two triangles 𝑎a and 𝑏b are different if there is a point 𝑣v such that 𝑣v is a vertex of 𝑎a but not a vertex of 𝑏b.
+Tags -geometry
+Tags -math
+Tags -*1400

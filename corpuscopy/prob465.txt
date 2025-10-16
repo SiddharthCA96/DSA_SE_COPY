@@ -1,0 +1,10 @@
+D. The Omnipotent Monster Killer
+You, the monster killer, want to kill a group of monsters. The monsters are on a tree with n vertices. On vertex with number i (1≤i≤n), there is a monster with ai attack points. You want to battle with monsters for 10100 rounds.
+In each round, the following happens in order:
+There is a restriction: in one round, you cannot kill two monsters that are directly connected by an edge.
+If you choose what monsters to attack optimally, what is the smallest health decrement you can have after all rounds?
+Tags -brute force
+Tags -dfs and similar
+Tags -dp
+Tags -trees
+Tags -*2000

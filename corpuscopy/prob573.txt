@@ -1,0 +1,12 @@
+D. Cat, Fox and Maximum Array Split
+This is an interactive problem.
+Fox gave Cat two positive integers n and k. She has a hidden array a1,…,an of length n, such that 1≤ai≤n for every i. Now they are going to play the following game:
+For any two integers l,r such that 1≤l≤r≤n, define f(l,r)=(r−l+1)⋅rmaxx=lax. In other words, f(l,r) is equal to the maximum of the subarray al,…,ar multiplied by its size.
+Cat can ask Fox at most 2n questions about the array. He will tell her two integers l and x (1≤l≤n,1≤x≤109), and she will tell him one integer p as the answer — the smallest positive integer r such that f(l,r)=x, or n+1 if no such r exists.
+Now, Cat needs to find the largest value m such that there exists a sequence c1,…,ck−1 such that 1≤c1<…<ck−1<n and f(1,c1)=f(c1+1,c2)=…=f(ck−1+1,n)=m. If no such m exists, he should indicate this and take −1 as the answer. Note that for k=1, m is always equal to f(1,n).
+In other words, the goal is to find the largest m such that you can split the array into exactly k subarrays (k is the constant given to you in the beginning of the interaction) so that all the subarrays have the product of their length and their maximum equal to m, or determine that no such m exists. Every element should belong in exactly one of the subarrays.
+Cat doesn't know what he should do, so he asked you to play the game for him.
+Tags -brute force
+Tags -interactive
+Tags -math
+Tags -*2400

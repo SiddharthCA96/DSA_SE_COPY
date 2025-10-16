@@ -1,0 +1,18 @@
+F. Kosuke's Sloth
+Kosuke is too lazy. He will not give you any legend, just the task:
+Fibonacci numbers are defined as follows:
+  - f(1)=f(2)=1.
+  - f(n)=f(n−1)+f(n−2) (3≤n)
+We denote
+as an index of the
+-th Fibonacci number that is divisible by
+. For given
+and
+, compute
+.
+As this number can be too big, output it by modulo 109+7.
+For example: G(3,2)=9 because the 3-rd Fibonacci number that is divisible by 2 is 34. [1,1,2,3,5,8,13,21,34].
+Tags -brute force
+Tags -math
+Tags -number theory
+Tags -*1800

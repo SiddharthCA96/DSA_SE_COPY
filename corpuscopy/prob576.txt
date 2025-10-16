@@ -1,0 +1,10 @@
+A. Chess For Three
+Three friends gathered to play a few games of chess together.
+In every game, two of them play against each other. The winner gets 22 points while the loser gets 00, and in case of a draw, both players get 11 point each. Note that the same pair of players could have played any non-negative number of times (possibly zero). It is also possible that no games were played at all.
+You've been told that their scores after all the games were played were 𝑝1p1, 𝑝2p2 and 𝑝3p3. Additionally, it is guaranteed that 𝑝1≤𝑝2≤𝑝3p1≤p2≤p3 holds.
+Find the maximum number of draws that could have happened and print it. If there isn't any way to obtain 𝑝1p1, 𝑝2p2 and 𝑝3p3 as a result of a non-negative number of games between the three players, print −1−1 instead.
+Tags -brute force
+Tags -dp
+Tags -implementation
+Tags -math
+Tags -*900

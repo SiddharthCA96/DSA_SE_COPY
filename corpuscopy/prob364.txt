@@ -1,0 +1,15 @@
+F1. Court Blue (Easy Version)
+This is the easy version of the problem. In this version, n=m and the time limit is lower. You can make hacks only if both versions of the problem are solved.
+In the court of the Blue King, Lelle and Flamm are having a performance match. The match consists of several rounds. In each round, either Lelle or Flamm wins.
+Let WL and WF denote the number of wins of Lelle and Flamm, respectively. The Blue King considers a match to be successful if and only if:
+  - after every round, gcd(WL,WF)≤1;
+  - at the end of the match, WL≤n,WF≤m.
+Note that gcd(0,x)=gcd(x,0)=x for every non-negative integer x.
+Lelle and Flamm can decide to stop the match whenever they want, and the final score of the performance is l⋅WL+f⋅WF.
+Please help Lelle and Flamm coordinate their wins and losses such that the performance is successful, and the total score of the performance is maximized.
+Tags -brute force
+Tags -dfs and similar
+Tags -dp
+Tags -math
+Tags -number theory
+Tags -*2600

@@ -1,0 +1,7 @@
+E. Klee's SUPER DUPER LARGE Array!!!
+Klee has an array a𝑎 of length n𝑛 containing integers [k,k+1,...,k+n−1][𝑘,𝑘+1,...,𝑘+𝑛−1] in that order. Klee wants to choose an index i𝑖 (1≤i≤n1≤𝑖≤𝑛) such that x=|a1+a2+⋯+ai−ai+1−⋯−an| is minimized. Note that for an arbitrary integer z, |z| represents the absolute value of z.
+Output the minimum possible value of x.
+Tags -binary search
+Tags -math
+Tags -ternary search
+Tags -*1400

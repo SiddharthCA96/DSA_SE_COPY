@@ -1,0 +1,10 @@
+B. 378QAQ and Mocha's Array
+Mocha likes arrays, so before her departure, 378QAQ gave her an array a consisting of n positive integers as a gift.
+Mocha thinks that a is beautiful if there exist two numbers i and j (1≤i,j≤n, i≠j) such that for all k (1≤k≤n), ak is divisible† by either ai or aj.
+Determine whether a is beautiful.
+† x is divisible by y if there exists an integer z such that x=y⋅z.
+Tags -brute force
+Tags -greedy
+Tags -math
+Tags -sortings
+Tags -*1000

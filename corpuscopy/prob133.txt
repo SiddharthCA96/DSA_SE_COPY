@@ -1,0 +1,8 @@
+F2. Shohag Loves Counting (Hard Version)
+This is the hard version of the problem. The only differences between the two versions of this problem are the constraints on 𝑡t, 𝑚m, and the sum of 𝑚m. You can only make hacks if both versions of the problem are solved.
+For an integer array 𝑎a of length 𝑛n, define 𝑓(𝑘)f(k) as the greatest common divisor (GCD) of the maximum values of all subarrays∗∗ of length 𝑘k. For example, if the array is [2,1,4,6,2][2,1,4,6,2], then 𝑓(3)=gcd(max([2,1,4]),max([1,4,6]),max([4,6,2]))=gcd(4,6,6)=2f(3)=gcd⁡(max⁡([2,1,4]),max⁡([1,4,6]),max⁡([4,6,2]))=gcd⁡(4,6,6)=2.
+An array is good if 𝑓(𝑖)≠𝑓(𝑗)f(i)≠f(j) is satisfied over all pairs 1≤𝑖<𝑗≤𝑛1≤i<j≤n.
+Shohag has an integer 𝑚m. Help him count the number, modulo 998244353998244353, of non-empty good arrays of arbitrary length such that each element of the array is an integer from 11 to 𝑚m.
+Tags -dp
+Tags -number theory
+Tags -*3200

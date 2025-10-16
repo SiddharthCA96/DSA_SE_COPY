@@ -1,0 +1,11 @@
+C. Nene's Magical Matrix
+The magical girl Nene has an 𝑛×𝑛n×n matrix 𝑎a filled with zeroes. The 𝑗j-th element of the 𝑖i-th row of matrix 𝑎a is denoted as 𝑎𝑖,𝑗ai,j.
+She can perform operations of the following two types with this matrix:
+  - Type 11 operation: choose an integer 𝑖i between 11 and 𝑛n and a permutation 𝑝1,𝑝2,…,𝑝𝑛p1,p2,…,pn of integers from 11 to 𝑛n. Assign 𝑎𝑖,𝑗:=𝑝𝑗ai,j:=pj for all 1≤𝑗≤𝑛1≤j≤n simultaneously.
+  - Type 22 operation: choose an integer 𝑖i between 11 and 𝑛n and a permutation 𝑝1,𝑝2,…,𝑝𝑛p1,p2,…,pn of integers from 11 to 𝑛n. Assign 𝑎𝑗,𝑖:=𝑝𝑗aj,i:=pj for all 1≤𝑗≤𝑛1≤j≤n simultaneously.
+Nene wants to maximize the sum of all the numbers in the matrix ∑𝑖=1𝑛∑𝑗=1𝑛𝑎𝑖,𝑗∑i=1n∑j=1nai,j. She asks you to find the way to perform the operations so that this sum is maximized. As she doesn't want to make too many operations, you should provide a solution with no more than 2𝑛2n operations.
+A permutation of length 𝑛n is an array consisting of 𝑛n distinct integers from 11 to 𝑛n in arbitrary order. For example, [2,3,1,5,4][2,3,1,5,4] is a permutation, but [1,2,2][1,2,2] is not a permutation (22 appears twice in the array), and [1,3,4][1,3,4] is also not a permutation (𝑛=3n=3 but there is 44 in the array).
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -*1600

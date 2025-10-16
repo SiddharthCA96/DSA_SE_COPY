@@ -1,0 +1,11 @@
+E. Nested Segments
+A set A consisting of pairwise distinct segments [l,r] with integer endpoints is called good if 1≤l≤r≤n, and for any pair of distinct segments [li,ri],[lj,rj] in A, exactly one of the following conditions holds:
+  - ri<lj or rj<li (the segments do not intersect)
+  - li≤lj≤rj≤ri or lj≤li≤ri≤rj (one segment is fully contained within the other)
+You are given a good set S consisting of m pairwise distinct segments [li,ri] with integer endpoints. You want to add as many additional segments to the set S as possible while ensuring that set S remains good.
+Since this task is too easy, you need to determine the number of different ways to add the maximum number of additional segments to S, ensuring that the set remains good. Two ways are considered different if there exists a segment that is being added in one of the ways, but not in the other.
+Formally, you need to find the number of good sets T of distinct segments, such that S is a subset of T and T has the maximum possible size. Since the result might be very large, compute the answer modulo 998244353.
+Tags -combinatorics
+Tags -dfs and similar
+Tags -dp
+Tags -math

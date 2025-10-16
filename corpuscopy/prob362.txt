@@ -1,0 +1,8 @@
+G. Lattice Optimizing
+Consider a grid graph with 𝑛n rows and 𝑛n columns. Let the cell in row 𝑥x and column 𝑦y be (𝑥,𝑦)(x,y). There exists a directed edge from (𝑥,𝑦)(x,y) to (𝑥+1,𝑦)(x+1,y), with non-negative integer value 𝑑𝑥,𝑦dx,y, for all 1≤𝑥<𝑛,1≤𝑦≤𝑛1≤x<n,1≤y≤n, and there also exists a directed edge from (𝑥,𝑦)(x,y) to (𝑥,𝑦+1)(x,y+1), with non-negative integer value 𝑟𝑥,𝑦rx,y, for all 1≤𝑥≤𝑛,1≤𝑦<𝑛1≤x≤n,1≤y<n.
+Initially, you are at (1,1)(1,1), with an empty set 𝑆S. You need to walk along the edges and eventually reach (𝑛,𝑛)(n,n). Whenever you pass an edge, its value will be inserted into 𝑆S. Please maximize the MEX∗∗ of 𝑆S when you reach (𝑛,𝑛)(n,n).
+Tags -bitmasks
+Tags -brute force
+Tags -hashing
+Tags -meet-in-the-middle
+Tags -*3400

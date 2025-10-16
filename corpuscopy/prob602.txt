@@ -1,0 +1,9 @@
+B3. Exact Neighbours (Hard)
+After some recent attacks on Hogwarts Castle by the Death Eaters, the Order of the Phoenix has decided to station n members in Hogsmead Village. The houses will be situated on a picturesque n×n square field. Each wizard will have their own house, and every house will belong to some wizard. Each house will take up the space of one square.
+However, as you might know wizards are very superstitious. During the weekends, each wizard i will want to visit the house that is exactly ai (0≤ai≤n) away from their own house. The roads in the village are built horizontally and vertically, so the distance between points (xi,yi) and (xj,yj) on the n×n field is |xi−xj|+|yi−yj|. The wizards know and trust each other, so one wizard can visit another wizard's house when the second wizard is away. The houses to be built will be big enough for all n wizards to simultaneously visit any house.
+Apart from that, each wizard is mandated to have a view of the Hogwarts Castle in the north and the Forbidden Forest in the south, so the house of no other wizard should block the view. In terms of the village, it means that in each column of the n×n field, there can be at most one house, i.e. if the i-th house has coordinates (xi,yi), then xi≠xj for all i≠j.
+The Order of the Phoenix doesn't yet know if it is possible to place n houses in such a way that will satisfy the visit and view requirements of all n wizards, so they are asking for your help in designing such a plan.
+If it is possible to have a correct placement, where for the i-th wizard there is a house that is ai away from it and the house of the i-th wizard is the only house in their column, output YES, the position of houses for each wizard, and to the house of which wizard should each wizard go during the weekends.
+If it is impossible to have a correct placement, output NO.
+Tags -constructive algorithms
+Tags -*2300

@@ -1,0 +1,15 @@
+F. Cutting Game
+Alice and Bob were playing a game again. They have a grid of size a×b (1≤a,b≤109), on which there are n chips, with at most one chip in each cell. The cell at the intersection of the x-th row and the y-th column has coordinates (x,y).
+Alice made the first move, and the players took turns. On each move, a player could cut several (but not all) rows or columns from the beginning or end of the remaining grid and earn a point for each chip that was on the cut part of the grid. Each move can be described by the character 'U', 'D', 'L', or 'R' and an integer k:
+  - If the character is 'U', then the first k remaining rows will be cut;
+  - If the character is 'D', then the last k remaining rows will be cut;
+  - If the character is 'L', then the first k remaining columns will be cut;
+  - If the character is 'R', then the last k remaining columns will be cut.
+Based on the initial state of the grid and the players' moves, determine the number of points earned by Alice and Bob, respectively.
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -implementation
+Tags -sortings
+Tags -two pointers
+Tags -*1900

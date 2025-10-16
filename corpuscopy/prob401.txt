@@ -1,0 +1,10 @@
+D. Maximize the Root
+You are given a rooted tree, consisting of n vertices. The vertices in the tree are numbered from 1 to n, and the root is the vertex 1. The value ai is written at the i-th vertex.
+You can perform the following operation any number of times (possibly zero): choose a vertex v which has at least one child; increase av by 1; and decrease au by 1 for all vertices u that are in the subtree of v (except v itself). However, after each operation, the values on all vertices should be non-negative.
+Your task is to calculate the maximum possible value written at the root using the aforementioned operation.
+Tags -binary search
+Tags -dfs and similar
+Tags -dp
+Tags -greedy
+Tags -trees
+Tags -*1500

@@ -1,0 +1,14 @@
+F. 0, 1, 2, Tree!
+Find the minimum height of a rooted tree†† with a+b+c vertices that satisfies the following conditions:
+  - a vertices have exactly 2 children,
+  - b vertices have exactly 1 child, and
+  - c vertices have exactly 0 children.
+If no such tree exists, you should report it.
+† A rooted tree is a connected graph without cycles, with a special vertex called the root. In a rooted tree, among any two vertices connected by an edge, one vertex is a parent (the one closer to the root), and the other one is a child.
+The distance between two vertices in a tree is the number of edges in the shortest path between them. The height of a rooted tree is the maximum distance from a vertex to the root.
+Tags -bitmasks
+Tags -brute force
+Tags -greedy
+Tags -implementation
+Tags -trees
+Tags -*1700

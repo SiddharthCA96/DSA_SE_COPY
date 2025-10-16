@@ -1,0 +1,10 @@
+A. Meaning Mean
+Pak Chanek has an array a𝑎 of n𝑛 positive integers. Since he is currently learning how to calculate the floored average of two numbers, he wants to practice it on his array a𝑎.
+While the array a𝑎 has at least two elements, Pak Chanek will perform the following three-step operation:
+For example, suppose that a=[5,4,3,2,1,1]. If we choose i=1 and j=5, the resulting array will be a=[4,3,2,1,3]. If we choose i=4 and j=3, the resulting array will be a=[5,4,1,1,2].
+After all operations, the array will consist of a single element x. Find the maximum possible value of x if Pak Chanek performs the operations optimally.
+Tags -data structures
+Tags -greedy
+Tags -math
+Tags -sortings
+Tags -*800

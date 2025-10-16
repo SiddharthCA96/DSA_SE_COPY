@@ -1,0 +1,12 @@
+F1. Yandex Cuneiform (Easy Version)
+
+This is the easy version of the problem. The difference between the versions is that in this version, there are no question marks. You can hack only if you solved all versions of this problem.
+For a long time, no one could decipher Sumerian cuneiform. However, it has finally succumbed to pressure! Today, you have the chance to decipher Yandex cuneiform.
+Yandex cuneiform is defined by the following rules:
+You are given a template. A template is a string consisting of the characters 'Y', 'D', 'X', and '?'.
+You need to check whether there exists a way to replace each question mark with 'Y', 'D', or 'X' to obtain a Yandex cuneiform, and if it exists, output any of the matching options, as well as a sequence of insertion operations to obtain the resulting cuneiform.
+In this version of the problem, there are no question marks in the template.
+Tags -constructive algorithms
+Tags -data structures
+Tags -greedy
+Tags -*3300

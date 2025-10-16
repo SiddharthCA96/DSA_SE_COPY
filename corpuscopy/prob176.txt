@@ -1,0 +1,10 @@
+G1. Simurgh's Watch (Easy Version)
+The only difference between the two versions of the problem is whether overlaps are considered at all points or only at integer points.
+The legendary Simurgh, a mythical bird, is responsible for keeping watch over vast lands, and for this purpose, she has enlisted n vigilant warriors. Each warrior is alert during a specific time segment [li,ri], where li is the start time (included) and ri is the end time (included), both positive integers.
+One of Simurgh's trusted advisors, Zal, is concerned that if multiple warriors are stationed at the same time and all wear the same color, the distinction between them might be lost, causing confusion in the watch. To prevent this, whenever multiple warriors are on guard at the same moment (which can be non-integer), there must be at least one color which is worn by exactly one warrior.
+So the task is to determine the minimum number of colors required and assign a color ci to each warrior's segment [li,ri] such that, for every (real) time t contained in at least one segment, there exists one color which belongs to exactly one segment containing t.
+Tags -constructive algorithms
+Tags -greedy
+Tags -implementation
+Tags -sortings
+Tags -*3500

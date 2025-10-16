@@ -1,0 +1,10 @@
+B2. Reverse Card (Hard Version)
+The two versions are different problems. You may want to read both versions. You can make hacks only if both versions are solved.
+You are given two positive integers 𝑛n, 𝑚m.
+Calculate the number of ordered pairs (𝑎,𝑏)(a,b) satisfying the following conditions:
+  - 1≤𝑎≤𝑛1≤a≤n, 1≤𝑏≤𝑚1≤b≤m;
+  - 𝑏⋅gcd(𝑎,𝑏)b⋅gcd(a,b) is a multiple of 𝑎+𝑏a+b.
+Tags -brute force
+Tags -math
+Tags -number theory
+Tags -*2200

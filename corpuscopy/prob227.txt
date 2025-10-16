@@ -1,0 +1,14 @@
+D2. The Endspeaker (Hard Version)
+This is the hard version of this problem. The only difference is that you need to also output the number of optimal sequences in this version. You must solve both versions to be able to hack.
+You're given an array a of length n, and an array b of length m (bi>bi+1 for all 1≤i<m). Initially, the value of k is 1. Your aim is to make the array a empty by performing one of these two operations repeatedly:
+  - Type 1 — If the value of k is less than m and the array a is not empty, you can increase the value of k by 1. This does not incur any cost.
+  - Type 2 — You remove a non-empty prefix of array a, such that its sum does not exceed bk. This incurs a cost of m−k.
+You need to minimize the total cost of the operations to make array a empty. If it's impossible to do this through any sequence of operations, output −1. Otherwise, output the minimum total cost of the operations, and the number of sequences of operations which yield this minimum cost modulo 109+7.
+Two sequences of operations are considered different if you choose a different type of operation at any step, or the size of the removed prefix is different at any step.
+Tags -binary search
+Tags -data structures
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -two pointers
+Tags -*2200

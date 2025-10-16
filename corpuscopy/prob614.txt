@@ -1,0 +1,15 @@
+G2. Division + LCP (hard version)
+This is the hard version of the problem. In this version l≤r.
+You are given a string s. For a fixed k, consider a division of s into exactly k continuous substrings w1,…,wk. Let fk be the maximal possible LCP(w1,…,wk) among all divisions.
+LCP(w1,…,wm) is the length of the Longest Common Prefix of the strings w1,…,wm.
+For example, if s=abababcab and k=4, a possible division is abababcab. The LCP(ab,ab,abc,ab) is 2, since ab is the Longest Common Prefix of those four strings. Note that each substring consists of a continuous segment of characters and each character belongs to exactly one substring.
+Your task is to find fl,fl+1,…,fr.
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -dp
+Tags -hashing
+Tags -math
+Tags -string suffix structures
+Tags -strings
+Tags -*2200

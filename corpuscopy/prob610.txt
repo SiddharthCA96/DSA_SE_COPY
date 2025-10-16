@@ -1,0 +1,12 @@
+D. Shop Game
+Alice and Bob are playing a game in the shop. There are n items in the shop; each item has two parameters: ai (item price for Alice) and bi (item price for Bob).
+Alice wants to choose a subset (possibly empty) of items and buy them. After that, Bob does the following:
+  - if Alice bought less than k items, Bob can take all of them for free;
+  - otherwise, he will take k items for free that Alice bought (Bob chooses which k items it will be), and for the rest of the chosen items, Bob will buy them from Alice and pay bi for the i-th item.
+Alice's profit is equal to ∑i∈Sbi−∑j∈Taj, where S is the set of items Bob buys from Alice, and T is the set of items Alice buys from the shop. In other words, Alice's profit is the difference between the amount Bob pays her and the amount she spends buying the items.
+Alice wants to maximize her profit, Bob wants to minimize Alice's profit. Your task is to calculate Alice's profit if both Alice and Bob act optimally.
+Tags -data structures
+Tags -greedy
+Tags -math
+Tags -sortings
+Tags -*1900

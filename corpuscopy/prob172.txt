@@ -1,0 +1,7 @@
+B. Everyone Loves Tres
+Given a positive integer n. Find the smallest integer whose decimal representation has length n and consists only of 3s and 6s such that it is divisible by both 33 and 66. If no such integer exists, print −1.
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -number theory
+Tags -*900

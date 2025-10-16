@@ -1,0 +1,5 @@
+A. Problem Solving
+Jane has decided to solve a list of n problems on Codeforces. The i-th problem in her list has difficulty di, and the last problem in the list is the hardest one (for every problem j<n, dj<dn).
+Jane's problem-solving skill is some integer x (unknown to you). If a problem's difficulty is greater than x, then Jane cannot solve it, otherwise she can solve it.
+Jane has solved all problems form the list, except for the last one — she found out that it was too difficult for her. Can you uniquely determine the value of x — Jane's problem solving skill?
+Tags -*special problem

@@ -1,0 +1,15 @@
+F1. Speedbreaker Counting (Easy Version)
+This is the easy version of the problem. In the three versions, the constraints on n and the time limit are different. You can make hacks only if all the versions of the problem are solved.
+This is the statement of Problem D1B:
+  - There are n cities in a row, numbered 1,2,…,n left to right.  At time 1, you conquer exactly one city, called the starting city.  At time 2,3,…,n, you can choose a city adjacent to the ones conquered so far and conquer it. You win if, for each i, you conquer city i at a time no later than ai. A winning strategy may or may not exist, also depending on the starting city. How many starting cities allow you to win?
+  - At time 1, you conquer exactly one city, called the starting city.
+  - At time 2,3,…,n, you can choose a city adjacent to the ones conquered so far and conquer it.
+For each 0≤k≤n, count the number of arrays of positive integers a1,a2,…,an such that
+  - 1≤ai≤n for each 1≤i≤n;
+  - the answer to Problem D1B is k.
+The answer can be very large, so you have to calculate it modulo a given prime p.
+Tags -combinatorics
+Tags -dp
+Tags -greedy
+Tags -math
+Tags -*2900

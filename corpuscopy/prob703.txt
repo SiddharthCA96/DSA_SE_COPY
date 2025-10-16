@@ -1,0 +1,9 @@
+K. Make Triangle
+You are given n positive integers x1,x2,…,xn and three positive integers na,nb,nc satisfying na+nb+nc=n.
+You want to split the n positive integers into three groups, so that:
+  - The first group contains na numbers, the second group contains nb numbers, the third group contains nc numbers.
+  - Let sa be the sum of the numbers in the first group, sb be the sum in the second group, and sc be the sum in the third group. Then sa,sb,sc are the sides of a triangle with positive area.
+Determine if this is possible. If this is possible, find one way to do so.
+Tags -constructive algorithms
+Tags -math
+Tags -*2800

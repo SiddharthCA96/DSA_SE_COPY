@@ -1,0 +1,8 @@
+F. Firefly's Queries
+Firefly is given an array a of length n. Let ci denote the i'th cyclic shift∗ of a. She creates a new array b such that b=c1+c2+⋯+cn where + represents concatenation†.
+Then, she asks you q queries. For each query, output the sum of all elements in the subarray of b that starts from the l-th element and ends at the r-th element, inclusive of both ends.
+Tags -bitmasks
+Tags -data structures
+Tags -flows
+Tags -math
+Tags -*1700

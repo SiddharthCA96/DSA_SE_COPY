@@ -1,0 +1,7 @@
+A. Rudolf and the Ticket
+Rudolf is going to visit Bernard, and he decided to take the metro to get to him. The ticket can be purchased at a machine that accepts exactly two coins, the sum of which does not exceed k.
+Rudolf has two pockets with coins. In the left pocket, there are n coins with denominations b1,b2,…,bn. In the right pocket, there are m coins with denominations c1,c2,…,cm. He wants to choose exactly one coin from the left pocket and exactly one coin from the right pocket (two coins in total).
+Help Rudolf determine how many ways there are to select indices f and s such that bf+cs≤k.
+Tags -brute force
+Tags -math
+Tags -*800

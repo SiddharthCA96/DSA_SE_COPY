@@ -1,0 +1,12 @@
+F. Card Pairing
+There is a deck of n cards, each card has one of k types. You are given the sequence a1,a2,…,an denoting the types of cards in the deck from top to bottom. Both n and k are even numbers.
+You play a game with these cards. First, you draw k topmost cards from the deck. Then, the following happens each turn of the game:
+  - you choose exactly two cards from your hand and play them. If these cards have the same type, you earn a coin;
+  - then, if the deck is not empty, you draw exactly two top cards from it;
+  - then, if both your hand and your deck are empty, the game ends. Otherwise, the new turn begins.
+You have to calculate the maximum number of coins you can earn during the game.
+Tags -dp
+Tags -greedy
+Tags -hashing
+Tags -implementation
+Tags -*3000

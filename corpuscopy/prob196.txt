@@ -1,0 +1,13 @@
+F. Penchick and Even Medians
+
+This is an interactive problem.
+Returning from a restful vacation on Australia's Gold Coast, Penchick forgot to bring home gifts for his pet duck Duong Canh! But perhaps a beautiful problem crafted through deep thought on the scenic beaches could be the perfect souvenir.
+There is a hidden permutation∗ p of length n, where n is even. You are allowed to make the following query:
+  - Choose a subsequence† of the permutation p with even length 4≤k≤n. The interactor will return the value of the two medians‡ in the chosen subsequence.
+Find the index of the two medians in permutation p using at most 80 queries.
+Note that the interactor is non-adaptive. This means that the permutation p is fixed at the beginning and will not change based on your queries.
+Tags -binary search
+Tags -constructive algorithms
+Tags -interactive
+Tags -probabilities
+Tags -*2800

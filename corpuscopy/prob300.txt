@@ -1,0 +1,11 @@
+I. Stack and Queue
+There are 22 queues of patients at the doors of two doctors. The first doctor sees patients in the usual order of the queue — whoever arrived first will be seen first. The second doctor does the opposite — he sees those who arrived last first. Thus, there is a queue for the first doctor and a stack for the second doctor. A patient can be in both the queue and the stack. Each patient is characterized by the time their visit to the doctor will take (the time is the same for both doctors).
+When the appointments begin, the doctors will see patients in the order of the queue and stack, respectively. As soon as a doctor finishes with one patient, he will call the next one.
+But there is one problem: if a patient is in both the queue and the stack, and he is called to one doctor first and then to the other, while he has not yet finished with the first one, confusion will arise. It is allowed for a patient to go to the second doctor at the exact moment he finishes with the first doctor.
+The current configuration of the queue and stack is called good if the doctors can see all the patients without any confusion arising.
+Initially, both the queue and the stack are empty. There are three types of queries:
+It is guaranteed that after each query, each patient is no more than once in the queue and no more than once in the stack.
+After each query, you need to determine if the current configuration is good.
+Tags -*special problem
+Tags -data structures
+Tags -divide and conquer

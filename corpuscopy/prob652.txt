@@ -1,0 +1,10 @@
+C. How Does the Rook Move?
+You are given an 𝑛×𝑛n×n chessboard where you and the computer take turns alternatingly to place white rooks & black rooks on the board respectively. While placing rooks, you have to ensure that no two rooks attack each other. Two rooks attack each other if they share the same row or column regardless of color.
+A valid move is placing a rook on a position (𝑟r, 𝑐c) such that it doesn't attack any other rook.
+You start first, and when you make a valid move in your turn, placing a white rook at position (𝑟r, 𝑐c), the computer will mirror you and place a black rook at position (𝑐c, 𝑟r) in its turn. If 𝑟=𝑐r=c, then the computer can't mirror your move, and skips its turn.
+You have already played 𝑘k moves with the computer (the computer tries to mirror these moves too), and you must continue playing the game until there are no valid moves remaining. How many different final configurations are possible when you continue the game after the 𝑘k moves? It is guaranteed that the 𝑘k moves and the implied computer moves are valid. Since the answer may be large, print it modulo 109+7109+7.
+Two configurations are considered different if there exists a coordinate (𝑟r, 𝑐c) which has a rook in one configuration, but not in the other or the color of the rook on the coordinate is different.
+Tags -combinatorics
+Tags -dp
+Tags -math
+Tags -*1600

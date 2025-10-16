@@ -1,0 +1,18 @@
+H. Tower Capturing
+There are n towers at n distinct points (x1,y1),(x2,y2),…,(xn,yn), such that no three are collinear and no four are concyclic. Initially, you own towers (x1,y1) and (x2,y2), and you want to capture all of them. To do this, you can do the following operation any number of times:
+  - Pick two towers P and Q you own and one tower R you don't own, such that the circle through P, Q, and R contains all n towers inside of it.
+  - Afterwards, capture all towers in or on triangle △PQR, including R itself.
+An
+is a series of choices of
+(
+) using the above operations after which you capture all towers. Note that two attack plans are considered different only if they differ in their choice of
+in some operation; in particular, two attack plans using the same choices of
+but different choices of
+and
+are considered the same.
+Count the number of attack plans of minimal length. Note that it might not be possible to capture all towers, in which case the answer is 0.
+Since the answer may be large, output it modulo 998244353.
+Tags -combinatorics
+Tags -dp
+Tags -geometry
+Tags -*3300

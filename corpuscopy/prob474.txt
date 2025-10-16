@@ -1,0 +1,11 @@
+E. Wonderful Tree!
+You are given a tree with n vertices, rooted at vertex 1. The i-th vertex has an integer ai written on it.
+Let L be the set of all direct children∗ of v. A tree is called wonderful, if for all vertices v where L is not empty, av≤∑u∈Lau. In one operation, you choose any vertex v and increase av by 1.
+Find the minimum number of operations needed to make the given tree wonderful!
+Tags -brute force
+Tags -data structures
+Tags -dfs and similar
+Tags -dsu
+Tags -greedy
+Tags -trees
+Tags -*2000

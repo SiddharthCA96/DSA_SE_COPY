@@ -1,0 +1,15 @@
+E1. Nene vs. Monsters (Easy Version)
+This is the easy version of the problem. The only difference between the versions is the constraints on ai. You can make hacks only if both versions of the problem are solved.
+Nene is fighting with n monsters, located in a circle. These monsters are numbered from 1 to n, and the i-th (1≤i≤n) monster's current energy level is ai.
+Since the monsters are too strong, Nene decided to fight with them using the Attack Your Neighbour spell. When Nene uses this spell, the following actions happen in the following order one by one:
+  - The 1-st monster attacks the 2-nd monster;
+  - The 2-nd monster attacks the 3-rd monster;
+  - …
+  - The (n−1)-th monster attacks the n-th monster;
+  - The n-th monster attacks the 1-st monster.
+When the monster with energy level x attacks the monster with the energy level y, the energy level of the defending monster becomes max(0,y−x) (the energy level of the attacking monster remains equal to x).
+Nene is going to use this spell 10100 times and deal with the monsters that will still have a non-zero energy level herself. She wants you to determine which monsters will have a non-zero energy level once she will use the described spell 10100 times.
+Tags -brute force
+Tags -implementation
+Tags -math
+Tags -*2500

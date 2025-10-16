@@ -1,0 +1,6 @@
+K. GCDDCG
+You are playing the Greatest Common Divisor Deck-Building Card Game (GCDDCG). There are $$$N$$$ cards (numbered from $$$1$$$ to $$$N$$$). Card $$$i$$$ has the value of $$$A_i$$$, which is an integer between $$$1$$$ and $$$N$$$ (inclusive).
+The game consists of $$$N$$$ rounds (numbered from $$$1$$$ to $$$N$$$). Within each round, you need to build two non-empty decks, deck $$$1$$$ and deck $$$2$$$. A card cannot be inside both decks, and it is allowed to not use all $$$N$$$ cards. In round $$$i$$$, the greatest common divisor (GCD) of the card values in each deck must equal $$$i$$$.
+Your creativity point during round $$$i$$$ is the product of $$$i$$$ and the number of ways to build two valid decks. Two ways are considered different if one of the decks contains different cards.
+Find the sum of creativity points across all $$$N$$$ rounds. Since the sum can be very large, calculate the sum modulo $$$998\,244\,353$$$.
+Tags -*2900

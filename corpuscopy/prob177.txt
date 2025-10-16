@@ -1,0 +1,13 @@
+F2. Khayyam's Royal Decree (Hard Version)
+
+This is the hard version of the problem. The only differences between the two versions are the constraints on k and the sum of k.
+In ancient Persia, Khayyam, a clever merchant and mathematician, is playing a game with his prized treasure chest containing n red rubies worth 2 dinars each and m blue sapphires worth 1 dinar each. He also has a satchel, which starts empty, and k scrolls with pairs (r1,b1),(r2,b2),…,(rk,bk) that describe special conditions.
+The game proceeds for n+m turns as follows:
+Note that the value of some gems might be affected by multiple decrees, and in that case the gems' value is doubled multiple times.
+Determine the expected value of Khayyam's satchel at the end of the game, modulo 998,244,353.
+Formally, let M=998,244,353. It can be shown that the exact answer can be expressed as an irreducible fraction pq, where p and q are integers and q≢. Output the integer equal to p \cdot q^{-1} \bmod M. In other words, output such an integer x that 0 \le x < M and x \cdot q \equiv p \pmod{M}.
+Tags -combinatorics
+Tags -dp
+Tags -math
+Tags -sortings
+Tags -*2800

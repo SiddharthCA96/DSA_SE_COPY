@@ -1,0 +1,8 @@
+C. Hungry Games
+Yaroslav is playing a computer game, and at one of the levels, he encountered n mushrooms arranged in a row. Each mushroom has its own level of toxicity; the i-th mushroom from the beginning has a toxicity level of ai. Yaroslav can choose two integers 1≤l≤r≤n, and then his character will take turns from left to right to eat mushrooms from this subsegment one by one, i.e., the mushrooms with numbers l,l+1,l+2,…,r.
+The character has a toxicity level g, initially equal to 0. The computer game is defined by the number x — the maximum toxicity level at any given time. When eating a mushroom with toxicity level k, the following happens:
+Yaroslav became interested in how many ways there are to choose the values of l and r such that the final value of g is not zero. Help Yaroslav find this number!
+Tags -binary search
+Tags -dp
+Tags -two pointers
+Tags -*1600

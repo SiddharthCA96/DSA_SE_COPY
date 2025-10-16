@@ -1,0 +1,9 @@
+G. Your Loss
+You are given a tree with n nodes numbered from 1 to n, along with an array of size n. The value of i-th node is ai. There are q queries. In each query, you are given 2 nodes numbered as x and y.
+Consider the path from the node numbered as x to the node numbered as y. Let the path be represented by x=p0,p1,p2,…,pr=y, where pi are the intermediate nodes. Compute the sum of api⊕i for each i such that 0≤i≤r where ⊕ is the XOR operator.
+More formally, compute r∑i=0api⊕i.
+Tags -bitmasks
+Tags -brute force
+Tags -dp
+Tags -trees
+Tags -*3000

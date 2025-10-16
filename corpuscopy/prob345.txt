@@ -1,0 +1,11 @@
+A. Simple Palindrome
+Narek has to spend 2 hours with some 2-year-old kids at the kindergarten. He wants to teach them competitive programming, and their first lesson is about palindromes.
+Narek found out that the kids only know the vowels of the English alphabet (the letters a, e, i, o, and u), so Narek needs to make a string that consists of vowels only. After making the string, he'll ask the kids to count the number of subsequences that are palindromes. Narek wants to keep it simple, so he's looking for a string such that the amount of palindrome subsequences is minimal.
+Help Narek find a string of length n, consisting of lowercase English vowels only (letters a, e, i, o, and u), which minimizes the amount of palindrome† subsequences‡ in it.
+† A string is called a palindrome if it reads the same from left to right and from right to left.
+‡ String t is a subsequence of string s if t can be obtained from s by removing several (possibly, zero or all) characters from s and concatenating the remaining ones, without changing their order. For example, odocs is a subsequence of codeforces.
+Tags -combinatorics
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -*900

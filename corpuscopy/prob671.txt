@@ -1,0 +1,17 @@
+E. Chain Reaction
+There are n monsters standing in a row. The i-th monster has ai health points.
+Every second, you can choose one alive monster and launch a chain lightning at it. The lightning deals k damage to it, and also spreads to the left (towards decreasing i) and to the right (towards increasing i) to alive monsters, dealing k damage to each. When the lightning reaches a dead monster or the beginning/end of the row, it stops. A monster is considered alive if its health points are strictly greater than 0.
+For example, consider the following scenario: there are three monsters with health equal to [5,2,7], and k=3. You can kill them all in 4 seconds:
+  - launch a chain lightning at the 3-rd monster, then their health values are [2,−1,4];
+  - launch a chain lightning at the 1-st monster, then their health values are [−1,−1,4];
+  - launch a chain lightning at the 3-rd monster, then their health values are [−1,−1,1];
+  - launch a chain lightning at the 3-th monster, then their health values are [−1,−1,−2].
+For each k from 1 to max(a1,a2,…,an), calculate the minimum number of seconds it takes to kill all the monsters.
+Tags -binary search
+Tags -data structures
+Tags -dsu
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -number theory
+Tags -*2200

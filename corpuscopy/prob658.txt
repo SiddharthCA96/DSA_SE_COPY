@@ -1,0 +1,15 @@
+D. Nene and the Mex Operator
+Nene gave you an array of integers a1,a2,…,an of length n.
+You can perform the following operation no more than 5⋅105 times (possibly zero):
+  - Choose two integers l and r such that 1≤l≤r≤n, compute x as MEX({al,al+1,…,ar}), and simultaneously set al:=x,al+1:=x,…,ar:=x.
+Here, MEX of a set of integers {c1,c2,…,ck} is defined as the smallest non-negative integer m which does not occur in the set c.
+Your goal is to maximize the sum of the elements of the array a. Find the maximum sum and construct a sequence of operations that achieves this sum. Note that you don't need to minimize the number of operations in this sequence, you only should use no more than 5⋅105 operations in your solution.
+Tags -bitmasks
+Tags -brute force
+Tags -constructive algorithms
+Tags -divide and conquer
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*2000

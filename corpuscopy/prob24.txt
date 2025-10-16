@@ -1,0 +1,8 @@
+H. Delicate Anti-monotonous Operations
+There are always many repetitive tasks in life. Iris always dislikes them, so she refuses to repeat them. However, time cannot be turned back; we only have to move forward.
+Formally, Iris has an integer sequence a1,a2,…,an, where each number in the sequence is between 1 and w, inclusive. It is guaranteed that w≥2.
+Iris defines an operation as selecting two numbers ai,ai+1 satisfying ai=ai+1, and then changing them to two arbitrary integers within the range [1,w]. Iris does not like equality, so she must guarantee that ai≠ai+1 after the operation. Two identical pairs ai,ai+1 can be selected multiple times.
+Iris wants to know the maximum possible sum of all elements of a after several (possible, zero) operations, as well as the minimum number of operations required to achieve this maximum value.
+Tags -constructive algorithms
+Tags -implementation
+Tags -*3500

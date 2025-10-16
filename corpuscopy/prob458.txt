@@ -1,0 +1,9 @@
+E. Distance to Different
+Consider an array 𝑎a of 𝑛n integers, where every element is from 11 to 𝑘k, and every integer from 11 to 𝑘k appears at least once.
+Let the array 𝑏b be constructed as follows: for the 𝑖i-th element of 𝑎a, 𝑏𝑖bi is the distance to the closest element in 𝑎a which is not equal to 𝑎𝑖ai. In other words, 𝑏𝑖=min𝑗∈[1,𝑛],𝑎𝑗≠𝑎𝑖|𝑖−𝑗|bi=minj∈[1,n],aj≠ai|i−j|.
+For example, if 𝑎=[1,1,2,3,3,3,3,1]a=[1,1,2,3,3,3,3,1], then 𝑏=[2,1,1,1,2,2,1,1]b=[2,1,1,1,2,2,1,1].
+Calculate the number of different arrays 𝑏b you can obtain if you consider all possible arrays 𝑎a, and print it modulo 998244353998244353.
+Tags -combinatorics
+Tags -dp
+Tags -math
+Tags -*2300

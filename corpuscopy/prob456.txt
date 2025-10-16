@@ -1,0 +1,11 @@
+A. Submission Bait
+Alice and Bob are playing a game in an array a of size n.
+They take turns to do operations, with Alice starting first. The player who can not operate will lose. At first, a variable mx is set to 0.
+In one operation, a player can do:
+  - Choose an index i (1≤i≤n) such that ai≥mx and set mx to ai. Then, set ai to 0.
+Determine whether Alice has a winning strategy.
+Tags -brute force
+Tags -games
+Tags -greedy
+Tags -sortings
+Tags -*900

@@ -1,0 +1,7 @@
+G. Observation Towers
+Consider a segment of an OX axis from 11 to n. There are k observation towers on this segment.
+Each tower has two parameters — the coordinate xi and the height hi. The coordinates of all towers are distinct. From tower i, you can see point j if |xi−j|≤hi (where |a| is an absolute value of a).
+You can increase the height of any tower by 1 for one coin. The height of each tower can be increased any number of times (including zero).
+You need to process q independent queries. In the i-th query, two different points l and r are given. You need to calculate the minimum number of coins required to be able to see both of these points (from one tower or from different towers).
+Tags -*special problem
+Tags -*2400

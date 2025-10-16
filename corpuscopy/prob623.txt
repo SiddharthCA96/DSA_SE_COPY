@@ -1,0 +1,14 @@
+E2. Again Counting Arrays (Hard Version)
+This is the hard version of the problem. The differences between the two versions are the constraints on n,m,b0 and the time limit. You can make hacks only if both versions are solved.
+Little R has counted many sets before, and now she decides to count arrays.
+Little R thinks an array b0,…,bn consisting of non-negative integers is continuous if and only if, for each i such that 1≤i≤n, |bi−bi−1|=1 is satisfied. She likes continuity, so she only wants to generate continuous arrays.
+If Little R is given b0 and a1,…,an, she will try to generate a non-negative continuous array b, which has no similarity with a. More formally, for all 1≤i≤n, ai≠bi holds.
+However, Little R does not have any array a. Instead, she gives you n, m and b0. She wants to count the different integer arrays a1,…,an satisfying:
+  - 1≤ai≤m;
+  - At least one non-negative continuous array b0,…,bn can be generated.
+Note that bi≥0, but the bi can be arbitrarily large.
+Since the actual answer may be enormous, please just tell her the answer modulo 998244353.
+Tags -combinatorics
+Tags -dp
+Tags -math
+Tags -*3500

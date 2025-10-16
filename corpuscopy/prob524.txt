@@ -1,0 +1,16 @@
+G. Yasya and the Mysterious Tree
+Yasya was walking in the forest and accidentally found a tree with 𝑛n vertices. A tree is a connected undirected graph with no cycles.
+Next to the tree, the girl found an ancient manuscript with 𝑚m queries written on it. The queries can be of two types.
+The first type of query is described by the integer 𝑦y. The weight of each edge in the tree is replaced by the bitwise exclusive OR of the weight of that edge and the integer 𝑦y.
+The second type is described by the vertex 𝑣v and the integer 𝑥x. Yasya chooses a vertex 𝑢u (1≤𝑢≤𝑛1≤u≤n, 𝑢≠𝑣u≠v) and mentally draws a bidirectional edge of weight 𝑥x from 𝑣v to 𝑢u in the tree.
+Then Yasya finds a simple cycle in the resulting graph and calculates the bitwise exclusive OR of all the edges in it. She wants to choose a vertex 𝑢u such that the calculated value is maximum. This calculated value will be the answer to the query. It can be shown that such a cycle exists and is unique under the given constraints (independent of the choice of 𝑢u). If an edge between 𝑣v and 𝑢u already existed, a simple cycle is the path 𝑣→𝑢→𝑣v→u→v.
+Note that the second type of query is performed mentally, meaning the tree does not change in any way after it.
+Help Yasya answer all the queries.
+Tags -bitmasks
+Tags -data structures
+Tags -dfs and similar
+Tags -graphs
+Tags -greedy
+Tags -strings
+Tags -trees
+Tags -*2300

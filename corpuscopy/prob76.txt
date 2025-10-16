@@ -1,0 +1,10 @@
+B. Move Back at a Cost
+
+You are given an array of integers a of length n. You can perform the following operation zero or more times:
+  - In one operation choose an index i (1≤i≤n), assign ai:=ai+1, and then move ai to the back of the array (to the rightmost position). For example, if a=[3,5,1,9], and you choose i=2, the array becomes [3,1,9,6].
+Find the lexicographically smallest∗ array you can get by performing these operations.
+Tags -binary search
+Tags -data structures
+Tags -greedy
+Tags -sortings
+Tags -*1600

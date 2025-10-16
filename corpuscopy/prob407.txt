@@ -1,0 +1,9 @@
+E. Decode
+In a desperate attempt to obtain your waifu favorite character, you have hacked into the source code of the game. After days of struggling, you finally find the binary string that encodes the gacha system of the game. In order to decode it, you must first solve the following problem.
+You are given a binary string s of length n. For each pair of integers (l,r) (1≤l≤r≤n), count the number of pairs (x,y) (l≤x≤y≤r) such that the amount of 0 equals the amount of 1 in the substring sxsx+1...sy.
+Output the sum of counts over all possible (l,r) modulo 109+7.
+Tags -combinatorics
+Tags -data structures
+Tags -implementation
+Tags -math
+Tags -*1600

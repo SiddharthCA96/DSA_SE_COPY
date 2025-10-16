@@ -1,0 +1,16 @@
+E1. Deterministic Heap (Easy Version)
+This is the easy version of the problem. The difference between the two versions is the definition of deterministic max-heap, time limit, and constraints on 𝑛 and 𝑡. You can make hacks only if both versions of the problem are solved.
+Consider a perfect binary tree with size 2𝑛−1, with nodes numbered from 1 to 2𝑛−1 and rooted at 1. For each vertex 𝑣 (1≤𝑣≤2𝑛−1−1), vertex 2𝑣 is its left child and vertex 2𝑣+1 is its right child. Each node 𝑣 also has a value 𝑎𝑣 assigned to it.
+Define the operation pop as follows:
+Then we say the pop operation is deterministic if there is a unique way to do such operation. In other words, 𝑎2𝑣≠𝑎2𝑣+1 would hold whenever choosing between them.
+A binary tree is called a max-heap if for every vertex 𝑣 (1≤𝑣≤2𝑛−1−1), both 𝑎𝑣≥𝑎2𝑣 and 𝑎𝑣≥𝑎2𝑣+1 hold.
+A max-heap is deterministic if the pop operation is deterministic to the heap when we do it for the first time.
+Initially, 𝑎𝑣:=0 for every vertex 𝑣 (1≤𝑣≤2𝑛−1), and your goal is to count the number of different deterministic max-heaps produced by applying the following operation add exactly 𝑘 times:
+  - Choose an integer 𝑣 (1≤𝑣≤2𝑛−1) and, for every vertex 𝑥 on the path between 1 and 𝑣, add 1 to 𝑎𝑥.
+Two heaps are considered different if there is a node which has different values in the heaps.
+Since the answer might be large, print it modulo 𝑝.
+Tags -combinatorics
+Tags -dp
+Tags -math
+Tags -trees
+Tags -*2400

@@ -1,0 +1,9 @@
+B. Binary Path
+You are given a 2×n2×𝑛 grid filled with zeros and ones. Let the number at the intersection of the i𝑖-th row and the j𝑗-th column be aij𝑎𝑖𝑗.
+There is a grasshopper at the top-left cell (1,1)(1,1) that can only jump one cell right or downwards. It wants to reach the bottom-right cell (2,n)(2,𝑛). Consider the binary string of length n+1𝑛+1 consisting of numbers written in cells of the path without changing their order.
+Your goal is to:
+†† If two strings s𝑠 and t𝑡 have the same length, then s𝑠 is lexicographically smaller than t𝑡 if and only if in the first position where s𝑠 and t𝑡 differ, the string s𝑠 has a smaller element than the corresponding element in t𝑡.
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -*1300

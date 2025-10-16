@@ -1,0 +1,12 @@
+E. Beautiful Array
+You are given an array of integers a1,a2,…,an and an integer k. You need to make it beautiful with the least amount of operations.
+Before applying operations, you can shuffle the array elements as you like. For one operation, you can do the following:
+  - Choose an index 1≤i≤n,
+  - Make ai=ai+k.
+The array b1,b2,…,bn is beautiful if bi=bn−i+1 for all 1≤i≤n.
+Find the minimum number of operations needed to make the array beautiful, or report that it is impossible.
+Tags -greedy
+Tags -math
+Tags -number theory
+Tags -sortings
+Tags -*1700

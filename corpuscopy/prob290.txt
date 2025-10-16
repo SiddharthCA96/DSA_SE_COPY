@@ -1,0 +1,11 @@
+C. Robin Hood in Town
+Look around, the rich are getting richer, and the poor are getting poorer. We need to take from the rich and give to the poor. We need Robin Hood!
+There are n people living in the town. Just now, the wealth of the i-th person was ai gold. But guess what? The richest person has found an extra pot of gold!
+More formally, find an aj=max(a1,a2,…,an), change aj to aj+x, where x is a non-negative integer number of gold found in the pot. If there are multiple maxima, it can be any one of them.
+A person is unhappy if their wealth is strictly less than half of the average wealth∗.
+If strictly more than half of the total population n are unhappy, Robin Hood will appear by popular demand.
+Determine the minimum value of x for Robin Hood to appear, or output −1 if it is impossible.
+Tags -binary search
+Tags -greedy
+Tags -math
+Tags -*1100

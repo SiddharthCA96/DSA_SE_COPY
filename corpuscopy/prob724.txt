@@ -1,0 +1,10 @@
+C. Tree Cutting
+You are given a tree with n vertices.
+Your task is to find the maximum number x such that it is possible to remove exactly k edges from this tree in such a way that the size of each remaining connected component† is at least x.
+† Two vertices v and u are in the same connected component if there exists a sequence of numbers t1,t2,…,tk of arbitrary length k, such that t1=v, tk=u, and for each i from 1 to k−1, vertices ti and ti+1 are connected by an edge.
+Tags -binary search
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -trees
+Tags -*1600

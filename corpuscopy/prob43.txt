@@ -1,0 +1,7 @@
+B. Journey
+Monocarp decided to embark on a long hiking journey.
+He decided that on the first day he would walk a kilometers, on the second day he would walk b kilometers, on the third day he would walk c kilometers, on the fourth day, just like on the first, he would walk a kilometers, on the fifth day, just like on the second, he would walk b kilometers, on the sixth day, just like on the third, he would walk c kilometers, and so on.
+Monocarp will complete his journey on the day when he has walked at least n kilometers in total. Your task is to determine the day on which Monocarp will complete his journey.
+Tags -binary search
+Tags -math
+Tags -*800

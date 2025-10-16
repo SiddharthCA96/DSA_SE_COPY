@@ -1,0 +1,12 @@
+G. Clacking Balls
+There are m baskets placed along a circle, numbered from 1 to m in clockwise order (basket m is next to basket 1). Furthermore, there are n balls, where ball i is initially placed in basket ai, and no basket contains more than one ball.
+Alice is allowed to perform the following operation, which always takes exactly one second whether you move/throw a ball or not:
+  - Alice chooses an integer i between 1 and n uniformly at random.
+  - If ball i was thrown away before, do nothing.
+  - Otherwise, ball i is moved from the basket currently containing it to the next basket (in clockwise order). If the target basket currently contains another ball j, throw ball j away.
+She repeats this operation until there is exactly one ball left. Calculate the expected time needed (in seconds) for Alice to end the process.
+It can be proven that the answer can be represented as a rational number pq with coprime p and q. You need to output p⋅q−1mod109+7. It can be proven that 109+7∤.
+Tags -combinatorics
+Tags -math
+Tags -probabilities
+Tags -*3100

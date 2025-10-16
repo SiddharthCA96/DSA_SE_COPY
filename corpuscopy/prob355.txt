@@ -1,0 +1,12 @@
+E1. Turtle and Inversions (Easy Version)
+This is an easy version of this problem. The differences between the versions are the constraint on m and ri<li+1 holds for each i from 1 to m−1 in the easy version. You can make hacks only if both versions of the problem are solved.
+Turtle gives you m intervals [l1,r1],[l2,r2],…,[lm,rm]. He thinks that a permutation p is interesting if there exists an integer ki for every interval (li≤ki<ri), and if he lets ai=kimaxj=lipj,bi=riminj=ki+1pj for every integer i from 1 to m, the following condition holds:
+mmaxi=1ai<mmini=1bi
+Turtle wants you to calculate the maximum number of inversions of all interesting permutations of length n, or tell him if there is no interesting permutation.
+An inversion of a permutation p is a pair of integers (i,j) (1≤i<j≤n) such that pi>pj.
+Tags -brute force
+Tags -divide and conquer
+Tags -dp
+Tags -greedy
+Tags -math
+Tags -*2600

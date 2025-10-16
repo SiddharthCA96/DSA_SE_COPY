@@ -1,0 +1,11 @@
+E1. Let Me Teach You a Lesson (Easy Version)
+This is the easy version of a problem. The only difference between an easy and a hard version is the constraints on t and n. You can make hacks only if both versions of the problem are solved.
+Arthur is giving a lesson to his famous 2n knights. Like any other students, they're sitting at the desks in pairs, but out of habit in a circle. The knight 2i−1 is sitting at the desk with the knight 2i.
+Each knight has intelligence, which can be measured by an integer. Let's denote the intelligence of the i-th knight as ai. Arthur wants the maximal difference in total intelligence over all pairs of desks to be as small as possible. More formally, he wants to minimize max1≤i≤n(a2i−1+a2i)−min1≤i≤n(a2i−1+a2i).
+However, the Code of Chivalry only allows swapping the opposite knights in the circle, i.e., Arthur can simultaneously perform ai:=ai+n, ai+n:=ai for any 1≤i≤n. Arthur can make any number of such swaps. What is the best result he can achieve?
+Tags -2-sat
+Tags -data structures
+Tags -dp
+Tags -matrices
+Tags -two pointers
+Tags -*2700

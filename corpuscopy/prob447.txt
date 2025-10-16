@@ -1,0 +1,9 @@
+C. Absolute Zero
+You are given an array a of n integers.
+In one operation, you will perform the following two-step move:
+For example, by choosing x=8, the array [5,7,10] will be changed into [|5−8|,|7−8|,|10−8|]=[3,1,2].
+Construct a sequence of operations to make all elements of a equal to 0 in at most 40 operations or determine that it is impossible. You do not need to minimize the number of operations.
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -*1300

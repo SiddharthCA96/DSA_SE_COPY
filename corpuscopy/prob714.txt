@@ -1,0 +1,13 @@
+G. MST with Matching
+You are given an undirected connected graph on n vertices. Each edge of this graph has a weight; the weight of the edge connecting vertices i and j is wi,j (or wi,j=0 if there is no edge between i and j). All weights are positive integers.
+You are also given a positive integer c.
+You have to build a spanning tree of this graph; i. e. choose exactly (n−1) edges of this graph in such a way that every vertex can be reached from every other vertex by traversing some of the chosen edges. The cost of the spanning tree is the sum of two values:
+  - the sum of weights of all chosen edges;
+  - the maximum matching in the spanning tree (i. e. the maximum size of a set of edges such that they all belong to the chosen spanning tree, and no vertex has more than one incident edge in this set), multiplied by the given integer c.
+Find any spanning tree with the minimum cost. Since the graph is connected, there exists at least one spanning tree.
+Tags -bitmasks
+Tags -brute force
+Tags -dsu
+Tags -graph matchings
+Tags -trees
+Tags -*3100

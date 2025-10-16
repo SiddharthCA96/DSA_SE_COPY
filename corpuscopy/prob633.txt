@@ -1,0 +1,8 @@
+E. Connected Cubes
+There are 𝑛⋅𝑚n⋅m unit cubes currently in positions (1,1,1)(1,1,1) through (𝑛,𝑚,1)(n,m,1). Each of these cubes is one of 𝑘k colors. You want to add additional cubes at any integer coordinates such that the subset of cubes of each color is connected, where two cubes are considered connected if they share a face.
+In other words, for every pair of cubes of the same color 𝑐c, it should be possible to travel from one to the other, moving only through cubes of color 𝑐c that share a face.
+The existing cubes are currently in the corner of a room. There are colorless cubes completely filling the planes 𝑥=0x=0, 𝑦=0y=0, and 𝑧=0z=0, preventing you from placing additional cubes there or at any negative coordinates.
+Find a solution that uses at most 4⋅1054⋅105 additional cubes (not including the cubes that are currently present), or determine that there is no solution. It can be shown that under the given constraints, if there is a solution, there is one using at most 4⋅1054⋅105 additional cubes.
+Tags -constructive algorithms
+Tags -games
+Tags -*3100

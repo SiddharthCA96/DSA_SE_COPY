@@ -1,0 +1,19 @@
+E. Tensor
+This is an interactive problem.
+You are given an integer 𝑛n.
+The jury has hidden from you a directed graph with 𝑛n vertices (numbered from 11 to 𝑛n) and some number of edges. You additionally know that:
+  - The graph only contains edges of the form 𝑖←𝑗i←j, where 1≤𝑖<𝑗≤𝑛1≤i<j≤n.
+  - For any three vertices 1≤𝑖<𝑗<𝑘≤𝑛1≤i<j<k≤n, at least one of the following holds††:   Vertex 𝑖i is reachable from vertex 𝑗j, or  Vertex 𝑖i is reachable from vertex 𝑘k, or  Vertex 𝑗j is reachable from vertex 𝑘k.
+  - Vertex 𝑖i is reachable from vertex 𝑗j, or
+  - Vertex 𝑖i is reachable from vertex 𝑘k, or
+  - Vertex 𝑗j is reachable from vertex 𝑘k.
+You want to color each vertex in either black or white such that for any two vertices 𝑖i and 𝑗j (1≤𝑖<𝑗≤𝑛1≤i<j≤n) of the same color, vertex 𝑖i is reachable from vertex 𝑗j.
+To do that, you can ask queries of the following type:
+  - ?  i  j — is vertex 𝑖i reachable from vertex 𝑗j (1≤𝑖<𝑗≤𝑛1≤i<j≤n)?
+Find any valid vertex coloring of the hidden graph in at most 2⋅𝑛2⋅n queries. It can be proven that such a coloring always exists.
+Note that the grader is not adaptive: the graph is fixed before any queries are made.
+†† Vertex 𝑎a is reachable from vertex 𝑏b if there exists a path from vertex 𝑏b to vertex 𝑎a in the graph.
+Tags -constructive algorithms
+Tags -graphs
+Tags -interactive
+Tags -*2600

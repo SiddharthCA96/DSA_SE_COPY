@@ -1,0 +1,9 @@
+A. MEX Destruction
+
+Evirir the dragon snuck into a wizard's castle and found a mysterious contraption, and their playful instincts caused them to play with (destroy) it...
+Evirir the dragon found an array $$$a_1, a_2, \ldots, a_n$$$ of $$$n$$$ non-negative integers.
+In one operation, they can choose a non-empty subarray$$$^{\text{∗}}$$$ $$$b$$$ of $$$a$$$ and replace it with the integer $$$\operatorname{mex}(b)$$$$$$^{\text{†}}$$$. They want to use this operation any number of times to make $$$a$$$ only contain zeros. It can be proven that this is always possible under the problem constraints.
+What is the minimum number of operations needed?
+Tags -greedy
+Tags -implementation
+Tags -*800

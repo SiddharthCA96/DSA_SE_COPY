@@ -1,0 +1,10 @@
+E. Turtle and Intersected Segments
+Turtle just received n segments and a sequence a1,a2,…,an. The i-th segment is [li,ri].
+Turtle will create an undirected graph G. If segment i and segment j intersect, then Turtle will add an undirected edge between i and j with a weight of |ai−aj|, for every i≠j.
+Turtle wants you to calculate the sum of the weights of the edges of the minimum spanning tree of the graph G, or report that the graph G has no spanning tree.
+We say two segments [l1,r1] and [l2,r2] intersect if and only if max(l1,l2)≤min(r1,r2).
+Tags -data structures
+Tags -dsu
+Tags -graphs
+Tags -greedy
+Tags -*2600

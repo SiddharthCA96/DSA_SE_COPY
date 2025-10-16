@@ -1,0 +1,7 @@
+A. Question Marks
+Tim is doing a test consisting of 4n questions; each question has 4 options: 'A', 'B', 'C', and 'D'. For each option, there are exactly n correct answers corresponding to that option — meaning there are n questions with the answer 'A', n questions with the answer 'B', n questions with the answer 'C', and n questions with the answer 'D'.
+For each question, Tim wrote his answer on the answer sheet. If he could not figure out the answer, he would leave a question mark '?' for that question.
+You are given his answer sheet of 4n characters. What is the maximum number of correct answers Tim can get?
+Tags -greedy
+Tags -implementation
+Tags -*800

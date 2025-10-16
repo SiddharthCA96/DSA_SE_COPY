@@ -1,0 +1,12 @@
+F. Ardent Flames
+You have obtained the new limited event character Xilonen. You decide to use her in combat.
+There are $$$n$$$ enemies in a line. The $$$i$$$'th enemy from the left has health $$$h_i$$$ and is currently at position $$$x_i$$$. Xilonen has an attack damage of $$$m$$$, and you are ready to defeat the enemies with her.
+Xilonen has a powerful "ground stomp" attack. Before you perform any attacks, you select an integer $$$p$$$ and position Xilonen there ($$$p$$$ can be any integer position, including a position with an enemy currently). Afterwards, for each attack, she deals $$$m$$$ damage to an enemy at position $$$p$$$ (if there are any), $$$m-1$$$ damage to enemies at positions $$$p-1$$$ and $$$p+1$$$, $$$m-2$$$ damage to enemies at positions $$$p-2$$$ and $$$p+2$$$, and so on. Enemies that are at least a distance of $$$m$$$ away from Xilonen take no damage from attacks.
+Formally, if there is an enemy at position $$$x$$$, she will deal $$$\max(0,m - |p - x|)$$$ damage to that enemy each hit. Note that you may not choose a different $$$p$$$ for different attacks.
+Over all possible $$$p$$$, output the minimum number of attacks Xilonen must perform to defeat at least $$$k$$$ enemies. If it is impossible to find a $$$p$$$ such that eventually at least $$$k$$$ enemies will be defeated, output $$$-1$$$ instead. Note that an enemy is considered to be defeated if its health reaches $$$0$$$ or below.
+Tags -binary search
+Tags -data structures
+Tags -math
+Tags -sortings
+Tags -two pointers
+Tags -*2100

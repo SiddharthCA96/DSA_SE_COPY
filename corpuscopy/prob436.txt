@@ -1,0 +1,13 @@
+E. Novice's Mistake
+One of the first programming problems by K1o0n looked like this: "Noobish_Monk has n (1≤n≤100) friends. Each of them gave him a (1≤a≤10000) apples for his birthday. Delighted with such a gift, Noobish_Monk returned b (1≤b≤min apples to his friends. How many apples are left with Noobish_Monk?"
+K1o0n wrote a solution, but accidentally considered the value of n as a string, so the value of n \cdot a - b was calculated differently. Specifically:
+  - when multiplying the string n by the integer a, he will get the string s=\underbrace{n + n + \dots + n + n}_{a\ \text{times}}
+  - when subtracting the integer b from the string s, the last b characters will be removed from it. If b is greater than or equal to the length of the string s, it will become empty.
+Learning about this, ErnKor became interested in how many pairs (a, b) exist for a given n, satisfying the constraints of the problem, on which K1o0n's solution gives the correct answer.
+"The solution gives the correct answer" means that it outputs a non-empty string, and this string, when converted to an integer, equals the correct answer, i.e., the value of n \cdot a - b.
+Tags -brute force
+Tags -constructive algorithms
+Tags -implementation
+Tags -math
+Tags -strings
+Tags -*1700

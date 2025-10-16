@@ -1,0 +1,7 @@
+A. MEX Table
+One day, the schoolboy Mark misbehaved, so the teacher Sasha called him to the whiteboard.
+Sasha gave Mark a table with 𝑛n rows and 𝑚m columns. His task is to arrange the numbers 0,1,…,𝑛⋅𝑚−10,1,…,n⋅m−1 in the table (each number must be used exactly once) in such a way as to maximize the sum of MEX∗∗ across all rows and columns. More formally, he needs to maximize ∑𝑖=1𝑛mex({𝑎𝑖,1,𝑎𝑖,2,…,𝑎𝑖,𝑚})+∑𝑗=1𝑚mex({𝑎1,𝑗,𝑎2,𝑗,…,𝑎𝑛,𝑗}),∑i=1nmex⁡({ai,1,ai,2,…,ai,m})+∑j=1mmex⁡({a1,j,a2,j,…,an,j}), where 𝑎𝑖,𝑗ai,j is the number in the 𝑖i-th row and 𝑗j-th column.
+Sasha is not interested in how Mark arranges the numbers, so he only asks him to state one number — the maximum sum of MEX across all rows and columns that can be achieved.
+Tags -constructive algorithms
+Tags -math
+Tags -*800

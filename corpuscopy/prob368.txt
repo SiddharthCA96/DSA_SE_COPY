@@ -1,0 +1,10 @@
+C. Black Circles
+There are n circles on a two-dimensional plane. The i-th circle is centered at (xi,yi). Initially, all circles have a radius of 0.
+The circles' radii increase at a rate of 1 unit per second.
+You are currently at (xs,ys); your goal is to reach (xt,yt) without touching the circumference of any circle (including the moment you reach (xt,yt)). You can move in any direction you want. However, your speed is limited to 1 unit per second.
+Please determine whether this is possible.
+Tags -brute force
+Tags -geometry
+Tags -greedy
+Tags -math
+Tags -*1200

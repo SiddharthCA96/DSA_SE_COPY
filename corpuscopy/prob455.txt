@@ -1,0 +1,12 @@
+B. Array Craft
+For an array b of size m, we define:
+  - the maximum prefix position of b is the smallest index i that satisfies b1+…+bi=maxmj=1(b1+…+bj);
+  - the maximum suffix position of b is the largest index i that satisfies bi+…+bm=maxmj=1(bj+…+bm).
+You are given three integers n, x, and y (x>y). Construct an array a of size n satisfying:
+  - ai is either 1 or −1 for all 1≤i≤n;
+  - the maximum prefix position of a is x;
+  - the maximum suffix position of a is y.
+If there are multiple arrays that meet the conditions, print any. It can be proven that such an array always exists under the given conditions.
+Tags -constructive algorithms
+Tags -greedy
+Tags -*1200

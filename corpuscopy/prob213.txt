@@ -1,0 +1,11 @@
+F. Palindrome Everywhere
+You are given a cycle with n vertices numbered from 0 to n−1. For each 0≤i≤n−1, there is an undirected edge between vertex i and vertex ((i+1)modn) with the color ci (ci=R or B).
+Determine whether the following condition holds for every pair of vertices (i,j) (0≤i<j≤n−1):
+  - There exists a palindrome route between vertex i and vertex j. Note that the route may not be simple. Formally, there must exist a sequence p=[p0,p1,p2,…,pm] such that: p0=i, pm=j;  For each 0≤x≤m−1, either px+1=(px+1)modn or px+1=(px−1)modn;  For each 0≤x≤y≤m−1 satisfying x+y=m−1, the edge between px and px+1 has the same color as the edge between py and py+1.
+  - p0=i, pm=j;
+  - For each 0≤x≤m−1, either px+1=(px+1)modn or px+1=(px−1)modn;
+  - For each 0≤x≤y≤m−1 satisfying x+y=m−1, the edge between px and px+1 has the same color as the edge between py and py+1.
+Tags -constructive algorithms
+Tags -graphs
+Tags -greedy
+Tags -*2500

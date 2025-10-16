@@ -1,0 +1,10 @@
+A. Concatenation of Arrays
+You are given n arrays a1, …, an. The length of each array is two. Thus, ai=[ai,1,ai,2]. You need to concatenate the arrays into a single array of length 2n such that the number of inversions† in the resulting array is minimized. Note that you do not need to count the actual number of inversions.
+More formally, you need to choose a permutation‡ p of length n, so that the array b=[ap1,1,ap1,2,ap2,1,ap2,2,…,apn,1,apn,2] contains as few inversions as possible.
+†The number of inversions in an array c is the number of pairs of indices i and j such that i<j and ci>cj.
+‡A permutation of length n is an array consisting of n distinct integers from 1 to n in arbitrary order. For example, [2,3,1,5,4] is a permutation, but [1,2,2] is not a permutation (2 appears twice in the array), and [1,3,4] is also not a permutation (n=3 but there is 4 in the array).
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -sortings
+Tags -*1300

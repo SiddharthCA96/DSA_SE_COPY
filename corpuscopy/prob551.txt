@@ -1,0 +1,13 @@
+D. Invertible Bracket Sequences
+A regular bracket sequence is a bracket sequence that can be transformed into a correct arithmetic expression by inserting characters '1' and '+' between the original characters of the sequence. For example:
+  - bracket sequences "()()" and "(())" are regular (the resulting expressions are: "(1)+(1)" and "((1+1)+1)");
+  - bracket sequences ")(", "(" and ")" are not.
+Let's define the inverse of the bracket sequence as follows: replace all brackets '(' with ')', and vice versa (all brackets ')' with '('). For example, strings "()((" and ")())" are inverses of each other.
+You are given a regular bracket sequence s. Calculate the number of pairs of integers (l,r) (1≤l≤r≤|s|) such that if you replace the substring of s from the l-th character to the r-th character (inclusive) with its inverse, s will still be a regular bracket sequence.
+Tags -binary search
+Tags -combinatorics
+Tags -data structures
+Tags -divide and conquer
+Tags -implementation
+Tags -two pointers
+Tags -*2000

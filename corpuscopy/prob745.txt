@@ -1,0 +1,16 @@
+H. Farmer John's Favorite Intern
+Ruby just won an internship position at Farmer John's farm by winning a coding competition! As the newly recruited intern, Ruby is tasked with maintaining Farmer John's peach tree, a tree consisting of n nodes rooted at node 1. Each node initially contains ai=0 peaches, and there are two types of events that can happen:
+Note that the subtree of
+includes the node
+as well.
+Ruby is also given an array b of length n. The peach tree is deemed healthy if ai≥bi for every node i.
+Ruby is asked to perform q operations of two types:
+  - 1 x v — Perform v growth events on node x. Ruby does not have to choose the same node to increase in every growth event.
+  - 2 x v — Perform v harvest events on node x. Ruby does not have to choose the same node to decrease in every harvest event.
+For every prefix of operations, Ruby asks you to find if she can perform these operations in some order such that the resulting peach tree (at the end of these operations) is healthy. Note that Ruby can't perform a harvest event that makes any ai negative.
+Every prefix is independent, meaning that for a given operation, Ruby may choose different nodes to perform events on for every prefix that contains that operation.
+Tags -data structures
+Tags -dp
+Tags -flows
+Tags -trees
+Tags -*3500

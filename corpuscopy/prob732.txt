@@ -1,0 +1,8 @@
+C. Left and Right Houses
+In the village of Letovo, there are n houses. The villagers decided to build a big road that will divide the village into left and right sides. Each resident wants to live on either the right or the left side of the street, which is described as a sequence a1,a2,…,an, where aj=0 if the resident of the j-th house wants to live on the left side of the street; otherwise, aj=1.
+The road will pass between two houses. The houses to the left of it will be declared the left-side, and the houses to the right will be declared the right-side. More formally, let the road pass between houses i and i+1. Then the houses at positions between 1 and i will be on the left side of the street, and at positions between i+1 and n will be on the right side. The road also may pass before the first and after the last house; in this case, the entire village is declared to be either the right or left side, respectively.
+To make the design fair, it was decided to lay the road so that at least half of the residents on each side of the village are satisfied with the choice. That is, among x residents on one side, at least ⌈x2⌉ should want to live on that side, where ⌈x⌉ denotes rounding up a real number x.
+Determine after which house i the road should be laid in order to satisfy the described condition and be as close to the middle of the village as possible. Formally, among all suitable positions i, minimize |n2−i|.
+If there are multiple suitable positions i with the minimum |n2−i|, output the smaller one.
+Tags -brute force
+Tags -*1200

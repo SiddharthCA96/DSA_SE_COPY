@@ -1,0 +1,7 @@
+G. Removal of a Permutation
+You are given a permutation 𝑝p of length 𝑛n.
+You can perform operations of two types:
+  - mark all positions 𝑖i such that 1≤𝑖<𝑛1≤i<n and 𝑝𝑖<𝑝𝑖+1pi<pi+1, and simultaneously remove the elements at these positions;
+  - mark all positions 𝑖i such that 2≤𝑖≤𝑛2≤i≤n and 𝑝𝑖−1>𝑝𝑖pi−1>pi, and simultaneously remove the elements at these positions.
+For each integer from 11 to (𝑛−1)(n−1), calculate the minimum number of operations required to remove that integer from the permutation.
+Tags -*special problem

@@ -1,0 +1,15 @@
+A. Farmer John's Challenge
+Let's call an array 𝑎a sorted if 𝑎1≤𝑎2≤…≤𝑎𝑛−1≤𝑎𝑛a1≤a2≤…≤an−1≤an.
+You are given two of Farmer John's favorite integers, 𝑛n and 𝑘k. He challenges you to find any array 𝑎1,𝑎2,…,𝑎𝑛a1,a2,…,an satisfying the following requirements:
+  - 1≤𝑎𝑖≤1091≤ai≤109 for each 1≤𝑖≤𝑛1≤i≤n;
+  - Out of the 𝑛n total cyclic shifts of 𝑎a, exactly 𝑘k of them are sorted.††
+If there is no such array 𝑎a, output −1−1.
+††The 𝑥x-th (1≤𝑥≤𝑛1≤x≤n) cyclic shift of the array 𝑎a is 𝑎𝑥,𝑎𝑥+1…𝑎𝑛,𝑎1,𝑎2…𝑎𝑥−1ax,ax+1…an,a1,a2…ax−1. If 𝑐𝑥,𝑖cx,i denotes the 𝑖i'th element of the 𝑥x'th cyclic shift of 𝑎a, exactly 𝑘k such 𝑥x should satisfy 𝑐𝑥,1≤𝑐𝑥,2≤…≤𝑐𝑥,𝑛−1≤𝑐𝑥,𝑛cx,1≤cx,2≤…≤cx,n−1≤cx,n.
+For example, the cyclic shifts for 𝑎=[1,2,3,3]a=[1,2,3,3] are the following:
+  - 𝑥=1x=1: [1,2,3,3][1,2,3,3] (sorted);
+  - 𝑥=2x=2: [2,3,3,1][2,3,3,1] (not sorted);
+  - 𝑥=3x=3: [3,3,1,2][3,3,1,2] (not sorted);
+  - 𝑥=4x=4: [3,1,2,3][3,1,2,3] (not sorted).
+Tags -constructive algorithms
+Tags -math
+Tags -*800

@@ -1,0 +1,12 @@
+F. Choose Your Queries
+You are given an array a, consisting of n integers (numbered from 1 to n). Initially, they are all zeroes.
+You have to process q queries. The i-th query consists of two different integers xi and yi. During the i-th query, you have to choose an integer p (which is either xi or yi) and an integer d (which is either 1 or −1), and assign ap=ap+d.
+After each query, every element of a should be a non-negative integer.
+Process all queries in such a way that the sum of all elements of a after the last query is the minimum possible.
+Tags -constructive algorithms
+Tags -dfs and similar
+Tags -dp
+Tags -graphs
+Tags -greedy
+Tags -trees
+Tags -*2700

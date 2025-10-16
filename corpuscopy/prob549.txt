@@ -1,0 +1,15 @@
+F. Remove Bridges
+You are given a rooted tree, consisting of n vertices, numbered from 1 to n. Vertex 1 is the root. Additionally, the root only has one child.
+You are asked to add exactly k edges to the tree (possibly, multiple edges and/or edges already existing in the tree).
+Recall that a bridge is such an edge that, after you remove it, the number of connected components in the graph increases. So, initially, all edges of the tree are bridges.
+After k edges are added, some original edges of the tree are still bridges and some are not anymore. You want to satisfy two conditions:
+  - for every bridge, all tree edges in the subtree of the lower vertex of that bridge should also be bridges;
+  - the number of bridges is as small as possible.
+Solve the task for all values of k from 1 to n−1 and output the smallest number of bridges.
+Tags -data structures
+Tags -dfs and similar
+Tags -dp
+Tags -greedy
+Tags -sortings
+Tags -trees
+Tags -*2800

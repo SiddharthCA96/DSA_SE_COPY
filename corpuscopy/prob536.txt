@@ -1,0 +1,11 @@
+B. XOR Sequences
+You are given two distinct non-negative integers x𝑥 and y𝑦. Consider two infinite sequences a1,a2,a3,…𝑎1,𝑎2,𝑎3,… and b1,b2,b3,…𝑏1,𝑏2,𝑏3,…, where
+  - an=n⊕x𝑎𝑛=𝑛⊕𝑥;
+  - bn=n⊕y𝑏𝑛=𝑛⊕𝑦.
+Here, x⊕y𝑥⊕𝑦 denotes the bitwise XOR operation of integers x𝑥 and y𝑦.
+For example, with x=6𝑥=6, the first 88 elements of sequence a𝑎 will look as follows: [7,4,5,2,3,0,1,14,…][7,4,5,2,3,0,1,14,…]. Note that the indices of elements start with 11.
+Your task is to find the length of the longest common subsegment†† of sequences a𝑎 and b𝑏. In other words, find the maximum integer m𝑚 such that ai=bj,ai+1=bj+1,…,ai+m−1=bj+m−1𝑎𝑖=𝑏𝑗,𝑎𝑖+1=𝑏𝑗+1,…,𝑎𝑖+𝑚−1=𝑏𝑗+𝑚−1 for some i,j≥1𝑖,𝑗≥1.
+††A subsegment of sequence p𝑝 is a sequence pl,pl+1,…,pr𝑝𝑙,𝑝𝑙+1,…,𝑝𝑟, where 1≤l≤r1≤𝑙≤𝑟.
+Tags -bitmasks
+Tags -greedy
+Tags -*1000

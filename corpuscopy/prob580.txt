@@ -1,0 +1,9 @@
+G. XOUR
+You are given an array 𝑎a consisting of 𝑛n nonnegative integers.
+You can swap the elements at positions 𝑖i and 𝑗j if 𝑎𝑖 𝖷𝖮𝖱 𝑎𝑗<4ai XOR aj<4, where 𝖷𝖮𝖱XOR is the bitwise XOR operation.
+Find the lexicographically smallest array that can be made with any number of swaps.
+An array 𝑥x is lexicographically smaller than an array 𝑦y if in the first position where 𝑥x and 𝑦y differ, 𝑥𝑖<𝑦𝑖xi<yi.
+Tags -data structures
+Tags -dsu
+Tags -sortings
+Tags -*1700

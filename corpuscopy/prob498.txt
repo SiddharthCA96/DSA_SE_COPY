@@ -1,0 +1,12 @@
+F. Reconstruction
+There is a hidden array a1,a2,…,an𝑎1,𝑎2,…,𝑎𝑛 of length n𝑛 whose elements are integers between −m−𝑚 and m𝑚, inclusive.
+You are given an array b1,b2,…,bn𝑏1,𝑏2,…,𝑏𝑛 of length n𝑛 and a string s𝑠 of length n𝑛 consisting of the characters P, S, and ?.
+For each i from 1 to n inclusive, we must have:
+  - If si=P, bi is the sum of a1 through ai.
+  - If si=S, bi is the sum of ai through an.
+Output the number of ways to replace all ? in s with either P or S such that there exists an array a1,a2,…,an with elements not exceeding m by absolute value satisfying the constraints given by the array b1,b2,…,bn and the string s.
+Since the answer may be large, output it modulo 998244353.
+Tags -brute force
+Tags -dp
+Tags -math
+Tags -*2500

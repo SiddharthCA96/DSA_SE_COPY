@@ -1,0 +1,15 @@
+E1. Another Exercise on Graphs (Easy Version)
+This is the easy version of the problem. The difference between the versions is that in this version, there is an additional constraint on m. You can hack only if you solved all versions of this problem.
+Recently, the instructors of "T-generation" needed to create a training contest. They were missing one problem, and there was not a single problem on graphs in the contest, so they came up with the following problem.
+You are given a connected weighted undirected graph with n vertices and m edges, which does not contain self-loops or multiple edges.
+There are q queries of the form (a,b,k): among all paths from vertex a to vertex b, find the smallest k-th maximum weight of edges on the path†.
+The instructors thought that the problem sounded very interesting, but there is one catch. They do not know how to solve it. Help them and solve the problem, as there are only a few hours left until the contest starts.
+† Let w1≥w2≥…≥wh be the weights of all edges in a path, in non-increasing order. The k-th maximum weight of the edges on this path is wk.
+Tags -binary search
+Tags -brute force
+Tags -dp
+Tags -dsu
+Tags -graphs
+Tags -shortest paths
+Tags -sortings
+Tags -*2300

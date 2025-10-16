@@ -1,0 +1,10 @@
+B. Matrix Stabilization
+You are given a matrix of size n×m𝑛×𝑚, where the rows are numbered from 11 to n𝑛 from top to bottom, and the columns are numbered from 11 to m𝑚 from left to right. The element at the intersection of the i𝑖-th row and the j𝑗-th column is denoted by aij𝑎𝑖𝑗.
+Consider the algorithm for stabilizing matrix a𝑎:
+In this problem, cells (a,b)(𝑎,𝑏) and (c,d)(𝑐,𝑑) are considered neighbors if they share a common side, i.e., |a−c|+|b−d|=1.
+Your task is to output the matrix a after the stabilization algorithm has been executed. It can be shown that this algorithm cannot run for an infinite number of iterations.
+Tags -brute force
+Tags -data structures
+Tags -greedy
+Tags -sortings
+Tags -*1000

@@ -1,0 +1,7 @@
+C. Hard Problem
+Ball is the teacher in Paperfold University. The seats of his classroom are arranged in $$$2$$$ rows with $$$m$$$ seats each.
+Ball is teaching $$$a + b + c$$$ monkeys, and he wants to assign as many monkeys to a seat as possible. Ball knows that $$$a$$$ of them only want to sit in row $$$1$$$, $$$b$$$ of them only want to sit in row $$$2$$$, and $$$c$$$ of them have no preference. Only one monkey may sit in each seat, and each monkey's preference must be followed if it is seated.
+What is the maximum number of monkeys that Ball can seat?
+Tags -greedy
+Tags -math
+Tags -*800

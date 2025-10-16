@@ -1,0 +1,13 @@
+F. Make a Palindrome
+You are given an array 𝑎 consisting of 𝑛 integers.
+Let the function 𝑓(𝑏) return the minimum number of operations needed to make an array 𝑏 a palindrome. The operations you can make are:
+  - choose two adjacent elements 𝑏𝑖 and 𝑏𝑖+1, remove them, and replace them with a single element equal to (𝑏𝑖+𝑏𝑖+1);
+  - or choose an element 𝑏𝑖>1, remove it, and replace it with two positive integers 𝑥 and 𝑦 (𝑥>0 and 𝑦>0) such that 𝑥+𝑦=𝑏𝑖.
+For example, from an array 𝑏=[2,1,3], you can obtain the following arrays in one operation: [1,1,1,3], [2,1,1,2], [3,3], [2,4], or [2,1,2,1].
+Calculate (∑1≤𝑙≤𝑟≤𝑛𝑓(𝑎[𝑙..𝑟])), where 𝑎[𝑙..𝑟] is the subarray of 𝑎 from index 𝑙 to index 𝑟, inclusive. In other words, find the sum of the values of the function 𝑓 for all subarrays of the array 𝑎.
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -greedy
+Tags -math
+Tags -*2600

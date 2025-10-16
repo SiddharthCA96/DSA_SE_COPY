@@ -1,0 +1,9 @@
+C. Trip to the Olympiad
+In the upcoming year, there will be many team olympiads, so the teachers of "T-generation" need to assemble a team of three pupils to participate in them. Any three pupils will show a worthy result in any team olympiad. But winning the olympiad is only half the battle; first, you need to get there...
+Each pupil has an independence level, expressed as an integer. In "T-generation", there is exactly one student with each independence levels from l to r, inclusive. For a team of three pupils with independence levels a, b, and c, the value of their team independence is equal to (a⊕b)+(b⊕c)+(a⊕c), where ⊕ denotes the bitwise XOR operation.
+Your task is to choose any trio of students with the maximum possible team independence.
+Tags -bitmasks
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -*1500

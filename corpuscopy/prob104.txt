@@ -1,0 +1,11 @@
+C. Sums on Segments
+You are given an array a of n integers, where all elements except for at most one are equal to −1 or 1. The remaining element x satisfies −109≤x≤109.
+Find all possible sums of subarrays of a, including the empty subarray, whose sum is defined as 0. In other words, find all integers x such that the array a has at least one subarray (possibly empty) with sum equal to x. A subarray is a contiguous subsegment of an array.
+Output these sums in ascending order. Each sum should be printed only once, even if it is achieved by multiple subarrays.
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -dp
+Tags -greedy
+Tags -math
+Tags -*1600

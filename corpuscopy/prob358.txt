@@ -1,0 +1,12 @@
+C. Turtle and Good Pairs
+Turtle gives you a string s, consisting of lowercase Latin letters.
+Turtle considers a pair of integers (i,j) (1≤i<j≤n) to be a pleasant pair if and only if there exists an integer k such that i≤k<j and both of the following two conditions hold:
+  - sk≠sk+1;
+  - sk≠si or sk+1≠sj.
+Besides, Turtle considers a pair of integers (i,j) (1≤i<j≤n) to be a good pair if and only if si=sj or (i,j) is a pleasant pair.
+Turtle wants to reorder the string s so that the number of good pairs is maximized. Please help him!
+Tags -constructive algorithms
+Tags -greedy
+Tags -sortings
+Tags -strings
+Tags -*1200

@@ -1,0 +1,10 @@
+F. Color Rows and Columns
+You have n rectangles, the i-th of which has a width of ai and a height of bi.
+You can perform the following operation an unlimited number of times: choose a rectangle and a cell in it, and then color it.
+Each time you completely color any row or column, you earn 1 point. Your task is to score at least k points with as few operations as possible.
+Suppose you have a rectangle with a width of 6 and a height of 3. You can score 4 points by coloring all the cells in any 4 columns, thus performing 12 operations.
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*1900

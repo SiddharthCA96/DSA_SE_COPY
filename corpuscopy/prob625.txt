@@ -1,0 +1,13 @@
+D. Long Way to be Non-decreasing
+Little R is a magician who likes non-decreasing arrays. She has an array of length n, initially as a1,…,an, in which each element is an integer between [1,m]. She wants it to be non-decreasing, i.e., a1≤a2≤…≤an.
+To do this, she can perform several magic tricks. Little R has a fixed array b1…bm of length m. Formally, let's define a trick as a procedure that does the following things in order:
+  - Choose a set S⊆{1,2,…,n}.
+  - For each u∈S, assign au with bau.
+Little R wonders how many tricks are needed at least to make the initial array non-decreasing. If it is not possible with any amount of tricks, print −1 instead.
+Tags -binary search
+Tags -dfs and similar
+Tags -graphs
+Tags -implementation
+Tags -shortest paths
+Tags -two pointers
+Tags -*2800

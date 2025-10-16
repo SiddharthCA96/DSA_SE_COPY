@@ -1,0 +1,12 @@
+A. A Gift From Orangutan
+While exploring the jungle, you have bumped into a rare orangutan with a bow tie! You shake hands with the orangutan and offer him some food and water. In return...
+The orangutan has gifted you an array a of length n. Using a, you will construct two arrays b and c, both containing n elements, in the following manner:
+  - bi=min for each 1 \leq i \leq n.
+  - c_i = \max(a_1, a_2, \ldots, a_i) for each 1 \leq i \leq n.
+Define the score of a as \sum_{i=1}^n c_i - b_i (i.e. the sum of c_i - b_i over all 1 \leq i \leq n). Before you calculate the score, you can shuffle the elements of a however you want.
+Find the maximum score that you can get if you shuffle the elements of a optimally.
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -sortings
+Tags -*800

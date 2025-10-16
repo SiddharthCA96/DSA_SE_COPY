@@ -1,0 +1,10 @@
+C. The Trail
+
+In the wilderness lies a region of mountainous terrain represented as a rectangular grid with 𝑛n rows and 𝑚m columns. Each cell in the grid is identified by its position (𝑖,𝑗)(i,j), where 𝑖i is the row index and 𝑗j is the column index. The altitude of cell (𝑖,𝑗)(i,j) is denoted by 𝑎𝑖,𝑗ai,j.
+However, this region has been tampered with. A path consisting of 𝑛+𝑚−1n+m−1 cells, starting from the top-left corner (1,1)(1,1) and ending at the bottom-right corner (𝑛,𝑚)(n,m), has been cleared. For every cell (𝑖,𝑗)(i,j) along this path, the altitude 𝑎𝑖,𝑗ai,j has been set to 00. The path moves strictly via downward (𝙳D) or rightward (𝚁R) steps.
+To restore the terrain to its original state, it is known that the region possessed a magical property before it was tampered with: all rows and all columns shared the same sum of altitudes. More formally, there exists an integer 𝑥x such that ∑𝑚𝑗=1𝑎𝑖,𝑗=𝑥∑j=1mai,j=x for all 1≤𝑖≤𝑛1≤i≤n, and ∑𝑛𝑖=1𝑎𝑖,𝑗=𝑥∑i=1nai,j=x for all 1≤𝑗≤𝑚1≤j≤m.
+Your task is to assign new altitudes to the cells on the path such that the above magical property is restored. It can be proven that a solution always exists. If there are multiple solutions that satisfy the property, any one of them may be provided.
+Tags -brute force
+Tags -constructive algorithms
+Tags -greedy
+Tags -math

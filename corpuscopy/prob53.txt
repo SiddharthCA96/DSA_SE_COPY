@@ -1,0 +1,17 @@
+E. Broken Queries
+
+You, a wizard whose creation was destroyed by a dragon, are determined to hunt it down with a magical AOE tracker. But it seems to be toyed with...
+This is an interactive problem.
+There is a hidden binary array a of length n (n is a power of 2) and a hidden integer k (2≤k≤n−1). The array a contains exactly one 1 (and all other elements are 0). For two integers l and r (1≤l≤r≤n), define the range sum s(l,r)=al+al+1+⋯+ar.
+You have a magical device that takes ranges and returns range sums, but it returns the opposite result when the range has length at least k. Formally, in one query, you can give it a pair of integers [l,r] where 1≤l≤r≤n, and it will return either 0 or 1 according to the following rules:
+  - If r−l+1<k, it will return s(l,r).
+  - If r−l+1≥k, it will return 1−s(l,r).
+Find k using at most 33 queries.
+The device is not adaptive. It means that the hidden a and k are fixed before the interaction and will not change during the interaction.
+Tags -binary search
+Tags -bitmasks
+Tags -brute force
+Tags -constructive algorithms
+Tags -implementation
+Tags -interactive
+Tags -*2400

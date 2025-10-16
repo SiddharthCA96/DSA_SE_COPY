@@ -1,0 +1,8 @@
+H. GCD is Greater
+In the evenings during the hike, Kirill and Anton decided to take out an array of integers a of length n from their backpack and play a game with it. The rules are as follows:
+Help Kirill to beat Anton or tell if it's impossible.
+Tags -brute force
+Tags -data structures
+Tags -math
+Tags -number theory
+Tags -*2600

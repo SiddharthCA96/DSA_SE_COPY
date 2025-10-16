@@ -1,0 +1,10 @@
+B. Find the Permutation
+
+You are given an undirected graph with $$$n$$$ vertices, labeled from $$$1$$$ to $$$n$$$. This graph encodes a hidden permutation$$$^{\text{∗}}$$$ $$$p$$$ of size $$$n$$$. The graph is constructed as follows:
+  - For every pair of integers $$$1 \le i < j \le n$$$, an undirected edge is added between vertex $$$p_i$$$ and vertex $$$p_j$$$ if and only if $$$p_i < p_j$$$. Note that the edge is not added between vertices $$$i$$$ and $$$j$$$, but between the vertices of their respective elements. Refer to the notes section for better understanding.
+Your task is to reconstruct and output the permutation $$$p$$$. It can be proven that permutation $$$p$$$ can be uniquely determined.
+Tags -brute force
+Tags -dfs and similar
+Tags -graphs
+Tags -implementation
+Tags -sortings

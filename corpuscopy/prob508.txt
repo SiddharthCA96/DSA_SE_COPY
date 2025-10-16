@@ -1,0 +1,11 @@
+D. Swap Dilemma
+Given two arrays of distinct positive integers a and b of length n, we would like to make both the arrays the same. Two arrays x and y of length k are said to be the same when for all 1≤i≤k, xi=yi.
+Now in one move, you can choose some index l and r in a (l≤r) and swap al and ar, then choose some p and q (p≤q) in b such that r−l=q−p and swap bp and bq.
+Is it possible to make both arrays the same?
+Tags -constructive algorithms
+Tags -data structures
+Tags -divide and conquer
+Tags -greedy
+Tags -math
+Tags -sortings
+Tags -*1700

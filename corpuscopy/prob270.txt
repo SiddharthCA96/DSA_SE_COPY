@@ -1,0 +1,14 @@
+D. Connect the Dots
+One fine evening, Alice sat down to play the classic game "Connect the Dots", but with a twist.
+To play the game, Alice draws a straight line and marks n points on it, indexed from 1 to n. Initially, there are no arcs between the points, so they are all disjoint. After that, Alice performs m operations of the following type:
+  - She picks three integers ai, di (1≤di≤10), and ki.
+  - She selects points ai,ai+di,ai+2di,ai+3di,…,ai+ki⋅di and connects each pair of these points with arcs.
+After performing all m operations, she wants to know the number of connected components† these points form. Please help her find this number.
+† Two points are said to be in one connected component if there is a path between them via several (possibly zero) arcs and other points.
+Tags -brute force
+Tags -dp
+Tags -dsu
+Tags -graphs
+Tags -math
+Tags -trees
+Tags -*1800

@@ -1,0 +1,12 @@
+H. Thanos Snap
+There is an array a of size 2k for some positive integer k, which is initially a permutation of values from 1 to 2k. Alice and Bob play the following game on the array a. First, a value t between 1 and k is shown to both Alice and Bob. Then, for exactly t turns, the following happens:
+  - Alice either does nothing, or chooses two distinct elements of the array a and swaps them.
+  - Bob chooses either the left half or the right half of the array a and erases it.
+The score of the game is defined as the maximum value in a after all t turns have been played. Alice wants to maximize this score, while Bob wants to minimize it.
+You need to output k numbers: the score of the game if both Alice and Bob play optimally for t from 1 to k.
+Tags -binary search
+Tags -dp
+Tags -games
+Tags -greedy
+Tags -trees
+Tags -*3200

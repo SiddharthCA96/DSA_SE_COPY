@@ -1,0 +1,9 @@
+E. Prefix GCD
+Since Mansur is tired of making legends, there will be no legends for this task.
+You are given an array of positive integer numbers a1,a2,…,an. The elements of the array can be rearranged in any order. You need to find the smallest possible value of the expression gcd where \gcd(a_1, a_2, \ldots, a_n) denotes the greatest common divisor (GCD) of a_1, a_2, \ldots, a_n.
+Tags -brute force
+Tags -dp
+Tags -greedy
+Tags -math
+Tags -number theory
+Tags -*2200

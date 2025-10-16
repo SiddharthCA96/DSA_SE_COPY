@@ -1,0 +1,8 @@
+F. Good Subarray
+You are given an integer array a of size n.
+Let's call an array good if it can be obtained using the following algorithm: create an array consisting of any single integer; and then perform the following operation an arbitrary number of times: choose an element from the already existing array (let's call it x) and add x, (x−1), or (x+1) to the end of the array.
+For example, the arrays [1,2,1], [5] and [3,2,1,4] are good, while [2,4] and [3,1,2] are not.
+Your task is to count the number of good contiguous subarrays of the array a. Two subarrays that have the same elements but are in different positions of the array a are considered different.
+Tags -*special problem
+Tags -data structures
+Tags -greedy

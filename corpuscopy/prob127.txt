@@ -1,0 +1,12 @@
+C. Ordered Permutations
+
+Consider a permutation∗ p1,p2,…,pn of integers from 1 to n. We can introduce the following sum for it†:
+S(p)=∑1≤l≤r≤nmin
+Let us consider all permutations of length n with the maximum possible value of S(p). Output the k-th of them in lexicographical^{\text{‡}}order, or report that there are less than k of them.
+Tags -bitmasks
+Tags -combinatorics
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -two pointers
+Tags -*1600

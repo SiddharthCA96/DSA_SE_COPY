@@ -1,0 +1,10 @@
+E. Computing Machine
+Sasha has two binary strings 𝑠s and 𝑡t of the same length 𝑛n, consisting of the characters 0 and 1.
+There is also a computing machine that can perform two types of operations on binary strings 𝑎a and 𝑏b of the same length 𝑘k:
+Sasha became interested in the following: if we consider the string 𝑎=𝑠𝑙𝑠𝑙+1…𝑠𝑟a=slsl+1…sr and the string 𝑏=𝑡𝑙𝑡𝑙+1…𝑡𝑟b=tltl+1…tr, what is the maximum number of 1 characters in the string 𝑎a that can be obtained using the computing machine. Since Sasha is very curious but lazy, it is up to you to answer this question for several pairs (𝑙𝑖,𝑟𝑖)(li,ri) that interest him.
+Tags -brute force
+Tags -data structures
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -*2000

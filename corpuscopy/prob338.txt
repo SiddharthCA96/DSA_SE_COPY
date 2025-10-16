@@ -1,0 +1,16 @@
+A. Iris and Game on the Tree
+Iris has a tree rooted at vertex 1. Each vertex has a value of 0 or 1.
+Let's consider a leaf of the tree (the vertex 1 is never considered a leaf) and define its weight. Construct a string formed by the values of the vertices on the path starting at the root and ending in this leaf. Then the weight of the leaf is the difference between the number of occurrences of 10 and 01 substrings in it.
+Take the following tree as an example. Green vertices have a value of 1 while white vertices have a value of 0.
+  - Let's calculate the weight of the leaf 5: the formed string is 10110. The number of occurrences of substring 10 is 2, the number of occurrences of substring 01 is 1, so the difference is 2−1=1.
+  - Let's calculate the weight of the leaf 6: the formed string is 101. The number of occurrences of substring 10 is 1, the number of occurrences of substring 01 is 1, so the difference is 1−1=0.
+The score of a tree is defined as the number of leaves with non-zero weight in the tree.
+But the values of some vertices haven't been decided and will be given to you as ?. Filling the blanks would be so boring, so Iris is going to invite Dora to play a game. On each turn, one of the girls chooses any of the remaining vertices with value ? and changes its value to 0 or 1, with Iris going first. The game continues until there are no vertices with value ? left in the tree. Iris aims to maximize the score of the tree, while Dora aims to minimize that.
+Assuming that both girls play optimally, please determine the final score of the tree.
+Tags -constructive algorithms
+Tags -dfs and similar
+Tags -games
+Tags -graphs
+Tags -greedy
+Tags -trees
+Tags -*1700

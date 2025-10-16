@@ -1,0 +1,8 @@
+C. Uninteresting Number
+You are given a number n with a length of no more than 105.
+You can perform the following operation any number of times: choose one of its digits, square it, and replace the original digit with the result. The result must be a digit (that is, if you choose the digit x, then the value of x2 must be less than 10).
+Is it possible to obtain a number that is divisible by 9 through these operations?
+Tags -brute force
+Tags -dp
+Tags -math
+Tags -*1200

@@ -1,0 +1,10 @@
+G. Natlan Exploring
+You are exploring the stunning region of Natlan! This region consists of n cities, and each city is rated with an attractiveness ai. A directed edge exists from City i to City j if and only if i<j and gcd, where \gcd(x, y) denotes the greatest common divisor (GCD) of integers x and y.
+Starting from City 1, your task is to determine the total number of distinct paths you can take to reach City n, modulo 998\,244\,353. Two paths are different if and only if the set of cities visited is different.
+Tags -bitmasks
+Tags -combinatorics
+Tags -data structures
+Tags -dp
+Tags -math
+Tags -number theory
+Tags -*2000

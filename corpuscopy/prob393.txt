@@ -1,0 +1,20 @@
+E2. Eliminating Balls With Merging (Hard Version)
+This is the hard version of the problem. The only difference is that x=1 in this version. You must solve both versions to be able to hack.
+You are given two integers n and x (x=1). There are n balls lined up in a row, numbered from 1 to n from left to right. Initially, there is a value ai written on the i-th ball.
+For each integer i from 1 to n, we define a function f(i) as follows:
+  - Suppose you have a set S={1,2,…,i}.
+  - In each operation, you have to select an integer l (1≤l<i) from S such that l is not the largest element of S. Suppose r is the smallest element in S which is greater than l.   If al>ar, you set al=al+ar and remove r from S.  If al<ar, you set ar=al+ar and remove l from S.  If al=ar, you choose either the integer l or r to remove from S:   If you choose to remove l from S, you set ar=al+ar and remove l from S.  If you choose to remove r from S, you set al=al+ar and remove r from S.
+  - If al>ar, you set al=al+ar and remove r from S.
+  - If al<ar, you set ar=al+ar and remove l from S.
+  - If al=ar, you choose either the integer l or r to remove from S:   If you choose to remove l from S, you set ar=al+ar and remove l from S.  If you choose to remove r from S, you set al=al+ar and remove r from S.
+  - If you choose to remove l from S, you set ar=al+ar and remove l from S.
+  - If you choose to remove r from S, you set al=al+ar and remove r from S.
+  - f(i) denotes the number of integers j (1≤j≤i) such that it is possible to obtain S={j} after performing the above operations exactly i−1 times.
+For each integer i from x to n, you need to find f(i).
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -divide and conquer
+Tags -greedy
+Tags -implementation
+Tags -*2500

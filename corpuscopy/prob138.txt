@@ -1,0 +1,8 @@
+B. Shohag Loves Strings
+For a string p, let f(p) be the number of distinct non-empty substrings∗ of p.
+Shohag has a string s. Help him find a non-empty string p such that p is a substring of s and f(p) is even or state that no such string exists.
+Tags -constructive algorithms
+Tags -greedy
+Tags -implementation
+Tags -strings
+Tags -*1000

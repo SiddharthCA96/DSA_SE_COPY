@@ -1,0 +1,8 @@
+B. AND Reconstruction
+You are given an array b of n−1 integers.
+An array a of n integers is called good if bi=ai&ai+1 for 1≤i≤n−1, where & denotes the bitwise AND operator.
+Construct a good array, or report that no good arrays exist.
+Tags -bitmasks
+Tags -constructive algorithms
+Tags -greedy
+Tags -*1100

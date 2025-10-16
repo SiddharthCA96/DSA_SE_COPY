@@ -1,0 +1,18 @@
+E. Xor-Grid Problem
+Given a matrix a of size n×m, each cell of which contains a non-negative integer. The integer lying at the intersection of the i-th row and the j-th column of the matrix is called ai,j.
+Let's define f(i) and g(j) as the XOR of all integers in the i-th row and the j-th column, respectively. In one operation, you can either:
+  - Select any row i, then assign ai,j:=g(j) for each 1≤j≤m; or
+  - Select any column j, then assign ai,j:=f(i) for each 1≤i≤n.
+In this example, as we apply an operation on column 2, all elements in this column are changed:
+  - a1,2:=f(1)=a1,1⊕a1,2⊕a1,3⊕a1,4=1⊕1⊕1⊕1=0
+  - a2,2:=f(2)=a2,1⊕a2,2⊕a2,3⊕a2,4=2⊕3⊕5⊕7=3
+  - a3,2:=f(3)=a3,1⊕a3,2⊕a3,3⊕a3,4=2⊕0⊕3⊕0=1
+  - a4,2:=f(4)=a4,1⊕a4,2⊕a4,3⊕a4,4=10⊕11⊕12⊕16=29
+You can apply the operations any number of times. Then, we calculate the beauty of the final matrix by summing the absolute differences between all pairs of its adjacent cells.
+More formally, beauty(a)=∑|ax,y−ar,c| for all cells (x,y) and (r,c) if they are adjacent. Two cells are considered adjacent if they share a side.
+Find the minimum beauty among all obtainable matrices.
+Tags -bitmasks
+Tags -constructive algorithms
+Tags -dp
+Tags -implementation
+Tags -*2700

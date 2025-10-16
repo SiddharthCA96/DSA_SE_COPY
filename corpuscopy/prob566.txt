@@ -1,0 +1,7 @@
+E. Money Buys Happiness
+Being a physicist, Charlie likes to plan his life in simple and precise terms.
+For the next m months, starting with no money, Charlie will work hard and earn x pounds per month. For the i-th month (1≤i≤m), there'll be a single opportunity of paying cost ci pounds to obtain happiness hi.
+Borrowing is not allowed. Money earned in the i-th month can only be spent in a later j-th month (j>i).
+Since physicists don't code, help Charlie find the maximum obtainable sum of happiness.
+Tags -dp
+Tags -*1800

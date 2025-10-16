@@ -1,0 +1,13 @@
+L. Bridge Renovation
+Recently, Monocarp started working as a director of a park located near his house. The park is quite large, so it even has a small river splitting it into several zones. Several bridges are built across this river. Three of these bridges are especially old and need to be repaired.
+All three bridges have the same length but differ in width. Their widths are 1818, 2121 and 2525 units, respectively.
+During the park renovation process, Monocarp has to replace the old planks that served as the surface of the bridges with the new ones.
+Planks are sold with a standard length of 6060 units. Monocarp already knows that he needs 𝑛n planks for each bridge. But since the bridges have different widths, he needs 𝑛n planks of length 1818 for the first bridge, 𝑛n planks of length 2121 for the second one, and 𝑛n planks of length 2525 for the last one.
+Workers in charge of renovation have no problem with cutting planks into parts but refuse to join planks, since it creates weak spots and looks ugly.
+Monocarp wants to buy as few planks as possible but struggles to calculate the required number of planks. Can you help him?
+Tags -brute force
+Tags -dp
+Tags -greedy
+Tags -math
+Tags -two pointers
+Tags -*1400

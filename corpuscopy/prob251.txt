@@ -1,0 +1,15 @@
+B. Skipping
+It is already the year 30243024, ideas for problems have long run out, and the olympiad now takes place in a modified individual format. The olympiad consists of n𝑛 problems, numbered from 11 to n𝑛. The i𝑖-th problem has its own score ai𝑎𝑖 and a certain parameter bi𝑏𝑖 (1≤bi≤n1≤𝑏𝑖≤𝑛).
+Initially, the testing system gives the participant the first problem. When the participant is given the i𝑖-th problem, they have two options:
+  - They can submit the problem and receive ai𝑎𝑖 points;
+  - They can skip the problem, in which case they will never be able to submit it.
+Then, the testing system selects the next problem for the participant from problems with indices j𝑗, such that:
+  - If he submitted the i𝑖-th problem, it looks at problems with indices j<i𝑗<𝑖;
+  - If he skipped the i𝑖-th problem, it looks at problems with indices j≤bi𝑗≤𝑏𝑖.
+Among these problems, it selects the problem with the maximum index that it has not previously given to the participant (he has neither submitted nor skipped it before). If there is no such problem, then the competition for the participant ends, and their result is equal to the sum of points for all submitted problems. In particular, if the participant submits the first problem, then the competition for them ends. Note that the participant receives each problem at most once.
+Prokhor has prepared thoroughly for the olympiad, and now he can submit any problem. Help him determine the maximum number of points he can achieve.
+Tags -binary search
+Tags -dp
+Tags -graphs
+Tags -shortest paths
+Tags -*1700

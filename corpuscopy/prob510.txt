@@ -1,0 +1,13 @@
+B. Corner Twist
+You are given two grids of numbers a and b, with n rows and m columns. All the values in the grid are 0, 1 or 2.
+You can perform the following operation on a any number of times:
+  - Pick any subrectangle in the grid with length and width ≥2. You are allowed to choose the entire grid as a subrectangle.
+  - The subrectangle has four corners. Take any pair of diagonally opposite corners of the chosen subrectangle and add 1 to their values modulo 3.
+  - For the pair of corners not picked, add 2 to their values modulo 3.
+Note that the operation only changes the values of the corners of the picked subrectangle.
+Is it possible to convert the grid a into grid b by applying the above operation any number of times (possibly zero)?
+Tags -constructive algorithms
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*1200

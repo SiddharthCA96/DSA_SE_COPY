@@ -1,0 +1,10 @@
+D. A BIT of an Inequality
+You are given an array a1,a2,…,an. Find the number of tuples (x,y,z) such that:
+  - 1≤x≤y≤z≤n, and
+  - f(x,y)⊕f(y,z)>f(x,z).
+We define f(l,r)=al⊕al+1⊕…⊕ar, where ⊕ denotes the bitwise XOR operation.
+Tags -bitmasks
+Tags -brute force
+Tags -dp
+Tags -math
+Tags -*1900

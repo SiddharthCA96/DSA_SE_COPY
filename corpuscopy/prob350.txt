@@ -1,0 +1,11 @@
+C. Splitting Items
+Alice and Bob have n items they'd like to split between them, so they decided to play a game. All items have a cost, and the i-th item costs ai. Players move in turns starting from Alice.
+In each turn, the player chooses one of the remaining items and takes it. The game goes on until no items are left.
+Let's say that A is the total cost of items taken by Alice and B is the total cost of Bob's items. The resulting score of the game then will be equal to A−B.
+Alice wants to maximize the score, while Bob wants to minimize it. Both Alice and Bob will play optimally.
+But the game will take place tomorrow, so today Bob can modify the costs a little. He can increase the costs ai of several (possibly none or all) items by an integer value (possibly, by the same value or by different values for each item). However, the total increase must be less than or equal to k. Otherwise, Alice may suspect something. Note that Bob can't decrease costs, only increase.
+What is the minimum possible score Bob can achieve?
+Tags -games
+Tags -greedy
+Tags -sortings
+Tags -*1100

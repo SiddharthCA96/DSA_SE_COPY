@@ -1,0 +1,18 @@
+E. Penchick and Chloe's Trees
+
+With just a few hours left until Penchick and Chloe leave for Singapore, they could hardly wait to see the towering trees at the Singapore Botanic Gardens! Attempting to contain their excitement, Penchick crafted a rooted tree to keep Chloe and himself busy.
+Penchick has a rooted tree∗ consisting of n vertices, numbered from 1 to n, with vertex 1 as the root, and Chloe can select a non-negative integer d to create a perfect binary tree† of depth d.
+Since Penchick and Chloe are good friends, Chloe wants her tree to be isomorphic‡ to Penchick's tree. To meet this condition, Chloe can perform the following operation on her own tree any number of times:
+  - Select an edge (u,v), where u is the parent of v.
+  - Remove vertex v and all the edges connected to v, then connect all of v's previous children directly to u.
+In particular, doing an operation on an edge (u,v) where v is a leaf will delete vertex v without adding any new edges.
+Since constructing a perfect binary tree can be time-consuming, Chloe wants to choose the minimum d such that a perfect binary tree of depth d can be made isomorphic to Penchick's tree using the above operation. Note that she can't change the roots of the trees.
+Tags -data structures
+Tags -dfs and similar
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -sortings
+Tags -trees
+Tags -*2100

@@ -1,0 +1,7 @@
+D. Shohag Loves GCD
+Shohag has an integer n and a set S of m unique integers. Help him find the lexicographically largest∗ integer array a1,a2,…,an such that ai∈S for each 1≤i≤n and agcd(i,j)≠gcd(ai,aj)† is satisfied over all pairs 1≤i<j≤n, or state that no such array exists.
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -number theory
+Tags -*1700

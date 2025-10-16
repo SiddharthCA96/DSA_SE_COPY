@@ -1,0 +1,6 @@
+B. Large Addition
+A digit is large if it is between 5 and 9, inclusive. A positive integer is large if all of its digits are large.
+You are given an integer x. Can it be the sum of two large positive integers with the same number of digits?
+Tags -implementation
+Tags -math
+Tags -*1100

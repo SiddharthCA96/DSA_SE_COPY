@@ -1,0 +1,12 @@
+F. Grid Game 3-angle
+Your friends, Anda and Kamu decide to play a game called Grid Game and ask you to become the gamemaster. As the gamemaster, you set up a triangular grid of size $$$N$$$. The grid has $$$N$$$ rows (numbered from $$$1$$$ to $$$N$$$). Row $$$r$$$ has $$$r$$$ cells; the $$$c$$$-th cell of row $$$r$$$ is denoted as $$$(r, c)$$$.
+Before the game starts, $$$M$$$ different cells (numbered from $$$1$$$ to $$$M$$$) are chosen: at cell $$$(R_i, C_i)$$$, you add $$$A_i$$$ stones on it. You then give Anda and Kamu an integer $$$K$$$ and commence the game.
+Anda and Kamu will take turns alternately with Anda taking the first turn. A player on their turn will do the following.
+  - Choose a cell $$$(r, c)$$$ with at least one stone on it.
+  - Remove at least one but at most $$$K$$$ stones from the chosen cell.
+  - For each cell $$$(x, y)$$$ such that $$$r + 1 \leq x \leq \min(N, r + K)$$$ and $$$c \leq y \leq c + x - r$$$, add zero or more stones but at most $$$K$$$ stones to cell $$$(x, y)$$$.
+The following illustrations show all the possible cells in which you can add stones for $$$K = 3$$$. You choose the cell $$$(2, 1)$$$ for the left illustration and the cell $$$(4, 3)$$$ for the right illustration.
+A player who is unable to complete their turn (because there are no more stones on the grid) will lose the game, and the opposing player wins. Determine who will win the game if both players play optimally.
+Tags -games
+Tags -math
+Tags -*3000

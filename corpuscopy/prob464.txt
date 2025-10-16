@@ -1,0 +1,11 @@
+E. Range Minimum Sum
+For an array [a1,a2,…,an] of length n, define f(a) as the sum of the minimum element over all subsegments. That is, f(a)=n∑l=1n∑r=lminl≤i≤rai.
+A permutation is a sequence of integers from 1 to n of length n containing each number exactly once. You are given a permutation [a1,a2,…,an]. For each i, solve the following problem independently:
+  - Erase ai from a, concatenating the remaining parts, resulting in b=[a1,a2,…,ai−1,ai+1,…,an].
+  - Calculate f(b).
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -divide and conquer
+Tags -implementation
+Tags -*2300

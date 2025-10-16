@@ -1,0 +1,8 @@
+D. For the Emperor!
+
+In Ancient Rome, a plan to defeat the barbarians was developed, but for its implementation, each city must be informed about it.
+The northern part of the Roman Empire consists of n cities connected by m one-way roads. Initially, the i-th city has ai messengers, and each messenger can freely move between cities following the existing roads. A messenger can carry a copy of the plan with him and inform the cities he visits, and can make unlimited copies for other messengers in the city he is currently in.
+At the start, you will produce some number of plans and deliver them to messengers of your choice. Your goal is to make sure that every city is visited by a messenger with a plan. Find the smallest number of the plans you need to produce originally, so that the messengers will deliver them to every city, or determine that it is impossible to do so at all.
+Tags -flows
+Tags -graphs
+Tags -*3100

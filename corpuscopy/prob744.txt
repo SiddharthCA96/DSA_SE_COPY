@@ -1,0 +1,12 @@
+A. MEX Game 1
+Alice and Bob play yet another game on an array 𝑎a of size 𝑛n. Alice starts with an empty array 𝑐c. Both players take turns playing, with Alice starting first.
+On Alice's turn, she picks one element from 𝑎a, appends that element to 𝑐c, and then deletes it from 𝑎a.
+On Bob's turn, he picks one element from 𝑎a, and then deletes it from 𝑎a.
+The game ends when the array 𝑎a is empty. Game's score is defined to be the MEX†† of 𝑐c. Alice wants to maximize the score while Bob wants to minimize it. Find game's final score if both players play optimally.
+†† The MEXMEX (minimum excludant) of an array of integers is defined as the smallest non-negative integer which does not occur in the array. For example:
+  - The MEX of [2,2,1][2,2,1] is 00, because 00 does not belong to the array.
+  - The MEX of [3,1,0,1][3,1,0,1] is 22, because 00 and 11 belong to the array, but 22 does not.
+  - The MEX of [0,3,1,2][0,3,1,2] is 44, because 00, 11, 22 and 33 belong to the array, but 44 does not.
+Tags -games
+Tags -greedy
+Tags -*1300

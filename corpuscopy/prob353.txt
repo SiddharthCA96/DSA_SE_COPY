@@ -1,0 +1,15 @@
+F. Turtle and Three Sequences
+Piggy gives Turtle three sequences 𝑎1,𝑎2,…,𝑎𝑛a1,a2,…,an, 𝑏1,𝑏2,…,𝑏𝑛b1,b2,…,bn, and 𝑐1,𝑐2,…,𝑐𝑛c1,c2,…,cn.
+Turtle will choose a subsequence of 1,2,…,𝑛1,2,…,n of length 𝑚m, let it be 𝑝1,𝑝2,…,𝑝𝑚p1,p2,…,pm. The subsequence should satisfy the following conditions:
+  - 𝑎𝑝1≤𝑎𝑝2≤⋯≤𝑎𝑝𝑚ap1≤ap2≤⋯≤apm;
+  - All 𝑏𝑝𝑖bpi for all indices 𝑖i are pairwise distinct, i.e., there don't exist two different indices 𝑖i, 𝑗j such that 𝑏𝑝𝑖=𝑏𝑝𝑗bpi=bpj.
+Help him find the maximum value of ∑𝑖=1𝑚𝑐𝑝𝑖∑i=1mcpi, or tell him that it is impossible to choose a subsequence of length 𝑚m that satisfies the conditions above.
+Recall that a sequence 𝑎a is a subsequence of a sequence 𝑏b if 𝑎a can be obtained from 𝑏b by the deletion of several (possibly, zero or all) elements.
+Tags -brute force
+Tags -data structures
+Tags -dp
+Tags -greedy
+Tags -math
+Tags -probabilities
+Tags -two pointers
+Tags -*2800

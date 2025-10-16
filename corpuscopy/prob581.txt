@@ -1,0 +1,10 @@
+F. Circle Perimeter
+Given an integer r𝑟, find the number of lattice points that have a Euclidean distance from (0,0)(0,0) greater than or equal to r𝑟 but strictly less than r+1𝑟+1.
+A lattice point is a point with integer coordinates. The Euclidean distance from (0,0)(0,0) to the point (x,y)(𝑥,𝑦) is √x2+y2𝑥2+𝑦2‾‾‾‾‾‾‾√.
+Tags -binary search
+Tags -brute force
+Tags -dfs and similar
+Tags -geometry
+Tags -implementation
+Tags -math
+Tags -*1600

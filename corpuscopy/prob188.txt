@@ -1,0 +1,10 @@
+B. Sakurako and Water
+During her journey with Kosuke, Sakurako and Kosuke found a valley that can be represented as a matrix of size n×n, where at the intersection of the i-th row and the j-th column is a mountain with a height of ai,j. If ai,j<0, then there is a lake there.
+Kosuke is very afraid of water, so Sakurako needs to help him:
+  - With her magic, she can select a square area of mountains and increase the height of each mountain on the main diagonal of that area by exactly one.
+More formally, she can choose a submatrix with the upper left corner located at (i,j) and the lower right corner at (p,q), such that p−i=q−j. She can then add one to each element at the intersection of the (i+k)-th row and the (j+k)-th column, for all k such that 0≤k≤p−i.
+Determine the minimum number of times Sakurako must use her magic so that there are no lakes.
+Tags -brute force
+Tags -constructive algorithms
+Tags -greedy
+Tags -*900

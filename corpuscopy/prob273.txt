@@ -1,0 +1,10 @@
+A. Find Minimum Operations
+You are given two integers n and k.
+In one operation, you can subtract any power of k from n. Formally, in one operation, you can replace n by (n−kx) for any non-negative integer x.
+Find the minimum number of operations required to make n equal to 0.
+Tags -bitmasks
+Tags -brute force
+Tags -greedy
+Tags -math
+Tags -number theory
+Tags -*800

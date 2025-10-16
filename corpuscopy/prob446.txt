@@ -1,0 +1,10 @@
+D. Prime XOR Coloring
+You are given an undirected graph with 𝑛n vertices, numbered from 11 to 𝑛n. There is an edge between vertices 𝑢u and 𝑣v if and only if 𝑢⊕𝑣u⊕v is a prime number, where ⊕⊕ denotes the bitwise XOR operator.
+Color all vertices of the graph using the minimum number of colors, such that no two vertices directly connected by an edge have the same color.
+Tags -bitmasks
+Tags -constructive algorithms
+Tags -graphs
+Tags -greedy
+Tags -math
+Tags -number theory
+Tags -*1900

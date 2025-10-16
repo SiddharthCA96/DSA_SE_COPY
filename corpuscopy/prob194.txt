@@ -1,0 +1,13 @@
+B. Medians
+You are given an array a=[1,2,…,n], where n is odd, and an integer k.
+Your task is to choose an odd positive integer m and to split a into m subarrays† b1,b2,…,bm such that:
+  - Each element of the array a belongs to exactly one subarray.
+  - For all 1≤i≤m, |bi| is odd, i.e., the length of each subarray is odd.
+  - median([median(b1),median(b2),…,median(bm)])=k, i.e., the median‡ of the array of medians of all subarrays must equal k. median(c) denotes the median of the array c.
+†A subarray of the array a of length n is the array [al,al+1,…,ar] for some integers 1≤l≤r≤n.
+‡A median of the array of odd length is the middle element after the array is sorted in non-decreasing order. For example: median([1,2,5,4,3])=3, median([3,2,1])=2, median([2,1,2,1,2,2,2])=2.
+Tags -constructive algorithms
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*1100

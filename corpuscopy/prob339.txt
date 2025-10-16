@@ -1,0 +1,13 @@
+E2. Subtangle Game (Hard Version)
+This is the hard version of the problem. The differences between the two versions are the constraints on all the variables. You can make hacks only if both versions of the problem are solved.
+Tsovak and Narek are playing a game. They have an array 𝑎a and a matrix 𝑏b of integers with 𝑛n rows and 𝑚m columns, numbered from 11. The cell in the 𝑖i-th row and the 𝑗j-th column is (𝑖,𝑗)(i,j).
+They are looking for the elements of 𝑎a in turns; Tsovak starts first. Each time a player looks for a cell in the matrix containing the current element of 𝑎a (Tsovak looks for the first, then Narek looks for the second, etc.). Let's say a player has chosen the cell (𝑟,𝑐)(r,c). The next player has to choose his cell in the submatrix starting at (𝑟+1,𝑐+1)(r+1,c+1) and ending in (𝑛,𝑚)(n,m) (the submatrix can be empty if 𝑟=𝑛r=n or 𝑐=𝑚c=m). If a player cannot find such a cell (or the remaining submatrix is empty) or the array ends (the previous player has chosen the last element), then he loses.
+Your task is to determine the winner if the players play optimally.
+Note: since the input is large, you may need to optimize input/output for this problem.
+For example, in C++, it is enough to use the following lines at the start of the main() function:
+Tags -data structures
+Tags -dp
+Tags -games
+Tags -greedy
+Tags -implementation
+Tags -*2500

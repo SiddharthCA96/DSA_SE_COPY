@@ -1,0 +1,11 @@
+C. Job Interview
+Monocarp is opening his own IT company. He wants to hire n programmers and m testers.
+There are n+m+1 candidates, numbered from 1 to n+m+1 in chronological order of their arriving time. The i-th candidate has programming skill ai and testing skill bi (a person's programming skill is different from their testing skill). The skill of the team is the sum of the programming skills of all candidates hired as programmers, and the sum of the testing skills of all candidates hired as testers.
+When a candidate arrives to interview, Monocarp tries to assign them to the most suitable position for them (if their programming skill is higher, then he hires them as a programmer, otherwise as a tester). If all slots for that position are filled, Monocarp assigns them to the other position.
+Your task is, for each candidate, calculate the skill of the team if everyone except them comes to interview. Note that it means that exactly n+m candidates will arrive, so all n+m positions in the company will be filled.
+Tags -binary search
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -two pointers
+Tags -*1600

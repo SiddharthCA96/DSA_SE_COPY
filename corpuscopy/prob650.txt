@@ -1,0 +1,11 @@
+E. Carousel of Combinations
+You are given an integer n. The function C(i,k) represents the number of distinct ways you can select k distinct numbers from the set {1,2,…,i} and arrange them in a circle†.
+Find the value of n∑i=1i∑j=1(C(i,j)mod Here, the operation x \bmod y denotes the remainder from dividing x by y.
+Since this value can be very large, find it modulo 10^9+7.
+^\dagger In a circular arrangement, sequences are considered identical if one can be rotated to match the other. For instance, [1, 2, 3] and [2, 3, 1] are equivalent in a circle.
+Tags -brute force
+Tags -combinatorics
+Tags -dp
+Tags -math
+Tags -number theory
+Tags -*2400

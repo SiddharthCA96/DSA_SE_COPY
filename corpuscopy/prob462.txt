@@ -1,0 +1,13 @@
+A. Catch the Coin
+Monocarp visited a retro arcade club with arcade cabinets. There got curious about the "Catch the Coin" cabinet.
+The game is pretty simple. The screen represents a coordinate grid such that:
+  - the X-axis is directed from left to right;
+  - the Y-axis is directed from bottom to top;
+  - the center of the screen has coordinates (0,0)(0,0).
+At the beginning of the game, the character is located in the center, and 𝑛n coins appear on the screen — the 𝑖i-th coin is at coordinates (𝑥𝑖,𝑦𝑖)(xi,yi). The coordinates of all coins are different and not equal to (0,0)(0,0).
+In one second, Monocarp can move the character in one of eight directions. If the character is at coordinates (𝑥,𝑦)(x,y), then it can end up at any of the coordinates (𝑥,𝑦+1)(x,y+1), (𝑥+1,𝑦+1)(x+1,y+1), (𝑥+1,𝑦)(x+1,y), (𝑥+1,𝑦−1)(x+1,y−1), (𝑥,𝑦−1)(x,y−1), (𝑥−1,𝑦−1)(x−1,y−1), (𝑥−1,𝑦)(x−1,y), (𝑥−1,𝑦+1)(x−1,y+1).
+If the character ends up at the coordinates with a coin, then Monocarp collects that coin.
+After Monocarp makes a move, all coins fall down by 11, that is, they move from (𝑥,𝑦)(x,y) to (𝑥,𝑦−1)(x,y−1). You can assume that the game field is infinite in all directions.
+Monocarp wants to collect at least one coin, but cannot decide which coin to go for. Help him determine, for each coin, whether he can collect it.
+Tags -implementation
+Tags -*800

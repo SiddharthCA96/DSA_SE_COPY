@@ -1,0 +1,11 @@
+B. Non-Palindromic Substring
+A string t𝑡 is said to be k𝑘-good if there exists at least one substring†† of length k𝑘 which is not a palindrome‡‡. Let f(t)𝑓(𝑡) denote the sum of all values of k𝑘 such that the string t𝑡 is k𝑘-good.
+You are given a string s𝑠 of length n𝑛. You will have to answer q𝑞 of the following queries:
+  - Given l𝑙 and r𝑟 (l<r𝑙<𝑟), find the value of f(slsl+1…sr)𝑓(𝑠𝑙𝑠𝑙+1…𝑠𝑟).
+†† A substring of a string z𝑧 is a contiguous segment of characters from z𝑧. For example, "defor", "code" and "o" are all substrings of "codeforces" while "codes" and "aaa" are not.
+‡ A palindrome is a string that reads the same backwards as forwards. For example, the strings "z", "aa" and "tacocat" are palindromes while "codeforces" and "ab" are not.
+Tags -hashing
+Tags -implementation
+Tags -math
+Tags -strings
+Tags -*2000

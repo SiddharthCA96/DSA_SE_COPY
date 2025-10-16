@@ -1,0 +1,13 @@
+B. Collatz Conjecture
+Recently, the first-year student Maxim learned about the Collatz conjecture, but he didn't pay much attention during the lecture, so he believes that the following process is mentioned in the conjecture:
+There is a variable x and a constant y. The following operation is performed k times:
+  - increase x by 1, then
+  - while the number x is divisible by y, divide it by y.
+Note that both of these actions are performed sequentially within one operation.
+For example, if the number x=16, y=3, and k=2, then after one operation x becomes 17, and after another operation x becomes 2, because after adding one, x=18 is divisible by 3 twice.
+Given the initial values of x, y, and k, Maxim wants to know what is the final value of x.
+Tags -brute force
+Tags -implementation
+Tags -math
+Tags -number theory
+Tags -*1200

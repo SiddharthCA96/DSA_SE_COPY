@@ -1,0 +1,10 @@
+E. Rudolf and k Bridges
+Bernard loves visiting Rudolf, but he is always running late. The problem is that Bernard has to cross the river on a ferry. Rudolf decided to help his friend solve this problem.
+The river is a grid of 𝑛n rows and 𝑚m columns. The intersection of the 𝑖i-th row and the 𝑗j-th column contains the number 𝑎𝑖,𝑗ai,j — the depth in the corresponding cell. All cells in the first and last columns correspond to the river banks, so the depth for them is 00.
+Rudolf can choose the row (𝑖,1),(𝑖,2),…,(𝑖,𝑚)(i,1),(i,2),…,(i,m) and build a bridge over it. In each cell of the row, he can install a support for the bridge. The cost of installing a support in the cell (𝑖,𝑗)(i,j) is 𝑎𝑖,𝑗+1ai,j+1. Supports must be installed so that the following conditions are met:
+Building just one bridge is boring. Therefore, Rudolf decided to build 𝑘k bridges on consecutive rows of the river, that is, to choose some 𝑖i (1≤𝑖≤𝑛−𝑘+11≤i≤n−k+1) and independently build a bridge on each of the rows 𝑖,𝑖+1,…,𝑖+𝑘−1i,i+1,…,i+k−1. Help Rudolf minimize the total cost of installing supports.
+Tags -binary search
+Tags -data structures
+Tags -dp
+Tags -two pointers
+Tags -*1600

@@ -1,0 +1,12 @@
+A. Penchick and Modern Monument
+Amidst skyscrapers in the bustling metropolis of Metro Manila, the newest Noiph mall in the Philippines has just been completed! The construction manager, Penchick, ordered a state-of-the-art monument to be built with n pillars.
+The heights of the monument's pillars can be represented as an array h of n positive integers, where hi represents the height of the i-th pillar for all i between 1 and n.
+Penchick wants the heights of the pillars to be in non-decreasing order, i.e. hi≤hi+1 for all i between 1 and n−1. However, due to confusion, the monument was built such that the heights of the pillars are in non-increasing order instead, i.e. hi≥hi+1 for all i between 1 and n−1.
+Luckily, Penchick can modify the monument and do the following operation on the pillars as many times as necessary:
+  - Modify the height of a pillar to any positive integer. Formally, choose an index 1≤i≤n and a positive integer x. Then, assign hi:=x.
+Help Penchick determine the minimum number of operations needed to make the heights of the monument's pillars non-decreasing.
+Tags -constructive algorithms
+Tags -dp
+Tags -greedy
+Tags -math
+Tags -*800

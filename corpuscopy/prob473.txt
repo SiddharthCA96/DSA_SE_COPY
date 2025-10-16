@@ -1,0 +1,7 @@
+F1. Interesting Problem (Easy Version)
+This is the easy version of the problem. The only difference between the two versions is the constraint on n. You can make hacks only if both versions of the problem are solved.
+You are given an array of integers a of length n.
+In one operation, you will perform the following two-step process:
+Find the maximum number of times that you can perform the operation above.
+Tags -dp
+Tags -*2500

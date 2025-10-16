@@ -1,0 +1,16 @@
+H. The Most Reckless Defense
+You are playing a very popular Tower Defense game called "Runnerfield 2". In this game, the player sets up defensive towers that attack enemies moving from a certain starting point to the player's base.
+You are given a grid of size n×m, on which k towers are already placed and a path is laid out through which enemies will move. The cell at the intersection of the x-th row and the y-th column is denoted as (x,y).
+Each second, a tower deals pi units of damage to all enemies within its range. For example, if an enemy is located at cell (x,y) and a tower is at (xi,yi) with a range of r, then the enemy will take damage of pi if (x−xi)2+(y−yi)2≤r2.
+Enemies move from cell (1,1) to cell (n,m), visiting each cell of the path exactly once. An enemy instantly moves to an adjacent cell horizontally or vertically, but before doing so, it spends one second in the current cell. If its health becomes zero or less during this second, the enemy can no longer move. The player loses if an enemy reaches cell (n,m) and can make one more move.
+By default, all towers have a zero range, but the player can set a tower's range to an integer r (r>0), in which case the health of all enemies will increase by 3r. However, each r can only be used for at most one tower.
+Suppose an enemy has a base health of h units. If the tower ranges are 2, 4, and 5, then the enemy's health at the start of the path will be h+32+34+35=h+9+81+243=h+333. The choice of ranges is made once before the appearance of enemies and cannot be changed after the game starts.
+Find the maximum amount of base health h for which it is possible to set the ranges so that the player does not lose when an enemy with health h passes through (without considering the additions for tower ranges).
+Tags -bitmasks
+Tags -brute force
+Tags -constructive algorithms
+Tags -dp
+Tags -flows
+Tags -graph matchings
+Tags -shortest paths
+Tags -*2300

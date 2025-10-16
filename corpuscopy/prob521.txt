@@ -1,0 +1,17 @@
+C. Turtle and an Incomplete Sequence
+Turtle was playing with a sequence a1,a2,…,an consisting of positive integers. Unfortunately, some of the integers went missing while playing.
+Now the sequence becomes incomplete. There may exist an arbitrary number of indices i such that ai becomes −1. Let the new sequence be a′.
+Turtle is sad. But Turtle remembers that for every integer i from 1 to n−1, either ai=⌊ai+12⌋ or ai+1=⌊ai2⌋ holds for the original sequence a.
+Turtle wants you to help him complete the sequence. But sometimes Turtle makes mistakes, so you need to tell him if you can't complete the sequence.
+Formally, you need to find another sequence b1,b2,…,bn consisting of positive integers such that:
+  - For every integer i from 1 to n, if a′i≠−1, then bi=a′i.
+  - For every integer i from 1 to n−1, either bi=⌊bi+12⌋ or bi+1=⌊bi2⌋ holds.
+  - For every integer i from 1 to n, 1≤bi≤109.
+If there is no sequence b1,b2,…,bn that satisfies all of the conditions above, you need to report −1.
+Tags -bitmasks
+Tags -brute force
+Tags -constructive algorithms
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*1800

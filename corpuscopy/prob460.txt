@@ -1,0 +1,11 @@
+C. Two Movies
+A movie company has released 22 movies. These 22 movies were watched by n people. For each person, we know their attitude towards the first movie (liked it, neutral, or disliked it) and towards the second movie.
+If a person is asked to leave a review for the movie, then:
+  - if that person liked the movie, they will leave a positive review, and the movie's rating will increase by 1;
+  - if that person disliked the movie, they will leave a negative review, and the movie's rating will decrease by 1;
+  - otherwise, they will leave a neutral review, and the movie's rating will not change.
+Every person will review exactly one movie — and for every person, you can choose which movie they will review.
+The company's rating is the minimum of the ratings of the two movies. Your task is to calculate the maximum possible rating of the company.
+Tags -greedy
+Tags -math
+Tags -*1400

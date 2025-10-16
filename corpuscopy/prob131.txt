@@ -1,0 +1,12 @@
+H1. Cool Swap Walk (Easy Version)
+This is the easy version of the problem. The only difference is the maximum number of operations you can perform. You can only make hacks if both versions are solved.
+You are given an array a of size n.
+A cool swap walk is the following process:
+  - In an n×n grid, we note the cells in row i and column j as (i,j). You need to walk from (1,1) to (n,n), taking only steps to the right or down.
+  - Formally, if you are in (x,y) currently, you can step to either (x+1,y) or (x,y+1), but you can not step beyond the boundaries of the grid.
+  - When you step in (i,j), you must swap ai and aj when i≠j.
+You can perform at most 2n+4 cool swap walks. Sort the array a1,a2,…,an in non-decreasing order. We can show that it's always possible to do so.
+Tags -constructive algorithms
+Tags -implementation
+Tags -sortings
+Tags -*3500

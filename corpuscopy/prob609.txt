@@ -1,0 +1,10 @@
+E. Unique Array
+You are given an integer array a of length n. A subarray of a is one of its contiguous subsequences (i. e. an array [al,al+1,…,ar] for some integers l and r such that 1≤l<r≤n). Let's call a subarray unique if there is an integer that occurs exactly once in the subarray.
+You can perform the following operation any number of times (possibly zero): choose an element of the array and replace it with any integer.
+Your task is to calculate the minimum number of aforementioned operation in order for all the subarrays of the array a to be unique.
+Tags -binary search
+Tags -data structures
+Tags -divide and conquer
+Tags -dp
+Tags -greedy
+Tags -*2400

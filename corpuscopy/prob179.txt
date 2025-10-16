@@ -1,0 +1,12 @@
+E. Permutations Harmony
+Rayan wants to present a gift to Reyhaneh to win her heart. However, Reyhaneh is particular and will only accept a k-harmonic set of permutations.
+We define a k-harmonic set of permutations as a set of k pairwise distinct permutations p1,p2,…,pk of size n such that for every pair of indices i and j (where 1≤i,j≤n), the following condition holds:
+p1[i]+p2[i]+…+pk[i]=p1[j]+p2[j]+…+pk[j]
+Your task is to help Rayan by either providing a valid k-harmonic set of permutations for given values of n and k or by determining that such a set does not exist.
+We call a sequence of length n a permutation if it contains every integer from 1 to n exactly once.
+Tags -combinatorics
+Tags -constructive algorithms
+Tags -greedy
+Tags -hashing
+Tags -math
+Tags -*2200

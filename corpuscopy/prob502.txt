@@ -1,0 +1,10 @@
+C1. Magnitude (Easy Version)
+The two versions of the problem are different. You may want to read both versions. You can make hacks only if both versions are solved.
+You are given an array a of length n. Start with c=0. Then, for each i from 1 to n (in increasing order) do exactly one of the following:
+  - Option 1: set c to c+ai.
+  - Option 2: set c to |c+ai|, where |x| is the absolute value of x.
+Let the maximum final value of c after the procedure described above be equal to k. Find k.
+Tags -dp
+Tags -greedy
+Tags -math
+Tags -*1300

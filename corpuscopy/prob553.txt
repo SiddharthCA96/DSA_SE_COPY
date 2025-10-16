@@ -1,0 +1,10 @@
+B. Increase/Decrease/Copy
+You are given two integer arrays: array a𝑎 of length n𝑛 and array b𝑏 of length n+1𝑛+1.
+You can perform the following operations any number of times in any order:
+  - choose any element of the array a𝑎 and increase it by 11;
+  - choose any element of the array a𝑎 and decrease it by 11;
+  - choose any element of the array a𝑎, copy it and append the copy to the end of the array a𝑎.
+Your task is to calculate the minimum number of aforementioned operations (possibly zero) required to transform the array a𝑎 into the array b𝑏. It can be shown that under the constraints of the problem, it is always possible.
+Tags -greedy
+Tags -implementation
+Tags -*1100

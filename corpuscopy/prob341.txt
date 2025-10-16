@@ -1,0 +1,13 @@
+D. Alter the GCD
+You are given two arrays a1,a2,…,an and b1,b2,…,bn.
+You must perform the following operation exactly once:
+  - choose any indices l and r such that 1≤l≤r≤n;
+  - swap ai and bi for all i such that l≤i≤r.
+Find the maximum possible value of gcd(a1,a2,…,an)+gcd(b1,b2,…,bn) after performing the operation exactly once. Also find the number of distinct pairs (l,r) which achieve the maximum value.
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -divide and conquer
+Tags -implementation
+Tags -number theory
+Tags -*2400

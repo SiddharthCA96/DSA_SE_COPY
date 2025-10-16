@@ -1,0 +1,14 @@
+E. Monster
+You are fighting a monster with z health using a weapon with d damage. Initially, d=0. You can perform the following operations.
+  - Increase d — the damage of your weapon by 1, costing x coins.
+  - Attack the monster, dealing d damage and costing y coins.
+You cannot perform the first operation for more than k times in a row.
+Find the minimum number of coins needed to defeat the monster by dealing at least z damage.
+Tags -binary search
+Tags -brute force
+Tags -constructive algorithms
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -ternary search
+Tags -*2300

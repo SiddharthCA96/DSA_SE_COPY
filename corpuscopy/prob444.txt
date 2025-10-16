@@ -1,0 +1,9 @@
+F. Triangle Formation
+You are given n𝑛 sticks, numbered from 11 to n𝑛. The length of the i𝑖-th stick is ai𝑎𝑖.
+You need to answer q𝑞 queries. In each query, you are given two integers l𝑙 and r𝑟 (1≤l<r≤n1≤𝑙<𝑟≤𝑛, r−l+1≥6𝑟−𝑙+1≥6). Determine whether it is possible to choose 66 distinct sticks from the sticks numbered l𝑙 to r𝑟, to form 22 non-degenerate triangles∗∗.
+Tags -brute force
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -sortings
+Tags -*2200

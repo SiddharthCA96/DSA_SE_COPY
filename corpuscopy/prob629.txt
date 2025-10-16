@@ -1,0 +1,10 @@
+A. Permutation Counting
+You have some cards. An integer between 11 and n is written on each card: specifically, for each i from 1 to n, you have ai cards which have the number i written on them.
+There is also a shop which contains unlimited cards of each type. You have k coins, so you can buy k new cards in total, and the cards you buy can contain any integer between 1 and n.
+After buying the new cards, you rearrange all your cards in a line. The score of a rearrangement is the number of (contiguous) subarrays of length n which are a permutation of [1,2,…,n]. What's the maximum score you can get?
+Tags -binary search
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -sortings
+Tags -*1400

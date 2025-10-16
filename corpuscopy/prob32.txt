@@ -1,0 +1,9 @@
+J. Judicious Watching
+Jill loves having good grades in university, so she never misses deadlines for her homework assignments. But even more, she loves watching the series and discussing it with her best friend Johnny. And unfortunately, today she needs to choose between these two activities!
+Jill needs to complete n homework tasks. The i-th task would require ai minutes to complete and needs to be submitted to the teacher at most di minutes from now. Also, there are m new episodes of the series that Johnny and Jill want to discuss. The j-th episode lasts lj minutes. Jill can complete tasks in any order, but she needs to watch the episodes in the order they come. Neither completing a homework task nor watching an episode can be interrupted after starting.
+Johnny and Jill need to agree on a time tk when they would have a call to discuss the series. They are not sure yet which time to choose. For each possible time, compute the maximum number of episodes Jill could watch before that time while still being able to complete all n homework tasks in time.
+Note that for the purpose of this problem we assume that discussing the series with Johnny at time tk does not consume significant time from Jill and can happen even if she is in the middle of completing any of her homework tasks.
+Tags -binary search
+Tags -greedy
+Tags -sortings
+Tags -*2000

@@ -1,0 +1,12 @@
+H. 378QAQ and Core
+378QAQ has a string s of length n. Define the core of a string as the substring† with maximum lexicographic‡ order.
+For example, the core of "bazoka" is "zoka", and the core of "aaa" is "aaa".
+378QAQ wants to rearrange the string s so that the core is lexicographically minimum. Find the lexicographically minimum possible core over all rearrangements of s.
+† A substring of string s is a continuous segment of letters from s. For example, "defor", "code" and "o" are all substrings of "codeforces" while "codes" and "aaa" are not.
+‡ A string p is lexicographically smaller than a string q if and only if one of the following holds:
+  - p is a prefix of q, but p≠q; or
+  - in the first position where p and q differ, the string p has a smaller element than the corresponding element in q (when compared by their ASCII code).
+For example, "code" and "coda" are both lexicographically smaller than "codeforces" while "codeforceston" and "z" are not.
+Tags -greedy
+Tags -strings
+Tags -*3500

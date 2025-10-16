@@ -1,0 +1,21 @@
+I2. Affectionate Arrays (Hard Version)
+
+Note that this statement is different to the version used in the official round. The statement has been corrected to a solvable version. In the official round, all submissions to this problem have been removed.
+This is the hard version of the problem. The difference between the versions is that in this version, you need to compute the sum of value of different arrays. You can hack only if you solved all versions of this problem.
+Iris treasures an integer array a1,a2,…,an. She knows this array has an interesting property: the maximum absolute value of all elements is less than or equal to the sum of all elements, that is, max.
+Iris defines the boredom of an array as its maximum subarray^{\text{∗}} sum.
+Iris's birthday is coming, and Victor is going to send her another array b_1, b_2, \ldots, b_m as a gift. For some seemingly obvious reasons, he decides the array b_1, b_2, \ldots, b_m should have the following properties.
+  - a_1, a_2, \ldots, a_n should be a subsequence^{\text{†}} of b_1, b_2, \ldots, b_m.
+  - The two arrays have the same sum. That is, \sum\limits_{i=1}^n a_i = \sum\limits_{i=1}^m b_i.
+  - The boredom of b_1, b_2, \ldots, b_m is the smallest possible.
+  - Among the arrays with the smallest boredom, the length of the array b (i.e., m) is the smallest possible. And in this case, Iris will understand his regard as soon as possible!
+For a possible array b_1, b_2, \ldots, b_m satisfying all the conditions above, Victor defines the value of the array as the number of occurrences of array a as subsequences in array b. That is, he counts the number of array c_1, c_2, \ldots, c_{n} that 1\le c_1< c_2< \ldots< c_n\le m and for all integer i that 1\le i\le n, b_{c_{i}}=a_i is satisfied, and let this be the value of array b.
+Even constrained as above, there are still too many possible gifts. So Victor asks you to calculate the sum of value of all possible arrays b_1, b_2, \ldots, b_m. Since the answer may be large, Victor only needs the number modulo 998\,244\,353. He promises you: if you help him successfully, he will share a bit of Iris's birthday cake with you.
+Tags -data structures
+Tags -dp
+Tags -graphs
+Tags -greedy
+Tags -math
+Tags -shortest paths
+Tags -two pointers
+Tags -*3500

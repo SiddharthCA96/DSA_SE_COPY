@@ -1,0 +1,9 @@
+A. Adrenaline Rush
+Alice's friend is a big fan of the Adrenaline Rush racing competition and always strives to attend every race. However, this time, Alice is the one watching the race. To ensure her friend does not miss any important details, Alice decides to take notes on everything that happens on the track.
+The first thing Alice notices before the race begins is the numbering of the cars. All the cars line up in front of the starting line in a specific order. The car closest to the line is numbered 1, the second car is numbered 2, and so on, up to the last car, which is numbered n. How convenient! — Alice thought.
+The race begins with the countdown: "Three! Two! One! Go!". Alice observes that the cars start in their original order. However, as the race progresses, their order changes. She records whenever one car overtakes another, essentially swapping places with it on the track.
+During the race, Alice notices something curious: no car overtakes another more than once. In other words, for any two cars x and y, there are at most two overtakes between them during the race: "x overtakes y" and/or "y overtakes x".
+At the end of the race, Alice carefully writes down the final order of the cars c1,c2,…,cn, where c1 represents the winner of the race.
+Alice's friend, however, is only interested in the final ranking and discards all of Alice's notes except for the final ordering. As Alice is quite curious, she wonders: What is the longest possible sequence of overtakes she could have observed during the race? Your task is to help Alice answer this question.
+Tags -constructive algorithms
+Tags -*1600

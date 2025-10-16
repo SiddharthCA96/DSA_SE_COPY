@@ -1,0 +1,9 @@
+A. Strange Splitting
+Define the range of a non-empty array to be the maximum value minus the minimum value. For example, the range of [1,4,2] is 4−1=3.
+You are given an array a1,a2,…,an of length n≥3. It is guaranteed a is sorted.
+You have to color each element of a red or blue so that:
+  - the range of the red elements does not equal the range of the blue elements, and
+  - there is at least one element of each color.
+If there does not exist any such coloring, you should report it. If there are multiple valid colorings, you can print any of them.
+Tags -constructive algorithms
+Tags -*800

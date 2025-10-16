@@ -1,0 +1,8 @@
+B. Crafting
+
+There are n different types of magical materials, numbered from 1 to n. Initially, you have ai units of material i for each i from 1 to n. You are allowed to perform the following operation:
+  - Select a material i (where 1≤i≤n). Then, spend 1 unit of every other material j (in other words, j≠i) to gain 1 unit of material i. More formally, after selecting material i, update array a as follows: ai:=ai+1, and aj:=aj−1 for all j where j≠i and 1≤j≤n. Note that all aj must remain non-negative, i.e. you cannot spend resources you do not have.
+You are trying to craft an artifact using these materials. To successfully craft the artifact, you must have at least bi units of material i for each i from 1 to n. Determine if it is possible to craft the artifact by performing the operation any number of times (including zero).
+Tags -constructive algorithms
+Tags -greedy
+Tags -sortings

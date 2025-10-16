@@ -1,0 +1,10 @@
+G2. The Destruction of the Universe (Hard Version)
+This is the hard version of the problem. In this version, n≤106. You can only make hacks if both versions of the problem are solved.
+Orangutans are powerful beings—so powerful that they only need 1 unit of time to destroy every vulnerable planet in the universe!
+There are n planets in the universe. Each planet has an interval of vulnerability [l,r], during which it will be exposed to destruction by orangutans. Orangutans can also expand the interval of vulnerability of any planet by 1 unit.
+Specifically, suppose the expansion is performed on planet p with interval of vulnerability [lp,rp]. Then, the resulting interval of vulnerability may be either [lp−1,rp] or [lp,rp+1].
+Given a set of planets, orangutans can destroy all planets if the intervals of vulnerability of all planets in the set intersect at least one common point. Let the score of such a set denote the minimum number of expansions that must be performed.
+Orangutans are interested in the sum of scores of all non-empty subsets of the planets in the universe. As the answer can be large, output it modulo 998244353.
+Tags -combinatorics
+Tags -math
+Tags -*3100

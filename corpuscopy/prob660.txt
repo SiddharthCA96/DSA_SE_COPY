@@ -1,0 +1,13 @@
+B. Nene and the Card Game
+You and Nene are playing a card game. The deck with 2n cards is used to play this game. Each card has an integer from 1 to n on it, and each of integers 1 through n appears exactly on 2 cards. Additionally, there is a table where cards are placed during the game (initially, the table is empty).
+In the beginning of the game, these 2n cards are distributed between you and Nene so that each player receives n cards.
+After it, you and Nene alternatively take 2n turns, i.e. each person takes n turns, starting with you. On each turn:
+  - The player whose turn is it selects one of the cards in his hand. Let x be the number on it.
+  - The player whose turn is it receives 1 point if there is already a card with the integer x on the table (otherwise, he receives no points). After it, he places the selected card with the integer x on the table.
+Note that turns are made publicly: each player can see all the cards on the table at each moment.
+Nene is very smart so she always selects cards optimally in order to maximize her score in the end of the game (after 2n rounds). If she has several optimal moves, she selects the move that minimizes your score in the end of the game.
+More formally, Nene always takes turns optimally in order to maximize her score in the end of the game in the first place and to minimize your score in the end of the game in the second place.
+Assuming that the cards are already distributed and cards in your hand have integers a1,a2,…,an written on them, what is the maximum number of points you can get by taking your turns optimally?
+Tags -games
+Tags -greedy
+Tags -*800

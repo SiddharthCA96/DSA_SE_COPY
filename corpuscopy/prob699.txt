@@ -1,0 +1,8 @@
+D. Product of Binary Decimals
+Let's call a number a binary decimal if it is a positive integer and all digits in its decimal notation are either 0 or 1. For example, 1010111 is a binary decimal, while 10201 and 787788 are not.
+Given a number n, you are asked whether or not it is possible to represent n as a product of some (not necessarily distinct) binary decimals.
+Tags -brute force
+Tags -dp
+Tags -implementation
+Tags -number theory
+Tags -*1100

@@ -1,0 +1,12 @@
+F. Peanuts
+Having the magical beanstalk, Jack has been gathering a lot of peanuts lately. Eventually, he has obtained n pockets of peanuts, conveniently numbered 1 to n from left to right. The i-th pocket has ai peanuts.
+Jack and his childhood friend Alice decide to play a game around the peanuts. First, Alice divides the pockets into some boxes; each box will have a non-zero number of consecutive pockets, and each pocket will, obviously, belong to exactly one box. At the same time, Alice does not change the order of the boxes, that is, the boxes are numbered in ascending order of the indices of the pockets in them.
+After that, Alice and Jack will take turns alternately, with Alice going first.
+At each turn, the current player will remove a positive number of peanuts from exactly one pocket which belongs to the leftmost non-empty box (i.e., the leftmost box containing at least one non-empty pocket). In other words, if we number the boxes from left to right, then each player can only pick peanuts from the pocket in the j-th box (j≥2) only if the (j−1)-th box has no peanuts left. The player who cannot make a valid move loses.
+Alice is sure she will win since she has the advantage of dividing the pockets into boxes herself. Thus, she wanted to know how many ways there are for her to divide the peanuts into boxes at the start of the game so that she will win, assuming both players play optimally. Can you help her with the calculation?
+As the result can be very large, output it modulo 998244353.
+Tags -combinatorics
+Tags -dp
+Tags -games
+Tags -math
+Tags -*2700

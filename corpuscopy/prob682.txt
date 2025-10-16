@@ -1,0 +1,5 @@
+E. Sweep Line
+Tags -*special problem
+Tags -combinatorics
+Tags -games
+Tags -math

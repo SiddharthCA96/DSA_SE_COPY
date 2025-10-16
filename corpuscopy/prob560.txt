@@ -1,0 +1,12 @@
+D. Paint the Tree
+378QAQ has a tree with 𝑛n vertices. Initially, all vertices are white.
+There are two chess pieces called 𝑃𝐴PA and 𝑃𝐵PB on the tree. 𝑃𝐴PA and 𝑃𝐵PB are initially located on vertices 𝑎a and 𝑏b respectively. In one step, 378QAQ will do the following in order:
+Initially, the vertex 𝑎a is painted red. If 𝑎=𝑏a=b, the vertex 𝑎a is painted blue instead. Note that both the chess pieces must be moved in each step. Two pieces can be on the same vertex at any given time.
+378QAQ wants to know the minimum number of steps to paint all vertices blue.
+Tags -brute force
+Tags -dfs and similar
+Tags -dp
+Tags -greedy
+Tags -shortest paths
+Tags -trees
+Tags -*1700

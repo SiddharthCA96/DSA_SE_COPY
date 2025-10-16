@@ -1,0 +1,12 @@
+D. Non Prime Tree
+You are given a tree with n vertices.
+You need to construct an array a1,a2,…,an of length n, consisting of unique integers from 1 to 2⋅n, and such that for each edge ui↔vi of the tree, the value |aui−avi| is not a prime number.
+Find any array that satisfies these conditions, or report that there is no such array.
+Tags -brute force
+Tags -constructive algorithms
+Tags -dfs and similar
+Tags -greedy
+Tags -number theory
+Tags -trees
+Tags -two pointers
+Tags -*1900

@@ -1,0 +1,9 @@
+G. Shohag Loves Pebae
+Shohag has a tree with 𝑛n nodes.
+Pebae has an integer 𝑚m. She wants to assign each node a value — an integer from 11 to 𝑚m. So she asks Shohag to count the number, modulo 998244353998244353, of assignments such that following conditions are satisfied:
+  - For each pair 1≤𝑢<𝑣≤𝑛1≤u<v≤n, the least common multiple (LCM) of the values of the nodes in the unique simple path from 𝑢u to 𝑣v is not divisible by the number of nodes in the path.
+  - The greatest common divisor (GCD) of the values of all nodes from 11 to 𝑛n is 11.
+But this problem is too hard for Shohag to solve. As Shohag loves Pebae, he has to solve the problem. Please save Shohag!
+Tags -math
+Tags -number theory
+Tags -*3500

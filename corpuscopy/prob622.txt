@@ -1,0 +1,9 @@
+F. Next and Prev
+Let p1,…,pn be a permutation of [1,…,n].
+Let the q-subsequence of p be a permutation of [1,q], whose elements are in the same relative order as in p1,…,pn. That is, we extract all elements not exceeding q together from p in the original order, and they make the q-subsequence of p.
+For a given array a, let pre(i) be the largest value satisfying pre(i)<i and apre(i)>ai. If it does not exist, let pre(i)=−10100. Let nxt(i) be the smallest value satisfying nxt(i)>i and anxt(i)>ai. If it does not exist, let nxt(i)=10100.
+For each q such that 1≤q≤n, let a1,…,aq be the q-subsequence of p. For each i such that 1≤i≤q, pre(i) and nxt(i) will be calculated as defined. Then, you will be given some integer values of x, and for each of them you have to calculate q∑i=1min(nxt(i)−pre(i),x).
+Tags -brute force
+Tags -data structures
+Tags -implementation
+Tags -*3200

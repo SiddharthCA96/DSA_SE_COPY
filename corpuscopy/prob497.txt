@@ -1,0 +1,9 @@
+G. Magic Trick II
+The secret behind Oscar's first magic trick has been revealed! Because he still wants to impress Lura, he comes up with a new idea: he still wants to sort a permutation p1,p2,…,pn of [1,2,…,n].
+This time, he chooses an integer k. He wants to sort the permutation in non-decreasing order using the following operation several times:
+To be as impressive as possible, Oscar would like to choose the maximal value of k such that he can sort his permutation. Please help him find the maximal k as well as a sequence of operations that will sort the permutation. You don't need to minimize the number of operations, but you are allowed to use at most 5n2 operations.
+We have a proof that, for the maximal k such that you can sort the permutation in any number of operations, you can also sort it in at most 5n2 operations.
+Tags -constructive algorithms
+Tags -implementation
+Tags -sortings
+Tags -*3200

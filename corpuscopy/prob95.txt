@@ -1,0 +1,11 @@
+E. Insane Problem
+Wave is given five integers k, l1, r1, l2, and r2. Wave wants you to help her count the number of ordered pairs (x,y) such that all of the following are satisfied:
+  - l1≤x≤r1.
+  - l2≤y≤r2.
+  - There exists a non-negative integer n such that yx=kn.
+Tags -binary search
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -number theory
+Tags -*1300

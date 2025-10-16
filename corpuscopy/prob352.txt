@@ -1,0 +1,12 @@
+A. Closest Point
+Consider a set of points on a line. The distance between two points i𝑖 and j𝑗 is |i−j||𝑖−𝑗|.
+The point i𝑖 from the set is the closest to the point j𝑗 from the set, if there is no other point k𝑘 in the set such that the distance from j𝑗 to k𝑘 is strictly less than the distance from j𝑗 to i𝑖. In other words, all other points from the set have distance to j𝑗 greater or equal to |i−j||𝑖−𝑗|.
+For example, consider a set of points {1,3,5,8}{1,3,5,8}:
+  - for the point 11, the closest point is 33 (other points have distance greater than |1−3|=2|1−3|=2);
+  - for the point 33, there are two closest points: 11 and 55;
+  - for the point 55, the closest point is 33 (but not 88, since its distance is greater than |3−5||3−5|);
+  - for the point 88, the closest point is 55.
+You are given a set of points. You have to add an integer point into this set in such a way that it is different from every existing point in the set, and it becomes the closest point to every point in the set. Is it possible?
+Tags -implementation
+Tags -math
+Tags -*800

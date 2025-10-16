@@ -1,0 +1,13 @@
+B. Make Three Regions
+There is a grid, consisting of 2 rows and n columns. Each cell of the grid is either free or blocked.
+A free cell y is reachable from a free cell x if at least one of these conditions holds:
+  - x and y share a side;
+  - there exists a free cell z such that z is reachable from x and y is reachable from z.
+A connected region is a set of free cells of the grid such that all cells in it are reachable from one another, but adding any other free cell to the set violates this rule.
+For example, consider the following layout, where white cells are free, and dark grey cells are blocked:
+There are 3 regions in it, denoted with red, green and blue color respectively:
+The given grid contains at most 1 connected region. Your task is to calculate the number of free cells meeting the following constraint:
+  - if this cell is blocked, the number of connected regions becomes exactly 3.
+Tags -constructive algorithms
+Tags -two pointers
+Tags -*1100

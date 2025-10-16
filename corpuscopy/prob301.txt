@@ -1,0 +1,10 @@
+H. Strange Matrix
+You are given a matrix a of size n×m, consisting of integers from 0 to 31 inclusive.
+Let's call the matrix strange if for every two distinct rows i and j, both of the following conditions hold:
+  - for every set of k indices (x1,x2,…,xk), where 1≤x1<x2<⋯<xk≤m, the equality ai,x1&aj,x1&ai,x2&aj,x2&⋯&ai,xk&aj,xk=0 holds (where & — bitwise AND of two numbers);
+  - for every set of k indices (x1,x2,…,xk), where 1≤x1<x2<⋯<xk≤m, the equality ai,x1|aj,x1|ai,x2|aj,x2|⋯|ai,xk|aj,xk=31 holds (where | — bitwise OR of two numbers).
+You can perform the following operation any number of times: take any row of the matrix and a number y from 0 to 31 inclusive; then apply the bitwise XOR with the number y to all elements of the selected row. The cost of such an operation is equal to y.
+Your task is to calculate the minimum cost to make the matrix strange, or report that it is impossible.
+Tags -*special problem
+Tags -graphs
+Tags -greedy

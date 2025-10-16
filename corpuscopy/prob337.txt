@@ -1,0 +1,16 @@
+B. Iris and the Tree
+Given a rooted tree with the root at vertex 1. For any vertex i (1<i≤n) in the tree, there is an edge connecting vertices i and pi (1≤pi<i), with a weight equal to ti.
+Iris does not know the values of ti, but she knows that n∑i=2ti=w and each of the ti is a non-negative integer.
+The vertices of the tree are numbered in a special way: the numbers of the vertices in each subtree are consecutive integers. In other words, the vertices of the tree are numbered in the order of a depth-first search.
+We define dist(u,v) as the length of the simple path between vertices u and v in the tree.
+Next, there will be n−1 events:
+  - Iris is given integers x and y, indicating that tx=y.
+After each event, Iris wants to know the maximum possible value of dist(i,imodn+1) independently for each i (1≤i≤n). She only needs to know the sum of these n values. Please help Iris quickly get the answers.
+Note that when calculating the maximum possible values of dist(i,imodn+1) and dist(j,jmodn+1) for i≠j, the unknown edge weights may be different.
+Tags -brute force
+Tags -data structures
+Tags -dfs and similar
+Tags -dsu
+Tags -math
+Tags -trees
+Tags -*1800

@@ -1,0 +1,7 @@
+B. Turtle and an Infinite Sequence
+There is a sequence a0,a1,a2,…𝑎0,𝑎1,𝑎2,… of infinite length. Initially ai=i𝑎𝑖=𝑖 for every non-negative integer i𝑖.
+After every second, each element of the sequence will simultaneously change. ai𝑎𝑖 will change to ai−1∣ai∣ai+1𝑎𝑖−1∣𝑎𝑖∣𝑎𝑖+1 for every positive integer i𝑖. a0𝑎0 will change to a0∣a1𝑎0∣𝑎1. Here, | denotes bitwise OR.
+Turtle is asked to find the value of an after m seconds. In particular, if m=0, then he needs to find the initial value of an. He is tired of calculating so many values, so please help him!
+Tags -bitmasks
+Tags -math
+Tags -*1300

@@ -1,0 +1,13 @@
+E. Coloring Game
+This is an interactive problem.
+Consider an undirected connected graph consisting of n vertices and m edges. Each vertex can be colored with one of three colors: 1, 2, or 3. Initially, all vertices are uncolored.
+Alice and Bob are playing a game consisting of n rounds. In each round, the following two-step process happens:
+Alice wins if there exists an edge connecting two vertices of the same color. Otherwise, Bob wins.
+You are given the graph. Your task is to decide which player you wish to play as and win the game.
+Tags -constructive algorithms
+Tags -dfs and similar
+Tags -games
+Tags -graphs
+Tags -greedy
+Tags -interactive
+Tags -*1900

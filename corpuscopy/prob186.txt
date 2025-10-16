@@ -1,0 +1,10 @@
+D. Kousuke's Assignment
+After a trip with Sakurako, Kousuke was very scared because he forgot about his programming assignment. In this assignment, the teacher gave him an array a of n integers and asked him to calculate the number of non-overlapping segments of the array a, such that each segment is considered beautiful.
+A segment [l,r] is considered beautiful if al+al+1+⋯+ar−1+ar=0.
+For a fixed array a, your task is to compute the maximum number of non-overlapping beautiful segments.
+Tags -data structures
+Tags -dp
+Tags -dsu
+Tags -greedy
+Tags -math
+Tags -*1300

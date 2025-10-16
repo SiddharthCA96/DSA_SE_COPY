@@ -1,0 +1,15 @@
+G2. Spinning Round (Hard Version)
+This is the hard version of the problem. The only difference between the two versions are the allowed characters in 𝑠s. You can make hacks only if both versions of the problem are solved.
+You are given a permutation 𝑝p of length 𝑛n. You are also given a string 𝑠s of length 𝑛n, where each character is either L, R, or ?.
+For each 𝑖i from 11 to 𝑛n:
+  - Define 𝑙𝑖li as the largest index 𝑗<𝑖j<i such that 𝑝𝑗>𝑝𝑖pj>pi. If there is no such index, 𝑙𝑖:=𝑖li:=i.
+  - Define 𝑟𝑖ri as the smallest index 𝑗>𝑖j>i such that 𝑝𝑗>𝑝𝑖pj>pi. If there is no such index, 𝑟𝑖:=𝑖ri:=i.
+Initially, you have an undirected graph with 𝑛n vertices (numbered from 11 to 𝑛n) and no edges. Then, for each 𝑖i from 11 to 𝑛n, add one edge to the graph:
+  - If 𝑠𝑖=si= L, add the edge (𝑖,𝑙𝑖)(i,li) to the graph.
+  - If 𝑠𝑖=si= R, add the edge (𝑖,𝑟𝑖)(i,ri) to the graph.
+  - If 𝑠𝑖=si= ?, either add the edge (𝑖,𝑙𝑖)(i,li) or the edge (𝑖,𝑟𝑖)(i,ri) to the graph at your choice.
+Find the maximum possible diameter over all connected∗∗ graphs that you can form. Output −1−1 if it is not possible to form any connected graphs.
+Tags -divide and conquer
+Tags -dp
+Tags -trees
+Tags -*3500

@@ -1,0 +1,6 @@
+A. Creating Words
+Matthew is given two strings a and b, both of length 3. He thinks it's particularly funny to create two new words by swapping the first character of a with the first character of b. He wants you to output a and b after the swap.
+Note that the new words may not necessarily be different.
+Tags -implementation
+Tags -strings
+Tags -*800

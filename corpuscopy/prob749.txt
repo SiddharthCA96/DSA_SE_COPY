@@ -1,0 +1,12 @@
+D. Learning to Paint
+Elsie is learning how to paint. She has a canvas of n𝑛 cells numbered from 11 to n𝑛 and can paint any (potentially empty) subset of cells.
+Elsie has a 2D array a𝑎 which she will use to evaluate paintings. Let the maximal contiguous intervals of painted cells in a painting be [l1,r1],[l2,r2],…,[lx,rx][𝑙1,𝑟1],[𝑙2,𝑟2],…,[𝑙𝑥,𝑟𝑥]. The beauty of the painting is the sum of ali,ri𝑎𝑙𝑖,𝑟𝑖 over all 1≤i≤x1≤𝑖≤𝑥. In the image above, the maximal contiguous intervals of painted cells are [2,4],[6,6],[8,9][2,4],[6,6],[8,9] and the beauty of the painting is a2,4+a6,6+a8,9𝑎2,4+𝑎6,6+𝑎8,9.
+There are 2n2𝑛 ways to paint the strip. Help Elsie find the k𝑘 largest possible values of the beauty of a painting she can obtain, among all these ways. Note that these k𝑘 values do not necessarily have to be distinct. It is guaranteed that there are at least k𝑘 different ways to paint the canvas.
+Tags -binary search
+Tags -data structures
+Tags -dfs and similar
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -sortings
+Tags -*2100

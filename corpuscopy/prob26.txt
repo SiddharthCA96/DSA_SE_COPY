@@ -1,0 +1,20 @@
+F. Earnest Matrix Complement
+  - Peter: Good news: My problem T311013 is approved!
+  - δ: I'm glad my computer had gone out of battery so that I wouldn't have participated in wyrqwq's round and gained a negative delta.
+  - Felix: [thumbs_up] The problem statement concerning a removed song!
+  - Aquawave: Do I mourn my Chemistry?
+  - E.Space: ahh?
+  - Trine: Bread.
+  - Iris: So why am I always testing problems?
+Time will pass, and we might meet again. Looking back at the past, everybody has lived the life they wanted.
+Aquawave has a matrix A of size n×m, whose elements can only be integers in the range [1,k], inclusive. In the matrix, some cells are already filled with an integer, while the rest are currently not filled, denoted by −1.
+You are going to fill in all the unfilled places in A. After that, let cu,i be the number of occurrences of element u in the i-th row. Aquawave defines the beauty of the matrix as
+k∑u=1n−1∑i=1cu,i⋅cu,i+1.
+You have to find the maximum possible beauty of A after filling in the blanks optimally.
+Tags -brute force
+Tags -data structures
+Tags -dp
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*2600

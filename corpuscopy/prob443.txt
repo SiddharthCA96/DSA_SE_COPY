@@ -1,0 +1,11 @@
+G. Grid Reset
+You are given a grid consisting of n rows and m columns, where each cell is initially white. Additionally, you are given an integer k, where 1≤k≤min(n,m).
+You will process q operations of two types:
+  - H (horizontal operation) — You choose a 1×k rectangle completely within the grid, where all cells in this rectangle are white. Then, all cells in this rectangle are changed to black.
+  - V (vertical operation) — You choose a k×1 rectangle completely within the grid, where all cells in this rectangle are white. Then, all cells in this rectangle are changed to black.
+After each operation, if any rows or columns become completely black, all cells in these rows and columns are simultaneously reset to white. Specifically, if all cells in the row and column a cell is contained in become black, all cells in both the row and column will be reset to white.
+Choose the rectangles in a way that you can perform all given operations, or determine that it is impossible.
+Tags -constructive algorithms
+Tags -greedy
+Tags -implementation
+Tags -*2700

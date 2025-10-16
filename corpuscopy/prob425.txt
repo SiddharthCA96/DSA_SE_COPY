@@ -1,0 +1,9 @@
+B. Fun Game
+Vova really loves the XOR operation (denoted as ⊕). Recently, when he was going to sleep, he came up with a fun game.
+At the beginning of the game, Vova chooses two binary sequences s and t of length n and gives them to Vanya. A binary sequence is a sequence consisting only of the numbers 0 and 1. Vanya can choose integers l,r such that 1≤l≤r≤n, and for all l≤i≤r simultaneously replace si with si⊕si−l+1, where si is the i-th element of the sequence s.
+In order for the game to be interesting, there must be a possibility to win. Vanya wins if, with an unlimited number of actions, he can obtain the sequence t from the sequence s. Determine if the game will be interesting for the sequences s and t.
+Tags -bitmasks
+Tags -constructive algorithms
+Tags -greedy
+Tags -math
+Tags -*1100

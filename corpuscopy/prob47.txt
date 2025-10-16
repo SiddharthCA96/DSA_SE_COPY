@@ -1,0 +1,8 @@
+E. Three Strings
+You are given three strings: 𝑎a, 𝑏b, and 𝑐c, consisting of lowercase Latin letters. The string 𝑐c was obtained in the following way:
+For example, from the strings 𝑎=abraa=abra and 𝑏=cadab=cada, without character replacements, the strings caabdraacaabdraa, abracadaabracada, acadabraacadabra could be obtained.
+Find the minimum number of characters that could have been changed in string 𝑐c.
+Tags -dp
+Tags -implementation
+Tags -strings
+Tags -*1500

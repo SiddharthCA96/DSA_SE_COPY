@@ -1,0 +1,11 @@
+B. Penchick and Satay Sticks
+Penchick and his friend Kohane are touring Indonesia, and their next stop is in Surabaya!
+In the bustling food stalls of Surabaya, Kohane bought n𝑛 satay sticks and arranged them in a line, with the i𝑖-th satay stick having length pi𝑝𝑖. It is given that p𝑝 is a permutation∗∗ of length n𝑛.
+Penchick wants to sort the satay sticks in increasing order of length, so that pi=i𝑝𝑖=𝑖 for each 1≤i≤n1≤𝑖≤𝑛. For fun, they created a rule: they can only swap neighboring satay sticks whose lengths differ by exactly 11. Formally, they can perform the following operation any number of times (including zero):
+  - Select an index i𝑖 (1≤i≤n−11≤𝑖≤𝑛−1) such that |pi+1−pi|=1;
+  - Swap pi and pi+1.
+Determine whether it is possible to sort the permutation p, thus the satay sticks, by performing the above operation.
+Tags -brute force
+Tags -greedy
+Tags -sortings
+Tags -*900

@@ -1,0 +1,14 @@
+C. Guess The Tree
+This is an interactive problem.
+Misuki has chosen a secret tree with n𝑛 nodes, indexed from 11 to n𝑛, and asked you to guess it by using queries of the following type:
+  - "? a b" — Misuki will tell you which node x𝑥 minimizes |d(a,x)−d(b,x)|, where d(x,y) is the distance between nodes x and y. If more than one such node exists, Misuki will tell you the one which minimizes d(a,x).
+Find out the structure of Misuki's secret tree using at most 15n queries!
+Tags -binary search
+Tags -brute force
+Tags -dfs and similar
+Tags -divide and conquer
+Tags -dsu
+Tags -greedy
+Tags -interactive
+Tags -trees
+Tags -*1500

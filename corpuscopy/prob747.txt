@@ -1,0 +1,11 @@
+F. Farmer John's Favorite Function
+Farmer John has an array a of length n. He also has a function f with the following recurrence:
+  - f(1)=√a1;
+  - For all i>1, f(i)=√f(i−1)+ai.
+Note that f(i) is not necessarily an integer.
+He plans to do q updates to the array. Each update, he gives you two integers k and x and he wants you to set ak=x. After each update, he wants to know ⌊f(n)⌋, where ⌊t⌋ denotes the value of t rounded down to the nearest integer.
+Tags -brute force
+Tags -data structures
+Tags -implementation
+Tags -math
+Tags -*2700

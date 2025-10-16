@@ -1,0 +1,6 @@
+J. Help, what does it mean to be "Based"
+Tags -brute force
+Tags -constructive algorithms
+Tags -expression parsing
+Tags -implementation
+Tags -sortings

@@ -1,0 +1,11 @@
+A. Setting up Camp
+The organizing committee plans to take the participants of the Olympiad on a hike after the tour. Currently, the number of tents needed to be taken is being calculated. It is known that each tent can accommodate up to 33 people.
+Among the participants, there are a introverts, b extroverts, and c universals:
+  - Each introvert wants to live in a tent alone. Thus, a tent with an introvert must contain exactly one person — only the introvert himself.
+  - Each extrovert wants to live in a tent with two others. Thus, the tent with an extrovert must contain exactly three people.
+  - Each universal is fine with any option (living alone, with one other person, or with two others).
+The organizing committee respects the wishes of each participant very much, so they want to fulfill all of them.
+Tell us the minimum number of tents needed to be taken so that all participants can be accommodated according to their preferences. If it is impossible to accommodate the participants in a way that fulfills all the wishes, output −1.
+Tags -greedy
+Tags -math
+Tags -*800

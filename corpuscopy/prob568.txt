@@ -1,0 +1,10 @@
+C. Beautiful Triple Pairs
+Polycarp was given an array a of n integers. He really likes triples of numbers, so for each j (1≤j≤n−2) he wrote down a triple of elements [aj,aj+1,aj+2].
+Polycarp considers a pair of triples b and c beautiful if they differ in exactly one position, that is, one of the following conditions is satisfied:
+  - b1≠c1 and b2=c2 and b3=c3;
+  - b1=c1 and b2≠c2 and b3=c3;
+  - b1=c1 and b2=c2 and b3≠c3.
+Find the number of beautiful pairs of triples among the written triples [aj,aj+1,aj+2].
+Tags -combinatorics
+Tags -data structures
+Tags -*1400

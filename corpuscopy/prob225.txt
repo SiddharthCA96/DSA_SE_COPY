@@ -1,0 +1,13 @@
+E2. Bit Game (Hard Version)
+This is the hard version of this problem. The only difference is that you need to output the number of choices of games where Bob wins in this version, where the number of stones in each pile are not fixed. You must solve both versions to be able to hack.
+Alice and Bob are playing a familiar game where they take turns removing stones from 𝑛n piles. Initially, there are 𝑥𝑖xi stones in the 𝑖i-th pile, and it has an associated value 𝑎𝑖ai. A player can take 𝑑d stones away from the 𝑖i-th pile if and only if both of the following conditions are met:
+  - 1≤𝑑≤𝑎𝑖1≤d≤ai, and
+  - 𝑥&𝑑=𝑑x&d=d, where 𝑥x is the current number of stones in the 𝑖i-th pile and && denotes the bitwise AND operation.
+The player who cannot make a move loses, and Alice goes first.
+You're given the 𝑎𝑖ai values of each pile, but the number of stones in the 𝑖i-th pile has not been determined yet. For the 𝑖i-th pile, 𝑥𝑖xi can be any integer between 11 and 𝑏𝑖bi, inclusive. That is, you can choose an array 𝑥1,𝑥2,…,𝑥𝑛x1,x2,…,xn such that the condition 1≤𝑥𝑖≤𝑏𝑖1≤xi≤bi is satisfied for all piles.
+Your task is to count the number of games where Bob wins if both players play optimally. Two games are considered different if the number of stones in any pile is different, i.e., the arrays of 𝑥x differ in at least one position.
+Since the answer can be very large, please output the result modulo 109+7109+7.
+Tags -bitmasks
+Tags -dp
+Tags -math
+Tags -*3100

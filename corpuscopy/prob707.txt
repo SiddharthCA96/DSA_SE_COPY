@@ -1,0 +1,9 @@
+G. Scooter
+The Czech Technical University campus consists of n𝑛 buildings, indexed from 11 to n𝑛. In each building, there can be a math class scheduled, or a computer science class, or neither (but not both). Additionally, in each building, there is at most one professor, and each professor is either an expert in mathematics or in computer science.
+As an intern at University Express Inc., your job is to quickly transport the professors to their classes. For this, you have been granted a brand new two-person scooter, able to accommodate yourself, plus at most one passenger.
+Initially, you are the only person on the scooter. When you arrive at a building, you may drop off or pick up professors to/from that building. However, in order to improve the efficiency of your task, you are allowed to drive to each of the n𝑛 buildings at most once, in the order of your choice (you can also decide where to start the itinerary).
+After the end of your itinerary, in each building where a math class is scheduled, there must be a professor expert in math, and in each building where a computer science class is scheduled, there must be a professor expert in computer science.
+Devise an itinerary that makes it possible to teach all classes.
+Tags -graphs
+Tags -greedy
+Tags -*2300

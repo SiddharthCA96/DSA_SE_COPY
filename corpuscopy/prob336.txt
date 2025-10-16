@@ -1,0 +1,12 @@
+C. Eri and Expanded Sets
+Let there be a set that contains distinct positive integers. To expand the set to contain as many integers as possible, Eri can choose two integers x≠y from the set such that their average x+y2 is still a positive integer and isn't contained in the set, and add it to the set. The integers x and y remain in the set.
+Let's call the set of integers consecutive if, after the elements are sorted, the difference between any pair of adjacent elements is 1. For example, sets {2}, {2,5,4,3}, {5,6,8,7} are consecutive, while {2,4,5,6}, {9,7} are not.
+Eri likes consecutive sets. Suppose there is an array b, then Eri puts all elements in b into the set. If after a finite number of operations described above, the set can become consecutive, the array b will be called brilliant.
+Note that if the same integer appears in the array multiple times, we only put it into the set once, as a set always contains distinct positive integers.
+Eri has an array a of n positive integers. Please help him to count the number of pairs of integers (l,r) such that 1≤l≤r≤n and the subarray al,al+1,…,ar is brilliant.
+Tags -data structures
+Tags -divide and conquer
+Tags -math
+Tags -number theory
+Tags -two pointers
+Tags -*2300

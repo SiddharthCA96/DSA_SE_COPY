@@ -1,0 +1,9 @@
+B. K-Sort
+You are given an array of integers a of length n.
+You can apply the following operation any number of times (maybe, zero):
+  - First, choose an integer k such that 1≤k≤n and pay k+1 coins.
+  - Then, choose exactly k indices such that 1≤i1<i2<…<ik≤n.
+  - Then, for each x from 1 to k, increase aix by 1.
+Find the minimum number of coins needed to make a non-decreasing. That is, a1≤a2≤…≤an.
+Tags -greedy
+Tags -*1000

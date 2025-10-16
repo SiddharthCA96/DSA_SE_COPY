@@ -1,0 +1,8 @@
+A. Stickogon
+You are given n sticks of lengths a1,a2,…,an. Find the maximum number of regular (equal-sided) polygons you can construct simultaneously, such that:
+  - Each side of a polygon is formed by exactly one stick.
+  - No stick is used in more than 1 polygon.
+Note: Sticks cannot be broken.
+Tags -constructive algorithms
+Tags -greedy
+Tags -*800

@@ -1,0 +1,9 @@
+D. Unique Median
+
+An array b of m integers is called good if, when it is sorted, b⌊m+12⌋=b⌈m+12⌉. In other words, b is good if both of its medians are equal. In particular, ⌊m+12⌋=⌈m+12⌉ when m is odd, so b is guaranteed to be good if it has an odd length.
+You are given an array a of n integers. Calculate the number of good subarrays∗ in a.
+Tags -binary search
+Tags -brute force
+Tags -combinatorics
+Tags -data structures
+Tags -dp

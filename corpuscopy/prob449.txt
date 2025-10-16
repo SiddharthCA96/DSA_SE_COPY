@@ -1,0 +1,8 @@
+A. Maximize the Last Element
+You are given an array a of n integers, where n is odd.
+In one operation, you will remove two adjacent elements from the array a, and then concatenate the remaining parts of the array. For example, given the array [4,7,4,2,9], we can obtain the arrays [4,2,9] and [4,7,9] by the operations [4,7_,4,2,9]→[4,2,9] and [4,7,4,2_,9]→[4,7,9] respectively. However, we cannot obtain the array [7,2,9] as it requires deleting non-adjacent elements [4_,7,4_,2,9].
+You will repeatedly perform this operation until exactly one element remains in a.
+Find the maximum possible value of the remaining element in a.
+Tags -greedy
+Tags -implementation
+Tags -*800

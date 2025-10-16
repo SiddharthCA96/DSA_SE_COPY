@@ -1,0 +1,12 @@
+E. Clique Partition
+You are given two integers, n𝑛 and k𝑘. There is a graph on n𝑛 vertices, numbered from 11 to n𝑛, which initially has no edges.
+You have to assign each vertex an integer; let ai𝑎𝑖 be the integer on the vertex i𝑖. All ai𝑎𝑖 should be distinct integers from 11 to n𝑛.
+After assigning integers, for every pair of vertices (i,j)(𝑖,𝑗), you add an edge between them if |i−j|+|ai−aj|≤k.
+Your goal is to create a graph which can be partitioned into the minimum possible (for the given values of n and k) number of cliques. Each vertex of the graph should belong to exactly one clique. Recall that a clique is a set of vertices such that every pair of vertices in it are connected with an edge.
+Since BledDest hasn't really brushed his programming skills up, he can't solve the problem "given a graph, partition it into the minimum number of cliques". So we also ask you to print the partition itself.
+Tags -brute force
+Tags -constructive algorithms
+Tags -graphs
+Tags -greedy
+Tags -implementation
+Tags -*2100

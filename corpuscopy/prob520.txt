@@ -1,0 +1,12 @@
+D. Turtle and Multiplication
+Turtle just learned how to multiply two integers in his math class, and he was very excited.
+Then Piggy gave him an integer n𝑛, and asked him to construct a sequence a1,a2,…,an𝑎1,𝑎2,…,𝑎𝑛 consisting of integers which satisfied the following conditions:
+  - For all 1≤i≤n1≤𝑖≤𝑛, 1≤ai≤3⋅1051≤𝑎𝑖≤3⋅105.
+  - For all 1≤i<j≤n−11≤𝑖<𝑗≤𝑛−1, ai⋅ai+1≠aj⋅aj+1𝑎𝑖⋅𝑎𝑖+1≠𝑎𝑗⋅𝑎𝑗+1.
+Of all such sequences, Piggy asked Turtle to find the one with the minimum number of distinct elements.
+Turtle definitely could not solve the problem, so please help him!
+Tags -constructive algorithms
+Tags -dfs and similar
+Tags -graphs
+Tags -number theory
+Tags -*2400

@@ -1,0 +1,10 @@
+E. I Love Balls
+Alice and Bob are playing a game. There are n balls, out of which k are special. Each ball has a value associated with it.
+The players play turn by turn. In each turn, the player randomly picks a ball and adds the value of the ball to their score, which is 0 at the beginning of the game. The selected ball is removed from the game. If the ball was special, the same player takes the next turn if at least one ball is remaining. If the ball picked was not special, the next player plays their turn.
+They play this game until no balls are remaining in the game. Alice plays first.
+Find the expected score that both the players have at the end of the game modulo 109+7.
+Formally, let M=109+7. It can be shown that the answer can be expressed as an irreducible fraction pq, where p and q are integers and q \not \equiv 0 \pmod{M}. Output the integer equal to p \cdot q^{-1} \bmod M. In other words, output such an integer x that 0 \le x < M and x \cdot q \equiv p \pmod{M}.
+Tags -combinatorics
+Tags -math
+Tags -probabilities
+Tags -*2300

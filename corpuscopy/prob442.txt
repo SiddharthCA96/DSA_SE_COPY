@@ -1,0 +1,12 @@
+H. Prime Split Game
+Alice and Bob are playing a game with n𝑛 piles of stones, where the i𝑖-th pile has ai𝑎𝑖 stones. Players take turns making moves, with Alice going first.
+On each move, the player does the following three-step process:
+The player who is unable to make a move loses.
+Determine who will win if both players play optimally.
+Tags -bitmasks
+Tags -dp
+Tags -fft
+Tags -games
+Tags -math
+Tags -number theory
+Tags -*3300

@@ -1,0 +1,7 @@
+A. Set
+You are given a positive integer k and a set S of all integers from l to r (inclusive).
+You can perform the following two-step operation any number of times (possibly zero):
+Find the maximum possible number of operations that can be performed.
+Tags -greedy
+Tags -math
+Tags -*800

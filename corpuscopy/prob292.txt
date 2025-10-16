@@ -1,0 +1,7 @@
+A. Robin Helps
+The heroic outlaw Robin Hood is famous for taking from the rich and giving to the poor.
+Robin encounters n𝑛 people starting from the 11-st and ending with the n𝑛-th. The i𝑖-th person has ai𝑎𝑖 gold. If ai≥k𝑎𝑖≥𝑘, Robin will take all ai𝑎𝑖 gold, and if ai=0𝑎𝑖=0, Robin will give 11 gold if he has any. Robin starts with 00 gold.
+Find out how many people Robin gives gold to.
+Tags -greedy
+Tags -implementation
+Tags -*800

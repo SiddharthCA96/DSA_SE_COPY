@@ -1,0 +1,11 @@
+B. Missing Subsequence Sum
+You are given two integers n and k. Find a sequence a of non-negative integers of size at most 25 such that the following conditions hold.
+  - There is no subsequence of a with a sum of k.
+  - For all 1≤v≤n where v≠k, there is a subsequence of a with a sum of v.
+A sequence b is a subsequence of a if b can be obtained from a by the deletion of several (possibly, zero or all) elements, without changing the order of the remaining elements. For example, [5,2,3] is a subsequence of [1,5,7,8,2,4,3].
+It can be shown that under the given constraints, a solution always exists.
+Tags -bitmasks
+Tags -constructive algorithms
+Tags -greedy
+Tags -number theory
+Tags -*1800

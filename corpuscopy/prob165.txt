@@ -1,0 +1,6 @@
+A. Quintomania
+Boris Notkin composes melodies. He represents them as a sequence of notes, where each note is encoded as an integer from 0 to 127 inclusive. The interval between two notes a and b is equal to |a−b| semitones.
+Boris considers a melody perfect if the interval between each two adjacent notes is either 5 semitones or 7 semitones.
+After composing his latest melodies, he enthusiastically shows you his collection of works. Help Boris Notkin understand whether his melodies are perfect.
+Tags -implementation
+Tags -*800

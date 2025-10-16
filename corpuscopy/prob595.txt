@@ -1,0 +1,7 @@
+E1. Trails (Easy)
+Harry Potter is hiking in the Alps surrounding Lake Geneva. In this area there are 𝑚m cabins, numbered 1 to 𝑚m. Each cabin is connected, with one or more trails, to a central meeting point next to the lake. Each trail is either short or long. Cabin 𝑖i is connected with 𝑠𝑖si short trails and 𝑙𝑖li long trails to the lake.
+Each day, Harry walks a trail from the cabin where he currently is to Lake Geneva, and then from there he walks a trail to any of the 𝑚m cabins (including the one he started in). However, as he has to finish the hike in a day, at least one of the two trails has to be short.
+How many possible combinations of trails can Harry take if he starts in cabin 1 and walks for 𝑛n days?
+Give the answer modulo 109+7109+7.
+Tags -dp
+Tags -*1800

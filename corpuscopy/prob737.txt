@@ -1,0 +1,11 @@
+F. Minimum Hamming Distance
+You are given a binary string†† s of length n.
+A binary string p of the same length n is called good if for every i (1≤i≤n), there exist indices l and r such that:
+  - 1≤l≤i≤r≤n
+  - si is a mode‡ of the string plpl+1…pr
+You are given another binary string t of length n. Find the minimum Hamming distance§ between t and any good string g.
+† A binary string is a string that only consists of characters 0 and 1.
+‡ Character c is a mode of string p of length m if the number of occurrences of c in p is at least ⌈m2⌉. For example, 0 is a mode of 010, 1 is not a mode of 010, and both 0 and 1 are modes of 011010.
+§ The Hamming distance of strings a and b of length m is the number of indices i such that 1≤i≤m and ai≠bi.
+Tags -dp
+Tags -*3500

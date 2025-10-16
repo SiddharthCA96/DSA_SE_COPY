@@ -1,0 +1,8 @@
+D. I Love 1543
+One morning, Polycarp woke up and realized that 1543 is the most favorite number in his life.
+The first thing that Polycarp saw that day as soon as he opened his eyes was a large wall carpet of size n by m cells; n and m are even integers. Each cell contains one of the digits from 0 to 9.
+Polycarp became curious about how many times the number 1543 would appear in all layers∗ of the carpet when traversed clockwise.
+Tags -brute force
+Tags -implementation
+Tags -matrices
+Tags -*1300

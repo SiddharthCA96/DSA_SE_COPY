@@ -1,0 +1,7 @@
+E. Cells Arrangement
+You are given an integer n. You choose n cells (x1,y1),(x2,y2),…,(xn,yn) in the grid n×n where 1≤xi≤n and 1≤yi≤n.
+Let H be the set of distinct Manhattan distances between any pair of cells. Your task is to maximize the size of H. Examples of sets and their construction are given in the notes.
+If there exists more than one solution, you are allowed to output any.
+Manhattan distance between cells (x1,y1) and (x2,y2) equals |x1−x2|+|y1−y2|.
+Tags -constructive algorithms
+Tags -*1600

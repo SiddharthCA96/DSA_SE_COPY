@@ -1,0 +1,12 @@
+D. Max Plus Min Plus Size
+You are given an array 𝑎1,𝑎2,…,𝑎𝑛a1,a2,…,an of positive integers.
+You can color some elements of the array red, but there cannot be two adjacent red elements (i.e., for 1≤𝑖≤𝑛−11≤i≤n−1, at least one of 𝑎𝑖ai and 𝑎𝑖+1ai+1 must not be red).
+Your score is the maximum value of a red element, plus the minimum value of a red element, plus the number of red elements. Find the maximum score you can get.
+Tags -data structures
+Tags -dp
+Tags -dsu
+Tags -greedy
+Tags -implementation
+Tags -matrices
+Tags -sortings
+Tags -*2200

@@ -1,0 +1,11 @@
+A. King Keykhosrow's Mystery
+There is a tale about the wise King Keykhosrow who owned a grand treasury filled with treasures from across the Persian Empire. However, to prevent theft and ensure the safety of his wealth, King Keykhosrow's vault was sealed with a magical lock that could only be opened by solving a riddle.
+The riddle involves two sacred numbers a and b. To unlock the vault, the challenger must determine the smallest key number m that satisfies two conditions:
+  - m must be greater than or equal to at least one of a and b.
+  - The remainder when m is divided by a must be equal to the remainder when m is divided by b.
+Only by finding the smallest correct value of m can one unlock the vault and access the legendary treasures!
+Tags -brute force
+Tags -chinese remainder theorem
+Tags -math
+Tags -number theory
+Tags -*800

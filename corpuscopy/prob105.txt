@@ -1,0 +1,6 @@
+B. Digits
+Artem wrote the digit $$$d$$$ on the board exactly $$$n!$$$ times in a row. So, he got the number $$$dddddd \dots ddd$$$ (exactly $$$n!$$$ digits).
+Now he is curious about which odd digits from $$$1$$$ to $$$9$$$ divide the number written on the board.
+Tags -math
+Tags -number theory
+Tags -*1100

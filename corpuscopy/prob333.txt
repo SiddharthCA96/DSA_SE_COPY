@@ -1,0 +1,16 @@
+F. Dora's Paint
+Sadly, Dora poured the paint when painting the class mural. Dora considers the mural as the matrix $$$b$$$ of size $$$n \times n$$$. Initially, $$$b_{i,j} = 0$$$ for all $$$1 \le i, j \le n$$$.
+Dora has only two brushes which have two different colors. In one operation, she can paint the matrix with one of two brushes:
+  - The first brush has color $$$1$$$ on it and can paint one column of the matrix. That is, Dora chooses $$$1 \leq j \leq n$$$ and makes $$$b_{i,j} := 1$$$ for all $$$1 \leq i \leq n$$$;
+  - The second brush has color $$$2$$$ on it and can paint one row of the matrix. That is, Dora chooses $$$1 \leq i \leq n$$$ and makes $$$b_{i,j} := 2$$$ for all $$$1 \leq j \leq n$$$.
+Dora paints the matrix so that the resulting matrix $$$b$$$ contains only $$$1$$$ and $$$2$$$.
+For a matrix $$$b$$$, let $$$f(b)$$$ denote the minimum number of operations needed to turn the initial matrix (containing only $$$0$$$) into $$$b$$$. The beauty of a matrix $$$b$$$ is the number of ways to paint the initial matrix in exactly $$$f(b)$$$ operations to turn it into $$$b$$$. If there's no way to turn the initial matrix into $$$b$$$, the beauty of $$$b$$$ is $$$0$$$.
+However, Dora made a uniformly random mistake; there's exactly one element different in the matrix $$$a$$$ given to you from the real matrix $$$b$$$. That is, there is exactly one pair $$$(i, j)$$$ such that $$$a_{i, j} = 3 - b_{i, j}$$$.
+Please help Dora compute the expected beauty of the real matrix $$$b$$$ modulo $$$998\,244\,353$$$ (all possible $$$n^2$$$ mistakes have equal probability).
+Since the size of the matrix is too large, Dora will only tell you the positions of $$$m$$$ elements of color $$$1$$$, and the remaining $$$n^2-m$$$ elements have color $$$2$$$.
+Tags -brute force
+Tags -combinatorics
+Tags -constructive algorithms
+Tags -graphs
+Tags -implementation
+Tags -*3500

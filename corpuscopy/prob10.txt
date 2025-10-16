@@ -1,0 +1,11 @@
+F1. Xor of Median (Easy Version)
+
+This is the easy version of the problem. The difference between the versions is that in this version, the constraints on t, k, and m are lower. You can hack only if you solved all versions of this problem.
+A sequence a of n integers is called good if the following condition holds:
+  - Let cntx be the number of occurrences of x in sequence a. For all pairs 0≤i<j<m, at least one of the following has to be true: cnti=0, cntj=0, or cnti≤cntj. In other words, if both i and j are present in sequence a, then the number of occurrences of i in a is less than or equal to the number of occurrences of j in a.
+You are given integers n and m. Calculate the value of the bitwise XOR of the median∗ of all good sequences a of length n with 0≤ai<m.
+Note that the value of n can be very large, so you are given its binary representation instead.
+Tags -bitmasks
+Tags -combinatorics
+Tags -dp
+Tags -math

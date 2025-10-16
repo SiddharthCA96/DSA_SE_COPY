@@ -1,0 +1,10 @@
+A. Two Friends
+Monocarp wants to throw a party. He has n friends, and he wants to have at least 2 of them at his party.
+The i-th friend's best friend is pi. All pi are distinct, and for every i∈[1,n], pi≠i.
+Monocarp can send invitations to friends. The i-th friend comes to the party if both the i-th friend and the pi-th friend receive an invitation (note that the pi-th friend doesn't have to actually come to the party). Each invitation is sent to exactly one of the friends.
+For example, if p=[3,1,2,5,4], and Monocarp sends invitations to the friends [1,2,4,5], then the friends [2,4,5] will come to the party. The friend 1 won't come since his best friend didn't receive an invitation; the friend 3 won't come since he didn't receive an invitation.
+Calculate the minimum number of invitations Monocarp has to send so that at least 2 friends come to the party.
+Tags -constructive algorithms
+Tags -implementation
+Tags -math
+Tags -*800

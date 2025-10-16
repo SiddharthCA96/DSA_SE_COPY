@@ -1,0 +1,12 @@
+F. MEX OR Mania
+
+An integer sequence b1,b2,…,bn is good if mex(b1,b2,…,bn)−(b1|b2|…|bn)=1. Here, mex(c) denotes the MEX∗ of the collection c, and | is the bitwise OR operator.
+Shohag has an integer sequence a1,a2,…,an. He will perform the following q updates on a:
+  - i x — increase ai by x.
+After each update, help him find the length of the longest good subarray† of a.
+Tags -bitmasks
+Tags -brute force
+Tags -data structures
+Tags -dsu
+Tags -implementation
+Tags -*2700

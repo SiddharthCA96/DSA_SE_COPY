@@ -1,0 +1,10 @@
+A. Swap Columns and Find a Path
+
+There is a matrix consisting of 22 rows and 𝑛n columns. The rows are numbered from 11 to 22 from top to bottom; the columns are numbered from 11 to 𝑛n from left to right. Let's denote the cell on the intersection of the 𝑖i-th row and the 𝑗j-th column as (𝑖,𝑗)(i,j). Each cell contains an integer; initially, the integer in the cell (𝑖,𝑗)(i,j) is 𝑎𝑖,𝑗ai,j.
+You can perform the following operation any number of times (possibly zero):
+  - choose two columns and swap them (i. e. choose two integers 𝑥x and 𝑦y such that 1≤𝑥<𝑦≤𝑛1≤x<y≤n, then swap 𝑎1,𝑥a1,x with 𝑎1,𝑦a1,y, and then swap 𝑎2,𝑥a2,x with 𝑎2,𝑦a2,y).
+After performing the operations, you have to choose a path from the cell (1,1)(1,1) to the cell (2,𝑛)(2,n). For every cell (𝑖,𝑗)(i,j) in the path except for the last, the next cell should be either (𝑖+1,𝑗)(i+1,j) or (𝑖,𝑗+1)(i,j+1). Obviously, the path cannot go outside the matrix.
+The cost of the path is the sum of all integers in all (𝑛+1)(n+1) cells belonging to the path. You have to perform the operations and choose a path so that its cost is maximum possible.
+Tags -greedy
+Tags -sortings
+Tags -*1200

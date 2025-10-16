@@ -1,0 +1,10 @@
+F. Unfair Game
+Alice and Bob gathered in the evening to play an exciting game on a sequence of n𝑛 integers, each integer of the sequence doesn't exceed 44. The rules of the game are too complex to describe, so let's just describe the winning condition — Alice wins if the bitwise XOR of all the numbers in the sequence is non-zero; otherwise, Bob wins.
+The guys invited Eve to act as a judge. Initially, Alice and Bob play with n𝑛 numbers. After one game, Eve removes one of the numbers from the sequence, then Alice and Bob play with n−1𝑛−1 numbers. Eve removes one number again, after which Alice and Bob play with n−2𝑛−2 numbers. This continues until the sequence of numbers is empty.
+Eve seems to think that in such a game, Alice almost always wins, so she wants Bob to win as many times as possible. Determine the maximum number of times Bob can win against Alice if Eve removes the numbers optimally.
+Tags -dp
+Tags -games
+Tags -greedy
+Tags -math
+Tags -schedules
+Tags -*1800

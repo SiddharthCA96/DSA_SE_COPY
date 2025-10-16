@@ -1,0 +1,13 @@
+D. Shift + Esc
+
+After having fun with a certain contraption and getting caught, Evirir the dragon decides to put their magical skills to good use — warping reality to escape fast!
+You are given a grid with n rows and m columns of non-negative integers and an integer k. Let (i,j) denote the cell in the i-th row from the top and j-th column from the left (1≤i≤n, 1≤j≤m). For every cell (i,j), the integer ai,j is written on the cell (i,j).
+You are initially at (1,1) and want to go to (n,m). You may only move down or right. That is, if you are at (i,j), you can only move to (i+1,j) or (i,j+1) (if the corresponding cell exists).
+Before you begin moving, you may do the following operation any number of times:
+  - Choose an integer i between 1 and n and cyclically shift row i to the left by 1. Formally, simultaneously set ai,j to ai,(jmod for all integers j (1 \le j \le m).
+Note that you may not do any operation after you start moving.
+After moving from (1, 1) to (n, m), let x be the number of operations you have performed before moving, and let y be the sum of the integers written on visited cells (including (1, 1) and (n, m)). Then the cost is defined as kx + y.
+Find the minimum cost to move from (1, 1) to (n, m).
+Tags -brute force
+Tags -dp
+Tags -*1900

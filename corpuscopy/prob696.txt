@@ -1,0 +1,12 @@
+G. Shuffling Songs
+Vladislav has a playlist consisting of 𝑛n songs, numbered from 11 to 𝑛n. Song 𝑖i has genre 𝑔𝑖gi and writer 𝑤𝑖wi. He wants to make a playlist in such a way that every pair of adjacent songs either have the same writer or are from the same genre (or both). He calls such a playlist exciting. Both 𝑔𝑖gi and 𝑤𝑖wi are strings of length no more than 104104.
+It might not always be possible to make an exciting playlist using all the songs, so the shuffling process occurs in two steps. First, some amount (possibly zero) of the songs are removed, and then the remaining songs in the playlist are rearranged to make it exciting.
+Since Vladislav doesn't like when songs get removed from his playlist, he wants the making playlist to perform as few removals as possible. Help him find the minimum number of removals that need to be performed in order to be able to rearrange the rest of the songs to make the playlist exciting.
+Tags -bitmasks
+Tags -dfs and similar
+Tags -dp
+Tags -graphs
+Tags -hashing
+Tags -implementation
+Tags -strings
+Tags -*1900

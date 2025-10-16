@@ -1,0 +1,12 @@
+F. Two Subarrays
+You are given two integer arrays a and b, both of size n.
+Let's define the cost of the subarray [l,r] as al+al+1+⋯+ar−1+ar+bl+br. If l=r, then the cost of the subarray is al+2⋅bl.
+You have to perform queries of three types:
+  - "1 p x" — assign ap:=x;
+  - "2 p x" — assign bp:=x;
+  - "3 l r" — find two non-empty non-overlapping subarrays within the segment [l,r] with the maximum total cost and print their total cost.
+Tags -data structures
+Tags -dp
+Tags -implementation
+Tags -matrices
+Tags -*2600

@@ -1,0 +1,14 @@
+E. Level Up
+Monocarp is playing a computer game. He starts the game being level 1. He is about to fight n monsters, in order from 1 to n. The level of the i-th monster is ai.
+For each monster in the given order, Monocarp's encounter goes as follows:
+  - if Monocarp's level is strictly higher than the monster's level, the monster flees (runs away);
+  - otherwise, Monocarp fights the monster.
+After every k-th fight with a monster (fleeing monsters do not count), Monocarp's level increases by 1. So, his level becomes 2 after k monsters he fights, 3 after 2k monsters, 4 after 3k monsters, and so on.
+You need to process q queries of the following form:
+  - i x: will Monocarp fight the i-th monster (or will this monster flee) if the parameter k is equal to x?
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -divide and conquer
+Tags -implementation
+Tags -*2200

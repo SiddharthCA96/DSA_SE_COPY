@@ -1,0 +1,6 @@
+D. Funny or Scary?
+You are designing a new video game. It has n scenarios, which the player may play in any order, but each scenario must be played exactly once. When a player switches from a scenario to another scenario, the game shows a specially crafted transition video to make it all feel part of one big story. This video is specific to a pair of scenarios, but not to their order, in other words, the video playing when switching from scenario a to scenario b is the same as the video playing when switching from scenario b to scenario a. Therefore, you need to create n(n−1)2 different transition videos, one for each possible pair of different scenarios.
+Each transition video can be either funny or scary. It is boring to see too many funny videos or too many scary videos in a row. Therefore, your goal is to create the videos in such a way that no matter in which order does the player approach the scenarios, they will never see more than ⌈3n4⌉ transition videos of the same type in a row.
+You have already come up with ideas for at most ⌊n2⌋ of the transition videos, and therefore already know if those will be funny or scary. Now you need to choose funny or scary for all other transition videos in such a way that the above requirement is satisfied.
+Tags -constructive algorithms
+Tags -*2600

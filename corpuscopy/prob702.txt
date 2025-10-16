@@ -1,0 +1,6 @@
+A. Stair, Peak, or Neither?
+You are given three digits a𝑎, b𝑏, and c𝑐. Determine whether they form a stair, a peak, or neither.
+  - A stair satisfies the condition a<b<c𝑎<𝑏<𝑐.
+  - A peak satisfies the condition a<b>c𝑎<𝑏>𝑐.
+Tags -implementation
+Tags -*800

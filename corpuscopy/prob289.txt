@@ -1,0 +1,11 @@
+D. Robert Hood and Mrs Hood
+Robin's brother and mother are visiting, and Robin gets to choose the start day for each visitor.
+All days are numbered from 11 to n. Visitors stay for d continuous days, all of those d days must be between day 1 and n inclusive.
+Robin has a total of k risky 'jobs' planned. The i-th job takes place between days li and ri inclusive, for 1≤i≤k. If a job takes place on any of the d days, the visit overlaps with this job (the length of overlap is unimportant).
+Robin wants his brother's visit to overlap with the maximum number of distinct jobs, and his mother's the minimum.
+Find suitable start days for the visits of Robin's brother and mother. If there are multiple suitable days, choose the earliest one.
+Tags -brute force
+Tags -data structures
+Tags -greedy
+Tags -sortings
+Tags -*1400

@@ -1,0 +1,11 @@
+E. Balanced
+You are given a cyclic array a with n elements, where n is odd. In each operation, you can do the following:
+  - Choose an index 1≤i≤n and increase ai−1 by 1, ai by 2, and ai+1 by 1. The element before the first element is the last element because this is a cyclic array.
+A cyclic array is called balanced if all its elements are equal to each other.
+Find any sequence of operations to make this cyclic array balanced or determine that it is impossible. Please note that you do not have to minimize the number of operations.
+Tags -constructive algorithms
+Tags -data structures
+Tags -greedy
+Tags -implementation
+Tags -math
+Tags -*2400

@@ -1,0 +1,9 @@
+G. Problem with Queries
+You are given an array a, consisting of n integers. Your task is to process q queries of two types:
+  - 1 p x — set the value of the element at index p equal to x;
+  - 2 l r — count the number of pairs of indices (i,j) such that l≤i<j≤r and ai≠aj.
+Note that the queries in this task are encoded; each subsequent query can only be decoded after calculating the answer to the preceding query of the second type.
+Tags -brute force
+Tags -data structures
+Tags -implementation
+Tags -*3000

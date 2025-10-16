@@ -1,0 +1,13 @@
+D. Alice's Adventures in Cards
+Alice is playing cards with the Queen of Hearts, King of Hearts, and Jack of Hearts. There are n different types of cards in their card game. Alice currently has a card of type 1 and needs a card of type n to escape Wonderland. The other players have one of each kind of card.
+In this card game, Alice can trade cards with the three other players. Each player has different preferences for the n types of cards, which can be described by permutations∗ q, k, and j for the Queen, King, and Jack, respectively.
+A player values card a more than card b if for their permutation p, pa>pb. Then, this player is willing to trade card b to Alice in exchange for card a. Alice's preferences are straightforward: she values card a more than card b if a>b, and she will also only trade according to these preferences.
+Determine if Alice can trade up from card 1 to card n subject to these preferences, and if it is possible, give a possible set of trades to do it.
+Tags -constructive algorithms
+Tags -data structures
+Tags -dp
+Tags -graphs
+Tags -greedy
+Tags -implementation
+Tags -ternary search
+Tags -*2000

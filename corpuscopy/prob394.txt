@@ -1,0 +1,19 @@
+E1. Eliminating Balls With Merging (Easy Version)
+This is the easy version of the problem. The only difference is that 𝑥=𝑛x=n in this version. You must solve both versions to be able to hack.
+You are given two integers 𝑛n and 𝑥x (𝑥=𝑛x=n). There are 𝑛n balls lined up in a row, numbered from 11 to 𝑛n from left to right. Initially, there is a value 𝑎𝑖ai written on the 𝑖i-th ball.
+For each integer 𝑖i from 11 to 𝑛n, we define a function 𝑓(𝑖)f(i) as follows:
+  - Suppose you have a set 𝑆={1,2,…,𝑖}S={1,2,…,i}.
+  - In each operation, you have to select an integer 𝑙l (1≤𝑙<𝑖1≤l<i) from 𝑆S such that 𝑙l is not the largest element of 𝑆S. Suppose 𝑟r is the smallest element in 𝑆S which is greater than 𝑙l.   If 𝑎𝑙>𝑎𝑟al>ar, you set 𝑎𝑙=𝑎𝑙+𝑎𝑟al=al+ar and remove 𝑟r from 𝑆S.  If 𝑎𝑙<𝑎𝑟al<ar, you set 𝑎𝑟=𝑎𝑙+𝑎𝑟ar=al+ar and remove 𝑙l from 𝑆S.  If 𝑎𝑙=𝑎𝑟al=ar, you choose either the integer 𝑙l or 𝑟r to remove from 𝑆S:   If you choose to remove 𝑙l from 𝑆S, you set 𝑎𝑟=𝑎𝑙+𝑎𝑟ar=al+ar and remove 𝑙l from 𝑆S.  If you choose to remove 𝑟r from 𝑆S, you set 𝑎𝑙=𝑎𝑙+𝑎𝑟al=al+ar and remove 𝑟r from 𝑆S.
+  - If 𝑎𝑙>𝑎𝑟al>ar, you set 𝑎𝑙=𝑎𝑙+𝑎𝑟al=al+ar and remove 𝑟r from 𝑆S.
+  - If 𝑎𝑙<𝑎𝑟al<ar, you set 𝑎𝑟=𝑎𝑙+𝑎𝑟ar=al+ar and remove 𝑙l from 𝑆S.
+  - If 𝑎𝑙=𝑎𝑟al=ar, you choose either the integer 𝑙l or 𝑟r to remove from 𝑆S:   If you choose to remove 𝑙l from 𝑆S, you set 𝑎𝑟=𝑎𝑙+𝑎𝑟ar=al+ar and remove 𝑙l from 𝑆S.  If you choose to remove 𝑟r from 𝑆S, you set 𝑎𝑙=𝑎𝑙+𝑎𝑟al=al+ar and remove 𝑟r from 𝑆S.
+  - If you choose to remove 𝑙l from 𝑆S, you set 𝑎𝑟=𝑎𝑙+𝑎𝑟ar=al+ar and remove 𝑙l from 𝑆S.
+  - If you choose to remove 𝑟r from 𝑆S, you set 𝑎𝑙=𝑎𝑙+𝑎𝑟al=al+ar and remove 𝑟r from 𝑆S.
+  - 𝑓(𝑖)f(i) denotes the number of integers 𝑗j (1≤𝑗≤𝑖1≤j≤i) such that it is possible to obtain 𝑆={𝑗}S={j} after performing the above operations exactly 𝑖−1i−1 times.
+For each integer 𝑖i from 𝑥x to 𝑛n, you need to find 𝑓(𝑖)f(i).
+Tags -binary search
+Tags -brute force
+Tags -data structures
+Tags -divide and conquer
+Tags -greedy
+Tags -*2200

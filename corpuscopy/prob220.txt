@@ -1,0 +1,14 @@
+E. Alice's Adventures in the Rabbit Hole
+Alice is at the bottom of the rabbit hole! The rabbit hole can be modeled as a tree∗∗ which has an exit at vertex 11, and Alice starts at some vertex v. She wants to get out of the hole, but unfortunately, the Queen of Hearts has ordered her execution.
+Each minute, a fair coin is flipped. If it lands heads, Alice gets to move to an adjacent vertex of her current location, and otherwise, the Queen of Hearts gets to pull Alice to an adjacent vertex of the Queen's choosing. If Alice ever ends up on any of the non-root leaves† of the tree, Alice loses.
+Assuming both of them move optimally, compute the probability that Alice manages to escape for every single starting vertex 1≤v≤n. Since these probabilities can be very small, output them modulo 998244353.
+Formally, let M=998244353. It can be shown that the exact answer can be expressed as an irreducible fraction pq, where p and q are integers and q≢0(modM). Output the integer equal to p⋅q−1modM. In other words, output such an integer x that 0≤x<M and x⋅q≡p(modM).
+Tags -combinatorics
+Tags -dfs and similar
+Tags -dp
+Tags -games
+Tags -greedy
+Tags -math
+Tags -probabilities
+Tags -trees
+Tags -*2300

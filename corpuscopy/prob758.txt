@@ -1,0 +1,10 @@
+C. Rudolf and the Ugly String
+Rudolf has a string 𝑠s of length 𝑛n. Rudolf considers the string 𝑠s to be ugly if it contains the substring†† "pie" or the substring "map", otherwise the string 𝑠s will be considered beautiful.
+For example, "ppiee", "mmap", "dfpiefghmap" are ugly strings, while "mathp", "ppiiee" are beautiful strings.
+Rudolf wants to shorten the string 𝑠s by removing some characters to make it beautiful.
+The main character doesn't like to strain, so he asks you to make the string beautiful by removing the minimum number of characters. He can remove characters from any positions in the string (not just from the beginning or end of the string).
+†† String 𝑎a is a substring of 𝑏b if there exists a consecutive segment of characters in string 𝑏b equal to 𝑎a.
+Tags -dp
+Tags -greedy
+Tags -strings
+Tags -*900

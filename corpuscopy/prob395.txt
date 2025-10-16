@@ -1,0 +1,15 @@
+D. Determine Winning Islands in Race
+Two of Farmer John's cows, Bessie and Elsie, are planning to race on n islands. There are n−1 main bridges, connecting island i to island i+1 for all 1≤i≤n−1. Additionally, there are m alternative bridges. Elsie can use both main and alternative bridges, while Bessie can only use main bridges. All bridges are one way and can only be used to travel from an island with a lower index to an island with a higher index.
+Initially, Elsie starts on island 1, and Bessie starts on island s. The cows alternate turns, with Bessie making the first turn. Suppose the cow is on island i. During a cow's turn, if there are any bridges connecting island i to island j, then the cow can move to island j. Then, island i collapses, and all bridges connecting to island i also collapse. Also, note the following:
+  - If there are no bridges connecting island i to another island, then island i collapses, and this cow is eliminated from the race.
+  - If the other cow is also on island i, then after this cow moves to another island, the island collapses, and the other cow is eliminated from the race.
+  - After an island or bridge collapses, no cows may use them.
+  - If a cow is eliminated, their turn is skipped for the rest of the race.
+The race ends once either cow reaches island n. It can be shown that regardless of the cows' strategies, at least one cow reaches island n. Bessie wins if and only if she reaches island n first.
+For each 1≤s≤n−1, determine whether Bessie wins if she starts the race on island s. Assume both cows follow optimal strategies to ensure their own respective victories.
+Tags -data structures
+Tags -dp
+Tags -graphs
+Tags -greedy
+Tags -shortest paths
+Tags -*2100

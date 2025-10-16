@@ -1,0 +1,11 @@
+E. Kachina's Favorite Binary String
+This is an interactive problem.
+Kachina challenges you to guess her favorite binary string∗∗ s of length n. She defines f(l,r) as the number of subsequences† of 01 in slsl+1…sr. Two subsequences are considered different if they are formed by deleting characters from different positions in the original string, even if the resulting subsequences consist of the same characters.
+To determine s, you can ask her some questions. In each question, you can choose two indices l and r (1≤l<r≤n) and ask her for the value of f(l,r).
+Determine and output s after asking Kachina no more than n questions. However, it may be the case that s is impossible to be determined. In this case, you would need to report IMPOSSIBLE instead.
+Formally, s is impossible to be determined if after asking n questions, there are always multiple possible strings for s, regardless of what questions are asked. Note that if you report IMPOSSIBLE when there exists a sequence of at most n queries that will uniquely determine the binary string, you will get the Wrong Answer verdict.
+Tags -dp
+Tags -greedy
+Tags -interactive
+Tags -two pointers
+Tags -*1600

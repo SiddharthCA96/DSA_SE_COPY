@@ -1,0 +1,13 @@
+F. Count Leaves
+Let n and d be positive integers. We build the the divisor tree Tn,d as follows:
+  - The root of the tree is a node marked with number n. This is the 0-th layer of the tree.
+  - For each i from 0 to d−1, for each vertex of the i-th layer, do the following. If the current vertex is marked with x, create its children and mark them with all possible distinct divisors† of x. These children will be in the (i+1)-st layer.
+  - The vertices on the d-th layer are the leaves of the tree.
+For example, T6,2 (the divisor tree for n=6 and d=2) looks like this:
+Define f(n,d) as the number of leaves in Tn,d.
+Given integers n, k, and d, please compute n∑i=1f(ik,d), modulo 109+7.
+† In this problem, we say that an integer y is a divisor of x if y≥1 and there exists an integer z such that x=y⋅z.
+Tags -dp
+Tags -math
+Tags -number theory
+Tags -*2900
