@@ -3,14 +3,12 @@ import allRoutes from "./routes/route.js";
 
 const app = express();
 
-// --------------------
-// CORS setup
-// --------------------
+// CORS middleware
 app.use((req, res, next) => {
   const allowedOrigins = [
     "http://localhost:3000",
     "http://localhost:5173",
-    "https://dsa-se-copyfrontend.vercel.app",
+    "https://dsa-se-copyfrontend-gad6hubjs.vercel.app",
   ];
   const origin = req.headers.origin;
   if (allowedOrigins.includes(origin)) {
@@ -21,43 +19,22 @@ app.use((req, res, next) => {
     );
     res.setHeader(
       "Access-Control-Allow-Headers",
-      "Content-Type, Authorization"
+      "Origin, X-Requested-With, Content-Type, Accept, Authorization"
     );
     res.setHeader("Access-Control-Allow-Credentials", "true");
   }
 
-  // Handle preflight requests
   if (req.method === "OPTIONS") return res.sendStatus(200);
-
   next();
 });
 
-// --------------------
-// Body parser
-// --------------------
 app.use(express.json());
-
-// --------------------
-// Test route
-// --------------------
-app.get("/", (req, res) => res.status(200).send("Backend running"));
-
-// --------------------
-// Routes
-// --------------------
 app.use("/api/auth", allRoutes);
 
-// --------------------
-// Start server locally only
-// --------------------
+// Local server only
 if (process.env.VERCEL !== "1") {
   const PORT = process.env.PORT || 3000;
-  app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-  });
+  app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
 }
 
-// --------------------
-// Export app for Vercel serverless
-// --------------------
 export default app;
