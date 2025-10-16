@@ -1,38 +1,63 @@
 import express from "express";
-import cors from "cors";
 import allRoutes from "./routes/route.js";
 
 const app = express();
 
-// CORS configuration
-const corsOptions = {
-  origin: [
-    'http://localhost:3000',
-    'http://localhost:5173', // Vite default
-    'https://dsa-se-copyfrontend.vercel.app'
-  ],
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: true,
-  optionsSuccessStatus: 200,
-  preflightContinue: false
-};
+// --------------------
+// CORS setup
+// --------------------
+app.use((req, res, next) => {
+  const allowedOrigins = [
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "https://dsa-se-copyfrontend.vercel.app",
+  ];
+  const origin = req.headers.origin;
+  if (allowedOrigins.includes(origin)) {
+    res.setHeader("Access-Control-Allow-Origin", origin);
+    res.setHeader(
+      "Access-Control-Allow-Methods",
+      "GET, POST, PUT, DELETE, OPTIONS"
+    );
+    res.setHeader(
+      "Access-Control-Allow-Headers",
+      "Content-Type, Authorization"
+    );
+    res.setHeader("Access-Control-Allow-Credentials", "true");
+  }
 
-// Middleware
-app.use(cors(corsOptions));
-app.options('*', cors(corsOptions));
+  // Handle preflight requests
+  if (req.method === "OPTIONS") return res.sendStatus(200);
+
+  next();
+});
+
+// --------------------
+// Body parser
+// --------------------
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.status(200).send("Backend running");
-});
+// --------------------
+// Test route
+// --------------------
+app.get("/", (req, res) => res.status(200).send("Backend running"));
+
+// --------------------
 // Routes
+// --------------------
 app.use("/api/auth", allRoutes);
 
-// Start the server only when NOT running on Vercel (serverless)
+// --------------------
+// Start server locally only
+// --------------------
 if (process.env.VERCEL !== "1") {
-  const PORT = process.env.PORT || 3000;
+  const PORT =  3000;
   app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`Server running on http://localhost:${PORT}`);
   });
 }
+
+// --------------------
+// Export app for Vercel serverless
+// --------------------
+export default app;

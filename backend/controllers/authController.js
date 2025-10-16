@@ -1,11 +1,10 @@
+import zod from "zod";
+import { User } from "../db/index.js";
+import jwt from "jsonwebtoken";
+import { JWT_SECRET } from "../config.js";
+import bcrypt from "bcrypt";
 
-import zod from "zod"
-import {User} from "../db/index.js"
-import jwt from "jsonwebtoken"
-import {JWT_SECRET} from "../config.js"
-
-
-//get the body
+// Zod Schemas
 const signupBody = zod.object({
   username: zod.string().email(),
   firstName: zod.string(),
@@ -13,128 +12,92 @@ const signupBody = zod.object({
   password: zod.string(),
 });
 
-//signup  forr user
-export const signup = async (req, res) => {
-  //check for the validation
-
-  const { success } = signupBody.safeParse(req.body);
-  if (!success) {
-    return res.status(411).json({
-      message: "Incorrect inputs",
-    });
-  }
-  //check for the existing user
-  const existingUser = await User.findOne({
-    username: req.body.username,
-  });
-  if (existingUser) {
-    return res.status(411).json({
-      message: "Email already taken",
-    });
-  }
-  //now if aal above se paas thrn create the new user
-  const user = await User.create({
-    username: req.body.username,
-    password: req.body.password,
-    firstName: req.body.firstName,
-    lastName: req.body.lastName,
-  });
-  //generatet the userid
-  const userId = user._id;
-
-  //generate tthe token
-  const token = jwt.sign(
-    {
-      userId,
-    },
-    JWT_SECRET
-  );
-  res.json({
-    message: "User created successfully",
-    token: token,
-  });
-};
-
 const signinBody = zod.object({
   username: zod.string().email(),
   password: zod.string(),
 });
 
-//signin for user
-export const signin = async (req, res) => {
-  //check for input validation
-  const { success } = signinBody.safeParse(req.body);
-  if (!success) {
-    return res.status(411).json({
-      message: " Incorrect inputs",
-    });
-  }
-  //find the user
-  const user = await User.findOne({
-    username: req.body.username,
-    password: req.body.password,
-  });
-  if (user) {
-    const token = jwt.sign(
-      {
-        userid: user._id,
-      },
-      JWT_SECRET
-    );
-    res.json({
-      token: token,
-    });
-    return;
-  }
-  //if not found
-  res.status(411).json({
-    message: "Error while logging in",
-  });
-};
 const updateBody = zod.object({
   password: zod.string().optional(),
   firstName: zod.string().optional(),
   lastName: zod.string().optional(),
 });
 
-export const updateInfo = async (req, res) => {
-  const { success } = updateBody.safeParse(req.body);
-  if (!success) {
-    res.status(411).json({
-      message: "Error while updating",
-    });
-  }
-  await User.updateOne({ _id: req.userId }, req.body);
+// Signup
+export const signup = async (req, res) => {
+  const result = signupBody.safeParse(req.body);
+  if (!result.success)
+    return res.status(400).json({ message: "Incorrect inputs", errors: result.error.format() });
 
-  res.json({
-    message: "Updated successfully",
+  const { username, password, firstName, lastName } = result.data;
+
+  const existingUser = await User.findOne({ username });
+  if (existingUser) return res.status(409).json({ message: "Email already taken" });
+
+  const hashedPassword = await bcrypt.hash(password, 10);
+
+  const user = await User.create({
+    username,
+    password: hashedPassword,
+    firstName,
+    lastName,
   });
+
+  const token = jwt.sign({ userId: user._id }, JWT_SECRET, { expiresIn: "7d" });
+
+  res.status(201).json({ message: "User created successfully", token });
 };
 
+// Signin
+export const signin = async (req, res) => {
+  const result = signinBody.safeParse(req.body);
+  if (!result.success)
+    return res.status(400).json({ message: "Incorrect inputs", errors: result.error.format() });
+
+  const { username, password } = result.data;
+
+  const user = await User.findOne({ username });
+  if (!user) return res.status(401).json({ message: "Invalid credentials" });
+
+  const isMatch = await bcrypt.compare(password, user.password);
+  if (!isMatch) return res.status(401).json({ message: "Invalid credentials" });
+
+  const token = jwt.sign({ userId: user._id }, JWT_SECRET, { expiresIn: "7d" });
+
+  res.status(200).json({ token });
+};
+
+// Update User Info
+export const updateInfo = async (req, res) => {
+  const result = updateBody.safeParse(req.body);
+  if (!result.success) return res.status(400).json({ message: "Invalid update data" });
+
+  const updateData = { ...result.data };
+  if (updateData.password) {
+    updateData.password = await bcrypt.hash(updateData.password, 10);
+  }
+
+  await User.updateOne({ _id: req.userId }, updateData);
+
+  res.json({ message: "Updated successfully" });
+};
+
+// Get Users with optional filter
 export const getUser = async (req, res) => {
   const filter = req.query.filter || "";
   const users = await User.find({
     $or: [
-      {
-        firstName: {
-          $regex: filter,
-        },
-      },
-      {
-        lastName: {
-          $regex: filter,
-        },
-      },
+      { firstName: { $regex: filter, $options: "i" } },
+      { lastName: { $regex: filter, $options: "i" } },
     ],
   });
 
   res.json({
-    user: users.map((user) => ({
-      username: user.username,
-      firstName: user.firstName,
-      lastName: user.lastName,
-      _id: user._id,
+    user: users.map((u) => ({
+      username: u.username,
+      firstName: u.firstName,
+      lastName: u.lastName,
+      _id: u._id,
     })),
   });
 };
-
