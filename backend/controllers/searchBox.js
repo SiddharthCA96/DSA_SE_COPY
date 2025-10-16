@@ -83,31 +83,82 @@ export const fetchData = (req, res) => {
   });
 };
 
-// export const topResults = async (req, res) => {
-//   const { query_keywords } = req.body;
+// ...existing code...
+export const topResults = async (req, res) => {
+  try {
+    if (!isDataLoaded) {
+      return res.status(503).json({ message: "Data is still loading. Please try again later." });
+    }
 
-//   const mp_query = new Map();
-//   query_keywords.forEach((ele) => mp_query.set(ele, (mp_query.get(ele) || 0) + 1));
+    const { query, topK = 5 } = req.body || {};
+    if (!query || typeof query !== "string" || !query.trim()) {
+      return res.status(400).json({ message: "Query text is required." });
+    }
 
-//   const sz_query_keywords = query_keywords.length;
-//   const tf_query = all_keyword.map((ele) => (mp_query.get(ele) || 0) / sz_query_keywords);
+    // Tokenize and remove stopwords
+    const tokens = query
+      .toLowerCase()
+      .split(/\W+/)
+      .filter(Boolean);
+    const filtered = removeStopwords(tokens);
+    if (!filtered.length) {
+      return res.status(400).json({ message: "Query contains no valid tokens after stopword removal." });
+    }
 
-//   const tf_idf_query = tf_query.map((tf, i) => tf * idf_values[i]);
+    // Build term frequency for query over the known vocabulary
+    const mp_query = new Map();
+    filtered.forEach((t) => mp_query.set(t, (mp_query.get(t) || 0) + 1));
+    const sz_query_keywords = filtered.length;
 
-//   const mag_query = Math.sqrt(tf_idf_query.reduce((sum, val) => sum + val * val, 0));
+    // TF vector aligned to all_keyword
+    const tf_query = all_keyword.map((kw) => (mp_query.get(kw) || 0) / sz_query_keywords);
 
-//   const selectivity_values = new Map();
-//   for (let i = 0; i < tot_doc; i++) {
-//     let val = tf_idf_query.reduce((sum, q, j) => sum + (tf_idf_matrix[i][j] || 0) * q, 0);
-//     if (mag_docs[i] !== 0 && mag_query !== 0) {
-//       val /= (mag_docs[i] * mag_query);
-//       if (!isNaN(val) && val !== 0) selectivity_values.set(val, i + 1);
-//     }
-//   }
+    // TF-IDF for query (handle idf_values length mismatch)
+    const len = Math.min(tf_query.length, idf_values.length);
+    const tf_idf_query = Array.from({ length: tf_query.length }, (_, i) =>
+      i < len ? tf_query[i] * idf_values[i] : 0
+    );
 
-//   const sortedDocs = [...selectivity_values.entries()].sort((a, b) => b[0] - a[0]).slice(0, 5);
+    const mag_query = Math.sqrt(tf_idf_query.reduce((sum, val) => sum + val * val, 0));
+    if (mag_query === 0) {
+      return res.status(200).json({ data: [] });
+    }
 
-//   const data = sortedDocs.map(([_, docId]) => all_problems_data.find(p => p.problem_id === docId)).filter(Boolean);
+    // Prepare a map of problems by id for fast lookup
+    const problemsById = new Map();
+    for (const p of all_problems_data) {
+      if (p && p.problem_id != null) problemsById.set(Number(p.problem_id), p);
+    }
 
-//   res.json({ data });
-// };
+    // Compute cosine similarity with each document
+    const scores = [];
+    for (let i = 0; i < tot_doc; i++) {
+      const docVec = tf_idf_matrix[i] || [];
+      // dot product
+      let dot = 0;
+      const maxJ = Math.min(docVec.length, tf_idf_query.length);
+      for (let j = 0; j < maxJ; j++) {
+        dot += (docVec[j] || 0) * (tf_idf_query[j] || 0);
+      }
+      const magDoc = (mag_docs[i] || 0);
+      if (magDoc === 0) continue;
+      const score = dot / (magDoc * mag_query);
+      if (!isNaN(score) && score > 0) scores.push({ docIndex: i, score });
+    }
+
+    scores.sort((a, b) => b.score - a.score);
+    const top = scores.slice(0, topK);
+
+    const data = top.map(({ docIndex, score }) => {
+      // original code used doc id as i+1
+      const docId = docIndex + 1;
+      const problem = problemsById.get(Number(docId)) || null;
+      return { score, docId, problem };
+    }).filter((x) => x.problem);
+
+    res.json({ data });
+  } catch (err) {
+    console.error("topResults error:", err);
+    res.status(500).json({ message: "Internal server error" });
+  }
+};
