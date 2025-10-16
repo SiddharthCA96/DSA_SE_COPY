@@ -2,7 +2,7 @@
 // Use the deployed backend URL or fallback to localhost for local development
 const BASE_URL = 
   process.env.NODE_ENV === "production" 
-    ? "https://dsa-se-copy.vercel.app"
+    ? "https://dsa-se-copy-backend.vercel.app"
     : "http://localhost:3000";
 console.log("BASE_URL:", BASE_URL);
 
